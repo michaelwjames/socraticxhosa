@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import type { Lesson } from '../types/lesson';
+import type { Lesson, LessonDetail } from '../types/lesson';
 import type { CoursePageProps } from '../types';
 import Navbar from '../components/Navbar';
 
@@ -137,10 +137,10 @@ const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode })
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{part}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {partLessons
-                  .filter(lesson => 
+                  .filter((lesson: LessonDetail) => 
                     lesson.lesson_details.lesson_title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                     lesson.lesson_details.objective?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    (lesson.lesson_details.key_vocabulary?.some(vocab => 
+                    (lesson.lesson_details.key_vocabulary?.some((vocab: { word: string; meaning: string }) => 
                       vocab.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
                       vocab.meaning.toLowerCase().includes(searchTerm.toLowerCase())
                     ) || false)
@@ -161,7 +161,7 @@ const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode })
                         <div className="mt-2">
                           <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Key Vocabulary:</p>
                           <div className="flex flex-wrap gap-1">
-                            {lesson.lesson_details.key_vocabulary.slice(0, 3).map((vocab, idx) => (
+                            {lesson.lesson_details.key_vocabulary.slice(0, 3).map((vocab: { word: string; meaning: string }, idx: number) => (
                               <span key={idx} className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded">
                                 {vocab.word}
                               </span>

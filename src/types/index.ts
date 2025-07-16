@@ -1,18 +1,22 @@
 // Dictionary types
 export interface DictionaryEntry {
-  id: number;
-  xhosa: string;
-  english: string;
-  notes?: string;
+  id: string;
   deck: string;
+  en: string;
+  en_context: string;
+  xh: string;
+  xh_context: string;
+  tag: string;
 }
 
 export interface TextEntry {
-  id: number;
-  title: string;
-  text: string;
-  translation: string;
-  notes?: string;
+  id: string;
+  deck: string;
+  en: string;
+  en_context: string;
+  xh: string;
+  xh_context: string;
+  tag: string;
 }
 
 export type GroupedTexts = {
