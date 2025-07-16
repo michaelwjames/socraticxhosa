@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import ModeSwitcher from '../components/ModeSwitcher';
 import DictionaryFilters from '../components/DictionaryFilters';
 import TextFilters from '../components/TextFilters';
@@ -11,6 +11,8 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   const [selectedText, setSelectedText] = useState<string>('all');
   const [dictionary, setDictionary] = useState<DictionaryEntry[]>([]);
   const [texts, setTexts] = useState<TextEntry[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const entriesPerPage = 50;
 
   // Load data on mount
   useEffect(() => {
@@ -43,26 +45,56 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
     loadData();
   }, []);
 
-  // Get entries based on current mode
-  const currentEntries = useMemo(() => {
+  // Get filtered entries based on current mode and filters
+  const filteredEntries = useMemo(() => {
     if (mode === 'dictionary') {
-      return dictionary
-        .filter(entry => 
-          entry.xh.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          entry.en.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          (entry.en_context && entry.en_context.toLowerCase().includes(searchTerm.toLowerCase()))
-        )
-        .slice(0, 10);
+      return dictionary.filter(entry => {
+        // Check if entry matches the selected deck filter
+        const matchesDeck = selectedDeck === 'all' || 
+          (entry.deck && entry.deck.includes(selectedDeck));
+        
+        // Check if entry matches the search term
+        const matchesSearch = searchTerm === '' || 
+          (entry.xh && entry.xh.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (entry.en && entry.en.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (entry.en_context && entry.en_context.toLowerCase().includes(searchTerm.toLowerCase()));
+        
+        return matchesDeck && matchesSearch;
+      });
     } else {
-      return texts
-        .filter(entry => 
-          entry.xh.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          entry.en.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          (entry.en_context && entry.en_context.toLowerCase().includes(searchTerm.toLowerCase()))
-        )
-        .slice(0, 10);
+      return texts.filter(entry => {
+        // Check if entry matches the selected text filter
+        const matchesText = selectedText === 'all' || 
+          (entry.deck && entry.deck.includes(selectedText));
+        
+        // Check if entry matches the search term
+        const matchesSearch = searchTerm === '' ||
+          (entry.xh && entry.xh.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (entry.en && entry.en.toLowerCase().includes(searchTerm.toLowerCase())) ||
+          (entry.en_context && entry.en_context.toLowerCase().includes(searchTerm.toLowerCase()));
+        
+        return matchesText && matchesSearch;
+      });
     }
-  }, [dictionary, texts, mode, searchTerm]);
+  }, [dictionary, texts, mode, searchTerm, selectedDeck, selectedText]);
+
+  // Pagination
+  const totalPages = Math.ceil(filteredEntries.length / entriesPerPage);
+  const currentEntries = useMemo(() => {
+    const startIdx = (currentPage - 1) * entriesPerPage;
+    const endIdx = startIdx + entriesPerPage;
+    return filteredEntries.slice(startIdx, endIdx);
+  }, [filteredEntries, currentPage, entriesPerPage]);
+
+  const handlePageChange = useCallback((newPage: number) => {
+    setCurrentPage(newPage);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, selectedDeck, selectedText, mode]);
 
   // Handle mode change
   const handleModeChange = (newMode: 'dictionary' | 'texts') => {
@@ -77,9 +109,8 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   }, [searchTerm, selectedDeck, selectedText, mode]);
 
   return (
-    <div className={`flex flex-col min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <div className="container mx-auto px-4 py-8 flex-1 flex flex-col">
-        <div className="flex-1 flex flex-col">
+    <div className={`min-h-screen w-full ${isDarkMode ? 'bg-gray-100 dark:bg-gray-900' : 'bg-gray-50'}`}>
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <h1 className="text-3xl font-bold mb-6">Xhosa Dictionary</h1>
           
           <div className="mb-6">
@@ -118,11 +149,16 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
             )}
           </div>
 
-          <div className="flex-1 overflow-y-auto space-y-4 pb-8">
-            {currentEntries.map((entry) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-8">
+            {currentEntries.length === 0 ? (
+              <div className="col-span-full text-center py-8 text-gray-500">
+                No entries found. Try adjusting your search or filters.
+              </div>
+            ) : (
+              currentEntries.map((entry) => (
               <div 
                 key={entry.id}
-                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
+                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700 h-full"
               >
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
@@ -146,11 +182,40 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
                   </span>
                 </div>
               </div>
-            ))}
+            )))}
           </div>
+          
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center mt-8 space-x-4">
+              <button
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+                className={`px-4 py-2 rounded-md ${
+                  currentPage === 1
+                    ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                    : 'bg-indigo-600 text-white hover:bg-indigo-700'
+                }`}
+              >
+                Previous
+              </button>
+              <span className="text-gray-700 dark:text-gray-300">
+                Page {currentPage} of {totalPages}
+              </span>
+              <button
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className={`px-4 py-2 rounded-md ${
+                  currentPage === totalPages
+                    ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                    : 'bg-indigo-600 text-white hover:bg-indigo-700'
+                }`}
+              >
+                Next
+              </button>
+            </div>
+          )}
         </div>
       </div>
-    </div>
   );
 };
 
