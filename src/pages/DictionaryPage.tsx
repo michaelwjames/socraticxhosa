@@ -2,9 +2,11 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import ModeSwitcher from '../components/ModeSwitcher';
 import DictionaryFilters from '../components/DictionaryFilters';
 import TextFilters from '../components/TextFilters';
+import useSanitizeText from '../hooks/useSanitizeText';
 import type { DictionaryEntry, TextEntry, DictionaryPageProps } from '../types';
 
 const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
+  const sanitizeText = useSanitizeText();
   const [mode, setMode] = useState<'dictionary' | 'texts'>('dictionary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDeck, setSelectedDeck] = useState<string>('all');
@@ -45,6 +47,21 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
     loadData();
   }, []);
 
+  // Get unique deck names from texts for the filter
+  const textDecks = useMemo(() => {
+    const decks = new Set<string>();
+    texts.forEach(entry => {
+      if (entry.deck) {
+        // Extract the actual deck name after 'Xhosa Texts::'
+        const deckName = entry.deck.split('::').pop() || '';
+        if (deckName) {
+          decks.add(deckName);
+        }
+      }
+    });
+    return Array.from(decks).sort();
+  }, [texts]);
+
   // Get filtered entries based on current mode and filters
   const filteredEntries = useMemo(() => {
     if (mode === 'dictionary') {
@@ -64,8 +81,9 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
     } else {
       return texts.filter(entry => {
         // Check if entry matches the selected text filter
+        const deckName = entry.deck ? entry.deck.split('::').pop() : '';
         const matchesText = selectedText === 'all' || 
-          (entry.deck && entry.deck.includes(selectedText));
+          (deckName && deckName === selectedText);
         
         // Check if entry matches the search term
         const matchesSearch = searchTerm === '' ||
@@ -78,13 +96,24 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
     }
   }, [dictionary, texts, mode, searchTerm, selectedDeck, selectedText]);
 
+  // Process entries for display
+  const processedEntries = useMemo(() => {
+    return filteredEntries.map(entry => ({
+      ...entry,
+      xh: sanitizeText(entry.xh),
+      en: sanitizeText(entry.en),
+      en_context: entry.en_context ? sanitizeText(entry.en_context) : undefined,
+      xh_context: entry.xh_context ? sanitizeText(entry.xh_context) : undefined
+    }));
+  }, [filteredEntries, sanitizeText]);
+
   // Pagination
-  const totalPages = Math.ceil(filteredEntries.length / entriesPerPage);
+  const totalPages = Math.ceil(processedEntries.length / entriesPerPage);
   const currentEntries = useMemo(() => {
     const startIdx = (currentPage - 1) * entriesPerPage;
     const endIdx = startIdx + entriesPerPage;
-    return filteredEntries.slice(startIdx, endIdx);
-  }, [filteredEntries, currentPage, entriesPerPage]);
+    return processedEntries.slice(startIdx, endIdx);
+  }, [processedEntries, currentPage, entriesPerPage]);
 
   const handlePageChange = useCallback((newPage: number) => {
     setCurrentPage(newPage);
@@ -142,7 +171,7 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
               />
             ) : (
               <TextFilters 
-                texts={[]}
+                texts={textDecks}
                 selected={selectedText}
                 setSelected={setSelectedText}
               />
