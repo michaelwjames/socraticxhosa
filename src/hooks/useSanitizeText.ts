@@ -13,12 +13,19 @@ const useSanitizeText = () => {
   const sanitizeText = useCallback((text: string | undefined): string => {
     if (!text) return '';
     
-    // Replace &nbsp; with a regular space
-    return text
-      .replace(/&nbsp;/g, ' ')
-      // Trim extra spaces that might result from the replacement
-      .replace(/\s+/g, ' ')
+    // First, decode any HTML entities
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = text;
+    const decodedText = tempDiv.textContent || '';
+    
+    // Remove any remaining HTML tags but preserve their content
+    const withoutHtml = decodedText
+      .replace(/<[^>]*>?/gm, '')  // Remove HTML tags
+      .replace(/&nbsp;/g, ' ')    // Replace &nbsp; with space
+      .replace(/\s+/g, ' ')       // Collapse multiple spaces
       .trim();
+    
+    return withoutHtml;
   }, []);
 
   return sanitizeText;
