@@ -31,15 +31,17 @@ function App() {
 
   return (
     <Router>
-      <div className={`min-h-screen w-full flex flex-col ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'} transition-colors duration-200`}>
+      <div className={`min-h-screen w-full flex flex-col ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'} transition-colors duration-200 overflow-x-hidden`}>
         <Navbar isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />
         <main className="flex-1 w-full">
-          <Routes>
+          <div className="w-full">
+            <Routes>
             <Route path="/" element={<DictionaryPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
             <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
             <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          </div>
         </main>
       </div>
     </Router>

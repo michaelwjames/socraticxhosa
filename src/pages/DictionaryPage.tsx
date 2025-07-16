@@ -149,40 +149,46 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
             )}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-8">
+          <div className="flex-1 flex flex-col">
             {currentEntries.length === 0 ? (
-              <div className="col-span-full text-center py-8 text-gray-500">
-                No entries found. Try adjusting your search or filters.
-              </div>
-            ) : (
-              currentEntries.map((entry) => (
-              <div 
-                key={entry.id}
-                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700 h-full"
-              >
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
-                      {entry.xh}
-                    </h3>
-                    <p className="text-gray-700 dark:text-gray-300">{entry.en}</p>
-                    {entry.en_context && (
-                      <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 italic">
-                        {entry.en_context}
-                      </p>
-                    )}
-                    {entry.tag && (
-                      <span className="inline-block mt-2 px-2 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded">
-                        {entry.tag}
-                      </span>
-                    )}
-                  </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
-                    {entry.deck.split('::').pop()}
-                  </span>
+              <div className="flex-1 flex items-center justify-center py-12">
+                <div className="text-center text-gray-500 dark:text-gray-400">
+                  <p className="text-lg">No entries found</p>
+                  <p className="text-sm mt-2">Try adjusting your search or filters</p>
                 </div>
               </div>
-            )))}
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-8">
+                {currentEntries.map((entry) => (
+                  <div 
+                    key={entry.id}
+                    className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700 h-full"
+                  >
+                    <div className="flex justify-between items-start">
+                      <div className="flex-1">
+                        <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
+                          {entry.xh}
+                        </h3>
+                        <p className="text-gray-700 dark:text-gray-300">{entry.en}</p>
+                        {entry.en_context && (
+                          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 italic">
+                            {entry.en_context}
+                          </p>
+                        )}
+                        {entry.tag && (
+                          <span className="inline-block mt-2 px-2 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded">
+                            {entry.tag}
+                          </span>
+                        )}
+                      </div>
+                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                        {entry.deck.split('::').pop()}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
           
           {totalPages > 1 && (

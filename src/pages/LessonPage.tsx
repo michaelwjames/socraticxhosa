@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
 import type { LessonDetail, LessonPageProps } from '../types';
 
 const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode }) => {
@@ -17,11 +16,11 @@ const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode })
       try {
         setLoading(true);
         // Load the lesson data from the JSON file
-        const response = await fetch(`/Lesson%20Data/lesson${lessonNumber}.json`);
+        const response = await fetch(`/old/Lesson%20Data/lesson${lessonNumber}.json`);
         if (!response.ok) {
           throw new Error('Lesson not found');
         }
-        const data = await response.json();
+        const data: LessonDetail = await response.json();
         setLesson(data);
       } catch (error) {
         console.error('Error loading lesson:', error);
@@ -74,12 +73,9 @@ const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode })
 
   if (loading || !lesson) {
     return (
-      <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
-        <Navbar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
-        <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500 mx-auto"></div>
-          <p className="mt-4 text-gray-600 dark:text-gray-400">Loading lesson...</p>
-        </div>
+      <div className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
+        <p className="mt-4 text-gray-600 dark:text-gray-400">Loading lesson...</p>
       </div>
     );
   }
@@ -89,10 +85,8 @@ const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode })
   const isLastTurn = lesson?.lesson_details.turns ? currentTurn === lesson.lesson_details.turns.length - 1 : true;
 
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`} style={{ fontSize: `${fontSize}px` }}>
-      <Navbar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
-      
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen w-full" style={{ fontSize: `${fontSize}px` }}>
+      <div className="w-full px-4 py-8 pt-20">
         {/* Header with navigation and controls */}
         <div className="flex justify-between items-center mb-6">
           <Link 
@@ -226,7 +220,7 @@ const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode })
                   />
                 )}
                 
-                <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
+                <div className="mt-8 pt-6 w-full border-t border-gray-200 dark:border-gray-700">
                   <div className="mb-4">
                     <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">
                       Thinking Method:

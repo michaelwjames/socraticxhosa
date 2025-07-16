@@ -1,67 +1,83 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import type { Lesson, LessonDetail } from '../types/lesson';
 import type { CoursePageProps } from '../types';
-import Navbar from '../components/Navbar';
 
-const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode }) => {
+interface Lesson {
+  [key: string]: string | undefined;
+  'Lesson Number': string;
+  'Lesson Title': string;
+  'Objective': string;
+  'Key Vocabulary'?: string;
+  'part'?: string;
+}
+
+const CoursePage: React.FC<CoursePageProps> = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [groupedLessons, setGroupedLessons] = useState<Record<string, any[]>>({});
+  const [groupedLessons, setGroupedLessons] = useState<Record<string, Lesson[]>>({});
 
   useEffect(() => {
     const loadLessons = async () => {
       try {
-        // Load the CSV file from public directory
-        const response = await fetch('/LessonList.csv');
+        // Load the CSV file from the old directory
+        const response = await fetch('/old/LessonList.csv');
         const text = await response.text();
         
         // Parse CSV to JSON
-        const lines = text.split('\n');
-        const headers = lines[0].split(',').map(h => h.trim());
-        
+        const lines = text.split('\n').filter(line => line.trim() !== '');
         let currentPart = '';
-        const parsedLessons: Lesson[] = [];
+        const parsedLessons: any[] = [];
         
-        for (let i = 1; i < lines.length; i++) {
-          const line = lines[i].trim();
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
           if (!line) continue;
           
           // Check if this is a part header (e.g., "Part 1: Foundations")
           if (line.startsWith('Part ')) {
-            currentPart = line.replace('Part ', '');
+            currentPart = line.split(':')[0].trim();
             continue;
           }
           
-          // Parse the line, handling quoted fields with commas
-          const values: string[] = [];
-          let inQuotes = false;
-          let currentValue = '';
-          
-          for (let j = 0; j < line.length; j++) {
-            const char = line[j];
-            if (char === '"') {
-              inQuotes = !inQuotes;
-            } else if (char === ',' && !inQuotes) {
-              values.push(currentValue);
-              currentValue = '';
+          // Check if this is a lesson line (starts with "Lesson" or quoted "Lesson)
+          if (line.startsWith('"Lesson') || line.startsWith('Lesson')) {
+            // Remove surrounding quotes if present
+            if (line.startsWith('"') && line.endsWith('"')) {
+              line = line.substring(1, line.length - 1);
+            }
+            
+            // Handle the case where the line might be split across multiple lines
+            let fullLine = line;
+            while (i < lines.length - 1 && (fullLine.split('"').length - 1) % 2 !== 0) {
+              // If we have an odd number of quotes, the line is split
+              i++;
+              fullLine += '\n' + lines[i].trim();
+              // Remove any trailing quote if the line was split in the middle of a quoted field
+              if (fullLine.endsWith('"')) {
+                fullLine = fullLine.substring(0, fullLine.length - 1);
+              }
+            }
+            
+            // Parse the lesson line which has format: "Lesson X: Title,Structures,Vocabulary"
+            const match = fullLine.match(/^Lesson (\d+):\s*([^,]+),(.*?),(.*)$/i);
+            
+            if (match) {
+              const lessonNumber = match[1].trim();
+              const lessonTitle = match[2].trim();
+              const structures = match[3].trim();
+              const vocabulary = match[4] ? match[4].trim() : '';
+              
+              if (lessonNumber && lessonTitle) {
+                parsedLessons.push({
+                  'Lesson Number': lessonNumber,
+                  'Lesson Title': lessonTitle,
+                  'Objective': structures,
+                  'Key Vocabulary': vocabulary,
+                  'part': currentPart
+                });
+              }
             } else {
-              currentValue += char;
+              console.warn('Failed to parse lesson line:', fullLine);
             }
-          }
-          values.push(currentValue);
-          
-          if (values.length === headers.length) {
-            const lesson: any = { ...headers.reduce((obj, key, index) => ({
-              ...obj,
-              [key]: values[index]?.trim()
-            }), {}) };
-            
-            if (currentPart) {
-              lesson.part = currentPart;
-            }
-            
-            parsedLessons.push(lesson as Lesson);
           }
         }
         
@@ -88,8 +104,7 @@ const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode })
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-        <Navbar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 pt-16">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center py-16">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500 mx-auto"></div>
@@ -101,10 +116,8 @@ const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode })
   }
 
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
-      <Navbar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
-      <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
-        <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
+      <div className="container mx-auto px-4 py-8">
           {/* Header */}
           <div className="mb-8">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Xhosa Course</h1>
@@ -132,52 +145,55 @@ const CoursePage: React.FC<CoursePageProps> = ({ isDarkMode, onToggleDarkMode })
 
         {/* Lessons List */}
         <div className="space-y-6">
-          {Object.entries(groupedLessons).map(([part, partLessons]) => (
-            <div key={part} className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{part}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {partLessons
-                  .filter((lesson: LessonDetail) => 
-                    lesson.lesson_details.lesson_title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    lesson.lesson_details.objective?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    (lesson.lesson_details.key_vocabulary?.some((vocab: { word: string; meaning: string }) => 
-                      vocab.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                      vocab.meaning.toLowerCase().includes(searchTerm.toLowerCase())
-                    ) || false)
-                  )
-                  .map(lesson => (
+          {Object.entries(groupedLessons).map(([part, partLessons]) => {
+            const filteredLessons = partLessons.filter(lesson => {
+              if (!lesson) return false;
+              const searchLower = searchTerm.toLowerCase();
+              const title = lesson['Lesson Title'] || '';
+              const objective = lesson['Objective'] || '';
+              const vocab = lesson['Key Vocabulary'] || '';
+              
+              return (
+                title.toLowerCase().includes(searchLower) ||
+                objective.toLowerCase().includes(searchLower) ||
+                vocab.toLowerCase().includes(searchLower)
+              );
+            });
+
+            if (filteredLessons.length === 0) return null;
+
+            return (
+              <div key={part} className="mb-8">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{part}</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {filteredLessons.map((lesson, index) => (
                     <Link
-                      key={lesson.lesson_details.lesson_number}
-                      to={`/lesson/${lesson.lesson_details.lesson_number}`}
+                      key={`${part}-${index}`}
+                      to={`/lesson/${lesson['Lesson Number']}`}
                       className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
                     >
                       <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
-                        Lesson {lesson.lesson_details.lesson_number}: {lesson.lesson_details.lesson_title}
+                        Lesson {lesson['Lesson Number']}: {lesson['Lesson Title']}
                       </h3>
                       <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
-                        {lesson.lesson_details.objective}
+                        {lesson['Objective']}
                       </p>
-                      {lesson.lesson_details.key_vocabulary && lesson.lesson_details.key_vocabulary.length > 0 && (
+                      {lesson['Key Vocabulary'] && (
                         <div className="mt-2">
-                          <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Key Vocabulary:</p>
-                          <div className="flex flex-wrap gap-1">
-                            {lesson.lesson_details.key_vocabulary.slice(0, 3).map((vocab: { word: string; meaning: string }, idx: number) => (
-                              <span key={idx} className="text-xs bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded">
-                                {vocab.word}
-                              </span>
-                            ))}
-                            {lesson.lesson_details.key_vocabulary.length > 3 && (
-                              <span className="text-xs text-gray-500">+{lesson.lesson_details.key_vocabulary.length - 3} more</span>
-                            )}
-                          </div>
+                          <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
+                            Key Vocabulary:
+                          </p>
+                          <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                            {lesson['Key Vocabulary']}
+                          </p>
                         </div>
                       )}
                     </Link>
                   ))}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            );
+          })}
       </div>
     </div>
   );
