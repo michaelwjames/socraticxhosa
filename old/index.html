@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Xhosa Database</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 min-h-screen transition-colors duration-200">
+    <div class="container mx-auto px-4 py-8 transition-colors duration-200">
+        <div class="flex items-center gap-6">
+            <nav>
+                <ul class="flex space-x-4">
+                    <li>
+                        <a href="index.html" class="px-3 py-2 text-indigo-600 dark:text-indigo-400 font-medium border-b-2 border-indigo-600 dark:border-indigo-400">Dictionary</a>
+                    </li>
+                    <li>
+                        <a href="course.html" class="px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Course</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="flex items-center gap-2 border-l border-gray-200 dark:border-gray-700 pl-4 ml-2">
+                <button id="fontSizeDecrease" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" title="Decrease font size">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+                    </svg>
+                </button>
+                <button id="fontSizeReset" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white text-sm" title="Reset font size">A</button>
+                <button id="fontSizeIncrease" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" title="Increase font size">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                </button>
+                <button id="themeToggle" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" title="Toggle dark/light mode">
+                    <svg id="sunIcon" class="h-5 w-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                    <svg id="moonIcon" class="h-5 w-5 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="flex justify-end gap-4 mb-2">
+            <button id="dictionaryMode" class="mode-btn px-6 py-2.5 rounded-lg bg-indigo-600 text-white font-medium transition-all hover:bg-indigo-700 active:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900" data-mode="dictionary">
+                <span class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    Dictionary
+                </span>
+            </button>
+            <button id="textsMode" class="mode-btn px-6 py-2.5 rounded-lg bg-gray-100 text-gray-700 hover:bg-gray-200 font-medium transition-all focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-offset-gray-900" data-mode="texts">
+                <span class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Texts
+                </span>
+                </svg>
+            </button>
+        </div>
+        <div class="text-center mb-8">
+            <div class="flex justify-center space-x-4 mb-6">
+                <button id="dictionaryMode" class="mode-btn px-6 py-2.5 rounded-lg bg-indigo-600 text-white font-medium transition-all hover:bg-indigo-700 active:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900" data-mode="dictionary">
+                    <span class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        Dictionary
+                    </span>
+                </button>
+                <button id="textsMode" class="mode-btn px-6 py-2.5 rounded-lg bg-gray-100 text-gray-700 hover:bg-gray-200 font-medium transition-all focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:focus:ring-offset-gray-900" data-mode="texts">
+                    <span class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Texts
+                    </span>
+                </button>
+            </div>
+            <h1 id="appTitle" class="text-3xl font-bold text-indigo-700 dark:text-indigo-400 mb-2">My Xhosa Database</h1>
+            <div class="max-w-2xl mx-auto">
+                <input type="text" id="searchInput" 
+                       class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                       placeholder="Search in English or Xhosa...">
+                <div id="dictionaryFilters" class="mt-4 flex flex-wrap justify-center gap-4">
+                <button class="filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-deck="all">All</button>
+                <button class="filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-deck="Sentences">Sentences</button>
+                <button class="filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-deck="Vocabulary">Vocabulary</button>
+                <button class="filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-deck="Grammar">Grammar</button>
+            </div>
+            <div id="textFilters" class="mt-4 flex flex-wrap justify-center gap-4 hidden">
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="all">All Texts</button>
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="Nkosi sikelel' iAfrika">Nkosi sikelel' iAfrika</button>
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="Benedictus">Benedictus</button>
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="Indumiso 95">Indumiso 95</button>
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="Te Deum">Te Deum</button>
+                <button class="text-filter-btn px-4 py-2 rounded-lg bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition dark:bg-indigo-900 dark:text-indigo-100 dark:hover:bg-indigo-800" data-text="Prayers">Prayers</button>
+            </div>
+            </div>
+        </div>
+
+        <div id="results" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Results will be populated by JavaScript -->
+            <div class="text-center py-8">
+                <div class="animate-pulse text-gray-500">Loading dictionary...</div>
+            </div>
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div id="pagination" class="mt-8 flex justify-center items-center space-x-2">
+            <button id="prevPage" class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-lg hover:bg-indigo-200 disabled:opacity-50 disabled:cursor-not-allowed" disabled>
+                Previous
+            </button>
+            <span id="pageInfo" class="px-4 py-2 text-gray-700">Page 1</span>
+            <button id="nextPage" class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-lg hover:bg-indigo-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                Next
+            </button>
+            <div class="ml-4 text-sm text-gray-500">
+                <span id="resultCount">0</span> results
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

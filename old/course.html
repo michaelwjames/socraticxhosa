@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhosa with Socrates - Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 min-h-screen transition-colors duration-200">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header with theme toggle and font controls -->
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Xhosa with Socrates</h1>
+            <div class="flex items-center gap-4">
+                <button id="themeToggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                    <svg id="moonIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700 dark:text-yellow-300 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                    <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                </button>
+                <div class="flex items-center gap-2">
+                    <button id="fontSizeDecrease" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" title="Decrease font size">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+                        </svg>
+                    </button>
+                    <button id="fontSizeReset" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white text-sm" title="Reset font size">A</button>
+                    <button id="fontSizeIncrease" class="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" title="Increase font size">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="mb-8">
+            <ul class="flex flex-wrap gap-4 border-b border-gray-200 dark:border-gray-700">
+                <li>
+                    <a href="index.html" class="px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Dictionary</a>
+                </li>
+                <li>
+                    <a href="#" class="px-4 py-2 border-b-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 font-medium">Course</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Course Description -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Welcome to Xhosa with Socrates</h2>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+                This comprehensive course will guide you through 68 lessons to master the Xhosa language. Each lesson builds on the previous ones, 
+                starting with the basics and gradually introducing more complex concepts and vocabulary.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <div class="bg-indigo-50 dark:bg-indigo-900/30 p-4 rounded-lg">
+                    <h3 class="font-semibold text-indigo-700 dark:text-indigo-300 mb-2">Beginner Friendly</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Start with the basics of pronunciation and simple phrases</p>
+                </div>
+                <div class="bg-green-50 dark:bg-green-900/30 p-4 rounded-lg">
+                    <h3 class="font-semibold text-green-700 dark:text-green-300 mb-2">Structured Learning</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Progress through carefully designed lessons</p>
+                </div>
+                <div class="bg-purple-50 dark:bg-purple-900/30 p-4 rounded-lg">
+                    <h3 class="font-semibold text-purple-700 dark:text-purple-300 mb-2">Practical Focus</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Learn vocabulary and grammar you'll actually use</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lessons List -->
+        <div class="mb-8">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-semibold text-gray-800 dark:text-white">Lessons</h2>
+                <div class="relative">
+                    <input type="text" id="searchLessons" placeholder="Search lessons..." 
+                           class="pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    <svg class="w-5 h-5 text-gray-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+            </div>
+            
+            <div id="lessonsContainer" class="grid gap-4">
+                <!-- Lessons will be loaded here by JavaScript -->
+                <div class="text-center py-8">
+                    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500 mx-auto"></div>
+                    <p class="mt-2 text-gray-600 dark:text-gray-400">Loading lessons...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme and font size functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Theme toggle
+            const themeToggle = document.getElementById('themeToggle');
+            const moonIcon = document.getElementById('moonIcon');
+            const sunIcon = document.getElementById('sunIcon');
+            
+            // Check for saved theme preference or use system preference
+            const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+            moonIcon.classList.toggle('hidden', savedTheme !== 'dark');
+            sunIcon.classList.toggle('hidden', savedTheme === 'dark');
+            
+            themeToggle.addEventListener('click', () => {
+                const isDark = document.documentElement.classList.toggle('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                moonIcon.classList.toggle('hidden', !isDark);
+                sunIcon.classList.toggle('hidden', isDark);
+            });
+            
+            // Font size controls
+            const fontSizeDecrease = document.getElementById('fontSizeDecrease');
+            const fontSizeReset = document.getElementById('fontSizeReset');
+            const fontSizeIncrease = document.getElementById('fontSizeIncrease');
+            const html = document.documentElement;
+            
+            // Load saved font size or use default
+            let currentFontSize = parseInt(localStorage.getItem('fontSize')) || 100;
+            html.style.fontSize = `${currentFontSize}%`;
+            
+            fontSizeDecrease.addEventListener('click', () => {
+                if (currentFontSize > 80) {
+                    currentFontSize -= 10;
+                    updateFontSize();
+                }
+            });
+            
+            fontSizeReset.addEventListener('click', () => {
+                currentFontSize = 100;
+                updateFontSize();
+            });
+            
+            fontSizeIncrease.addEventListener('click', () => {
+                if (currentFontSize < 150) {
+                    currentFontSize += 10;
+                    updateFontSize();
+                }
+            });
+            
+            function updateFontSize() {
+                html.style.fontSize = `${currentFontSize}%`;
+                localStorage.setItem('fontSize', currentFontSize);
+            }
+            
+            // Load and display lessons
+            loadLessons();
+            
+            // Search functionality
+            const searchInput = document.getElementById('searchLessons');
+            searchInput.addEventListener('input', filterLessons);
+        });
+        
+        // Load and parse the CSV file
+        async function loadLessons() {
+            try {
+                const response = await fetch('LessonList.csv');
+                const csvData = await response.text();
+                
+                // Parse CSV using PapaParse
+                const results = Papa.parse(csvData, {
+                    header: true,
+                    skipEmptyLines: true
+                });
+                
+                // Filter out section headers (rows without a Lesson value)
+                const lessons = results.data.filter(row => row.Lesson && row.Lesson.trim() !== '');
+                
+                // Display lessons
+                displayLessons(lessons);
+            } catch (error) {
+                console.error('Error loading lessons:', error);
+                document.getElementById('lessonsContainer').innerHTML = `
+                    <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <svg class="h-5 w-5 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-red-700 dark:text-red-300">
+                                    Error loading lessons. Please make sure the LessonList.csv file exists and is accessible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+        
+        // Display lessons in the container
+        function displayLessons(lessons) {
+            const container = document.getElementById('lessonsContainer');
+            
+            if (!lessons || lessons.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-8">
+                        <p class="text-gray-600 dark:text-gray-400">No lessons found.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            let currentPart = '';
+            let html = '';
+            
+            lessons.forEach((lesson, index) => {
+                // Check if this is a part header (e.g., "Part 1: Foundations")
+                if (lesson.Lesson && lesson.Lesson.startsWith('Part ')) {
+                    if (currentPart !== '') {
+                        html += `</div>`; // Close previous part section
+                    }
+                    currentPart = lesson.Lesson;
+                    html += `
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4 border-b border-gray-200 dark:border-gray-700 pb-2">${currentPart}</h3>
+                            <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                    `;
+                    return; // Skip to next iteration
+                }
+                
+                // Add lesson card
+                const keyStructures = lesson['Key Structures Learned'] ? lesson['Key Structures Learned'].split(', ').filter(Boolean) : [];
+                const keyVocabulary = lesson['Key Vocabulary Introduced'] ? lesson['Key Vocabulary Introduced'].split(', ').filter(Boolean) : [];
+                
+                // Clean up the lesson title (remove the "Lesson X: " prefix if it exists)
+                let lessonTitle = lesson.Lesson;
+                let lessonNumber = index + 1; // Default to index + 1 if no number found
+                
+                const lessonPrefixMatch = lessonTitle.match(/^Lesson (\d+): (.+)/);
+                if (lessonPrefixMatch) {
+                    lessonNumber = parseInt(lessonPrefixMatch[1]);
+                    lessonTitle = lessonPrefixMatch[2];
+                }
+                
+
+                
+                html += `
+                    <a href="lesson.html?lesson=${lessonNumber}" class="block">
+                        <div class="lesson-card bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 hover:shadow-lg transition-all duration-200 hover:border-indigo-500 dark:hover:border-indigo-400" 
+                             data-title="${lessonTitle.toLowerCase()}"
+                             data-structures="${keyStructures.join(' ').toLowerCase()}"
+                             data-vocabulary="${keyVocabulary.join(' ').toLowerCase()}">
+                            <div class="p-5">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-sm font-medium text-indigo-600 dark:text-indigo-400">Lesson ${lessonNumber}</span>
+                                <span class="px-2 py-1 text-xs font-semibold text-indigo-800 bg-indigo-100 dark:bg-indigo-900 dark:text-indigo-200 rounded-full">
+                                    ${keyStructures.length} Topics
+                                </span>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800 dark:text-white mb-3">${lessonTitle}</h3>
+                            
+                            ${keyStructures.length > 0 ? `
+                                <div class="mb-3">
+                                    <h4 class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1">Key Structures</h4>
+                                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-1">
+                                        ${keyStructures.map(structure => `
+                                            <li class="flex items-start">
+                                                <svg class="h-4 w-4 text-green-500 mr-1.5 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                                <span>${structure}</span>
+                                            </li>
+                                        `).join('')}
+                                    </ul>
+                                </div>
+                            ` : ''}
+                            
+                            ${keyVocabulary.length > 0 ? `
+                                <div>
+                                    <h4 class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1">Vocabulary</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                                        ${keyVocabulary.join(', ')}
+                                    </p>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            // Close the last part section if there was at least one part
+            if (currentPart !== '') {
+                html += `</div></div>`;
+            }
+            
+            container.innerHTML = html;
+        }
+        
+        // Filter lessons based on search input
+        function filterLessons() {
+            const searchTerm = document.getElementById('searchLessons').value.toLowerCase();
+            const lessonCards = document.querySelectorAll('.lesson-card');
+            
+            if (!searchTerm) {
+                lessonCards.forEach(card => card.style.display = '');
+                return;
+            }
+            
+            lessonCards.forEach(card => {
+                const title = card.getAttribute('data-title');
+                const structures = card.getAttribute('data-structures');
+                const vocabulary = card.getAttribute('data-vocabulary');
+                
+                if (title.includes(searchTerm) || 
+                    structures.includes(searchTerm) || 
+                    vocabulary.includes(searchTerm)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

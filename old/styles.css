@@ -1,0 +1,206 @@
+/* Base styles */
+:root {
+    --font-size-base: 1rem;
+    --card-bg: #ffffff;
+    --text-color: #1f2937;
+    --bg-color: #f3f4f6;
+    --input-bg: #ffffff;
+    --border-color: #d1d5db;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Dark mode */
+.dark {
+    --card-bg: #1f2937;
+    --text-color: #f3f4f6;
+    --bg-color: #111827;
+    --input-bg: #1f2937;
+    --border-color: #4b5563;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Ensure dark mode is properly applied to the body */
+.dark body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Apply theme colors */
+html, body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size-base);
+    transition: background-color 0.2s ease, color 0.2s ease;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mode selector */
+.mode-btn {
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.mode-btn.active {
+    background-color: var(--indigo-600);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Dark mode specific styles */
+.dark .mode-btn:not(.active) {
+    background-color: var(--gray-800);
+    color: var(--gray-300);
+    border-color: var(--gray-600);
+}
+
+.dark .mode-btn:not(.active):hover {
+    background-color: var(--gray-700);
+    color: white;
+}
+
+/* Text content */
+.text-content {
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+/* Context styling */
+.context {
+    font-size: 0.9em;
+    color: var(--gray-500);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.dark .context {
+    color: var(--gray-400);
+}
+
+/* Text entry styling */
+.text-entry {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Ensure text is visible in dark mode */
+.dark .text-content p {
+    color: var(--gray-300);
+}
+
+.dark .text-content .context {
+    color: var(--gray-400);
+}
+
+.text-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.text-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--indigo-700);
+}
+
+.dark .text-title {
+    color: var(--indigo-300);
+}
+
+/* Card styles */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Ensure text color is properly set in dark mode */
+.dark .card,
+.dark .text-gray-700,
+.dark .text-gray-500 {
+    color: var(--text-color);
+}
+
+/* Fix input text color in dark mode */
+.dark input,
+.dark input::placeholder {
+    color: #e5e7eb;
+}
+
+.dark input::placeholder {
+    opacity: 0.7;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--card-shadow);
+}
+
+/* Input and buttons */
+input, button, .filter-btn {
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+#searchInput {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.filter-btn.active {
+    background-color: #4f46e5;
+    color: white;
+}
+
+/* Pagination */
+#pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a5b4fc;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #818cf8;
+}
+
+/* Font size classes */
+.text-smaller {
+    font-size: 0.875rem;
+}
+
+.text-small {
+    font-size: 1rem;
+}
+
+.text-medium {
+    font-size: 1.125rem;
+}
+
+.text-large {
+    font-size: 1.25rem;
+}
+
+.text-larger {
+    font-size: 1.5rem;
+}
