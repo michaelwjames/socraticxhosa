@@ -117,16 +117,15 @@ const CoursePage: React.FC<CoursePageProps> = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
-      <div className="container mx-auto px-4 py-8">
-          {/* Header */}
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Xhosa Course</h1>
-            <p className="text-gray-600 dark:text-gray-300">Select a lesson to begin learning</p>
-          </div>
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Xhosa Course</h1>
+          <p className="text-gray-600 dark:text-gray-300">Select a lesson to begin learning</p>
         </div>
 
         {/* Search and Filter */}
-        <div className="mb-8">
+        <div className="mb-8 max-w-2xl">
           <div className="relative">
             <input
               type="text"
@@ -144,7 +143,7 @@ const CoursePage: React.FC<CoursePageProps> = () => {
         </div>
 
         {/* Lessons List */}
-        <div className="space-y-6">
+        <div className="space-y-10">
           {Object.entries(groupedLessons).map(([part, partLessons]) => {
             const filteredLessons = partLessons.filter(lesson => {
               if (!lesson) return false;
@@ -163,9 +162,9 @@ const CoursePage: React.FC<CoursePageProps> = () => {
             if (filteredLessons.length === 0) return null;
 
             return (
-              <div key={part} className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">{part}</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div key={part} className="space-y-4">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{part}</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {filteredLessons.map((lesson, index) => (
                     <Link
                       key={`${part}-${index}`}
@@ -194,6 +193,7 @@ const CoursePage: React.FC<CoursePageProps> = () => {
               </div>
             );
           })}
+        </div>
       </div>
     </div>
   );

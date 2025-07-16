@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import type { LessonDetail, LessonPageProps } from '../types';
 
-const LessonPage: React.FC<LessonPageProps> = ({ isDarkMode, onToggleDarkMode }) => {
+const LessonPage: React.FC<LessonPageProps> = () => {
   const { lessonNumber = '1' } = useParams<{ lessonNumber: string }>();
   const navigate = useNavigate();
   const [lesson, setLesson] = useState<LessonDetail | null>(null);
