@@ -387,38 +387,82 @@
         },
         {
           "turn_number": 2,
-          "section": "Introducing the Negative Affixes",
-          "teacher_dialogue": "To make a verb negative, we do two simple things. First, we add an **a-** to the very beginning. Second, the final **-a** of the verb root changes to an **-i**. So, **ndifuna** becomes **a-ndi-fun-i**. What does that sound like?",
-          "justification": "This follows the **'One Thought at a Time'** principle by breaking the negation rule into two distinct, simple steps. The learner is guided to construct the new form, which is more effective than just being told the answer."
+          "section": "Student Dialogue",
+          "student_dialogue": "OK, so what do we do?"
         },
         {
           "turn_number": 3,
+          "section": "Introducing the Negative Affixes",
+          "teacher_dialogue": "To make a verb negative, we do two simple things. First, we add an **a-** to the very beginning. Second, the final **-a** of the verb root changes to an **-i**. So, **ndifuna** becomes ... What would that sound like?",
+          "justification": "This follows the **'One Thought at a Time'** principle by breaking the negation rule into two distinct, simple steps. The learner is guided to construct the new form, which is more effective than just being told the answer."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Andifuni?"
+        },
+        {
+          "turn_number": 5,
           "section": "Practice and Phonetic Merging",
           "teacher_dialogue": "Exactly. **Andifuni**. Now, let's try it with 'you'. The pieces are **a-** + **u-** + **-fun-** + **-i**. In isiXhosa, when 'a' and 'u' meet, they merge to become **aku-**. So, how do you say 'You don't want'?",
           "justification": "This turn introduces a key phonetic rule (vowel coalescence) in a practical context. It's presented as a natural sound merger ('they merge') rather than an arbitrary rule, making it easier to remember."
         },
         {
-          "turn_number": 4,
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Akufuni?"
+        },
+        {
+          "turn_number": 7,
           "section": "Consolidation with a New Verb",
           "teacher_dialogue": "Perfect. **Akufuni**. Now let's use a new verb to practice both the positive and negative. The root for 'to know' is **-azi**. How would you say 'I know'?",
           "justification": "Introducing a new, high-frequency verb (`-azi`) provides a fresh context for **masked repetition**. The learner has to apply both the positive and negative rules they know, reinforcing the entire system."
         },
         {
-          "turn_number": 5,
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndiyazi?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Practice and Phonetic Merging",
+          "teacher_dialogue": "Good! **Ndazi** means 'I know'. You can also add the -ya- particle to make it more emphatic: **Ndiyazi**. Now, how would you say 'I don't know'? Remember the negative pattern we learned.",
+          "justification": "This reinforces the negative pattern with a new verb, providing additional practice with the concept."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Andazi?"
+        },
+        {
+          "turn_number": 11,
           "section": "Closing",
-          "teacher_dialogue": "Well done. You now have a rule for making verbs negative: add **a-** at the start and change the final vowel to **-i**. You've seen how to apply it to say **Andazi** (I don't know) and **Akazi** (You don't know).",
+          "teacher_dialogue": "Well done! **Andazi** means 'I don't know'. You now have a rule for making verbs negative: add **a-** at the start and change the final vowel to **-i**. You've seen how to apply it to say **Andifuni** (I don't want), **Akufuni** (You don't want), and **Andazi** (I don't know). OK, for a bonus question, how would you say 'You don't know'?",
           "justification": "The closing summarises the new rule in a simple, memorable way and reinforces the lesson's vocabulary, providing a clear sense of accomplishment."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "I don't know?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Bonus",
+          "teacher_dialogue": "**Akwazi**. Aku + -azi = Akwazi. You will notice that when two vowels meet, they merge to become one — and Xhosa likes finding a good consonant that approximates the sound of the merged vowels. We're genuinely done with this lesson now!",
+          "justification": ""
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 6: Noun Class 3/4 (`umthi`/`imithi`)**",
+      "lesson_title": "**Lesson 6: Noun Class 3/4 (um- and imi-)**",
       "thinking_method_focus": [
         "Weaving",
-        "Vocabulary Panorama",
+        "Reframing",
+        "One Thought at a Time",
+        "Managing Cognitive Load",
         "Increasing Language Consciousness"
       ],
-      "objective": "To introduce Noun Class 3/4 for non-human objects and practice its agreement with known verbs.",
+      "objective": "To introduce Noun Class 3 (um-) and Class 4 (imi-) for non-human objects, focusing on their singular/plural relationship and the systematic agreement with verbs.",
       "key_vocabulary": [
         {
           "word": "umthi",
@@ -429,86 +473,150 @@
           "meaning": "trees (Class 4)"
         },
         {
-          "word": "umsebenzi",
-          "meaning": "work/job (Class 3)"
+          "word": "ufuna",
+          "meaning": "it (tree) wants"
+        },
+        {
+          "word": "ifuna",
+          "meaning": "they (trees) want"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
           "section": "Opening & Weaving",
-          "teacher_dialogue": "We've learned about the noun class for people, **umntu** and **abantu**. Today we'll learn a new category, often for things that grow, like trees. The word for 'tree' is **umthi**.",
-          "justification": "This **weaves** in the concept of noun classes from Lesson 3, showing that this is a system with multiple categories. It provides a simple semantic clue ('things that grow') to help anchor the new class."
+          "teacher_dialogue": "In Lesson 3, we began to uncover IsiXhosa's noun class system, seeing how **umntu** (person) and **abantu** (people) use their prefixes **um-** and **aba-** to 'agree' with other words like **mkhulu** (big). We also recently learned how to express what we **want** (**Ndifuna**) and what we **don't want** (**Andifuni**). Today, we're going to meet another 'category label' for nouns, specifically for non-human things.",
+          "justification": "This turn **weaves** directly from Lesson 3 (noun classes), Lesson 4 (verb `-funa`), and Lesson 5 (negation), creating a smooth transition. It **reframes** noun classes as 'category labels' or an 'agreement system' rather than arbitrary genders, which helps in **managing cognitive load**."
         },
         {
           "turn_number": 2,
-          "section": "Practicing Agreement (Singular)",
-          "teacher_dialogue": "Notice it also starts with **um-**, just like **umntu**. But its agreement is different. The agreement piece for **umthi** is **u-**. Let's use a verb we know. How would you say 'The tree is working' (e.g., as a tool)?",
-          "justification": "This directly addresses a point of potential confusion (the same prefix `um-` for two different classes) and clarifies it by focusing on the different agreement concord. This increases the learner's precision."
+          "section": "Introducing Noun Class 3 ('um-')",
+          "teacher_dialogue": "Just as **umntu** has **um-** as its label, there's another class that uses **um-** for singular non-human things. For example, the word for 'tree' is **umthi**. Notice that familiar **um-** at the beginning, but this time it's for a single tree, not a person. Just like with **umntu**, this **um-** label tells the verb what to do. The agreement piece for **umthi** is still **u-**.",
+          "justification": "This step introduces `umthi` as **one thought at a time**. It **weaves** by drawing a direct comparison to `umntu` from Lesson 3, leveraging existing knowledge. It **reframes** the usage of `um-` to increase **language consciousness** about the system's flexibility (for both human and non-human singulars)."
         },
         {
           "turn_number": 3,
-          "section": "Practicing Agreement (Plural)",
-          "teacher_dialogue": "Excellent. **Umthi uyasebenza**. The plural for this class is **imi-**. So 'trees' is **imithi**. The agreement piece for **imithi** is **i-**. How would you say 'The trees are working'?",
-          "justification": "This introduces the plural counterpart, reinforcing the singular/plural pairing that is central to the noun class system."
+          "section": "Practicing with Class 3 ('um-')",
+          "teacher_dialogue": "Now, let's use our verb, **-funa** (to want). If a tree 'wants' something, like water, how would you say 'The tree wants'? Remember, the subject concord for **umthi** is **u-**, and for present tense verbs like **-funa**, we just attach it.",
+          "justification": "This provides immediate **practice** by combining the new noun class with the previously learned verb `-funa` from Lesson 4, solidifying the agreement pattern through active construction. This also serves as **masked repetition** of the verb."
         },
         {
           "turn_number": 4,
-          "section": "Expanding Vocabulary",
-          "teacher_dialogue": "Now for something interesting. We know the verb root **-sebenza** means 'work'. The noun for 'work' or 'a job' is in this same class: **umsebenzi**. You can see the verb root inside the noun. This happens a lot in isiXhosa. How would you say 'I want the work'?",
-          "justification": "This is a key moment for **increasing language consciousness**. It reveals the logical, internal structure of the language, showing how nouns and verbs are related. This is more powerful than just teaching a new vocabulary item in isolation."
+          "section": "Student Dialogue",
+          "student_dialogue": "Umthi ufuna?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Introducing Noun Class 4 ('imi-')",
+          "teacher_dialogue": "Excellent, **Umthi ufuna**. Now, what if there are many trees? The plural of **umthi** is **imithi**. The label for this group is **imi-**. And this **imi-** label tells the describing words and verbs to use **i-** as their agreement piece. So for 'the trees', the subject concord is **i-**.",
+          "justification": "This introduces `imithi` as **one thought at a time**, presenting it as the logical plural counterpart to `umthi`. It explicitly states the new concord (`i-`), reinforcing the predictable nature of the noun class system."
+        },
+        {
+          "turn_number": 6,
+          "section": "Practicing with Class 4 ('imi-')",
+          "teacher_dialogue": "So, how would you say 'The trees want'?",
+          "justification": "This provides immediate **practice** with the new plural form and its corresponding concord, directly applying the established agreement logic."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student Dialogue",
+          "student_dialogue": "Imithi ifuna?"
+        },
+        {
+          "turn_number": 8,
+          "section": "Practice and Consolidation (Weaving the Negative)",
+          "teacher_dialogue": "Perfect, **Imithi ifuna**. You're now applying the agreement rule to a whole new set of objects! Let's weave in something from Lesson 5. Remember how **Andifuni** (I don't want) and **Akufuni** (You don't want) showed that the negative **a-** prefix merges with the subject concord (like **u-** merging to **aku-**)? Now, how would you say 'The tree doesn't want tea'?",
+          "justification": "This is a **strong weave** that combines the new noun class (Lesson 6) with the verb (`-funa` from Lesson 4) and the negative construction (Lesson 5). By explicitly reminding the learner about the `a-u` merger, it effectively **cues** them and guides their thinking. This active integration of multiple concepts helps **manage cognitive load** and **increase language consciousness** about IsiXhosa's systematic morphology."
+        },
+        {
+          "turn_number": 9,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umthi akufuni iti?"
+        },
+        {
+          "turn_number": 10,
+          "section": "Closing & Reinforcement",
+          "teacher_dialogue": "Excellent! **Umthi akufuni iti**. You've now systematically added two more 'labels' to your IsiXhosa toolkit, Class 3 (**um-**) and Class 4 (**imi-**), and seen how their agreement pieces (**u-** and **i-**) predictably work with verbs and even the negative form. This consistent agreement system is the key to building many sentences, and we'll keep building on this logic!",
+          "justification": "The closing statement **consolidates** the new noun classes and their concords. It **reinforces** the predictability and systematic nature of the agreement system, further **increasing language consciousness** and empowering the learner by highlighting the 'key' to sentence building. It also sets expectations for future lessons."
         }
       ]
+    },
+{
+  "lesson_title": "**Lesson 7: Possessives (-am and -akho)**",
+  "thinking_method_focus": [
+    "Weaving",
+    "One Thought at a Time",
+    "Importing Knowledge",
+    "Managing Cognitive Load",
+    "Increasing Language Consciousness"
+  ],
+  "objective": "To introduce 'my' and 'your' and show how they agree with the noun, building on existing noun class knowledge.",
+  "key_vocabulary": [
+    {
+      "word": "-am",
+      "meaning": "my (possessive stem)"
     },
     {
-      "lesson_title": "**Lesson 7: Possessives (`-am` and `-akho`)**",
-      "thinking_method_focus": [
-        "Reframing",
-        "Weaving",
-        "One Thought at a Time"
-      ],
-      "objective": "To introduce the concept of possession and show how possessives agree with the noun they describe.",
-      "key_vocabulary": [
-        {
-          "word": "-am",
-          "meaning": "my/mine (possessive stem)"
-        },
-        {
-          "word": "-akho",
-          "meaning": "your/yours (possessive stem)"
-        },
-        {
-          "word": "imali",
-          "meaning": "money"
-        }
-      ],
-      "turns": [
-        {
-          "turn_number": 1,
-          "section": "Opening & Reframing",
-          "teacher_dialogue": "How do we say 'my tea' or 'your house'? In English, 'my' and 'your' are separate words that never change. In isiXhosa, the word for 'my' or 'your' must agree with the noun it belongs to. It's the same agreement logic we've been practicing all along.",
-          "justification": "This **reframes** possession from a simple vocabulary word ('my') into an extension of the agreement system the learner is already comfortable with. This makes the concept feel familiar, not new."
-        },
-        {
-          "turn_number": 2,
-          "section": "Introducing the Stems and Concords",
-          "teacher_dialogue": "The core idea for 'my' is the stem **-am**. The core idea for 'your' is **-akho**. These stems need an agreement piece from the noun. Let's take **iti** (tea). Its possessive concord is **y-**. To say 'my tea', you combine **y-** and **-am**. What do you get?",
-          "justification": "This breaks possession down into two parts: the possessive stem (the meaning) and the concord (the agreement). This is **'One Thought at a Time'**. The learner constructs the word, making the process transparent."
-        },
-        {
-          "turn_number": 3,
-          "section": "Practice with Weaving",
-          "teacher_dialogue": "Perfect. **iti yam**. How would you say 'your tea'?\n\nNow let's use a different noun we know. Remember **umntu** (person)? Its possessive concord is **w-**. How would you say 'my person'?",
-          "justification": "This immediately **weaves** in a noun from a different class, forcing the learner to apply the system, not just repeat a pattern. It demonstrates that the rule is universal across the noun classes they know."
-        },
-        {
-          "turn_number": 4,
-          "section": "Consolidation",
-          "teacher_dialogue": "Excellent. **umntu wam**. The word for 'money' is **imali**. Its possessive concord is also **y-**. How would you say 'I want my money'?",
-          "justification": "This final turn combines the new possessive structure with the verb structure from Lesson 4, consolidating all learning into a complex, useful sentence."
-        }
-      ]
+      "word": "-akho",
+      "meaning": "your (possessive stem)"
     },
+    {
+      "word": "iti yam",
+      "meaning": "my tea"
+    },
+    {
+      "word": "umntu wam",
+      "meaning": "my person"
+    }
+  ],
+  "turns": [
+    {
+      "turn_number": 1,
+      "section": "Opening & Weaving",
+      "teacher_dialogue": "We've learned how to say what you want or don't want, and we've explored different categories of nouns like people and trees. Now, what if you want to say that something belongs to you? In English, we just add 'my' or 'your' as separate words, like 'my tea'. IsiXhosa does it a bit differently, by attaching the idea of 'my' or 'your' directly to the noun, much like the noun class labels we've seen.",
+      "justification": "This turn **weaves** from previous lessons on verbs and noun classes, creating a natural progression. It **reframes** possession as an attachment to the noun rather than a separate word, aligning with IsiXhosa's agglutinative nature."
+    },
+    {
+      "turn_number": 2,
+      "section": "Introducing '-am' (my)",
+      "teacher_dialogue": "The core piece for 'my' is the stem **-am**. But just like with adjectives, this stem needs an agreement piece from the noun it describes. Remember 'tea' is **iti**? For **iti**, the agreement piece that goes with possessives is **y-**. So, to say 'my tea', you put **y-** before **-am**. What do you think that sounds like?",
+      "justification": "This introduces the possessive stem **one thought at a time**. It **weaves** in the existing vocabulary 'iti' and explicitly connects to the concept of 'agreement pieces' for nouns, drawing on knowledge from Lesson 3."
+    },
+    {
+      "turn_number": 3,
+      "section": "Student Dialogue",
+      "student_dialogue": "iti yam?"
+    },
+    {
+      "turn_number": 4,
+      "section": "Introducing '-akho' (your)",
+      "teacher_dialogue": "Perfect! **iti yam**. You've just created your first possessive. Now, the stem for 'your' is **-akho**. How would you say 'your tea'?",
+      "justification": "This immediately applies the same new concept to 'your' (**-akho**), providing **masked repetition** of the possessive structure and reinforcing the pattern."
+    },
+    {
+      "turn_number": 5,
+      "section": "Student Dialogue",
+      "student_dialogue": "iti yakho?"
+    },
+    {
+      "turn_number": 6,
+      "section": "Extending to another Noun Class",
+      "teacher_dialogue": "Excellent, **iti yakho**. You're getting the hang of it. Now, let's try a different noun. Remember **umntu** (person) from Class 1? Its possessive agreement piece is **w-**. So, how would you say 'my person'?",
+      "justification": "This step **weaves** the new possessive concept with a previously learned noun class (**umntu** from Lesson 3). It shows that the possessive concept is systematic across noun classes, **managing cognitive load** by connecting new information to established patterns."
+    },
+    {
+      "turn_number": 7,
+      "section": "Student Dialogue",
+      "student_dialogue": "umntu wam?"
+    },
+    {
+      "turn_number": 8,
+      "section": "Closing & Reinforcement",
+      "teacher_dialogue": "Exactly! **umntu wam**. You've now seen how 'my' and 'your' adapt their forms based on the noun they describe. This idea of the noun 'telling' other words what to do is the core of IsiXhosa's systematic agreement system, and you're mastering how it works! We'll continue to see this predictable pattern as we encounter more noun classes.",
+      "justification": "The closing statement **reinforces** the central principle of grammatical agreement and highlights its systematic nature, thereby **increasing language consciousness**. It cues the learner that this foundational understanding will continue to be built upon."
+    }
+  ]
+},
     {
       "lesson_title": "**Lesson 8: The Long Present Tense (`-ya-`)**",
       "thinking_method_focus": [
