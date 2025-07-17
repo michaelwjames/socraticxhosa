@@ -6,7 +6,7 @@
     "en_context": "",
     "xh": "Abamelwane bayankqonkqoza.",
     "xh_context": "",
-    "tag": "XhosaFundis4.1"
+    "tag": ""
   },
   {
     "id": "HftaXL3H5-",
@@ -1838,9 +1838,9 @@
   {
     "id": "cH:;8!W#rI",
     "deck": "Xhosa::Sentences",
-    "en": "My name is ...",
+    "en": "My name is Jim",
     "en_context": "",
-    "xh": "Igama lam NguMichael ...",
+    "xh": "Igama lam nguJim...",
     "xh_context": "",
     "tag": "NBPhrases marked"
   },
@@ -1874,7 +1874,7 @@
   {
     "id": "J[[C~wCE-d",
     "deck": "Xhosa::Sentences",
-    "en": "I don't know[sound:rec1528975528.mp3]",
+    "en": "I don't know",
     "en_context": "",
     "xh": "Andiyazi",
     "xh_context": "",
@@ -2072,7 +2072,7 @@
   {
     "id": "l$wl+tDE,E",
     "deck": "Xhosa::Sentences",
-    "en": "How are you (pl.)?[sound:rec1528975547.mp3]",
+    "en": "How are you (pl.)?",
     "en_context": "",
     "xh": "Ninjani? Niphila njani?",
     "xh_context": "",
@@ -2090,7 +2090,7 @@
   {
     "id": "c_fR!;p6A0",
     "deck": "Xhosa::Sentences",
-    "en": "Many thanks[sound:rec1528975566.mp3]",
+    "en": "Many thanks",
     "en_context": "",
     "xh": "Enkosi kakhulu",
     "xh_context": "",
@@ -2099,7 +2099,7 @@
   {
     "id": "D;*vEOz`{>",
     "deck": "Xhosa::Sentences",
-    "en": "The players are playing a game[sound:rec1528975575.mp3]",
+    "en": "The players are playing a game",
     "en_context": "",
     "xh": "Abadlali badlala umdlalo",
     "xh_context": "",
@@ -2108,7 +2108,7 @@
   {
     "id": "rQ{tm^Vo;i",
     "deck": "Xhosa::Sentences",
-    "en": "Let's quench the thirst[sound:rec1528975587.mp3]",
+    "en": "Let's quench the thirst",
     "en_context": "",
     "xh": "Masiqabule unxano",
     "xh_context": "",
@@ -2117,7 +2117,7 @@
   {
     "id": "Fe7;OFW>q+",
     "deck": "Xhosa::Sentences",
-    "en": "I'm still alive / well[sound:rec1528975596.mp3]",
+    "en": "I'm still alive / well",
     "en_context": "",
     "xh": "Ndisaphila",
     "xh_context": "",
@@ -2144,7 +2144,7 @@
   {
     "id": "MpDfJb|h+0",
     "deck": "Xhosa::Sentences",
-    "en": "Do you [pl.] prefer something cool to drink?[sound:rec1528975604.mp3]",
+    "en": "Do you [pl.] prefer something cool to drink?",
     "en_context": "",
     "xh": "Nikhetha into yokusela?",
     "xh_context": "",
@@ -13954,7 +13954,7 @@
     "deck": "Xhosa::Sentences",
     "en": "when(ever) necessary",
     "en_context": "",
-    "xh": "xa kuyimfuneko[sound:rec1516975225.mp3]",
+    "xh": "xa kuyimfuneko",
     "xh_context": "",
     "tag": ""
   },
@@ -17435,18 +17435,18 @@
   {
     "id": "oP{E.dywO[",
     "deck": "Xhosa::Sentences",
-    "en": "It's Michael speaking",
+    "en": "It's John speaking",
     "en_context": "",
-    "xh": "NguMichael othethayo",
+    "xh": "NguJohn othethayo",
     "xh_context": "",
     "tag": ""
   },
   {
     "id": "I<&^dE=j}",
     "deck": "Xhosa::Sentences",
-    "en": "It's Michael on this side",
-    "en_context": "",
-    "xh": "Ngu Michael kweli cala",
+    "en": "It's James on this side",
+    "en_context": "[speaking on the phone]",
+    "xh": "NguJames kweli cala",
     "xh_context": "",
     "tag": ""
   },
@@ -57308,15 +57308,6 @@
     "en": "Consider now: Although it appears solid [closed up], the calcium-rich shell of a chicken egg can have up to 8,000 microscopic pores",
     "en_context": "lit. \"... the shell of the egg of the bird that is with calcium that is much, it has holes that are small that can be it is 8000\"!",
     "xh": "Khawucinge ngoku: Nangona libonakala livalekile, iqokobhe leqanda lentaka elinecalcium eninzi linemingxuma emincinane enokuba ngama-8 000.",
-    "xh_context": "",
-    "tag": ""
-  },
-  {
-    "id": "szEW8",
-    "deck": "Xhosa",
-    "en": "[sound:ankidroid_audioclip_PTT_20221025_WA00056318325831351660438.opus]",
-    "en_context": "Yo",
-    "xh": "",
     "xh_context": "",
     "tag": ""
   },
