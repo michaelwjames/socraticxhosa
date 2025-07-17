@@ -1,0 +1,652 @@
+{
+  "course_name": "isiXhosa with Socrates",
+  "part_name": "Foundations",
+  "lessons_covered": "1-10",
+  "lessons": [
+    {
+      "lesson_title": "**Lesson 1: The Clicks - Your First isiXhosa Sounds**",
+      "thinking_method_focus": [
+        "Importing Knowledge",
+        "One Thought at a Time",
+        "Managing Cognitive Load"
+      ],
+      "objective": "To introduce the three main click consonants (c, x, q) and enable learners to produce them confidently within basic vocabulary.",
+      "key_vocabulary": [
+        {
+          "word": "Cala",
+          "meaning": "side"
+        },
+        {
+          "word": "Gxeka",
+          "meaning": "criticise"
+        },
+        {
+          "word": "Qala",
+          "meaning": "start"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening",
+          "teacher_dialogue": "Before we learn any words, we're going to make a few sounds. You've probably heard that isiXhosa has 'click' sounds. This might sound difficult, but you already have all the parts in your mouth to make them. We're just going to put them together in a new way. We'll take it one sound at a time.",
+          "justification": "This opening immediately **reframes the clicks from an 'impossible foreign sound' to a manageable combination of existing abilities**. By acknowledging potential difficulty but presenting a clear path, it **lowers learner anxiety** and sets the expectation of introducing concepts 'one thought at a time'. This is crucial for managing the high cognitive load associated with these novel sounds."
+        },
+        {
+          "turn_number": 2,
+          "section": "Introducing the Dental Click ('c' /ǀ/)",
+          "teacher_dialogue": "Let's start with the letter **'c'**. To make this sound, I want you to do something you've probably been told *not* to do. Make a **'tsk-tsk' or 'tut-tut' sound**, the one you might make if you're disappointed. Place the tip of your tongue against the back of your top front teeth and suck in a little air. Try it: **'c, c, c'**.",
+          "justification": ""
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing the Dental Click ('c' /ǀ/)",
+          "teacher_dialogue": "Now, let's put that sound with a vowel. We'll add 'ala' after it. The word for 'side' is **cala**. Listen: **'Ca-la'**. The click happens, and the rest of the word follows immediately. **'Cala'**. Your turn.",
+          "justification": "This step **imports knowledge** from a known, non-linguistic sound and action, making the abstract sound concrete and less intimidating. Presenting it as slightly 'taboo or funny' can make it more memorable. By immediately applying the isolated sound to a simple word, learners understand its utility in context, rather than just learning an abstract sound. This is part of **masked repetition**, integrating the new sound into high-frequency vocabulary."
+        },
+        {
+          "turn_number": 4,
+          "section": "Introducing the Dental Click ('c' /ǀ/)",
+          "student_dialogue": "Cala."
+        },
+        {
+          "turn_number": 5,
+          "section": "Introducing the Lateral Click ('x' /ǁ/)",
+          "teacher_dialogue": "Next is the letter **'x'**. This sound is used to call horses. Place your tongue as if you're going to make a 'k' sound, but instead of pushing air out, suck air in from the side of your mouth. It's the sound you'd make from the side of your cheek. Try it: **'x, x, x'**.",
+          "justification": ""
+        },
+        {
+          "turn_number": 6,
+          "section": "Introducing the Lateral Click ('x' /ǁ/)",
+          "teacher_dialogue": "Now let's use it. The word to 'criticise' is **gxeka**. Listen: **'Gxe-ka'**. The click is part of the first syllable. **Gxeka**. Your turn.",
+          "justification": "Similar to the 'c' click, this uses **conceptual importation** by drawing on a familiar non-linguistic analogy (calling horses) to make the sound more accessible. Integrating the sound into a new word immediately reinforces its practical application and continues the **masked repetition** strategy."
+        },
+        {
+          "turn_number": 7,
+          "section": "Introducing the Lateral Click ('x' /ǁ/)",
+          "student_dialogue": "Gxeka."
+        },
+        {
+          "turn_number": 8,
+          "section": "Introducing the Palatal Click ('q' /ǃ/)",
+          "teacher_dialogue": "The last one for today is **'q'**. This is like the sound of a **cork popping from a bottle**. Curl the tip of your tongue up to the roof of your mouth, create suction, and then release it downwards sharply. It's the loudest of the three. **'Q, q, q'**.",
+          "justification": ""
+        },
+        {
+          "turn_number": 9,
+          "section": "Introducing the Palatal Click ('q' /ǃ/)",
+          "teacher_dialogue": "Let's use it to say 'start'. The word is **qala**. Listen: **'Qa-la'**. **Qala**. Your turn.",
+          "justification": "This analogy uses a strong, memorable, and descriptive sound (popping cork) to explain the click's quality and articulation mechanism, again **importing knowledge** and **reframing** the sound as approachable. Ending with a useful and symbolic word like 'start' provides a sense of accomplishment and directly relates the new sound to meaningful communication, setting a positive tone for continued learning."
+        },
+        {
+          "turn_number": 10,
+          "section": "Introducing the Palatal Click ('q' /ǃ/)",
+          "student_dialogue": "Qala."
+        },
+        {
+          "turn_number": 11,
+          "section": "Closing",
+          "teacher_dialogue": "Well done. You've just made the three main click sounds in isiXhosa. We have **'c'** (like tsk-tsk), **'x'** (for the horses), and **'q'** (the popping cork). We'll practice these as we go, so **don't worry about them being perfect yet**. You've already started (uqalile).",
+          "justification": "This summarises the key learning points and explicitly **cues the learner that initial perfection is not the goal**, which is vital for **managing cognitive load** and encouraging relaxed, natural acquisition over time. It reinforces that continuous practice will occur through **masked repetition** in subsequent lessons. By using a previously learned word ('uqalile'), it also subtly weaves in early vocabulary, showing immediate application."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 2: 'I am' and 'You are' - Your First Sentences**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Masking Repetition",
+        "Reframing",
+        "One Thought at a Time"
+      ],
+      "objective": "To form the first complete sentences by learning the subject concords for 'I' and 'you' and attaching them to simple adjectival stems.",
+      "key_vocabulary": [
+        {
+          "word": "ndi-",
+          "meaning": "Subject Concord for 'I'"
+        },
+        {
+          "word": "u-",
+          "meaning": "Subject Concord for 'you'"
+        },
+        {
+          "word": "-khulu",
+          "meaning": "big (adjectival stem)"
+        },
+        {
+          "word": "-ncinci",
+          "meaning": "small (adjectival stem)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening",
+          "teacher_dialogue": "In the last lesson, we learned to **qala** (start). Today, we'll build our first sentences. In English, to say 'I am big', we use three words. In isiXhosa, we can often do it in one. We're not going to translate word-for-word; we're going to build the *idea* of 'I am big'.",
+          "justification": "This turn **weaves** in vocabulary from the previous lesson (`qala`) to create continuity. It immediately **reframes** the task away from direct translation towards building concepts, which is a core principle. This manages expectations and sets the stage for understanding isiXhosa's agglutinative nature."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "I am big?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing the Subject Concord and Adjective Stem",
+          "teacher_dialogue": "The idea of 'I' is represented by a piece we put at the beginning of a word. That piece is **ndi-**. Think of it as a prefix that means 'I'. The idea of 'big' comes from the stem **-khulu**. Notice the 'kh' sound. It's like the 'k' in 'key' but with more air. **-khulu**. Now, let's put them together. To say 'I am big', we take our 'I' piece, **ndi-**, and attach it to our 'big' piece, **-khulu**. What do you think that sounds like?",
+          "justification": "This step follows the **'One Thought at a Time'** principle by breaking the sentence into its two core ideas ('I' and 'big') and presenting them as separate building blocks. By asking the learner to construct the word themselves, the process becomes transparent and empowers them, rather than just providing the answer."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndikhulu?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Practice and Introduction of 'You'",
+          "teacher_dialogue": "Exactly. **Ndikhulu**. Now you've said your first sentence. Let's try another. The stem for 'small' is **-ncinci**. That's our 'c' click from last time. How would you say 'I am small'?",
+          "justification": "This turn uses **masked repetition** by immediately applying the new structure to another adjective. It **weaves** in the click sound from Lesson 1 (`-ncinci`), reinforcing prior learning without explicit drilling. The introduction of the euphonic 'm' is **reframed** as a logical phonetic helper ('to help it flow') rather than an arbitrary rule to memorize."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndincinci?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Practice and Introduction of 'You'",
+          "teacher_dialogue": "Perfect. Now for 'you'. The piece for 'you' is **u-**. How would you say 'You are big'?\n\n",
+          "justification": "This turn uses **masked repetition** by immediately applying the new structure to another adjective. It **weaves** in the click sound from Lesson 1 (`-ncinci`), reinforcing prior learning without explicit drilling. The introduction of the euphonic 'm' is **reframed** as a logical phonetic helper ('to help it flow') rather than an arbitrary rule to memorize."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ukhulu?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Practice and Introduction of 'You'",
+          "teacher_dialogue": "But there's one small change. When **u-** comes before a consonant, we add an 'm' sound to help it flow. So it becomes **um-**. So, 'You are big' is **Umkhulu**. How about 'You are small'?",
+          "justification": "This turn uses **masked repetition** by immediately applying the new structure to another adjective. It **weaves** in the click sound from Lesson 1 (`-ncinci`), reinforcing prior learning without explicit drilling. The introduction of the euphonic 'm' is **reframed** as a logical phonetic helper ('to help it flow') rather than an arbitrary rule to memorize."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umncinci?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Closing",
+          "teacher_dialogue": "Excellent. You can now say **Ndikhulu**, **Ndincinci**, **Umkhulu**, and **Umncinci**. You've learned that **ndi-** is 'I' and **u-** is 'you', and that these are prefixes we attach to describing words. You don't need to memorize these words; we'll use them again, and you'll find you remember them by knowing how to build them.",
+          "justification": "This summarizes the key takeaways and explicitly **cues the learner not to memorize**, building trust that the method will ensure retention through repeated application. It reinforces the core idea of construction over rote learning, which is central to the Thinking Method."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 3: The Noun Class System - A Gentle Introduction**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Managing Cognitive Load",
+        "Weaving"
+      ],
+      "objective": "To introduce the concept of noun classes as a system of agreement rather than arbitrary gender, focusing on Class 1 (um-) and Class 2 (aba-).",
+      "key_vocabulary": [
+        {
+          "word": "umntu",
+          "meaning": "person (Class 1)"
+        },
+        {
+          "word": "abantu",
+          "meaning": "people (Class 2)"
+        },
+        {
+          "word": "umfundi",
+          "meaning": "student (Class 1)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening & Weaving",
+          "teacher_dialogue": "In our last lesson, we saw how the prefix **u-** can mean 'you', as in **Umkhulu** (You are big). Now we're going to see that this same prefix, and others like it, have another important job. They act as labels for different categories of nouns.",
+          "justification": "This turn **weaves** directly from the previous lesson's content (`u-`) to introduce the new topic. This creates a smooth transition and shows the learner that new concepts are built upon what they already know, which helps **manage cognitive load**."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Labels? Like categories?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing Noun Class 1 ('um-')",
+          "teacher_dialogue": "Exactly! Let me show you. The word for 'person' is **umntu**. Notice the **um-** at the beginning. This is the label for Class 1, which is mostly for single human beings. Now, remember how we said 'You are big' was **Umkhulu**? To say 'The person is big', we use that same logic. The **um-** from **umntu** tells the describing word to also start with that sound. So, we say **Umntu mkhulu**. The 'u' is already there in the noun, so the adjective just needs the 'm'.",
+          "justification": "This step **reframes** 'noun class' from an abstract grammatical term into a simple 'label'. It connects the new noun prefix directly to the adjectival prefix the learner already used, making the concept of agreement intuitive and logical rather than a new rule to memorize."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "So umntu mkhulu means 'the person is big'?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Introducing Noun Class 2 ('aba-')",
+          "teacher_dialogue": "Yes, exactly! Now let's look at the plural. The word for 'people' is **abantu**. The label for this group is **aba-**. This label also tells our describing word what to do. The agreement piece for **aba-** is **ba-**. So, how would you say 'The people are big'?",
+          "justification": "This introduces the plural class as a direct counterpart to the singular. By explicitly stating the agreement pattern ('aba-' tells the adjective to use 'ba-'), it establishes a clear, predictable rule, reinforcing the idea of a logical system."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu bakhulu?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Practice and Consolidation",
+          "teacher_dialogue": "Perfect! **Abantu bakhulu** means 'The people are big'. Let's try with a new word. A 'student' is **umfundi**. What class label do you see at the beginning?"
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "I see 'um-' at the start."
+        },
+        {
+          "turn_number": 9,
+          "section": "Practice and Consolidation",
+          "teacher_dialogue": "Exactly! So if we wanted to say 'The student is big', we'd say...?"
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umfundi mkhulu?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Closing",
+          "teacher_dialogue": "Perfect! **Umfundi mkhulu** means 'The student is big'. You've just learned the core logic of the entire noun class system. It's not about memorizing genders; it's about matching the prefix of the noun with the prefix of the word describing it. We'll meet more of these noun 'labels' as we go.",
+          "justification": "The closing statement reinforces the central **reframe** of the lesson—agreement, not gender. It **cues** the learner that this is a foundational principle that will be built upon, solidifying their understanding and setting expectations for future lessons."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 4: Your First Verb (`-funa`)**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving",
+        "Masking Repetition"
+      ],
+      "objective": "To introduce a high-frequency verb in the simple present tense and use it to form basic transitive sentences.",
+      "key_vocabulary": [
+        {
+          "word": "-funa",
+          "meaning": "to want (verb root)"
+        },
+        {
+          "word": "iti",
+          "meaning": "tea"
+        },
+        {
+          "word": "isonka",
+          "meaning": "bread"
+        },
+        {
+          "word": "-tya",
+          "meaning": "to eat (verb root)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening",
+          "teacher_dialogue": "We can now describe people, like **umntu omdala** (an old person). But what if we want to talk about actions? For that, we need verbs. Let's learn one of the most useful verbs: 'to want'. The root for this idea is **-funa**.",
+          "justification": "The opening provides a clear reason for introducing verbs as the next logical step after adjectives. It introduces the concept of a verb 'root', which is a crucial **'one thought at a time'** building block for later."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "So verbs in isiXhosa have roots like -funa?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Building the Verb",
+          "teacher_dialogue": "Exactly! And we can build on these roots. For example, to say 'I want', we take our 'I' piece, **ndi-**, and attach it to the root **-funa**. What do you think that would sound like?",
+          "justification": "This follows the established pattern of having the learner construct the word themselves. It's a simple combination of a known piece (`ndi-`) and a new piece (`-funa`), keeping the cognitive load low."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifuna?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Forming a Full Sentence",
+          "teacher_dialogue": "Perfect! **Ndifuna** means 'I want'. Now, let's make it more useful by adding an object. The word for 'tea' is **iti**. How would you say 'I want tea'?",
+          "justification": "This immediately makes the new verb useful by forming a complete, practical sentence. It shows that the verb structure is separate from the object, a key structural point in the language."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifuna iti?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Practice and Weaving",
+          "teacher_dialogue": "Exactly right! **Ndifuna iti** means 'I want tea'. Now, how would you say 'You want tea'? Remember 'you' is **u-** in isiXhosa.",
+          "justification": "This uses **masked repetition** by having the learner practice the same structure with a different subject."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ufuna iti?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Practice and Weaving",
+          "teacher_dialogue": "Perfect! Now let's learn another useful verb: **-tya**, which means 'to eat'. To say 'I am eating', we add **-ya-** in the middle for flow: **Ndi-ya-tya**, which sounds like **Ndiyatya**. Now, how would you say 'I want to eat bread'? The word for bread is **isonka**.",
+          "justification": "This introduces a new verb and object while maintaining the same sentence structure, providing variation while reinforcing the pattern."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifuna tya isonka?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Closing",
+          "teacher_dialogue": "Not quite. It would be **Ndifuna ukutya isonka**. But we'll learn more about that later. For now, you've learned something amazing - you can now form action sentences! You can take a subject piece like **ndi-** and a verb root like **-funa** or **-tya** and combine them to say what you want or what you're doing.",
+          "justification": "The closing celebrates the learner's progress while gently correcting a common mistake. It reinforces the modular system of building sentences while hinting at future learning (the infinitive prefix 'uku-')."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 5: The Negative (`Andifuni`)**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving",
+        "Reframing"
+      ],
+      "objective": "To learn the standard negative construction for present tense verbs (`a-...-i`) and apply it to known verbs.",
+      "key_vocabulary": [
+        {
+          "word": "a-",
+          "meaning": "Negative prefix"
+        },
+        {
+          "word": "-i",
+          "meaning": "Negative suffix"
+        },
+        {
+          "word": "-azi",
+          "meaning": "to know (verb root)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening & Weaving",
+          "teacher_dialogue": "We know how to say 'I want', **Ndifuna**. But how do we say 'I *don't* want'? In English, we add a whole word, 'don't'. In isiXhosa, we modify the verb itself with two pieces, one at the beginning and one at the end.",
+          "justification": "This **weaves** in a known structure (`Ndifuna`) to create a clear point of contrast. It **reframes** the negative not as a separate word but as a modification of the verb, aligning with the learner's existing mental model of how isiXhosa verbs work."
+        },
+        {
+          "turn_number": 2,
+          "section": "Introducing the Negative Affixes",
+          "teacher_dialogue": "To make a verb negative, we do two simple things. First, we add an **a-** to the very beginning. Second, the final **-a** of the verb root changes to an **-i**. So, **ndifuna** becomes **a-ndi-fun-i**. What does that sound like?",
+          "justification": "This follows the **'One Thought at a Time'** principle by breaking the negation rule into two distinct, simple steps. The learner is guided to construct the new form, which is more effective than just being told the answer."
+        },
+        {
+          "turn_number": 3,
+          "section": "Practice and Phonetic Merging",
+          "teacher_dialogue": "Exactly. **Andifuni**. Now, let's try it with 'you'. The pieces are **a-** + **u-** + **-fun-** + **-i**. In isiXhosa, when 'a' and 'u' meet, they merge to become **aku-**. So, how do you say 'You don't want'?",
+          "justification": "This turn introduces a key phonetic rule (vowel coalescence) in a practical context. It's presented as a natural sound merger ('they merge') rather than an arbitrary rule, making it easier to remember."
+        },
+        {
+          "turn_number": 4,
+          "section": "Consolidation with a New Verb",
+          "teacher_dialogue": "Perfect. **Akufuni**. Now let's use a new verb to practice both the positive and negative. The root for 'to know' is **-azi**. How would you say 'I know'?",
+          "justification": "Introducing a new, high-frequency verb (`-azi`) provides a fresh context for **masked repetition**. The learner has to apply both the positive and negative rules they know, reinforcing the entire system."
+        },
+        {
+          "turn_number": 5,
+          "section": "Closing",
+          "teacher_dialogue": "Well done. You now have a rule for making verbs negative: add **a-** at the start and change the final vowel to **-i**. You've seen how to apply it to say **Andazi** (I don't know) and **Akazi** (You don't know).",
+          "justification": "The closing summarises the new rule in a simple, memorable way and reinforces the lesson's vocabulary, providing a clear sense of accomplishment."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 6: Noun Class 3/4 (`umthi`/`imithi`)**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Vocabulary Panorama",
+        "Increasing Language Consciousness"
+      ],
+      "objective": "To introduce Noun Class 3/4 for non-human objects and practice its agreement with known verbs.",
+      "key_vocabulary": [
+        {
+          "word": "umthi",
+          "meaning": "tree (Class 3)"
+        },
+        {
+          "word": "imithi",
+          "meaning": "trees (Class 4)"
+        },
+        {
+          "word": "umsebenzi",
+          "meaning": "work/job (Class 3)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening & Weaving",
+          "teacher_dialogue": "We've learned about the noun class for people, **umntu** and **abantu**. Today we'll learn a new category, often for things that grow, like trees. The word for 'tree' is **umthi**.",
+          "justification": "This **weaves** in the concept of noun classes from Lesson 3, showing that this is a system with multiple categories. It provides a simple semantic clue ('things that grow') to help anchor the new class."
+        },
+        {
+          "turn_number": 2,
+          "section": "Practicing Agreement (Singular)",
+          "teacher_dialogue": "Notice it also starts with **um-**, just like **umntu**. But its agreement is different. The agreement piece for **umthi** is **u-**. Let's use a verb we know. How would you say 'The tree is working' (e.g., as a tool)?",
+          "justification": "This directly addresses a point of potential confusion (the same prefix `um-` for two different classes) and clarifies it by focusing on the different agreement concord. This increases the learner's precision."
+        },
+        {
+          "turn_number": 3,
+          "section": "Practicing Agreement (Plural)",
+          "teacher_dialogue": "Excellent. **Umthi uyasebenza**. The plural for this class is **imi-**. So 'trees' is **imithi**. The agreement piece for **imithi** is **i-**. How would you say 'The trees are working'?",
+          "justification": "This introduces the plural counterpart, reinforcing the singular/plural pairing that is central to the noun class system."
+        },
+        {
+          "turn_number": 4,
+          "section": "Expanding Vocabulary",
+          "teacher_dialogue": "Now for something interesting. We know the verb root **-sebenza** means 'work'. The noun for 'work' or 'a job' is in this same class: **umsebenzi**. You can see the verb root inside the noun. This happens a lot in isiXhosa. How would you say 'I want the work'?",
+          "justification": "This is a key moment for **increasing language consciousness**. It reveals the logical, internal structure of the language, showing how nouns and verbs are related. This is more powerful than just teaching a new vocabulary item in isolation."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 7: Possessives (`-am` and `-akho`)**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Weaving",
+        "One Thought at a Time"
+      ],
+      "objective": "To introduce the concept of possession and show how possessives agree with the noun they describe.",
+      "key_vocabulary": [
+        {
+          "word": "-am",
+          "meaning": "my/mine (possessive stem)"
+        },
+        {
+          "word": "-akho",
+          "meaning": "your/yours (possessive stem)"
+        },
+        {
+          "word": "imali",
+          "meaning": "money"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening & Reframing",
+          "teacher_dialogue": "How do we say 'my tea' or 'your house'? In English, 'my' and 'your' are separate words that never change. In isiXhosa, the word for 'my' or 'your' must agree with the noun it belongs to. It's the same agreement logic we've been practicing all along.",
+          "justification": "This **reframes** possession from a simple vocabulary word ('my') into an extension of the agreement system the learner is already comfortable with. This makes the concept feel familiar, not new."
+        },
+        {
+          "turn_number": 2,
+          "section": "Introducing the Stems and Concords",
+          "teacher_dialogue": "The core idea for 'my' is the stem **-am**. The core idea for 'your' is **-akho**. These stems need an agreement piece from the noun. Let's take **iti** (tea). Its possessive concord is **y-**. To say 'my tea', you combine **y-** and **-am**. What do you get?",
+          "justification": "This breaks possession down into two parts: the possessive stem (the meaning) and the concord (the agreement). This is **'One Thought at a Time'**. The learner constructs the word, making the process transparent."
+        },
+        {
+          "turn_number": 3,
+          "section": "Practice with Weaving",
+          "teacher_dialogue": "Perfect. **iti yam**. How would you say 'your tea'?\n\nNow let's use a different noun we know. Remember **umntu** (person)? Its possessive concord is **w-**. How would you say 'my person'?",
+          "justification": "This immediately **weaves** in a noun from a different class, forcing the learner to apply the system, not just repeat a pattern. It demonstrates that the rule is universal across the noun classes they know."
+        },
+        {
+          "turn_number": 4,
+          "section": "Consolidation",
+          "teacher_dialogue": "Excellent. **umntu wam**. The word for 'money' is **imali**. Its possessive concord is also **y-**. How would you say 'I want my money'?",
+          "justification": "This final turn combines the new possessive structure with the verb structure from Lesson 4, consolidating all learning into a complex, useful sentence."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 8: The Long Present Tense (`-ya-`)**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Masking Repetition",
+        "Weaving"
+      ],
+      "objective": "To introduce the long present tense marker `-ya-` and understand its function for emphasis or when a verb ends a sentence.",
+      "key_vocabulary": [
+        {
+          "word": "-ya-",
+          "meaning": "Long present tense infix"
+        },
+        {
+          "word": "-ya",
+          "meaning": "to go (verb root)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening & Reframing",
+          "teacher_dialogue": "Sometimes when you listen to isiXhosa, you might hear an extra sound inside the verb. For example, instead of just **Ndifuna**, you might hear **Ndiyafuna**. This extra **-ya-** doesn't change the meaning much. Think of it as a way to add emphasis, like saying 'I *do* want!', or as a placeholder when the verb is the last word in the sentence.",
+          "justification": "This **reframes** the long present tense not as a complicated new tense, but as a simple tool for emphasis or sentence flow. This is much less intimidating and helps manage cognitive load."
+        },
+        {
+          "turn_number": 2,
+          "section": "Practice",
+          "teacher_dialogue": "This **-ya-** goes in the 'tense' slot, right after the subject piece. So, **ndi-** + **-ya-** + **-funa**. **Ndiyafuna**. How would you say 'You are wanting' (emphatic)?",
+          "justification": "This explicitly places the new infix into the 'verb machine' model the learner is familiar with, making its position logical and predictable."
+        },
+        {
+          "turn_number": 3,
+          "section": "Weaving with a New Verb",
+          "teacher_dialogue": "Perfect. **Uyafuna**. Now let's learn a new verb that sounds similar: the root for 'to go' is also **-ya**. How would you say 'I am going'?",
+          "justification": "This introduces a new verb that is phonetically identical to the new infix, which is a potential point of confusion. By addressing it directly and having the learner construct the sentence (`Ndi-ya-ya` -> `Ndiya**ya**`), we tackle the ambiguity head-on and turn it into a memorable learning moment."
+        },
+        {
+          "turn_number": 4,
+          "section": "Closing",
+          "teacher_dialogue": "Well done. You've learned that **-ya-** can be added to a verb for emphasis. You can say **Ndifuna iti**, or for more emphasis, **Ndiyafuna iti**. And you also learned the verb 'to go', **-ya**. So **Ndiya**ya means 'I am going'.",
+          "justification": "The closing clarifies the two distinct uses of `ya` seen in the lesson, ensuring the learner understands the difference between the infix and the verb root. This reinforces the importance of context and position in isiXhosa."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 9: Noun Class 5/6 (`ili-`/`ama-`)**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Masking Repetition"
+      ],
+      "objective": "To introduce Noun Class 5/6 and practice its agreements with known structures.",
+      "key_vocabulary": [
+        {
+          "word": "ilitye",
+          "meaning": "stone (Class 5)"
+        },
+        {
+          "word": "amatye",
+          "meaning": "stones (Class 6)"
+        },
+        {
+          "word": "izulu",
+          "meaning": "sky/heaven/weather (Class 5)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening",
+          "teacher_dialogue": "Let's learn another important noun category. Class 5 often starts with **ili-**. The word for 'stone' is **ilitye**. The plural is Class 6, which uses the prefix **ama-**. So 'stones' is **amatye**.",
+          "justification": "This follows the established pattern of introducing noun classes by their singular and plural prefixes, providing a consistent and predictable structure for the learner."
+        },
+        {
+          "turn_number": 2,
+          "section": "Practicing Agreement",
+          "teacher_dialogue": "Now for the agreement. The concord for **ilitye** is **li-**. The concord for **amatye** is **a-**. Let's use a verb we know. How do you say 'The stone is working' (e.g., as a tool)?",
+          "justification": "The lesson immediately moves to applying the new concords to a known verb (`-sebenza`), which is a form of **masked repetition** that reinforces the verb structure while practicing the new noun class."
+        },
+        {
+          "turn_number": 3,
+          "section": "Weaving with Negation and Possessives",
+          "teacher_dialogue": "Excellent. **Ilitye liyasebenza**. Now, how would you say 'The stones do not want my tea'? Let's break it down. 'The stones' (`amatye`) 'do not want' (`a-a-fun-i` -> `awafuni`) 'my tea' (`iti yam`).",
+          "justification": "This turn intentionally creates a complex sentence that **weaves** together multiple concepts: the new noun class, negation, and possessives. By guiding them to build it 'piece by piece', it demonstrates their ability to handle sophisticated sentences and consolidates a wide range of previous lessons."
+        },
+        {
+          "turn_number": 4,
+          "section": "Expanding Vocabulary",
+          "teacher_dialogue": "Another useful word in this class is **izulu**, which can mean 'sky', 'heaven', or 'weather'. Its concord is **li-**. How would you say 'I know the weather'?",
+          "justification": "Introducing a high-frequency, slightly abstract noun expands the learner's vocabulary and shows the versatility of the noun class beyond simple concrete objects."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 10: Part 1 Review & Consolidation**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Increasing Language Consciousness"
+      ],
+      "objective": "To consolidate all concepts from Part 1 by constructing complex sentences, proving the power of the learned framework.",
+      "key_vocabulary": [
+        {
+          "word": "-lala",
+          "meaning": "to sleep (verb root)"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening",
+          "teacher_dialogue": "This lesson has no new information. We are simply going to use the tools you have collected in the first nine lessons to build some interesting sentences. This is to show you that you haven't been memorizing phrases, but building a system.",
+          "justification": "This explicitly states the lesson's purpose, which is to build confidence and demonstrate the effectiveness of the method. It cues the learner that they have all the necessary components and just need to assemble them."
+        },
+        {
+          "turn_number": 2,
+          "section": "Sentence Building 1 (Noun Classes & Verbs)",
+          "teacher_dialogue": "Let's build. How would you say: 'The student wants the trees'?",
+          "justification": "This first sentence requires the learner to **weave** knowledge of two different noun classes (Class 1 and Class 4) and the simple verb structure. It's a direct test of the core agreement system."
+        },
+        {
+          "turn_number": 3,
+          "section": "Sentence Building 2 (Negation & Possessives)",
+          "teacher_dialogue": "Excellent. **Umfundi ufuna imithi**. Now, a bit more complex: 'My people do not know your work'. Take your time and build it piece by piece.",
+          "justification": "This sentence adds more layers, forcing the recall of possessives for two different noun classes (`abantu bam`, `umsebenzi wakho`) and the negative verb form. Guiding them to build it 'piece by piece' reinforces the core problem-solving technique."
+        },
+        {
+          "turn_number": 4,
+          "section": "Sentence Building 3 (Clicks & Long Present)",
+          "teacher_dialogue": "Very good. **Abantu bam abawazi umsebenzi wakho**. Last one. Let's use a click word. How would you say 'I am starting now'? Remember 'start' from Lesson 1.",
+          "justification": "This final sentence **weaves** back to the very first lesson, creating a satisfying sense of closure. It uses the long present tense (`-ya-`) because the verb ends the sentence, reinforcing a more subtle rule from Lesson 8 and demonstrating a comprehensive command of the foundational concepts."
+        },
+        {
+          "turn_number": 5,
+          "section": "Closing",
+          "teacher_dialogue": "Well done. You have successfully built complex sentences by combining a few simple rules. This is the foundation for everything we will do next. You have the system. Now, in Part 2, we will add more parts to your verb machine.",
+          "justification": "This closing statement reinforces the learner's achievement and **increases their language consciousness** by summarizing the 'system' they have learned. It provides a clear and motivating transition into the next part of the course."
+        }
+      ]
+    }
+  ]
+}
