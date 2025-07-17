@@ -3,125 +3,77 @@ import { Link } from 'react-router-dom';
 import type { CoursePageProps } from '../types';
 
 interface Lesson {
-  [key: string]: string | undefined;
-  'Lesson Number': string;
-  'Lesson Title': string;
-  'Objective': string;
-  'Key Vocabulary'?: string;
-  'part'?: string;
+  lesson_title: string;
+  thinking_method_focus: string[];
+  objective: string;
+  key_vocabulary: Array<{
+    word: string;
+    meaning: string;
+  }>;
+  turns: Array<{
+    turn_number: number;
+    section: string;
+    teacher_dialogue: string;
+    justification: string;
+  }>;
+}
+
+interface CourseData {
+  course_name: string;
+  part_name: string;
+  lessons_covered: string;
+  lessons: Lesson[];
 }
 
 const CoursePage: React.FC<CoursePageProps> = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [groupedLessons, setGroupedLessons] = useState<Record<string, Lesson[]>>({});
+  const [courseData, setCourseData] = useState<CourseData | null>(null);
 
   useEffect(() => {
     const loadLessons = async () => {
       try {
-        // Load the CSV file from the old directory
-        const response = await fetch('/old/LessonList.csv');
-        const text = await response.text();
-        
-        // Parse CSV to JSON
-        const lines = text.split('\n').filter(line => line.trim() !== '');
-        let currentPart = '';
-        const parsedLessons: any[] = [];
-        
-        for (let i = 0; i < lines.length; i++) {
-          let line = lines[i].trim();
-          if (!line) continue;
-          
-          // Check if this is a part header (e.g., "Part 1: Foundations")
-          if (line.startsWith('Part ')) {
-            currentPart = line.split(':')[0].trim();
-            continue;
-          }
-          
-          // Check if this is a lesson line (starts with "Lesson" or quoted "Lesson)
-          if (line.startsWith('"Lesson') || line.startsWith('Lesson')) {
-            // Remove surrounding quotes if present
-            if (line.startsWith('"') && line.endsWith('"')) {
-              line = line.substring(1, line.length - 1);
-            }
-            
-            // Handle the case where the line might be split across multiple lines
-            let fullLine = line;
-            while (i < lines.length - 1 && (fullLine.split('"').length - 1) % 2 !== 0) {
-              // If we have an odd number of quotes, the line is split
-              i++;
-              fullLine += '\n' + lines[i].trim();
-              // Remove any trailing quote if the line was split in the middle of a quoted field
-              if (fullLine.endsWith('"')) {
-                fullLine = fullLine.substring(0, fullLine.length - 1);
-              }
-            }
-            
-            // Parse the lesson line which has format: "Lesson X: Title,Structures,Vocabulary"
-            const match = fullLine.match(/^Lesson (\d+):\s*([^,]+),(.*?),(.*)$/i);
-            
-            if (match) {
-              const lessonNumber = match[1].trim();
-              const lessonTitle = match[2].trim();
-              const structures = match[3].trim();
-              const vocabulary = match[4] ? match[4].trim() : '';
-              
-              if (lessonNumber && lessonTitle) {
-                parsedLessons.push({
-                  'Lesson Number': lessonNumber,
-                  'Lesson Title': lessonTitle,
-                  'Objective': structures,
-                  'Key Vocabulary': vocabulary,
-                  'part': currentPart
-                });
-              }
-            } else {
-              console.warn('Failed to parse lesson line:', fullLine);
-            }
-          }
+        // Load the JSON file with the new structure
+        const response = await fetch('/data/foundation_lessons.json');
+        if (!response.ok) {
+          throw new Error('Failed to load course data');
         }
-        
-        // Group lessons by part
-        const grouped = parsedLessons.reduce((acc, lesson) => {
-          const part = lesson.part || 'Other';
-          if (!acc[part]) {
-            acc[part] = [];
-          }
-          acc[part].push(lesson);
-          return acc;
-        }, {} as Record<string, any[]>);
-        
-        setGroupedLessons(grouped);
+        const data: CourseData = await response.json();
+        setCourseData(data);
       } catch (error) {
         console.error('Error loading lessons:', error);
       } finally {
         setLoading(false);
       }
     };
-    
+
     loadLessons();
   }, []);
 
-  if (loading) {
+  if (loading || !courseData) {
     return (
-      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 pt-16">
-        <div className="container mx-auto px-4 py-8">
-          <div className="text-center py-16">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500 mx-auto"></div>
-            <p className="mt-4 text-gray-600 dark:text-gray-400">Loading lessons...</p>
-          </div>
-        </div>
+      <div className="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
       </div>
     );
   }
+
+  // Filter lessons based on search term
+  const filteredLessons = courseData.lessons.filter(lesson => 
+    lesson.lesson_title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    lesson.objective.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    lesson.thinking_method_focus.some(focus => 
+      focus.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+  );
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Xhosa Course</h1>
-          <p className="text-gray-600 dark:text-gray-300">Select a lesson to begin learning</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{courseData.course_name}</h1>
+          <p className="text-gray-600 dark:text-gray-300">{courseData.part_name} • {courseData.lessons_covered}</p>
         </div>
 
         {/* Search and Filter */}
@@ -144,55 +96,38 @@ const CoursePage: React.FC<CoursePageProps> = () => {
 
         {/* Lessons List */}
         <div className="space-y-10">
-          {Object.entries(groupedLessons).map(([part, partLessons]) => {
-            const filteredLessons = partLessons.filter(lesson => {
-              if (!lesson) return false;
-              const searchLower = searchTerm.toLowerCase();
-              const title = lesson['Lesson Title'] || '';
-              const objective = lesson['Objective'] || '';
-              const vocab = lesson['Key Vocabulary'] || '';
-              
-              return (
-                title.toLowerCase().includes(searchLower) ||
-                objective.toLowerCase().includes(searchLower) ||
-                vocab.toLowerCase().includes(searchLower)
-              );
-            });
-
-            if (filteredLessons.length === 0) return null;
-
-            return (
-              <div key={part} className="space-y-4">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{part}</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {filteredLessons.map((lesson, index) => (
-                    <Link
-                      key={`${part}-${index}`}
-                      to={`/lesson/${lesson['Lesson Number']}`}
-                      className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
-                    >
-                      <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
-                        Lesson {lesson['Lesson Number']}: {lesson['Lesson Title']}
-                      </h3>
-                      <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
-                        {lesson['Objective']}
-                      </p>
-                      {lesson['Key Vocabulary'] && (
-                        <div className="mt-2">
-                          <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
-                            Key Vocabulary:
-                          </p>
-                          <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
-                            {lesson['Key Vocabulary']}
-                          </p>
-                        </div>
-                      )}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{courseData.part_name}</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredLessons.map((lesson, index) => {
+                const lessonNumber = index + 1;
+                return (
+                  <Link
+                    key={lessonNumber}
+                    to={`/lesson/${lessonNumber}`}
+                    className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
+                  >
+                    <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
+                      Lesson {lessonNumber}: {lesson.lesson_title.replace(/\*\*/g, '')}
+                    </h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
+                      {lesson.objective}
+                    </p>
+                    {lesson.key_vocabulary && lesson.key_vocabulary.length > 0 && (
+                      <div className="mt-3">
+                        <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
+                          Key Vocabulary:
+                        </p>
+                        <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                          {lesson.key_vocabulary.map(v => v.word).join(', ')}
+                        </p>
+                      </div>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>

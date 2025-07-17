@@ -1,27 +1,63 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import type { LessonDetail, LessonPageProps } from '../types';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import type { LessonPageProps } from '../types';
+
+interface Turn {
+  turn_number: number;
+  section: string;
+  teacher_dialogue: string;
+  student_dialogue?: string;
+  justification: string;
+}
+
+interface Lesson {
+  lesson_title: string;
+  thinking_method_focus: string[];
+  objective: string;
+  key_vocabulary: Array<{
+    word: string;
+    meaning: string;
+  }>;
+  turns: Turn[];
+}
+
+interface CourseData {
+  course_name: string;
+  part_name: string;
+  lessons_covered: string;
+  lessons: Lesson[];
+}
 
 const LessonPage: React.FC<LessonPageProps> = () => {
   const { lessonNumber = '1' } = useParams<{ lessonNumber: string }>();
   const navigate = useNavigate();
-  const [lesson, setLesson] = useState<LessonDetail | null>(null);
+  const [courseData, setCourseData] = useState<CourseData | null>(null);
   const [loading, setLoading] = useState(true);
   const [started, setStarted] = useState(false);
   const [currentTurn, setCurrentTurn] = useState(0);
   const [fontSize, setFontSize] = useState(16);
+  
+  const lesson = courseData?.lessons[parseInt(lessonNumber, 10) - 1];
 
   useEffect(() => {
     const loadLesson = async () => {
       try {
         setLoading(true);
-        // Load the lesson data from the JSON file
-        const response = await fetch(`/old/Lesson%20Data/lesson${lessonNumber}.json`);
+        // Load the course data from the JSON file
+        const response = await fetch('/data/foundation_lessons.json');
         if (!response.ok) {
-          throw new Error('Lesson not found');
+          throw new Error('Failed to load course data');
         }
-        const data: LessonDetail = await response.json();
-        setLesson(data);
+        const data: CourseData = await response.json();
+        setCourseData(data);
+        
+        // Validate lesson number
+        const lessonNum = parseInt(lessonNumber, 10);
+        if (isNaN(lessonNum) || lessonNum < 1 || lessonNum > data.lessons.length) {
+          throw new Error('Invalid lesson number');
+        }
       } catch (error) {
         console.error('Error loading lesson:', error);
         // Redirect to course page if lesson is not found
@@ -53,7 +89,7 @@ const LessonPage: React.FC<LessonPageProps> = () => {
   };
 
   const nextTurn = () => {
-    if (lesson?.lesson_details.turns && currentTurn < lesson.lesson_details.turns.length - 1) {
+    if (lesson?.turns && currentTurn < lesson.turns.length - 1) {
       setCurrentTurn(prev => prev + 1);
     } else {
       // Lesson completed
@@ -66,12 +102,16 @@ const LessonPage: React.FC<LessonPageProps> = () => {
       setCurrentTurn(prev => prev - 1);
     }
   };
+  
+  const currentTurnData = lesson?.turns?.[currentTurn];
+  const isFirstTurn = currentTurn === 0;
+  const isLastTurn = lesson?.turns ? currentTurn === lesson.turns.length - 1 : true;
 
   const increaseFontSize = () => updateFontSize(fontSize + 1);
   const decreaseFontSize = () => updateFontSize(fontSize - 1);
   const resetFontSize = () => updateFontSize(16);
 
-  if (loading || !lesson) {
+  if (loading || !courseData || !lesson) {
     return (
       <div className="min-h-screen bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
@@ -79,10 +119,6 @@ const LessonPage: React.FC<LessonPageProps> = () => {
       </div>
     );
   }
-
-  const currentTurnData = lesson?.lesson_details.turns?.[currentTurn];
-  const isFirstTurn = currentTurn === 0;
-  const isLastTurn = lesson?.lesson_details.turns ? currentTurn === lesson.lesson_details.turns.length - 1 : true;
 
   return (
     <div className="min-h-screen w-full" style={{ fontSize: `${fontSize}px` }}>
@@ -165,23 +201,33 @@ const LessonPage: React.FC<LessonPageProps> = () => {
           // Start screen
           <div className="text-center py-16">
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              {lesson.lesson_details.lesson_title.replace(/\*\*/g, '')}
+              {lesson.lesson_title.replace(/\*\*/g, '')}
             </h1>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-              {lesson.lesson_details.objective}
-            </p>
+            <div className="prose dark:prose-invert max-w-none text-lg text-gray-600 dark:text-gray-300 mb-8">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {lesson.objective}
+              </ReactMarkdown>
+            </div>
             
-            {lesson.lesson_details.key_vocabulary && lesson.lesson_details.key_vocabulary.length > 0 && (
+            {lesson.key_vocabulary && lesson.key_vocabulary.length > 0 && (
               <div className="mb-8 max-w-xl mx-auto">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Key Vocabulary</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {lesson.lesson_details.key_vocabulary.map((item: { word: string; meaning: string }, index: number) => (
+                  {lesson.key_vocabulary.map((item, index) => (
                     <div 
                       key={index}
                       className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow"
                     >
-                      <div className="font-medium text-indigo-600 dark:text-indigo-400">{item.word}</div>
-                      <div className="text-sm text-gray-600 dark:text-gray-300">{item.meaning}</div>
+                      <div className="font-medium text-indigo-600 dark:text-indigo-400">
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {item.word}
+                      </ReactMarkdown>
+                    </div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {item.meaning}
+                      </ReactMarkdown>
+                    </div>
                     </div>
                   ))}
                 </div>
@@ -202,7 +248,7 @@ const LessonPage: React.FC<LessonPageProps> = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-6">
                   <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">
-                    Turn {currentTurn + 1} of {lesson?.lesson_details?.turns?.length || 0}
+                    Turn {currentTurn + 1} of {lesson?.turns?.length || 0}
                   </span>
                   {currentTurnData?.section && (
                     <span className="px-3 py-1 text-xs font-semibold bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200 rounded-full">
@@ -211,41 +257,27 @@ const LessonPage: React.FC<LessonPageProps> = () => {
                   )}
                 </div>
                 
+                {/* Teacher Dialogue */}
                 {currentTurnData?.teacher_dialogue && (
-                  <div 
-                    className="prose dark:prose-invert max-w-none mb-6"
-                    dangerouslySetInnerHTML={{ 
-                      __html: currentTurnData.teacher_dialogue.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') 
-                    }}
-                  />
+                  <div className="prose dark:prose-invert max-w-none mb-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+                    <div className="font-medium text-gray-600 dark:text-gray-300 text-sm mb-1">Teacher:</div>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {currentTurnData.teacher_dialogue}
+                    </ReactMarkdown>
+                  </div>
                 )}
                 
-                <div className="mt-8 pt-6 w-full border-t border-gray-200 dark:border-gray-700">
-                  <div className="mb-4">
-                    <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">
-                      Thinking Method:
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {lesson.lesson_details.thinking_method_focus?.map((method: string, index: number) => (
-                        <span 
-                          key={index}
-                          className="px-2 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded"
-                        >
-                          {method}
-                        </span>
-                      ))}
+                {/* Student Dialogue */}
+                {currentTurnData?.student_dialogue && (
+                  <div className="prose dark:prose-invert max-w-none mb-6 p-4 bg-indigo-50 dark:bg-indigo-900/30 rounded-lg">
+                    <div className="font-medium text-indigo-600 dark:text-indigo-300 text-sm mb-1">You:</div>
+                    <div className="text-gray-800 dark:text-gray-200">
+                      {currentTurnData.student_dialogue}
                     </div>
                   </div>
-                  
-                  <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
-                    <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      Why this approach works:
-                    </h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
-                      {currentTurnData?.justification || 'No justification provided.'}
-                    </p>
-                  </div>
-                </div>
+                )}
+                
+                {/* Removed Thinking Method and Justification sections as per user request */}
               </div>
               
               <div className="bg-gray-50 dark:bg-gray-800 px-6 py-4 border-t border-gray-200 dark:border-gray-700 flex justify-between">
