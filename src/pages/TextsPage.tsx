@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Link } from 'react-router-dom';
 import type { TextEntry } from '../types';
 import useSanitizeText from '../hooks/useSanitizeText';
 
@@ -90,8 +89,8 @@ const TextsPage: React.FC = () => {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Xhosa Texts</h1>
           <div className="flex items-center space-x-4">
             
-            <button
-              className="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+          <button
+              className="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 bg-white dark:bg-transparent transition-colors"
               onClick={() => setShowEnglishFirst(!showEnglishFirst)}
             >
               <span className={!showEnglishFirst ? 'text-indigo-600 dark:text-indigo-400 font-medium' : ''}>XH</span>

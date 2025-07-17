@@ -68,12 +68,11 @@ const CoursePage: React.FC<CoursePageProps> = () => {
   );
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 pt-16">
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="min-h-screen bg-white dark:bg-gray-900 pt-7">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{courseData.course_name}</h1>
-          <p className="text-gray-600 dark:text-gray-300">{courseData.part_name} • {courseData.lessons_covered}</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Xhosa Course</h1>
         </div>
 
         {/* Search and Filter */}
@@ -82,7 +81,7 @@ const CoursePage: React.FC<CoursePageProps> = () => {
             <input
               type="text"
               placeholder="Search lessons..."
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-800 dark:text-white"
+              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-800 bg-white dark:text-white text-black"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -108,7 +107,7 @@ const CoursePage: React.FC<CoursePageProps> = () => {
                     className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
                   >
                     <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
-                      Lesson {lessonNumber}: {lesson.lesson_title.replace(/\*\*/g, '')}
+                      {lesson.lesson_title.replace(/\*\*/g, '')}
                     </h3>
                     <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
                       {lesson.objective}

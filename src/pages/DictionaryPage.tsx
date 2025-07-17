@@ -126,10 +126,12 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   return (
     <div className={`min-h-screen w-full ${isDarkMode ? 'bg-gray-100 dark:bg-gray-900' : 'bg-gray-50'}`}>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="flex justify-between">
-            <h1 className="text-3xl font-bold mb-6">Xhosa Dictionary</h1>
+      <div className="flex justify-between items-center mb-8">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Xhosa Dictionary</h1>
+          <div className="flex items-center space-x-4">
+            
             <button
-              className="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              className="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 bg-white dark:bg-transparent transition-colors"
               onClick={() => setShowEnglishFirst(!showEnglishFirst)}
             >
               <span className={!showEnglishFirst ? 'text-indigo-600 dark:text-indigo-400 font-medium' : ''}>XH</span>
@@ -144,6 +146,7 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
               <span className={showEnglishFirst ? 'text-indigo-600 dark:text-indigo-400 font-medium' : ''}>EN</span>
             </button>
           </div>
+        </div>
           
           <div className="mb-6">
             
@@ -154,7 +157,7 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
               <input
                 type="text"
                 placeholder={`Search ${mode === 'dictionary' ? 'dictionary' : 'texts'}...`}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-800 dark:text-white"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
