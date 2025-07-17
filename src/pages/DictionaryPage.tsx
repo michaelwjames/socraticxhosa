@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import ModeSwitcher from '../components/ModeSwitcher';
 import DictionaryFilters from '../components/DictionaryFilters';
 import TextFilters from '../components/TextFilters';
 import useSanitizeText from '../hooks/useSanitizeText';
@@ -7,13 +6,14 @@ import type { DictionaryEntry, TextEntry, DictionaryPageProps } from '../types';
 
 const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   const sanitizeText = useSanitizeText();
-  const [mode, setMode] = useState<'dictionary' | 'texts'>('dictionary');
+  const [mode] = useState<'dictionary' | 'texts'>('dictionary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDeck, setSelectedDeck] = useState<string>('all');
   const [selectedText, setSelectedText] = useState<string>('all');
   const [dictionary, setDictionary] = useState<DictionaryEntry[]>([]);
-  const [texts, setTexts] = useState<TextEntry[]>([]);
+  const [texts] = useState<TextEntry[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [showEnglishFirst, setShowEnglishFirst] = useState(true);
   const entriesPerPage = 50;
 
   // Load data on mount
@@ -29,16 +29,7 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
         const dictData = await dictResponse.json();
         console.log('Dictionary data loaded:', dictData);
         setDictionary(dictData as DictionaryEntry[]);
-        
-        console.log('Loading texts data...');
-        const textsResponse = await fetch('/data/Xhosa_texts.json');
-        console.log('Texts response status:', textsResponse.status);
-        if (!textsResponse.ok) {
-          throw new Error(`Failed to load texts data: ${textsResponse.statusText}`);
-        }
-        const textsData = await textsResponse.json();
-        console.log('Texts data loaded:', textsData);
-        setTexts(textsData as TextEntry[]);
+      
       } catch (error) {
         console.error('Error loading data:', error);
       }
@@ -125,11 +116,6 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
     setCurrentPage(1);
   }, [searchTerm, selectedDeck, selectedText, mode]);
 
-  // Handle mode change
-  const handleModeChange = (newMode: 'dictionary' | 'texts') => {
-    setMode(newMode);
-    setSearchTerm('');
-  };
 
   // Handle filter changes
   useEffect(() => {
@@ -140,10 +126,27 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   return (
     <div className={`min-h-screen w-full ${isDarkMode ? 'bg-gray-100 dark:bg-gray-900' : 'bg-gray-50'}`}>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h1 className="text-3xl font-bold mb-6">Xhosa Dictionary</h1>
+          <div className="flex justify-between">
+            <h1 className="text-3xl font-bold mb-6">Xhosa Dictionary</h1>
+            <button
+              className="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              onClick={() => setShowEnglishFirst(!showEnglishFirst)}
+            >
+              <span className={!showEnglishFirst ? 'text-indigo-600 dark:text-indigo-400 font-medium' : ''}>XH</span>
+              <svg 
+                className="h-5 w-5 mx-1" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+              </svg>
+              <span className={showEnglishFirst ? 'text-indigo-600 dark:text-indigo-400 font-medium' : ''}>EN</span>
+            </button>
+          </div>
           
           <div className="mb-6">
-            <ModeSwitcher mode={mode} setMode={handleModeChange} />
+            
           </div>
           
           <div className="mb-8">
@@ -194,23 +197,55 @@ const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
                     className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700 h-full flex flex-col"
                   >
                     {/* Deck badge - now on its own line */}
-                    <div className="mb-2">
+                    <div className="flex items-center justify-between mb-2">
                       <span className="inline-block px-2 py-1 text-xs font-medium bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 rounded-full truncate max-w-full">
                         {entry.deck.split('::').pop()}
                       </span>
+                     
                     </div>
                     
                     {/* Main content */}
                     <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
-                        {entry.xh}
-                      </h3>
-                      <p className="text-gray-700 dark:text-gray-300">{entry.en}</p>
-                      {entry.en_context && (
-                        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 italic">
-                          {entry.en_context}
-                        </p>
+                      {showEnglishFirst ? (
+                        <>
+                          <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
+                            {entry.en}
+                            {entry.en_context && (
+                              <span className="text-sm text-gray-500 dark:text-gray-400 italic">
+                                &nbsp;/ {entry.en_context}
+                              </span>
+                            )}
+                          </h3>
+                          <p className="text-gray-700 dark:text-gray-300">
+                            {entry.xh}
+                            {entry.xh_context && (
+                              <span className="text-sm text-gray-500 dark:text-gray-400 italic">
+                                &nbsp;/ {entry.xh_context}
+                              </span>
+                            )}
+                          </p>
+                        </>
+                      ) : (
+                        <>
+                          <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-1">
+                            {entry.xh}
+                            {entry.xh_context && (
+                              <span className="text-sm text-gray-500 dark:text-gray-400 italic">
+                                &nbsp;/ {entry.xh_context}
+                              </span>
+                            )}
+                          </h3>
+                          <p className="text-gray-700 dark:text-gray-300">
+                            {entry.en}
+                            {entry.en_context && (
+                              <span className="text-sm text-gray-500 dark:text-gray-400 italic">
+                                &nbsp;/ {entry.en_context}
+                              </span>
+                            )}
+                          </p>
+                        </>
                       )}
+                     
                       {entry.tag && (
                         <span className="inline-block mt-2 px-2 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded">
                           {entry.tag}

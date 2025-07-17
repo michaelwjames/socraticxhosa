@@ -6,9 +6,17 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
     <nav className="flex justify-between items-center mb-6 p-4 bg-white dark:bg-gray-800 shadow-sm">
       <div className="flex items-center space-x 8">
         <Link to="/" className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-          Xhosa with Socrates
+          Socratic Xhosa
         </Link>
         <ul className="hidden md:flex space-x-6 ml-10">
+          <li>
+          <Link
+              to="/course"
+              className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+            >
+              Course
+            </Link>
+          </li>
           <li>
             <Link
               to="/"
@@ -19,10 +27,10 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
           </li>
           <li>
             <Link
-              to="/course"
+              to="/texts"
               className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
             >
-              Course
+              Texts
             </Link>
           </li>
         </ul>

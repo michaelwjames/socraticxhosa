@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import DictionaryPage from './pages/DictionaryPage';
 import CoursePage from './pages/CoursePage';
 import LessonPage from './pages/LessonPage';
+import TextsPage from './pages/TextsPage';
 
 function App() {
   // Dark mode state
@@ -36,10 +37,11 @@ function App() {
         <main className="flex-1 w-full">
           <div className="w-full">
             <Routes>
-            <Route path="/" element={<DictionaryPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
-            <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
-            <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="/" element={<DictionaryPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="/texts" element={<TextsPage />} />
+              <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           </div>
         </main>

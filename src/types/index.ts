@@ -3,10 +3,11 @@ export interface DictionaryEntry {
   id: string;
   deck: string;
   en: string;
-  en_context: string;
+  en_context?: string;
   xh: string;
-  xh_context: string;
+  xh_context?: string;
   tag: string;
+  showEnglishFirst?: boolean;
 }
 
 export interface TextEntry {
