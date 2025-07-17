@@ -1,5 +1,6 @@
 name = "deepxhosa"
 compatibility_date = "2025-07-17"
+main = "index.js"
 
 [build]
 command = "npm run build"
@@ -7,4 +8,3 @@ publish = "dist"
 
 [site]
 bucket = "./dist"
-entry-point = "public"
