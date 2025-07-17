@@ -259,11 +259,13 @@ const LessonPage: React.FC<LessonPageProps> = () => {
                 
                 {/* Teacher Dialogue */}
                 {currentTurnData?.teacher_dialogue && (
-                  <div className="prose dark:prose-invert max-w-none mb-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+                  <div className="prose dark:prose-invert max-w-none mb-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg text-gray-900 dark:text-gray-100">
                     <div className="font-medium text-gray-600 dark:text-gray-300 text-sm mb-1">Teacher:</div>
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                      {currentTurnData.teacher_dialogue}
-                    </ReactMarkdown>
+                    <div className="text-gray-900 dark:text-gray-100">
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {currentTurnData.teacher_dialogue}
+                      </ReactMarkdown>
+                    </div>
                   </div>
                 )}
                 
