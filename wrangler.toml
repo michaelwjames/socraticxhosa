@@ -1,0 +1,10 @@
+name = "deepxhosa"
+compatibility_date = "2025-07-17"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build"
+publish = "dist"
