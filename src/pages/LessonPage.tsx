@@ -45,17 +45,31 @@ const LessonPage: React.FC<LessonPageProps> = () => {
     const loadLesson = async () => {
       try {
         setLoading(true);
-        // Load the course data from the JSON file
-        const response = await fetch('/data/foundation_lessons.json');
-        if (!response.ok) {
-          throw new Error('Failed to load course data');
+        // Load Foundations (1–10) and Part 2 (11–25) and merge them
+        const [foundRes, part2Res] = await Promise.all([
+          fetch('/data/foundation_lessons.json'),
+          fetch('/data/part2_lessons_11_25.json')
+        ]);
+        if (!foundRes.ok) {
+          throw new Error('Failed to load Foundations');
         }
-        const data: CourseData = await response.json();
-        setCourseData(data);
+        if (!part2Res.ok) {
+          throw new Error('Failed to load Part 2');
+        }
+        const foundations: CourseData = await foundRes.json();
+        const part2: CourseData = await part2Res.json();
+
+        const combined: CourseData = {
+          course_name: foundations.course_name,
+          part_name: `${foundations.part_name} & ${part2.part_name}`,
+          lessons_covered: '1-25',
+          lessons: [...foundations.lessons, ...part2.lessons],
+        };
+        setCourseData(combined);
         
         // Validate lesson number
         const lessonNum = parseInt(lessonNumber, 10);
-        if (isNaN(lessonNum) || lessonNum < 1 || lessonNum > data.lessons.length) {
+        if (isNaN(lessonNum) || lessonNum < 1 || lessonNum > combined.lessons.length) {
           throw new Error('Invalid lesson number');
         }
       } catch (error) {

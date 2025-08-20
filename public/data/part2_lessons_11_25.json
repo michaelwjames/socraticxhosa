@@ -1,0 +1,494 @@
+{
+  "course_name": "isiXhosa with Socrates",
+  "part_name": "The Verb and Sentence Structure",
+  "lessons_covered": "11-25",
+  "lessons": [
+    {
+      "lesson_title": "**Lesson 11: The Verb – The Heart of the Sentence**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Reframing"
+      ],
+      "objective": "Introduce the core structure of the isiXhosa verb and form basic present tense sentences using the -ya- marker.",
+      "key_vocabulary": [
+        { "word": "-sebenza", "meaning": "to work (verb root)" },
+        { "word": "-funda", "meaning": "to read/study (verb root)" },
+        { "word": "-ya-", "meaning": "present/long present marker (slot between SC and root)" }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Weaving & Reframing)",
+          "teacher_dialogue": "In Part 1, we learned to say Ndifuna iti (I want tea). We focused on the ndi- for 'I' and the -funa for 'want'. Now, think of the verb as a machine with slots. The verb is the engine of the sentence.",
+          "justification": "Reframes the verb as a modular system, preparing the learner for infixes and slot order. Weaves with prior knowledge (Ndifuna)."
+        },
+        {
+          "turn_number": 2,
+          "section": "Deconstructing the Verb",
+          "teacher_dialogue": "Take -sebenza (work). To make a sentence we need WHO (ndi-), WHEN (-ya-), and WHAT (-sebenza). Put them together: ndi- + -ya- + -sebenza.",
+          "justification": "One Thought at a Time: breaks the verb into its core slots and invites active construction."
+        },
+        {
+          "turn_number": 3,
+          "section": "Student",
+          "student_dialogue": "Ndiyasebenza."
+        },
+        {
+          "turn_number": 4,
+          "section": "Practice",
+          "teacher_dialogue": "Good. How do you say 'You are working'?",
+          "justification": "Immediate practice with a different subject concord consolidates the pattern."
+        },
+        {
+          "turn_number": 5,
+          "section": "Student",
+          "student_dialogue": "Uyasebenza."
+        },
+        {
+          "turn_number": 6,
+          "section": "Apply to a new verb",
+          "teacher_dialogue": "Try with -funda (read/study). 'I am studying' and 'You are studying'?",
+          "justification": "Masked repetition with a new root strengthens the construction process over memorizing forms."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student",
+          "student_dialogue": "Ndiyafunda. Uyafunda."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 12: Noun Class Agreement with Verbs**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Increasing Language Consciousness"
+      ],
+      "objective": "Connect the noun class system to verb agreement by selecting the correct subject concord.",
+      "key_vocabulary": [
+        { "word": "umntu", "meaning": "person (Class 1)" },
+        { "word": "abantu", "meaning": "people (Class 2)" },
+        { "word": "imithi", "meaning": "trees (Class 4)" },
+        { "word": "u-", "meaning": "SC for Class 1 singular" },
+        { "word": "ba-", "meaning": "SC for Class 2 plural" },
+        { "word": "i-", "meaning": "SC for Class 4 plural" }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Weaving)",
+          "teacher_dialogue": "We can say Ndiyasebenza (I am working). What about 'The person is working'? Remember the noun 'umntu'? Its label (um-) tells the verb to use u-.",
+          "justification": "Weaves noun class knowledge (labels) into verb agreement; makes agreement a predictable system."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student",
+          "student_dialogue": "Umntu uyasebenza."
+        },
+        {
+          "turn_number": 3,
+          "section": "Plural agreement",
+          "teacher_dialogue": "What is 'people'? And which SC do we use?",
+          "justification": "Prompts retrieval of the class and its concord before production to guide thinking."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student",
+          "student_dialogue": "Abantu bayasebenza."
+        },
+        {
+          "turn_number": 5,
+          "section": "Another class",
+          "teacher_dialogue": "Try with imithi (trees). Agreement piece?",
+          "justification": "Extends the agreement pattern to another known class to raise language consciousness about systemic concords."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student",
+          "student_dialogue": "Imithi iyasebenza."
+        },
+        {
+          "turn_number": 7,
+          "section": "Introduce Class 5 briefly",
+          "teacher_dialogue": "One more: the Class 5 noun ilitye (stone) takes the SC li-. How do you say 'The stone is working' (unnatural but good for structure)?",
+          "justification": "Adds li- to the concord mapping as preview, reinforcing that each class signals its SC."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student",
+          "student_dialogue": "Ilitye liyasebenza."
+        },
+        {
+          "turn_number": 9,
+          "section": "Closing",
+          "teacher_dialogue": "Great. Agreement recap: umntu → u-, abantu → ba-, imithi → i-, ilitye → li-. The noun’s label cues the verb’s SC.",
+          "justification": "Summarizes concord mapping to increase language consciousness."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 13: The Object Concord – ‘I see you’**",
+      "thinking_method_focus": [
+        "Reframing",
+        "One Thought at a Time"
+      ],
+      "objective": "Introduce the object concord slot inside the verb and practice with ‘you’ and ‘me’.",
+      "key_vocabulary": [
+        { "word": "-bona", "meaning": "to see (verb root)" },
+        { "word": "-ku-", "meaning": "object concord for 'you'" },
+        { "word": "-ndi-", "meaning": "object concord for 'me'" }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing)",
+          "teacher_dialogue": "Our verb machine has another slot. In isiXhosa, the idea of 'you' can go inside the verb. This makes the verb powerful and compact.",
+          "justification": "Reframes object concords as efficiency rather than complication."
+        },
+        {
+          "turn_number": 2,
+          "section": "Introduce the slot order",
+          "teacher_dialogue": "With ukubona (root -bona), the order is: WHO (ndi-) + WHEN (-ya-) + OBJECT (-ku-) + WHAT (-bona). Put it together for 'I see you'.",
+          "justification": "One Thought at a Time: explicit slot order supports accurate construction."
+        },
+        {
+          "turn_number": 3,
+          "section": "Student",
+          "student_dialogue": "Ndiyakubona."
+        },
+        {
+          "turn_number": 4,
+          "section": "Practice plural subject",
+          "teacher_dialogue": "How do you say 'The people see you'?",
+          "justification": "Applies the new object slot with a different subject concord to reinforce placement."
+        },
+        {
+          "turn_number": 5,
+          "section": "Student",
+          "student_dialogue": "Abantu bayakubona."
+        },
+        {
+          "turn_number": 6,
+          "section": "Reverse roles",
+          "teacher_dialogue": "Now, 'You see me' using -ndi- as the object.",
+          "justification": "Role reversal cements understanding of object concord changes."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student",
+          "student_dialogue": "Uyandibona."
+        }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 14: The Past Tense (-ile)**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving"
+      ],
+      "objective": "Introduce the perfect past tense by changing final -a to -ile and typically dropping -ya-.",
+      "key_vocabulary": [
+        { "word": "-ile", "meaning": "perfect past suffix" },
+        { "word": "Ndisebenzile", "meaning": "I have worked" },
+        { "word": "basebenzile", "meaning": "they (people) have worked" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "To talk about what you have done, the -a at the end of the root becomes -ile, and we usually drop -ya-. -sebenza → -sebenzile.", "justification": "Single rule focus minimizes load; immediate example ties to known verb." },
+        { "turn_number": 2, "section": "Prompt", "teacher_dialogue": "Build it step by step: change final -a to -ile and usually drop -ya-. From -sebenza → -sebenzile. How do you say 'I have worked'?", "justification": "Guided construction." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndisebenzile." },
+        { "turn_number": 4, "section": "Prompt", "teacher_dialogue": "Now switch the subject: use Class 2 'people' (abantu → ba-) and keep the -ile ending. How do you say 'The people have worked'?", "justification": "Apply with plural subject for variation." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Abantu basebenzile." },
+        { "turn_number": 6, "section": "Extend", "teacher_dialogue": "Try with -funda (to study): 'I have studied'.",
+          "justification": "Applies the -ile rule to a new, known verb to mask repetition." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndifundile." },
+        { "turn_number": 8, "section": "Contrast (Negative Past)", "teacher_dialogue": "Now negate it with -anga: 'I have not studied'.",
+          "justification": "Previews negative past in context to prepare for Lesson 22 while consolidating -ile vs -anga." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Andifundanga." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 15: The Future Tense (-za-)**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving"
+      ],
+      "objective": "Introduce the future by replacing -ya- with -za- and using uku- before the verb root in connected forms.",
+      "key_vocabulary": [
+        { "word": "-za-", "meaning": "future marker" },
+        { "word": "uku-", "meaning": "infinitive prefix / linker before verb root" },
+        { "word": "Ndiza-ukusebenza", "meaning": "I will work" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Replace -ya- with -za-. With connected infinitives we add uku-: Ndi-za-ukusebenza.", "justification": "Aligns with existing slot model; small substitution reduces complexity." },
+        { "turn_number": 2, "section": "Prompt", "teacher_dialogue": "Follow the slots: WHO + -za- + uku- + ROOT. Replace -ya- with -za-. How do you say 'You will work'?" },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Uza-ukusebenza." },
+        { "turn_number": 4, "section": "Plural subject",
+          "teacher_dialogue": "How do you say 'The people will work'? Use ba- and -za-.",
+          "justification": "Extends the future pattern to Class 2 for concord practice." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Abantu baza-ukusebenza." },
+        { "turn_number": 6, "section": "New verb root",
+          "teacher_dialogue": "Form 'I will study' with -funda.",
+          "justification": "Masks repetition by switching roots while keeping the same slots." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiza-ukufunda." },
+        { "turn_number": 8, "section": "Build",
+          "teacher_dialogue": "Chain two verbs: WHO + -za- + uku- + -funa + uku- + -sebenza. Build 'You will want to work'.",
+          "justification": "Connects two verbs via the infinitive to consolidate the uku- linker in future forms." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Uza-ukufuna ukusebenza." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 16: Noun Class 7/8 (isi-/izi-)**",
+      "thinking_method_focus": [
+        "Managing Cognitive Load",
+        "Weaving"
+      ],
+      "objective": "Introduce Class 7/8 for things and languages, and practice agreement (si-/zi-).",
+      "key_vocabulary": [
+        { "word": "isihlalo", "meaning": "chair (Class 7)" },
+        { "word": "izihlalo", "meaning": "chairs (Class 8)" },
+        { "word": "si-", "meaning": "SC/AC for Class 7" },
+        { "word": "zi-", "meaning": "SC/AC for Class 8" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Class 7 uses isi-, plural Class 8 uses izi-. Agreements are si- and zi-.", "justification": "Presents pair together to highlight singular/plural mapping." },
+        { "turn_number": 2, "section": "Practice (verbs)", "teacher_dialogue": "Use the agreements: si- for isihlalo, zi- for izihlalo. Say 'The chair is working' and 'The chairs are working'." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Isihlalo siyasebenza. Izihlalo ziyasebenza." },
+        { "turn_number": 4, "section": "Practice (past)", "teacher_dialogue": "Switch to past with -ile on the verb: 'The chairs have worked (been used)'." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Izihlalo zisebenzile." },
+        { "turn_number": 6, "section": "Practice (objects)", "teacher_dialogue": "Use the object concord -si- for Class 7: 'I want it (the chair)'.",
+          "justification": "Previews the OC mapping for upcoming lessons while reinforcing class identity." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiyasifuna (isihlalo)." },
+        { "turn_number": 8, "section": "Closing", "teacher_dialogue": "isi-/izi- ↔ si-/zi- for both subjects and (later) objects. One label, consistent agreements.", "justification": "Increases language consciousness of cross-slot harmony." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 17: Weaving Tenses and Noun Classes**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Masking Repetition"
+      ],
+      "objective": "Consolidate all learned tenses across known noun classes via sentence-building.",
+      "key_vocabulary": [
+        { "word": "umthi", "meaning": "tree (Class 3)" },
+        { "word": "uza-ukusebenza", "meaning": "will work (future)" },
+        { "word": "zifune", "meaning": "they wanted (Class 8 past short form)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Prompt (future)", "teacher_dialogue": "Use the future marker -za- and the Class 3 subject (umthi). How would you say: 'The tree will work'?", "justification": "Retrieval of future marker + Class 3 SC." },
+        { "turn_number": 2, "section": "Student", "student_dialogue": "Umthi uza-ukusebenza." },
+        { "turn_number": 3, "section": "Prompt (past)", "teacher_dialogue": "'The chairs have wanted tea' (figurative). Use the correct subject concord zi- and the verb root -funa.", "justification": "Combines Class 8 agreement with past form of -funa." },
+        { "turn_number": 4, "section": "Student", "student_dialogue": "Izihlalo zifune iti." },
+        { "turn_number": 5, "section": "Prompt (present)", "teacher_dialogue": "'The people are studying'. Use ba- + -ya- + -funda.", "justification": "Weaves Class 2 (ba-) with -funda in present (-ya-)." },
+        { "turn_number": 6, "section": "Student", "student_dialogue": "Abantu bayafunda." },
+        { "turn_number": 7, "section": "Prompt (correction)", "teacher_dialogue": "Learner says 'Imithi ziyafunda'. Which agreement is correct for imithi?",
+          "justification": "Elicits self-correction to strengthen mapping imithi → i-." },
+        { "turn_number": 8, "section": "Student (repair)", "student_dialogue": "Imithi iyafunda." },
+        { "turn_number": 9, "section": "Closing", "teacher_dialogue": "We’ve woven future, past, and present across Classes 2, 3, and 8. Same slots, different labels.", "justification": "Consolidates cross-class, cross-tense patterns." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 18: Possessives (Part 2)**",
+      "thinking_method_focus": [
+        "Increasing Language Consciousness",
+        "Weaving"
+      ],
+      "objective": "Show how possessive concords agree with each noun class.",
+      "key_vocabulary": [
+        { "word": "iti yam", "meaning": "my tea (Class 5/9 style possessive y-)" },
+        { "word": "umntu wam", "meaning": "my person (Class 1 possessive w-)" },
+        { "word": "isihlalo sam", "meaning": "my chair (Class 7 possessive s-)" },
+        { "word": "imithi yam", "meaning": "my trees (Class 4 possessive y-)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Each noun class has a possessive concord, often echoing the SC. Examples: iti yam (y-), umntu wam (w-), isihlalo sam (s-), imithi yam (y-). Think of it as a new set of puzzle pieces that fit together.", "justification": "Highlights systematic mapping to deepen awareness of agreement networks." },
+        { "turn_number": 2, "section": "Prompt (Class 1)", "teacher_dialogue": "Use the Class 1 possessive concord w- with -am/-akho: say 'my person' and 'your person'. Remember to use the correct subject concord umntu.", "justification": "Applies possessive stems to a known class to reduce cognitive load." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Umntu wam. Umntu wakho." },
+        { "turn_number": 4, "section": "Prompt (Class 7)", "teacher_dialogue": "Use Class 7 possessive s-: 'my chair' and 'your chair'. Think of it as adding a new layer to our verb puzzle.", "justification": "Applies possessive concord to a known class." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Isihlalo sam. Isihlalo sakho." },
+        { "turn_number": 6, "section": "Prompt (Class 4 plural)", "teacher_dialogue": "Use Class 4 possessive y-: 'my trees'. Remember to use the correct subject concord imithi.", "justification": "Applies possessive concord to a known class." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Imithi yam." },
+        { "turn_number": 8, "section": "Weave (sentence)", "teacher_dialogue": "Combine with an adjective you know: 'My person is big'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Weaves possessive + predicate adjective using familiar -khulu." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Umntu wam mkhulu." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 19: The Infinitive (uku-)**",
+      "thinking_method_focus": [
+        "Reframing",
+        "One Thought at a Time"
+      ],
+      "objective": "Introduce the infinitive as both 'to VERB' and a Class 15 noun (actions).",
+      "key_vocabulary": [
+        { "word": "uku-", "meaning": "infinitive prefix / Noun Class 15" },
+        { "word": "ukusebenza", "meaning": "to work / the act of working" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "-sebenza is the root. The full infinitive is ukusebenza. As Class 15, it also behaves like a noun meaning 'the act of working'. Think of it as a new puzzle piece that fits into our existing slot model.", "justification": "Reframes the infinitive as dual-purpose, simplifying later constructions." },
+        { "turn_number": 2, "section": "Recall", "teacher_dialogue": "Spot the uku- in these: ukutya, ukufunda, ukusebenza. Think of it as a new layer to our verb puzzle.", "justification": "Raises awareness of the prefix across familiar verbs." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "All begin with uku-." },
+        { "turn_number": 4, "section": "Weave (from L4)", "teacher_dialogue": "Say 'I want to eat bread' using the infinitive (L4 recall). Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Connects the noun-like infinitive to earlier want + verb patterns." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndifuna ukutya isonka." },
+        { "turn_number": 6, "section": "Concept check", "teacher_dialogue": "Is 'ukusebenza' a verb or a noun?",
+          "justification": "Elicits the dual role explicitly to solidify reframing." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Both: 'to work' and 'the act of working'." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 20: Using Infinitives**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Masking Repetition"
+      ],
+      "objective": "Form complex sentences that connect verbs, like 'I want to work'.",
+      "key_vocabulary": [
+        { "word": "Ndifuna", "meaning": "I want" },
+        { "word": "ukusebenza", "meaning": "to work" },
+        { "word": "Ndiza-ukufuna", "meaning": "I will want" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Build", "teacher_dialogue": "How do you say 'I want to work'? Then: 'I will want to work'? Think of it as adding more pieces to our verb puzzle.", "justification": "Applies the infinitive within previously learned future construction for integrated practice." },
+        { "turn_number": 2, "section": "Student", "student_dialogue": "Ndifuna ukusebenza. Ndiza-ukufuna ukusebenza." },
+        { "turn_number": 3, "section": "Subject change", "teacher_dialogue": "Switch subject to 'you' (u-) and keep the infinitive: 'You want to study'. Remember to use the correct subject concord u-.", "justification": "Varies subject and verb to strengthen slot usage." },
+        { "turn_number": 4, "section": "Student", "student_dialogue": "Ufuna ukufunda." },
+        { "turn_number": 5, "section": "Future + object", "teacher_dialogue": "Use Class 2 ba- with future -za- and the linker uku-: 'The people will want to work'. Think of it as adding more pieces to our verb puzzle.", "justification": "Combines Class 2 SC with future + infinitive." },
+        { "turn_number": 6, "section": "Student", "student_dialogue": "Abantu baza-ukufuna ukusebenza." },
+        { "turn_number": 7, "section": "Weave OC (preview)", "teacher_dialogue": "Use -si- to say 'I want it (the chair)'. Think of it as adding a new layer to our verb puzzle.",
+          "justification": "Keeps OC practice active while building verb chains." },
+        { "turn_number": 8, "section": "Student", "student_dialogue": "Ndiyasifuna (isihlalo)." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 21: Noun Class 9/10 (iN-/iiN-)**",
+      "thinking_method_focus": [
+        "Managing Cognitive Load",
+        "Weaving"
+      ],
+      "objective": "Introduce the large iN-/iiN- class (often animals/objects) and agreements i-/zi-.",
+      "key_vocabulary": [
+        { "word": "inja", "meaning": "dog (Class 9)" },
+        { "word": "izinja", "meaning": "dogs (Class 10)" },
+        { "word": "i-", "meaning": "SC for Class 9" },
+        { "word": "zi-", "meaning": "SC for Class 10" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Class 9/10 uses iN-/iiN-. Agreements are i- (sg) and zi- (pl). Think of it as a new set of puzzle pieces that fit together.", "justification": "States the mapping explicitly to reduce errors." },
+        { "turn_number": 2, "section": "Practice (present)", "teacher_dialogue": "Remember i- for singular and zi- for plural: say 'The dog is working' and 'The dogs are working'. Use the correct subject concords i- and zi-.", "justification": "Pairs singular/plural to cement agreement mapping." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Inja iyasebenza. Izinja ziyasebenza." },
+        { "turn_number": 4, "section": "Practice (past)", "teacher_dialogue": "Switch to past with -ile on the verb: 'The dogs have worked'. Use the correct subject concord zi- and the verb root -sebenza.", "justification": "Applies past tense to a known verb." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Izinja zisebenzile." },
+        { "turn_number": 6, "section": "Weave (object)", "teacher_dialogue": "Use -zi- to say 'I see them (the dogs)'. Think of it as adding a new layer to our verb puzzle.",
+          "justification": "Connects subject and object systems for Class 10." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiyazibona (izinja)." },
+        { "turn_number": 8, "section": "Closing", "teacher_dialogue": "i-/zi- across subjects and objects keeps the system predictable. Think of it as a new set of puzzle pieces that fit together.", "justification": "Reinforces harmony across slots." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 22: Negative of Past and Future Tenses**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving"
+      ],
+      "objective": "Apply the negative construction to past (-anga) and future (andu/andizu- ku-).",
+      "key_vocabulary": [
+        { "word": "-anga", "meaning": "negative past ending" },
+        { "word": "Andisebenzanga", "meaning": "I have not worked" },
+        { "word": "Andizu-kusebenza", "meaning": "I will not work" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Past: use SC + -a- and the short verb with -anga (Ndisebenzile → Andisebenzanga). Future: Andizu-kusebenza (I will not work). Think of it as adding a new layer to our verb puzzle.", "justification": "Keeps each tense’s negative as a small, memorable pattern linked to known positives." },
+        { "turn_number": 2, "section": "Practice (past)", "teacher_dialogue": "Make 'I have not studied' from Ndifundile. Use the correct subject concord ndi- and the verb root -funda.", "justification": "Applies -anga to a familiar past form." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Andifundanga." },
+        { "turn_number": 4, "section": "Practice (Class 2 past)", "teacher_dialogue": "Use the negative pattern a- + ba- … -anga: say 'The people have not wanted'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Brings in Class 2 negative past using a-ba- … -anga from the plan." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Abantu abafunanga." },
+        { "turn_number": 6, "section": "Practice (future)", "teacher_dialogue": "Say 'I will not work'. Use the correct subject concord ndi- and the verb root -sebenza.", "justification": "Reinforces future negative form introduced in the plan." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Andizu-kusebenza." },
+        { "turn_number": 8, "section": "Transform",
+          "teacher_dialogue": "Turn 'Ndiza-ukufunda' into its negative. Think of it as adding a new layer to our verb puzzle.",
+          "justification": "Encourages pattern transfer to another root in the same tense." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Andizu-kufunda." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 23: Object Concords (Part 2)**",
+      "thinking_method_focus": [
+        "Increasing Language Consciousness",
+        "Weaving"
+      ],
+      "objective": "Show how object concords align with noun classes (e.g., -si- for Class 7, -zi- for Class 10).",
+      "key_vocabulary": [
+        { "word": "-si-", "meaning": "object concord for Class 7" },
+        { "word": "-zi-", "meaning": "object concord for Class 8/10" },
+        { "word": "Ndiyasifuna", "meaning": "I want it (the chair)" },
+        { "word": "Ndiyazibona", "meaning": "I see them (the dogs)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "Every noun class has an object concord. For Class 7 it's -si-, for Class 10 it's -zi-. Think of it as a new set of puzzle pieces that fit together.", "justification": "Connects subject and object concord systems to illuminate harmony across slots." },
+        { "turn_number": 2, "section": "Practice", "teacher_dialogue": "Build: 'I want it (the chair)' and 'I see them (the dogs)'. Use the correct object concords -si- and -zi-.", "justification": "Applies object concords to known noun classes." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndiyasifuna (isihlalo). Ndiyazibona (izinja)." },
+        { "turn_number": 4, "section": "Reverse roles",
+          "teacher_dialogue": "Add a Class 2 subject (ba-) and keep the Class 10 object (-zi- before -bona): make 'The people see them (the dogs)'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Adds Class 2 subject with Class 10 object for cross-mapping practice." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Abantu bayazibona (izinja)." },
+        { "turn_number": 6, "section": "Chain with tense",
+          "teacher_dialogue": "Follow the slots for the future: ndi- + -za- + uku- + -zi- + -bona → say 'I will see them (the dogs)'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Integrates OC with future tense from Lesson 15." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiza-ukuzibona (izinja)." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 24: The Absolute Pronoun**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Weaving"
+      ],
+      "objective": "Introduce full pronouns for emphasis and show interaction with verb forms.",
+      "key_vocabulary": [
+        { "word": "mna", "meaning": "I (absolute pronoun, emphatic)" },
+        { "word": "wena", "meaning": "you (absolute pronoun, emphatic)" },
+        { "word": "yena", "meaning": "he/she (absolute pronoun, emphatic)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Explain", "teacher_dialogue": "We use absolute pronouns for emphasis: Mna, ndiyasebenza. For 'the person', Yena umntu, uyasebenza. Think of it as adding a new layer to our verb puzzle.", "justification": "Reframes pronouns as discourse tools, not replacements for SCs." },
+        { "turn_number": 2, "section": "Practice (you)", "teacher_dialogue": "Produce an emphatic sentence for 'you'. Use the correct absolute pronoun wena.", "justification": "Applies absolute pronoun to a known subject." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Wena, uyafunda." },
+        { "turn_number": 4, "section": "Practice (I)", "teacher_dialogue": "Say: 'As for me, I want to work'. Use the correct absolute pronoun mna.",
+          "justification": "Weaves absolute pronoun with verb chain from Lesson 20." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Mna, ndifuna ukusebenza." },
+        { "turn_number": 6, "section": "Practice (he/she)", "teacher_dialogue": "'As for the person, he is working'. Use the correct absolute pronoun yena.",
+          "justification": "Brings in 'yena' with a noun referent and present tense." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Yena umntu, uyasebenza." },
+        { "turn_number": 8, "section": "Closing", "teacher_dialogue": "Absolute pronouns add emphasis; SCs still carry agreement inside the verb. Think of it as a new set of puzzle pieces that fit together.", "justification": "Clarifies roles to avoid overusing absolute pronouns." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 25: Part 2 Review & Consolidation**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Masking Repetition"
+      ],
+      "objective": "Weave lessons 11–24 into complex sentence building and transformation tasks.",
+      "key_vocabulary": [
+        { "word": "Andizu-kuzibona izihlalo", "meaning": "I will not see the chairs (as for me)" },
+        { "word": "Abantu abafunanga ukufunda", "meaning": "The people have not wanted to study" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Build", "teacher_dialogue": "As for me, I will not see the chairs. Use mna for emphasis, then build the future negative: andizu- + ku- + -zi- + -bona. Think of it as adding more pieces to our verb puzzle.", "justification": "Integrates future negative with object concords and noun classes." },
+        { "turn_number": 2, "section": "Student", "student_dialogue": "Mna, andizu-kuzibona izihlalo." },
+        { "turn_number": 3, "section": "Build", "teacher_dialogue": "Recall the negative past pattern a- + ba- … -anga with the root -funa, plus the infinitive 'to study' (ukufunda): 'The people have not wanted to study'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Combines Class 2 subject, negative past, and infinitive object." },
+        { "turn_number": 4, "section": "Student", "student_dialogue": "Abantu abafunanga ukufunda." },
+        { "turn_number": 5, "section": "Transform",
+          "teacher_dialogue": "Switch present to past with -ile and drop -ya-: change 'Abantu bayafunda' to past. Think of it as adding a new layer to our verb puzzle.",
+          "justification": "Switch tense on a known sentence to exercise -ile." },
+        { "turn_number": 6, "section": "Student", "student_dialogue": "Abantu basebenzile/ bafundile." },
+        { "turn_number": 7, "section": "Weave",
+          "teacher_dialogue": "Combine Class 7 subject (si-) with future -za- and the OC -si- before -bona: make 'The chair will work and I will see it'. Think of it as adding more pieces to our verb puzzle.",
+          "justification": "Combines Class 7 subject, future, and OC -si-." },
+        { "turn_number": 8, "section": "Student", "student_dialogue": "Isihlalo siza-ukusebenza kwaye ndiza-ukusibona." },
+        { "turn_number": 9, "section": "Closing", "teacher_dialogue": "You can now combine classes, tenses, objects, and emphasis by applying the same slot logic.", "justification": "Summarizes integrated mastery for Part 2." }
+      ]
+    }
+  ]
+}
