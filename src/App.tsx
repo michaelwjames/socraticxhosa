@@ -5,6 +5,7 @@ import DictionaryPage from './pages/DictionaryPage';
 import CoursePage from './pages/CoursePage';
 import LessonPage from './pages/LessonPage';
 import TextsPage from './pages/TextsPage';
+import LessonPracticePage from './pages/LessonPracticePage';
 
 function App() {
   // Dark mode state
@@ -41,6 +42,7 @@ function App() {
               <Route path="/texts" element={<TextsPage />} />
               <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="/lesson/:lessonNumber/practice" element={<LessonPracticePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           </div>

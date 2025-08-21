@@ -25,18 +25,29 @@ interface CourseData {
   lessons: Lesson[];
 }
 
+interface Section {
+  part_name: string;
+  lessons: Lesson[];
+  startIndex: number; // zero-based index in global list
+}
+
 const CoursePage: React.FC<CoursePageProps> = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [courseData, setCourseData] = useState<CourseData | null>(null);
+  const [sections, setSections] = useState<Section[]>([]);
 
   useEffect(() => {
     const loadLessons = async () => {
       try {
-        // Load Foundations (1–10) and Part 2 (11–25), then combine into a single list
-        const [foundRes, part2Res] = await Promise.all([
+        // Load Foundations (1–10), Part 2 (11–25), Part 3 (26–30), Part 3 (31–35), Part 4 (36–40), Part 4 (41–45), and Part 4 (46–50), then combine
+        const [foundRes, part2Res, part3Res, part3bRes, part4Res, part4bRes, part4cRes] = await Promise.all([
           fetch('/data/foundation_lessons.json'),
-          fetch('/data/part2_lessons_11_25.json')
+          fetch('/data/part2_lessons_11_25.json'),
+          fetch('/data/part3_lessons_26_30.json'),
+          fetch('/data/part3_lessons_31_35.json'),
+          fetch('/data/part4_lessons_36_40.json'),
+          fetch('/data/part4_lessons_41_45.json'),
+          fetch('/data/part4_lessons_46_50.json')
         ]);
         if (!foundRes.ok) {
           throw new Error('Failed to load Foundations');
@@ -44,17 +55,40 @@ const CoursePage: React.FC<CoursePageProps> = () => {
         if (!part2Res.ok) {
           throw new Error('Failed to load Part 2');
         }
+        if (!part3Res.ok) {
+          throw new Error('Failed to load Part 3');
+        }
+        if (!part3bRes.ok) {
+          throw new Error('Failed to load Part 3 (31–35)');
+        }
+        if (!part4Res.ok) {
+          throw new Error('Failed to load Part 4 (36–40)');
+        }
+        if (!part4bRes.ok) {
+          throw new Error('Failed to load Part 4 (41–45)');
+        }
+        if (!part4cRes.ok) {
+          throw new Error('Failed to load Part 4 (46–50)');
+        }
         const foundations: CourseData = await foundRes.json();
         const part2: CourseData = await part2Res.json();
+        const part3: CourseData = await part3Res.json();
+        const part3b: CourseData = await part3bRes.json();
+        const part4: CourseData = await part4Res.json();
+        const part4b: CourseData = await part4bRes.json();
+        const part4c: CourseData = await part4cRes.json();
 
-        const combined: CourseData = {
-          course_name: foundations.course_name,
-          part_name: `${foundations.part_name} & ${part2.part_name}`,
-          lessons_covered: '1-25',
-          lessons: [...foundations.lessons, ...part2.lessons],
-        };
+        const sectionsComputed: Section[] = [
+          { part_name: foundations.part_name, lessons: foundations.lessons, startIndex: 0 },
+          { part_name: part2.part_name, lessons: part2.lessons, startIndex: foundations.lessons.length },
+          { part_name: part3.part_name, lessons: part3.lessons, startIndex: foundations.lessons.length + part2.lessons.length },
+          { part_name: part3b.part_name, lessons: part3b.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length },
+          { part_name: part4.part_name, lessons: part4.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length },
+          { part_name: part4b.part_name, lessons: part4b.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length + part4.lessons.length },
+          { part_name: part4c.part_name, lessons: part4c.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length + part4.lessons.length + part4b.lessons.length },
+        ];
 
-        setCourseData(combined);
+        setSections(sectionsComputed);
       } catch (error) {
         console.error('Error loading lessons:', error);
       } finally {
@@ -65,7 +99,7 @@ const CoursePage: React.FC<CoursePageProps> = () => {
     loadLessons();
   }, []);
 
-  if (loading || !courseData) {
+  if (loading) {
     return (
       <div className="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-500"></div>
@@ -73,14 +107,15 @@ const CoursePage: React.FC<CoursePageProps> = () => {
     );
   }
 
-  // Filter lessons based on search term
-  const filteredLessons = courseData.lessons.filter(lesson => 
-    lesson.lesson_title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    lesson.objective.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    lesson.thinking_method_focus.some(focus => 
-      focus.toLowerCase().includes(searchTerm.toLowerCase())
+  // Filter lessons per section based on search term
+  const filteredSections = sections.map(section => ({
+    ...section,
+    lessons: section.lessons.filter(lesson =>
+      lesson.lesson_title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      lesson.objective.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      lesson.thinking_method_focus.some(focus => focus.toLowerCase().includes(searchTerm.toLowerCase()))
     )
-  );
+  })).filter(section => section.lessons.length > 0);
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 pt-7">
@@ -108,40 +143,42 @@ const CoursePage: React.FC<CoursePageProps> = () => {
           </div>
         </div>
 
-        {/* Lessons List */}
+        {/* Lessons List grouped by Part */}
         <div className="space-y-10">
-          <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{courseData.part_name}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredLessons.map((lesson, index) => {
-                const lessonNumber = index + 1;
-                return (
-                  <Link
-                    key={lessonNumber}
-                    to={`/lesson/${lessonNumber}`}
-                    className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
-                  >
-                    <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
-                      {lesson.lesson_title.replace(/\*\*/g, '')}
-                    </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
-                      {lesson.objective}
-                    </p>
-                    {lesson.key_vocabulary && lesson.key_vocabulary.length > 0 && (
-                      <div className="mt-3">
-                        <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
-                          Key Vocabulary:
-                        </p>
-                        <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
-                          {lesson.key_vocabulary.map(v => v.word).join(', ')}
-                        </p>
-                      </div>
-                    )}
-                  </Link>
-                );
-              })}
+          {filteredSections.map(section => (
+            <div key={section.part_name} className="space-y-4">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{section.part_name}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {section.lessons.map((lesson, idx) => {
+                  const lessonNumber = section.startIndex + idx + 1;
+                  return (
+                    <Link
+                      key={lessonNumber}
+                      to={`/lesson/${lessonNumber}`}
+                      className="block p-6 bg-white dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition-shadow duration-200 border border-gray-200 dark:border-gray-700"
+                    >
+                      <h3 className="text-lg font-semibold text-indigo-600 dark:text-indigo-400 mb-2">
+                        {lesson.lesson_title.replace(/\*\*/g, '')}
+                      </h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-300 mb-3 line-clamp-2">
+                        {lesson.objective}
+                      </p>
+                      {lesson.key_vocabulary && lesson.key_vocabulary.length > 0 && (
+                        <div className="mt-3">
+                          <p className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">
+                            Key Vocabulary:
+                          </p>
+                          <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+                            {lesson.key_vocabulary.map(v => v.word).join(', ')}
+                          </p>
+                        </div>
+                      )}
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
