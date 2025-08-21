@@ -89,6 +89,11 @@
           "teacher_dialogue": "Well done. You've just made the three main click sounds in isiXhosa. We have **'c'** (like tsk-tsk), **'x'** (for the horses), and **'q'** (the popping cork). We'll practice these as we go, so **don't worry about them being perfect yet**. You've already started (uqalile).",
           "justification": "This summarises the key learning points and explicitly **cues the learner that initial perfection is not the goal**, which is vital for **managing cognitive load** and encouraging relaxed, natural acquisition over time. It reinforces that continuous practice will occur through **masked repetition** in subsequent lessons. By using a previously learned word ('uqalile'), it also subtly weaves in early vocabulary, showing immediate application."
         }
+      ],
+      "practice": [
+        { "prompt": "How would you say 'side' in isiXhosa?", "answer": "Cala." },
+        { "prompt": "How would you say 'criticise' in isiXhosa?", "answer": "Gxeka." },
+        { "prompt": "How would you say 'start' in isiXhosa?", "answer": "Qala." }
       ]
     },
     {
@@ -181,6 +186,13 @@
           "justification": "This summarizes the key takeaways and explicitly **cues the learner not to memorize**, building trust that the method will ensure retention through repeated application. It reinforces the core idea of construction over rote learning, which is central to the Thinking Method."
         }
       ]
+      ,
+      "practice": [
+        { "prompt": "How would you say 'I am big' in isiXhosa?", "answer": "Ndikhulu." },
+        { "prompt": "How would you say 'I am small' in isiXhosa?", "answer": "Ndincinci." },
+        { "prompt": "How would you say 'You are big' in isiXhosa?", "answer": "Umkhulu." },
+        { "prompt": "How would you say 'You are small' in isiXhosa?", "answer": "Umncinci." }
+      ]
     },
     {
       "lesson_title": "**Lesson 3: The Noun Class System - A Gentle Introduction**",
@@ -264,6 +276,11 @@
           "teacher_dialogue": "Perfect! **Umfundi mkhulu** means 'The student is big'. You've just learned the core logic of the entire noun class system. It's not about memorizing genders; it's about matching the prefix of the noun with the prefix of the word describing it. We'll meet more of these noun 'labels' as we go.",
           "justification": "The closing statement reinforces the central **reframe** of the lesson—agreement, not gender. It **cues** the learner that this is a foundational principle that will be built upon, solidifying their understanding and setting expectations for future lessons."
         }
+      ],
+      "practice": [
+        { "prompt": "How would you say 'The person is big' in isiXhosa?", "answer": "Umntu mkhulu." },
+        { "prompt": "How would you say 'The people are big' in isiXhosa?", "answer": "Abantu bakhulu." },
+        { "prompt": "How would you say 'The student is big' in isiXhosa?", "answer": "Umfundi mkhulu." }
       ]
     },
     {
@@ -354,6 +371,12 @@
           "teacher_dialogue": "Not quite. It would be **Ndifuna ukutya isonka**. But we'll learn more about that later. For now, you've learned something amazing - you can now form action sentences! You can take a subject piece like **ndi-** and a verb root like **-funa** or **-tya** and combine them to say what you want or what you're doing.",
           "justification": "The closing celebrates the learner's progress while gently correcting a common mistake. It reinforces the modular system of building sentences while hinting at future learning (the infinitive prefix 'uku-')."
         }
+      ],
+      "practice": [
+        { "prompt": "How would you say 'I want' in isiXhosa?", "answer": "Ndifuna." },
+        { "prompt": "How would you say 'I want tea' in isiXhosa?", "answer": "Ndifuna iti." },
+        { "prompt": "How would you say 'You want tea' in isiXhosa?", "answer": "Ufuna iti." },
+        { "prompt": "How would you say 'I want to eat bread' in isiXhosa?", "answer": "Ndifuna ukutya isonka." }
       ]
     },
     {
@@ -451,6 +474,13 @@
           "teacher_dialogue": "**Akwazi**. Aku + -azi = Akwazi. You will notice that when two vowels meet, they merge to become one — and Xhosa likes finding a good consonant that approximates the sound of the merged vowels. We're genuinely done with this lesson now!",
           "justification": ""
         }
+      ],
+      "practice": [
+        { "prompt": "How would you say 'I don't want' in isiXhosa?", "answer": "Andifuni." },
+        { "prompt": "How would you say 'You don't want' in isiXhosa?", "answer": "Akufuni." },
+        { "prompt": "How would you say 'I know' in isiXhosa?", "answer": "Ndazi." },
+        { "prompt": "How would you say 'I don't know' in isiXhosa?", "answer": "Andazi." },
+        { "prompt": "How would you say 'You don't know' in isiXhosa?", "answer": "Akwazi." }
       ]
     },
     {
@@ -482,65 +512,70 @@
         }
       ],
       "turns": [
-        {
-          "turn_number": 1,
-          "section": "Opening & Weaving",
-          "teacher_dialogue": "In Lesson 3, we began to uncover IsiXhosa's noun class system, seeing how **umntu** (person) and **abantu** (people) use their prefixes **um-** and **aba-** to 'agree' with other words like **mkhulu** (big). We also recently learned how to express what we **want** (**Ndifuna**) and what we **don't want** (**Andifuni**). Today, we're going to meet another 'category label' for nouns, specifically for non-human things.",
-          "justification": "This turn **weaves** directly from Lesson 3 (noun classes), Lesson 4 (verb `-funa`), and Lesson 5 (negation), creating a smooth transition. It **reframes** noun classes as 'category labels' or an 'agreement system' rather than arbitrary genders, which helps in **managing cognitive load**."
-        },
-        {
-          "turn_number": 2,
-          "section": "Introducing Noun Class 3 ('um-')",
-          "teacher_dialogue": "Just as **umntu** has **um-** as its label, there's another class that uses **um-** for singular non-human things. For example, the word for 'tree' is **umthi**. Notice that familiar **um-** at the beginning, but this time it's for a single tree, not a person. Just like with **umntu**, this **um-** label tells the verb what to do. The agreement piece for **umthi** is still **u-**.",
-          "justification": "This step introduces `umthi` as **one thought at a time**. It **weaves** by drawing a direct comparison to `umntu` from Lesson 3, leveraging existing knowledge. It **reframes** the usage of `um-` to increase **language consciousness** about the system's flexibility (for both human and non-human singulars)."
-        },
-        {
-          "turn_number": 3,
-          "section": "Practicing with Class 3 ('um-')",
-          "teacher_dialogue": "Now, let's use our verb, **-funa** (to want). If a tree 'wants' something, like water, how would you say 'The tree wants'? Remember, the subject concord for **umthi** is **u-**, and for present tense verbs like **-funa**, we just attach it.",
-          "justification": "This provides immediate **practice** by combining the new noun class with the previously learned verb `-funa` from Lesson 4, solidifying the agreement pattern through active construction. This also serves as **masked repetition** of the verb."
-        },
-        {
-          "turn_number": 4,
-          "section": "Student Dialogue",
-          "student_dialogue": "Umthi ufuna?"
-        },
-        {
-          "turn_number": 5,
-          "section": "Introducing Noun Class 4 ('imi-')",
-          "teacher_dialogue": "Excellent, **Umthi ufuna**. Now, what if there are many trees? The plural of **umthi** is **imithi**. The label for this group is **imi-**. And this **imi-** label tells the describing words and verbs to use **i-** as their agreement piece. So for 'the trees', the subject concord is **i-**.",
-          "justification": "This introduces `imithi` as **one thought at a time**, presenting it as the logical plural counterpart to `umthi`. It explicitly states the new concord (`i-`), reinforcing the predictable nature of the noun class system."
-        },
-        {
-          "turn_number": 6,
-          "section": "Practicing with Class 4 ('imi-')",
-          "teacher_dialogue": "So, how would you say 'The trees want'?",
-          "justification": "This provides immediate **practice** with the new plural form and its corresponding concord, directly applying the established agreement logic."
-        },
-        {
-          "turn_number": 7,
-          "section": "Student Dialogue",
-          "student_dialogue": "Imithi ifuna?"
-        },
-        {
-          "turn_number": 8,
-          "section": "Practice and Consolidation (Weaving the Negative)",
-          "teacher_dialogue": "Perfect, **Imithi ifuna**. You're now applying the agreement rule to a whole new set of objects! Let's weave in something from Lesson 5. Remember how **Andifuni** (I don't want) and **Akufuni** (You don't want) showed that the negative **a-** prefix merges with the subject concord (like **u-** merging to **aku-**)? Now, how would you say 'The tree doesn't want tea'?",
-          "justification": "This is a **strong weave** that combines the new noun class (Lesson 6) with the verb (`-funa` from Lesson 4) and the negative construction (Lesson 5). By explicitly reminding the learner about the `a-u` merger, it effectively **cues** them and guides their thinking. This active integration of multiple concepts helps **manage cognitive load** and **increase language consciousness** about IsiXhosa's systematic morphology."
-        },
-        {
-          "turn_number": 9,
-          "section": "Student Dialogue",
-          "student_dialogue": "Umthi akufuni iti?"
-        },
-        {
-          "turn_number": 10,
-          "section": "Closing & Reinforcement",
-          "teacher_dialogue": "Excellent! **Umthi akufuni iti**. You've now systematically added two more 'labels' to your IsiXhosa toolkit, Class 3 (**um-**) and Class 4 (**imi-**), and seen how their agreement pieces (**u-** and **i-**) predictably work with verbs and even the negative form. This consistent agreement system is the key to building many sentences, and we'll keep building on this logic!",
-          "justification": "The closing statement **consolidates** the new noun classes and their concords. It **reinforces** the predictability and systematic nature of the agreement system, further **increasing language consciousness** and empowering the learner by highlighting the 'key' to sentence building. It also sets expectations for future lessons."
-        }
-      ]
+    {
+      "turn_number": 1,
+      "section": "Opening & Weaving",
+      "teacher_dialogue": "In Lesson 3, we began to uncover isiXhosa's noun class system, seeing how **umntu** (person) and **abantu** (people) use their prefixes **um-** and **aba-** to 'agree' with other words like **mkhulu** (big). We also recently learned how to express what we **want** (**Ndifuna**) and what we **don't want** (**Andifuni**). Today, we're going to meet another 'category label' for nouns, specifically for non-human things.",
+      "justification": "This turn **weaves** directly from Lesson 3 (noun classes), Lesson 4 (verb `-funa`), and Lesson 5 (negation), creating a smooth transition. It **reframes** noun classes as 'category labels' or an 'agreement system' rather than arbitrary genders, which helps in **managing cognitive load**."
     },
+    {
+      "turn_number": 2,
+      "section": "Introducing Noun Class 3 ('um-')",
+      "teacher_dialogue": "Just as **umntu** has **um-** as its label, there's another class that uses **um-** for singular non-human things. For example, the word for 'tree' is **umthi**. Notice that familiar **um-** at the beginning, but this time it's for a single tree, not a person. Just like with **umntu**, this **um-** label tells the verb what to do. The agreement piece for **umthi** is still **u-**.",
+      "justification": "This step introduces `umthi` as **one thought at a time**. It **weaves** by drawing a direct comparison to `umntu` from Lesson 3, leveraging existing knowledge. It **reframes** the usage of `um-` to increase **language consciousness** about the system's flexibility (for both human and non-human singulars)."
+    },
+    {
+      "turn_number": 3,
+      "section": "Practicing with Class 3 ('um-')",
+      "teacher_dialogue": "Now, let's use our verb, **-funa** (to want). If a tree 'wants' something, like water, how would you say 'The tree wants'? Remember, the subject concord for **umthi** is **u-**, and for present tense verbs like **-funa**, we just attach it.",
+      "justification": "This provides immediate **practice** by combining the new noun class with the previously learned verb `-funa` from Lesson 4, solidifying the agreement pattern through active construction. This also serves as **masked repetition** of the verb."
+    },
+    {
+      "turn_number": 4,
+      "section": "Student Dialogue",
+      "student_dialogue": "Umthi ufuna?"
+    },
+    {
+      "turn_number": 5,
+      "section": "Introducing Noun Class 4 ('imi-')",
+      "teacher_dialogue": "Excellent, **Umthi ufuna**. Now, what if there are many trees? The plural of **umthi** is **imithi**. The label for this group is **imi-**. And this **imi-** label tells the describing words and verbs to use **i-** as their agreement piece. So for 'the trees', the subject concord is **i-**.",
+      "justification": "This introduces `imithi` as **one thought at a time**, presenting it as the logical plural counterpart to `umthi`. It explicitly states the new concord (`i-`), reinforcing the predictable nature of the noun class system."
+    },
+    {
+      "turn_number": 6,
+      "section": "Practicing with Class 4 ('imi-')",
+      "teacher_dialogue": "So, how would you say 'The trees want'?",
+      "justification": "This provides immediate **practice** with the new plural form and its corresponding concord, directly applying the established agreement logic."
+    },
+    {
+      "turn_number": 7,
+      "section": "Student Dialogue",
+      "student_dialogue": "Imithi ifuna?"
+    },
+    {
+      "turn_number": 8,
+      "section": "Practice and Consolidation (Weaving the Negative)",
+      "teacher_dialogue": "Perfect, **Imithi ifuna**. You're now applying the agreement rule to a whole new set of objects! Let's weave in something from Lesson 5. Remember how **Andifuni** (I don't want) and **Akufuni** (You don't want) showed that the negative **a-** prefix merges with the subject concord (like **u-** merging to **aku-**)? Now, how would you say 'The tree doesn't want tea'?",
+      "justification": "This is a **strong weave** that combines the new noun class (Lesson 6) with the verb (`-funa` from Lesson 4) and the negative construction (Lesson 5). By explicitly reminding the learner about the `a-u` merger, it effectively **cues** them and guides their thinking. This active integration of multiple concepts helps **manage cognitive load** and **increase language consciousness** about isiXhosa's systematic morphology."
+    },
+    {
+      "turn_number": 9,
+      "section": "Student Dialogue",
+      "student_dialogue": "Umthi akufuni iti?"
+    },
+    {
+      "turn_number": 10,
+      "section": "Closing & Reinforcement",
+      "teacher_dialogue": "Excellent! **Umthi akufuni iti**. You've now systematically added two more 'labels' to your isiXhosa toolkit, Class 3 (**um-**) and Class 4 (**imi-**), and seen how their agreement pieces (**u-** and **i-**) predictably work with verbs and even the negative form. This consistent agreement system is the key to building many sentences, and we'll keep building on this logic!",
+      "justification": "The closing statement **consolidates** the new noun classes and their concords. It **reinforces** the predictability and systematic nature of the agreement system, further **increasing language consciousness** and empowering the learner by highlighting the 'key' to sentence building. It also sets expectations for future lessons."
+    }
+  ],
+  "practice": [
+    { "prompt": "How would you say 'The tree wants' in isiXhosa?", "answer": "Umthi ufuna." },
+    { "prompt": "How would you say 'The trees want' in isiXhosa?", "answer": "Imithi ifuna." },
+    { "prompt": "How would you say 'The tree doesn't want tea' in isiXhosa?", "answer": "Umthi akufuni iti." }
+  ]
+},
 {
   "lesson_title": "**Lesson 7: Possessives (-am and -akho)**",
   "thinking_method_focus": [
@@ -573,8 +608,8 @@
     {
       "turn_number": 1,
       "section": "Opening & Weaving",
-      "teacher_dialogue": "We've learned how to say what you want or don't want, and we've explored different categories of nouns like people and trees. Now, what if you want to say that something belongs to you? In English, we just add 'my' or 'your' as separate words, like 'my tea'. IsiXhosa does it a bit differently, by attaching the idea of 'my' or 'your' directly to the noun, much like the noun class labels we've seen.",
-      "justification": "This turn **weaves** from previous lessons on verbs and noun classes, creating a natural progression. It **reframes** possession as an attachment to the noun rather than a separate word, aligning with IsiXhosa's agglutinative nature."
+      "teacher_dialogue": "We've learned how to say what you want or don't want, and we've explored different categories of nouns like people and trees. Now, what if you want to say that something belongs to you? In English, we just add 'my' or 'your' as separate words, like 'my tea'. isiXhosa does it a bit differently, by attaching the idea of 'my' or 'your' directly to the noun, much like the noun class labels we've seen.",
+      "justification": "This turn **weaves** from previous lessons on verbs and noun classes, creating a natural progression. It **reframes** possession as an attachment to the noun rather than a separate word, aligning with isiXhosa's agglutinative nature."
     },
     {
       "turn_number": 2,
@@ -612,149 +647,274 @@
     {
       "turn_number": 8,
       "section": "Closing & Reinforcement",
-      "teacher_dialogue": "Exactly! **umntu wam**. You've now seen how 'my' and 'your' adapt their forms based on the noun they describe. This idea of the noun 'telling' other words what to do is the core of IsiXhosa's systematic agreement system, and you're mastering how it works! We'll continue to see this predictable pattern as we encounter more noun classes.",
+      "teacher_dialogue": "Exactly! **umntu wam**. You've now seen how 'my' and 'your' adapt their forms based on the noun they describe. This idea of the noun 'telling' other words what to do is the core of isiXhosa's systematic agreement system, and you're mastering how it works! We'll continue to see this predictable pattern as we encounter more noun classes.",
       "justification": "The closing statement **reinforces** the central principle of grammatical agreement and highlights its systematic nature, thereby **increasing language consciousness**. It cues the learner that this foundational understanding will continue to be built upon."
+    },
+    {
+      "turn_number": 9,
+      "section": "Bonus Practice",
+      "teacher_dialogue": "Before we move on, how would you say 'my trees'? Think of the plural **imithi** and the possessive piece it uses.",
+      "justification": "Adds one more application across number, reinforcing that possessives take their agreement from the noun class. This is **masked repetition** with a small twist to increase generalisation."
+    },
+    {
+      "turn_number": 10,
+      "section": "Student Dialogue",
+      "student_dialogue": "imithi yam?"
     }
+  ],
+  "practice": [
+    { "prompt": "How would you say 'my tea' in isiXhosa?", "answer": "iti yam." },
+    { "prompt": "How would you say 'your tea' in isiXhosa?", "answer": "iti yakho." },
+    { "prompt": "How would you say 'my person' in isiXhosa?", "answer": "umntu wam." },
+    { "prompt": "How would you say 'my trees' in isiXhosa?", "answer": "imithi yam." }
   ]
 },
+{
+  "lesson_title": "**Lesson 8: The Long Present Tense (`-ya-`)**",
+  "thinking_method_focus": [
+    "Reframing",
+    "Masking Repetition",
+    "Weaving"
+  ],
+  "objective": "To introduce the long present tense marker `-ya-` and understand its function for emphasis or when a verb ends a sentence.",
+  "key_vocabulary": [
     {
-      "lesson_title": "**Lesson 8: The Long Present Tense (`-ya-`)**",
-      "thinking_method_focus": [
-        "Reframing",
-        "Masking Repetition",
-        "Weaving"
-      ],
-      "objective": "To introduce the long present tense marker `-ya-` and understand its function for emphasis or when a verb ends a sentence.",
-      "key_vocabulary": [
-        {
-          "word": "-ya-",
-          "meaning": "Long present tense infix"
-        },
-        {
-          "word": "-ya",
-          "meaning": "to go (verb root)"
-        }
-      ],
-      "turns": [
-        {
-          "turn_number": 1,
-          "section": "Opening & Reframing",
-          "teacher_dialogue": "Sometimes when you listen to isiXhosa, you might hear an extra sound inside the verb. For example, instead of just **Ndifuna**, you might hear **Ndiyafuna**. This extra **-ya-** doesn't change the meaning much. Think of it as a way to add emphasis, like saying 'I *do* want!', or as a placeholder when the verb is the last word in the sentence.",
-          "justification": "This **reframes** the long present tense not as a complicated new tense, but as a simple tool for emphasis or sentence flow. This is much less intimidating and helps manage cognitive load."
-        },
-        {
-          "turn_number": 2,
-          "section": "Practice",
-          "teacher_dialogue": "This **-ya-** goes in the 'tense' slot, right after the subject piece. So, **ndi-** + **-ya-** + **-funa**. **Ndiyafuna**. How would you say 'You are wanting' (emphatic)?",
-          "justification": "This explicitly places the new infix into the 'verb machine' model the learner is familiar with, making its position logical and predictable."
-        },
-        {
-          "turn_number": 3,
-          "section": "Weaving with a New Verb",
-          "teacher_dialogue": "Perfect. **Uyafuna**. Now let's learn a new verb that sounds similar: the root for 'to go' is also **-ya**. How would you say 'I am going'?",
-          "justification": "This introduces a new verb that is phonetically identical to the new infix, which is a potential point of confusion. By addressing it directly and having the learner construct the sentence (`Ndi-ya-ya` -> `Ndiya**ya**`), we tackle the ambiguity head-on and turn it into a memorable learning moment."
-        },
-        {
-          "turn_number": 4,
-          "section": "Closing",
-          "teacher_dialogue": "Well done. You've learned that **-ya-** can be added to a verb for emphasis. You can say **Ndifuna iti**, or for more emphasis, **Ndiyafuna iti**. And you also learned the verb 'to go', **-ya**. So **Ndiya**ya means 'I am going'.",
-          "justification": "The closing clarifies the two distinct uses of `ya` seen in the lesson, ensuring the learner understands the difference between the infix and the verb root. This reinforces the importance of context and position in isiXhosa."
-        }
-      ]
+      "word": "-ya-",
+      "meaning": "Long present tense infix"
     },
     {
-      "lesson_title": "**Lesson 9: Noun Class 5/6 (`ili-`/`ama-`)**",
-      "thinking_method_focus": [
-        "Weaving",
-        "Masking Repetition"
-      ],
-      "objective": "To introduce Noun Class 5/6 and practice its agreements with known structures.",
-      "key_vocabulary": [
-        {
-          "word": "ilitye",
-          "meaning": "stone (Class 5)"
-        },
-        {
-          "word": "amatye",
-          "meaning": "stones (Class 6)"
-        },
-        {
-          "word": "izulu",
-          "meaning": "sky/heaven/weather (Class 5)"
-        }
-      ],
-      "turns": [
-        {
-          "turn_number": 1,
-          "section": "Opening",
-          "teacher_dialogue": "Let's learn another important noun category. Class 5 often starts with **ili-**. The word for 'stone' is **ilitye**. The plural is Class 6, which uses the prefix **ama-**. So 'stones' is **amatye**.",
-          "justification": "This follows the established pattern of introducing noun classes by their singular and plural prefixes, providing a consistent and predictable structure for the learner."
-        },
-        {
-          "turn_number": 2,
-          "section": "Practicing Agreement",
-          "teacher_dialogue": "Now for the agreement. The concord for **ilitye** is **li-**. The concord for **amatye** is **a-**. Let's use a verb we know. How do you say 'The stone is working' (e.g., as a tool)?",
-          "justification": "The lesson immediately moves to applying the new concords to a known verb (`-sebenza`), which is a form of **masked repetition** that reinforces the verb structure while practicing the new noun class."
-        },
-        {
-          "turn_number": 3,
-          "section": "Weaving with Negation and Possessives",
-          "teacher_dialogue": "Excellent. **Ilitye liyasebenza**. Now, how would you say 'The stones do not want my tea'? Let's break it down. 'The stones' (`amatye`) 'do not want' (`a-a-fun-i` -> `awafuni`) 'my tea' (`iti yam`).",
-          "justification": "This turn intentionally creates a complex sentence that **weaves** together multiple concepts: the new noun class, negation, and possessives. By guiding them to build it 'piece by piece', it demonstrates their ability to handle sophisticated sentences and consolidates a wide range of previous lessons."
-        },
-        {
-          "turn_number": 4,
-          "section": "Expanding Vocabulary",
-          "teacher_dialogue": "Another useful word in this class is **izulu**, which can mean 'sky', 'heaven', or 'weather'. Its concord is **li-**. How would you say 'I know the weather'?",
-          "justification": "Introducing a high-frequency, slightly abstract noun expands the learner's vocabulary and shows the versatility of the noun class beyond simple concrete objects."
-        }
-      ]
-    },
-    {
-      "lesson_title": "**Lesson 10: Part 1 Review & Consolidation**",
-      "thinking_method_focus": [
-        "Weaving",
-        "Increasing Language Consciousness"
-      ],
-      "objective": "To consolidate all concepts from Part 1 by constructing complex sentences, proving the power of the learned framework.",
-      "key_vocabulary": [
-        {
-          "word": "-lala",
-          "meaning": "to sleep (verb root)"
-        }
-      ],
-      "turns": [
-        {
-          "turn_number": 1,
-          "section": "Opening",
-          "teacher_dialogue": "This lesson has no new information. We are simply going to use the tools you have collected in the first nine lessons to build some interesting sentences. This is to show you that you haven't been memorizing phrases, but building a system.",
-          "justification": "This explicitly states the lesson's purpose, which is to build confidence and demonstrate the effectiveness of the method. It cues the learner that they have all the necessary components and just need to assemble them."
-        },
-        {
-          "turn_number": 2,
-          "section": "Sentence Building 1 (Noun Classes & Verbs)",
-          "teacher_dialogue": "Let's build. How would you say: 'The student wants the trees'?",
-          "justification": "This first sentence requires the learner to **weave** knowledge of two different noun classes (Class 1 and Class 4) and the simple verb structure. It's a direct test of the core agreement system."
-        },
-        {
-          "turn_number": 3,
-          "section": "Sentence Building 2 (Negation & Possessives)",
-          "teacher_dialogue": "Excellent. **Umfundi ufuna imithi**. Now, a bit more complex: 'My people do not know your work'. Take your time and build it piece by piece.",
-          "justification": "This sentence adds more layers, forcing the recall of possessives for two different noun classes (`abantu bam`, `umsebenzi wakho`) and the negative verb form. Guiding them to build it 'piece by piece' reinforces the core problem-solving technique."
-        },
-        {
-          "turn_number": 4,
-          "section": "Sentence Building 3 (Clicks & Long Present)",
-          "teacher_dialogue": "Very good. **Abantu bam abawazi umsebenzi wakho**. Last one. Let's use a click word. How would you say 'I am starting now'? Remember 'start' from Lesson 1.",
-          "justification": "This final sentence **weaves** back to the very first lesson, creating a satisfying sense of closure. It uses the long present tense (`-ya-`) because the verb ends the sentence, reinforcing a more subtle rule from Lesson 8 and demonstrating a comprehensive command of the foundational concepts."
-        },
-        {
-          "turn_number": 5,
-          "section": "Closing",
-          "teacher_dialogue": "Well done. You have successfully built complex sentences by combining a few simple rules. This is the foundation for everything we will do next. You have the system. Now, in Part 2, we will add more parts to your verb machine.",
-          "justification": "This closing statement reinforces the learner's achievement and **increases their language consciousness** by summarizing the 'system' they have learned. It provides a clear and motivating transition into the next part of the course."
-        }
-      ]
+      "word": "-ya",
+      "meaning": "to go (verb root)"
     }
+  ],
+  "turns": [
+    {
+      "turn_number": 1,
+      "section": "Opening & Reframing",
+      "teacher_dialogue": "Sometimes when you listen to isiXhosa, you might hear an extra sound inside the verb. For example, instead of just **Ndifuna**, you might hear **Ndiyafuna**. This extra **-ya-** doesn't change the meaning much. Think of it as a way to add emphasis, like saying 'I *do* want!', or as a placeholder when the verb is the last word in the sentence.",
+      "justification": "This **reframes** the long present not as a new tense but as a simple tool for emphasis or sentence flow, which **manages cognitive load**."
+    },
+    {
+      "turn_number": 2,
+      "section": "Practice",
+      "teacher_dialogue": "This **-ya-** goes in the 'tense' slot, right after the subject piece. So, **ndi-** + **-ya-** + **-funa** → **Ndiyafuna**. How would you say 'You are wanting' (emphatic)?",
+      "justification": "Places **-ya-** into the familiar 'verb machine', making its position logical and predictable."
+    },
+    {
+      "turn_number": 3,
+      "section": "Student Dialogue",
+      "student_dialogue": "Uyafuna?"
+    },
+    {
+      "turn_number": 4,
+      "section": "Weaving with a New Verb",
+      "teacher_dialogue": "Great. Now let's learn a new verb that sounds similar: the root for 'to go' is also **-ya**. How would you say 'I am going'? Hint: **ndi-** + **-ya-** + **-ya**.",
+      "justification": "Addresses the potential confusion between the infix and the root by having the learner build **Ndi-ya-ya → Ndiyaya**, a memorable moment of **language consciousness**."
+    },
+    {
+      "turn_number": 5,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ndiyaya?"
+    },
+    {
+      "turn_number": 6,
+      "section": "Practice",
+      "teacher_dialogue": "Exactly. How would you say 'You are going'?",
+      "justification": "Short **masked repetition** with the same pattern to strengthen recall."
+    },
+    {
+      "turn_number": 7,
+      "section": "Student Dialogue",
+      "student_dialogue": "Uyaya?"
+    },
+    {
+      "turn_number": 8,
+      "section": "Weaving Back to a Known Verb",
+      "teacher_dialogue": "Use **-ya-** with a verb you know: **-tya** ('to eat'). How do you say 'I am eating bread'? The word for bread is **isonka**.",
+      "justification": "Weaves back to earlier vocabulary and shows **-ya-** with another verb, consolidating placement with a useful sentence."
+    },
+    {
+      "turn_number": 9,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ndiyatya isonka?"
+    },
+    {
+      "turn_number": 10,
+      "section": "Closing",
+      "teacher_dialogue": "Well done. You've seen **-ya-** used for emphasis and when a verb ends a sentence. You can now say **Ndiyafuna**, **Uyafuna**, **Ndiyaya**, **Uyaya**, and **Ndiyatya isonka**. The key is its position right after the subject piece.",
+      "justification": "Summarises placement and contrasts uses of **-ya-** (infix) with **-ya** (root), reinforcing **position-based meaning**."
+    }
+  ],
+  "practice": [
+    { "prompt": "How would you say 'You are wanting' (emphatic) in isiXhosa?", "answer": "Uyafuna." },
+    { "prompt": "How would you say 'I am going' in isiXhosa?", "answer": "Ndiyaya." },
+    { "prompt": "How would you say 'You are going' in isiXhosa?", "answer": "Uyaya." },
+    { "prompt": "How would you say 'I am eating bread' in isiXhosa?", "answer": "Ndiyatya isonka." }
   ]
+},
+{
+  "lesson_title": "**Lesson 9: Noun Class 5/6 (`ili-`/`ama-`)**",
+  "thinking_method_focus": [
+    "Weaving",
+    "Masking Repetition"
+  ],
+  "objective": "To introduce Noun Class 5/6 and practice its agreements with known structures.",
+  "key_vocabulary": [
+    {
+      "word": "ilitye",
+      "meaning": "stone (Class 5)"
+    },
+    {
+      "word": "amatye",
+      "meaning": "stones (Class 6)"
+    },
+    {
+      "word": "izulu",
+      "meaning": "sky/heaven/weather (Class 5)"
+    }
+  ],
+  "turns": [
+    {
+      "turn_number": 1,
+      "section": "Opening",
+      "teacher_dialogue": "Let's learn another important noun category. Class 5 often starts with **ili-**. The word for 'stone' is **ilitye**. The plural is Class 6, which uses the prefix **ama-**. So 'stones' is **amatye**.",
+      "justification": "Introduces singular/plural pair in a predictable way to **manage cognitive load**."
+    },
+    {
+      "turn_number": 2,
+      "section": "Practicing Agreement",
+      "teacher_dialogue": "Now for the agreement. The concord for **ilitye** is **li-**. Let's use a verb we know. How do you say 'The stone is working'?",
+      "justification": "Applies a known verb (**-sebenza**) to the new concord for **masked repetition**."
+    },
+    {
+      "turn_number": 3,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ilitye liyasebenza?"
+    },
+    {
+      "turn_number": 4,
+      "section": "Plural Practice",
+      "teacher_dialogue": "Good. Now try the plural. The concord for **amatye** is **a-**. How would you say 'The stones are working'?",
+      "justification": "Moves from singular to plural with the paired concord to **weave** the system together."
+    },
+    {
+      "turn_number": 5,
+      "section": "Student Dialogue",
+      "student_dialogue": "Amatye ayasebenza?"
+    },
+    {
+      "turn_number": 6,
+      "section": "Weaving with Negation and Possessives",
+      "teacher_dialogue": "Excellent. Now, how would you say 'The stones do not want my tea'? Break it down: **amatye** + 'do not want' (**awafuni**) + **iti yam**.",
+      "justification": "Guided construction that **weaves** the new class with earlier negation and possessives."
+    },
+    {
+      "turn_number": 7,
+      "section": "Student Dialogue",
+      "student_dialogue": "Amatye awafuni iti yam?"
+    },
+    {
+      "turn_number": 8,
+      "section": "Expanding Vocabulary",
+      "teacher_dialogue": "Another useful word in this class is **izulu**, which can mean 'sky', 'heaven', or 'weather'. Its concord is **li-**. How would you say 'I know the weather'? Hint: **Ndiyazi** + **izulu**.",
+      "justification": "Adds a high-frequency noun and reuses **Ndiyazi** to reinforce earlier learning through **masked repetition**."
+    },
+    {
+      "turn_number": 9,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ndiyazi izulu?"
+    },
+    {
+      "turn_number": 10,
+      "section": "Closing",
+      "teacher_dialogue": "Great work. You've matched **ili-** with **li-** and **ama-** with **a-** in verbs and even in the negative. The same logic will keep working as we meet more nouns.",
+      "justification": "Summarises the agreement mapping and highlights the predictable, system-wide logic to **increase language consciousness**."
+    }
+  ],
+  "practice": [
+    { "prompt": "How would you say 'The stone is working' in isiXhosa?", "answer": "Ilitye liyasebenza." },
+    { "prompt": "How would you say 'The stones are working' in isiXhosa?", "answer": "Amatye ayasebenza." },
+    { "prompt": "How would you say 'The stones do not want my tea' in isiXhosa?", "answer": "Amatye awafuni iti yam." },
+    { "prompt": "How would you say 'I know the weather' in isiXhosa?", "answer": "Ndiyazi izulu." }
+  ]
+},
+{
+  "lesson_title": "**Lesson 10: Part 1 Review & Consolidation**",
+  "thinking_method_focus": [
+    "Weaving",
+    "Increasing Language Consciousness"
+  ],
+  "objective": "To consolidate all concepts from Part 1 by constructing complex sentences, proving the power of the learned framework.",
+  "key_vocabulary": [
+    {
+      "word": "-lala",
+      "meaning": "to sleep (verb root)"
+    }
+  ],
+  "turns": [
+    {
+      "turn_number": 1,
+      "section": "Opening",
+      "teacher_dialogue": "This lesson has no new information. We are simply going to use the tools you have collected in the first nine lessons to build some interesting sentences. This is to show you that you haven't been memorizing phrases, but building a system.",
+      "justification": "States the purpose clearly to build confidence and cue assembly of known parts."
+    },
+    {
+      "turn_number": 2,
+      "section": "Sentence Building 1 (Noun Classes & Verbs)",
+      "teacher_dialogue": "Let's build. How would you say: 'The student wants the trees'?",
+      "justification": "Requires **weaving** Class 1 and Class 4 with a simple verb, testing core agreement."
+    },
+    {
+      "turn_number": 3,
+      "section": "Student Dialogue",
+      "student_dialogue": "Umfundi ufuna imithi?"
+    },
+    {
+      "turn_number": 4,
+      "section": "Sentence Building 2 (Negation & Possessives)",
+      "teacher_dialogue": "Good. Now: 'My people do not know your work'. Build it piece by piece.",
+      "justification": "Combines possessives across two classes and the negative verb form; encourages deliberate construction."
+    },
+    {
+      "turn_number": 5,
+      "section": "Student Dialogue",
+      "student_dialogue": "Abantu bam abawazi umsebenzi wakho?"
+    },
+    {
+      "turn_number": 6,
+      "section": "Sentence Building 3 (Clicks & Long Present)",
+      "teacher_dialogue": "Last one. Use a click word from Lesson 1. How would you say 'I am starting now'? Hint: **ndi-** + **-ya-** + **-qala**.",
+      "justification": "Weaves back to Lesson 1 and Lesson 8, showing long present placement with a click verb to **increase language consciousness**."
+    },
+    {
+      "turn_number": 7,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ndiyaqala?"
+    },
+    {
+      "turn_number": 8,
+      "section": "Review Challenge",
+      "teacher_dialogue": "Bonus: say 'The stone does not want my tea'. Use Class 5 (**ilitye**) and the negative.",
+      "justification": "Integrates Class 5 with the negative pattern for a final system-wide check (agreement + negation + object)."
+    },
+    {
+      "turn_number": 9,
+      "section": "Student Dialogue",
+      "student_dialogue": "Ilitye alifuni iti yam?"
+    },
+    {
+      "turn_number": 10,
+      "section": "Closing",
+      "teacher_dialogue": "Well done. You built sentences by combining a few simple rules: noun class agreement, verb building, and the negative. This is the foundation for everything next. You have the system. In Part 2, we add more parts to your verb machine.",
+      "justification": "Summarises the 'system' learned to **increase language consciousness** and motivate transition to the next part."
+    }
+  ],
+  "practice": [
+    { "prompt": "How would you say 'The student wants the trees' in isiXhosa?", "answer": "Umfundi ufuna imithi." },
+    { "prompt": "How would you say 'My people do not know your work' in isiXhosa?", "answer": "Abantu bam abawazi umsebenzi wakho." },
+    { "prompt": "How would you say 'I am starting now' in isiXhosa?", "answer": "Ndiyaqala." },
+    { "prompt": "How would you say 'The stone does not want my tea' in isiXhosa?", "answer": "Ilitye alifuni iti yam." }
+  ]
+}
+]
 }

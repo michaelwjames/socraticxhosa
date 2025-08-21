@@ -1,0 +1,146 @@
+{
+  "course_name": "isiXhosa with Socrates",
+  "part_name": "Part 4: Advanced Concords, Moods, and Tenses",
+  "lessons_covered": "36-40",
+  "lessons": [
+    {
+      "lesson_title": "**Lesson 36: True Adjectives vs. Relatives**",
+      "thinking_method_focus": [
+        "One Thought at a Time",
+        "Weaving"
+      ],
+      "objective": "Differentiate the small set of true adjectival stems (-hle, -dala, -tsha) from the more common relative construction (e.g., umntu omuhle vs. umntu osebenzayo).",
+      "key_vocabulary": [
+        { "word": "-hle", "meaning": "beautiful/good" },
+        { "word": "-dala", "meaning": "old" },
+        { "word": "-tsha", "meaning": "new" },
+        { "word": "umntu omuhle", "meaning": "a beautiful person" },
+        { "word": "abantu abadala", "meaning": "old people" },
+        { "word": "umntu osebenzayo", "meaning": "a person who is working (relative)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Weaving & Reframing)", "teacher_dialogue": "In Lesson 27 we used relatives like 'umntu osebenzayo'. isiXhosa also has a small, special group of true adjectives for basic ideas like 'beautiful', 'old', and 'new'.", "justification": "Connects to prior relative clauses while reframing adjectives as a small, manageable set." },
+        { "turn_number": 2, "section": "Stems and concords", "teacher_dialogue": "Stems: -hle, -dala, -tsha. They take an adjectival prefix matching the noun. For umntu (Class 1), it's om-: 'umntu omuhle'.", "justification": "One thought at a time: stem vs. concord; uses a familiar noun class." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "umntu omuhle." },
+        { "turn_number": 4, "section": "Plural practice", "teacher_dialogue": "For abantu (Class 2), it's aba-. Say 'old people'.", "justification": "Weaves plural agreement to strengthen concord mapping." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "abantu abadala." },
+        { "turn_number": 6, "section": "Contrast with relative", "teacher_dialogue": "Contrast: 'umntu omdala' (an old person) vs. 'umntu osebenzayo' (a person who is working).", "justification": "Highlights two tools for description without overloading rules." },
+        { "turn_number": 7, "section": "Another class", "teacher_dialogue": "isihlalo (chair, Class 7) uses esi-. Say 'a new chair'.", "justification": "Extends to a different class to generalize the pattern." },
+        { "turn_number": 8, "section": "Student", "student_dialogue": "isihlalo esitsha." },
+        { "turn_number": 9, "section": "Sentence build", "teacher_dialogue": "Say: 'I like the beautiful chair' → 'Ndiyathanda isihlalo esihle'.", "justification": "Integrates adjective agreement into a full sentence for practical use." },
+        { "turn_number": 10, "section": "Student", "student_dialogue": "Ndiyathanda isihlalo esihle." },
+        { "turn_number": 11, "section": "Weave relative again", "teacher_dialogue": "Say: 'I see the person who is working' → 'Ndiyambona umntu osebenzayo'.", "justification": "Weaves relatives to prevent forgetting and to compare forms in context." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Use true adjectives for core qualities (-hle, -dala, -tsha) with adjectival concords; use relatives for verbal descriptions.", "justification": "Summarizes the division of labor between adjectives and relatives." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 37: Demonstratives — This, That, and That Yonder**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Managing Cognitive Load"
+      ],
+      "objective": "Construct the three positional demonstratives using Position 1 (la- + SC), Position 2 (+-o), and Position 3 (+-ya), e.g., le ndlu, leyo ndlu, leya ndlu.",
+      "key_vocabulary": [
+        { "word": "le ndlu", "meaning": "this house (Position 1)" },
+        { "word": "leyo ndlu", "meaning": "that house (nearby, Position 2)" },
+        { "word": "leya ndlu", "meaning": "that house yonder (Position 3)" },
+        { "word": "lo mntu", "meaning": "this person (Position 1)" },
+        { "word": "lowo mntu", "meaning": "that person (Position 2)" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "English has 'this/that'. isiXhosa gives three positions for precision: right here, nearby, and far away.", "justification": "Values the system as precise rather than complex to boost motivation." },
+        { "turn_number": 2, "section": "Build Position 1", "teacher_dialogue": "Position 1 uses la- + the noun's SC. indlu (i-) → le. 'this house' = 'le ndlu'.", "justification": "Builds from known SC knowledge to reduce memorization." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "le ndlu." },
+        { "turn_number": 4, "section": "Another noun P1", "teacher_dialogue": "umntu (u-) → lo. 'this person' = 'lo mntu'.", "justification": "Shows the same process with a different noun class." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "lo mntu." },
+        { "turn_number": 6, "section": "Build Position 2", "teacher_dialogue": "Add -o to P1 to get 'that (nearby)'. le → leyo; lo → lowo.", "justification": "A single transformation reduces cognitive load across classes." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "leyo ndlu; lowo mntu." },
+        { "turn_number": 8, "section": "Build Position 3", "teacher_dialogue": "Add -ya to P1 to get 'that (yonder)'. le → leya (leya ndlu).", "justification": "Keeps a simple, repeatable rule." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "leya ndlu." },
+        { "turn_number": 10, "section": "Sentence use", "teacher_dialogue": "Say: 'This house is new' → 'Le ndlu intsha'. Then: 'That house (nearby) is old' → 'Leyo ndlu indala'.", "justification": "Integrates adjectives from Lesson 36 to weave knowledge." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Le ndlu intsha. Leyo ndlu indala." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "P1 builds from SC; P2 adds -o; P3 adds -ya. Use with any class using the same process.", "justification": "Summarizes the construction logic for future generalization." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 38: The Potential Mood — 'Can/May' (-nga-)**",
+      "thinking_method_focus": [
+        "Importing Knowledge",
+        "Weaving"
+      ],
+      "objective": "Express ability/permission using the infix -nga- after the subject piece: SC + -nga- + ROOT (e.g., Ndingasebenza, Abantu bangafunda).",
+      "key_vocabulary": [
+        { "word": "-nga- (potential)", "meaning": "ability/permission marker in the TAM slot" },
+        { "word": "Ndingasebenza", "meaning": "I can/may work" },
+        { "word": "Abantu bangafunda", "meaning": "People can/may study" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "English uses a separate word 'can'. isiXhosa builds ability into the verb with -nga-.", "justification": "Bridges from English to reduce foreignness." },
+        { "turn_number": 2, "section": "Placement", "teacher_dialogue": "-nga- sits after the subject piece in our verb machine. For 'ndi-' + -nga- + -sebenza → 'Ndingasebenza'.", "justification": "Locates the morpheme in the known slot structure." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndingasebenza." },
+        { "turn_number": 4, "section": "Plural practice", "teacher_dialogue": "Say: 'The people may study' → 'Abantu bangafunda'.", "justification": "Applies to a different SC to generalize the pattern." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Abantu bangafunda." },
+        { "turn_number": 6, "section": "Weave with conjunctions", "teacher_dialogue": "Say: 'I can work, but you are studying' → 'Ndingasebenza, kodwa uyafunda'.", "justification": "Weaves potential with a contrasting clause without extra morphology." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndingasebenza, kodwa uyafunda." },
+        { "turn_number": 8, "section": "Object concord", "teacher_dialogue": "Say: 'She can see me' using -ndi- as OC → 'Ungandibona'.", "justification": "Integrates OC placement for practical production." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Ungandibona." },
+        { "turn_number": 10, "section": "Negative contrast", "teacher_dialogue": "Say: 'I cannot work' → 'Andingasebenzi'.", "justification": "Contrasts affirmative/negative for fuller control." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Andingasebenzi." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "-nga- encodes potential in the TAM slot: Ndingasebenza, bangafunda, ungandibona.", "justification": "Summarizes the mechanism and invites extension to other roots." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 39: The Consecutive Mood — 'And then...'**",
+      "thinking_method_focus": [
+        "Weaving",
+        "One Thought at a Time"
+      ],
+      "objective": "Narrate sequences using the consecutive marker -a- merging with the subject after a completed action: Ndifikile, ndasebenza.",
+      "key_vocabulary": [
+        { "word": "-a- (consecutive)", "meaning": "'and then' marker merging with SC" },
+        { "word": "Ndifikile, ndasebenza", "meaning": "I arrived, and then I worked" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Narrative logic)", "teacher_dialogue": "To tell a story: first a completed action, then the consecutive for the next step.", "justification": "Frames the mood with a simple discourse purpose." },
+        { "turn_number": 2, "section": "Form", "teacher_dialogue": "After a completed clause (e.g., Ndifikile), add SC + -a- + ROOT: ndi- + -a- + -sebenza → ndasebenza.", "justification": "One thought at a time: precondition + construction." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndifikile, ndasebenza." },
+        { "turn_number": 4, "section": "Another person", "teacher_dialogue": "For 'he/she': u- + -a- + -funda → wafunda. Say: 'He arrived and then studied'.", "justification": "Generalizes across subject concords." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ufikile, wafunda." },
+        { "turn_number": 6, "section": "Chain three events", "teacher_dialogue": "Build: 'We arrived, then we sat, then we worked'.", "justification": "Encourages fluent sequencing with multiple consecutives." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Sifikile, sahlala, sasebenza." },
+        { "turn_number": 8, "section": "With locative", "teacher_dialogue": "Use a locative: 'They came from the house, then they ate'.", "justification": "Weaves Lesson 28 locatives for richer narratives." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Baphethe endlwini, badla." },
+        { "turn_number": 10, "section": "Negative of next clause", "teacher_dialogue": "Say: 'I arrived and then did not work' → 'Ndifikile, andaze ndasebenza' is more advanced; simpler: 'Ndifikile, andisebenzi' (avoid consecutive).", "justification": "Acknowledges complexity; keeps negative manageable for now." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Ndifikile, andisebenzi." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Use consecutive -a- for the follow-on step after a completed clause: ndasebenza, wafunda, sahlala.", "justification": "Reinforces the discourse function and form." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 40: The Hortative Mood — 'Let's...' (Ma- + Subjunctive)**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Reframing"
+      ],
+      "objective": "Make group suggestions with Ma- + SC and the subjunctive ending -e (e.g., Masisebenze, Masifunde).",
+      "key_vocabulary": [
+        { "word": "Ma- (hortative)", "meaning": "'let's' prefix combining with SC" },
+        { "word": "Masisebenze", "meaning": "Let's work" },
+        { "word": "Masifunde", "meaning": "Let's study" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "To suggest an action for a group, isiXhosa uses Ma- with the subject piece and the subjunctive ending -e.", "justification": "Frames hortative as a natural extension of known subjunctive." },
+        { "turn_number": 2, "section": "Form with 'we'", "teacher_dialogue": "Ma- + si- + -sebenza (→ -sebenze) = 'Masisebenze'.", "justification": "Shows the morphological pieces clearly for 'we'." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Masisebenze." },
+        { "turn_number": 4, "section": "Another verb", "teacher_dialogue": "Say: 'Let's study' → 'Masifunde'.", "justification": "Applies the same final -e change with a new root." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Masifunde." },
+        { "turn_number": 6, "section": "Add location", "teacher_dialogue": "Say: 'Let's work in the house' → 'Masisebenze endlwini'.", "justification": "Weaves Lesson 28 locatives for natural use." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Masisebenze endlwini." },
+        { "turn_number": 8, "section": "Object concord weave", "teacher_dialogue": "Say: 'Let's help them' with OC -ba- and causative from Lesson 30 is advanced; simpler: 'Masibancedise' (if known). Keep basic: 'Masibanceda'.", "justification": "Keeps load low while hinting at productive combinations." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Masibanceda." },
+        { "turn_number": 10, "section": "Polite softener", "teacher_dialogue": "You may hear 'Makhe' as a softener: 'Makhe sihlale' (Let's sit for a bit).", "justification": "Adds a common real-world variant without requiring production." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Makhe sihlale." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Ma- + SC + subjunctive -e builds 'let's' forms: Masisebenze, Masifunde. Use with places, objects, and goals.", "justification": "Summarizes the construction and encourages practical extension." }
+      ]
+    }
+  ]
+}

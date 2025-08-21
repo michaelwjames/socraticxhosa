@@ -1,0 +1,143 @@
+{
+  "course_name": "isiXhosa with Socrates",
+  "part_name": "Part 4: Advanced Concords, Moods, and Tenses",
+  "lessons_covered": "41-45",
+  "lessons": [
+    {
+      "lesson_title": "**Lesson 41: Recent Past Continuous — 'I was doing…' (be- + present)**",
+      "thinking_method_focus": [
+        "Importing Knowledge",
+        "One Thought at a Time"
+      ],
+      "objective": "Describe ongoing past actions using the past of 'to be' (be-) plus the present verb: bendi- + ROOT (e.g., Bendisebenza, Ubefunda).",
+      "key_vocabulary": [
+        { "word": "bendi-", "meaning": "I was (auxiliary be- in past)" },
+        { "word": "ube-", "meaning": "you were (auxiliary be- in past)" },
+        { "word": "Bendisebenza", "meaning": "I was working" },
+        { "word": "Ubefunda", "meaning": "You were studying" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "English says 'I was working'. isiXhosa builds this with a past 'be' helper plus the present verb.", "justification": "Bridges to a familiar English construction to lower friction." },
+        { "turn_number": 2, "section": "Form (One Thought)", "teacher_dialogue": "Use be- in past + present verb: bendi- + -sebenza → Bendisebenza.", "justification": "Keeps the form in one simple recipe." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Bendisebenza." },
+        { "turn_number": 4, "section": "2nd person", "teacher_dialogue": "For 'you', use ube-: 'Ubefunda' = 'You were studying'.", "justification": "Generalizes across persons without a paradigm dump." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ubefunda." },
+        { "turn_number": 6, "section": "Plural subject", "teacher_dialogue": "For 'we', use besi- → 'Besisebenza' (We were working).", "justification": "Shows mapping to another common subject for fluency." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Besisebenza." },
+        { "turn_number": 8, "section": "With time phrase", "teacher_dialogue": "Add a time phrase: 'yesterday' → izolo. 'I was working yesterday' → 'Bendisebenza izolo'.", "justification": "Places the form in natural discourse." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Bendisebenza izolo." },
+        { "turn_number": 10, "section": "With place", "teacher_dialogue": "Use a locative from L28: 'Bendisebenza endlwini' (I was working in the house).", "justification": "Weaves prior locative knowledge." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Bendisebenza endlwini." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Recipe: be- (past) + present verb → 'was/were doing': Bendisebenza, Ubefunda, Besisebenza.", "justification": "Summarizes the single construction for transfer." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 42: Adverbs of Manner — nga- ('with/by means of')**",
+      "thinking_method_focus": [
+        "Weaving",
+        "One Thought at a Time"
+      ],
+      "objective": "Describe how an action is done using nga- + noun: ngamandla (with strength), ngothando (with love).",
+      "key_vocabulary": [
+        { "word": "nga-", "meaning": "with, by means of" },
+        { "word": "ngamandla", "meaning": "with strength; strongly" },
+        { "word": "ngothando", "meaning": "with love" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Purpose)", "teacher_dialogue": "To say how you do something, isiXhosa often uses nga- plus a noun.", "justification": "Introduces a single, productive tool for manner." },
+        { "turn_number": 2, "section": "Form", "teacher_dialogue": "amandla → ngamandla ('with strength'). 'I work strongly' → 'Ndiyasebenza ngamandla'.", "justification": "Shows the direct mapping from noun to adverbial phrase." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndiyasebenza ngamandla." },
+        { "turn_number": 4, "section": "Another noun", "teacher_dialogue": "uthando → ngothando ('with love'). Say: 'Ufundisa ngothando' (He/She teaches with love).", "justification": "Generalizes via a second example." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ufundisa ngothando." },
+        { "turn_number": 6, "section": "Combine with object", "teacher_dialogue": "'Ndiyanceda umntwana ngothando' (I help the child with love).", "justification": "Weaves object use for fuller sentences." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiyanceda umntwana ngothando." },
+        { "turn_number": 8, "section": "Contrast phrase", "teacher_dialogue": "With care = ngononophelo. Say: 'Bafunda ngononophelo'.", "justification": "Adds a common manner noun for variety." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Bafunda ngononophelo." },
+        { "turn_number": 10, "section": "With time", "teacher_dialogue": "Add time: 'Namhlanje bafunda ngamandla' (Today they study with strength).", "justification": "Builds towards natural discourse flow." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Namhlanje bafunda ngamandla." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Use nga- + noun for manner: ngamandla, ngothando, ngononophelo — combine freely with verbs you know.", "justification": "Encourages broad application." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 43: Conjunctions — kwaye (and), kodwa (but), kuba (because)**",
+      "thinking_method_focus": [
+        "Weaving",
+        "Managing Cognitive Load"
+      ],
+      "objective": "Join clauses with three high-frequency conjunctions: kwaye (and), kodwa (but), kuba (because).",
+      "key_vocabulary": [
+        { "word": "kwaye", "meaning": "and (clausal)" },
+        { "word": "kodwa", "meaning": "but" },
+        { "word": "kuba", "meaning": "because" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Weaving)", "teacher_dialogue": "You can already make sentences. Now connect them: kwaye (and), kodwa (but), kuba (because).", "justification": "Adds discourse tools without new morphology." },
+        { "turn_number": 2, "section": "And", "teacher_dialogue": "'Ndiyasebenza, kwaye ufunda' (I work, and you study).", "justification": "Provides a clear base example." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndiyasebenza, kwaye ufunda." },
+        { "turn_number": 4, "section": "But", "teacher_dialogue": "'Ndiyasebenza, kodwa uyaphumla' (I work, but you rest).", "justification": "Contrasting connector for balance." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiyasebenza, kodwa uyaphumla." },
+        { "turn_number": 6, "section": "Because", "teacher_dialogue": "'Ndiyafunda kuba ndifuna' (I study because I want).", "justification": "Cause connector, high frequency." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiyafunda kuba ndifuna." },
+        { "turn_number": 8, "section": "Weave potential mood", "teacher_dialogue": "'Ndingasebenza, kodwa uyafunda' (I can work, but you are studying).", "justification": "Weaves Lesson 38 for reinforcement." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Ndingasebenza, kodwa uyafunda." },
+        { "turn_number": 10, "section": "Order variation", "teacher_dialogue": "'Uyafunda kuba ndiyanceda' (You study because I help).", "justification": "Shows flexible clause order with kuba." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Uyafunda kuba ndiyanceda." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Three connectors unlock long thoughts: kwaye, kodwa, kuba — mix with any tense/mood you know.", "justification": "Encourages productive recombination." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 44: Intensive Verbal Extension — -isisa (do thoroughly)**",
+      "thinking_method_focus": [
+        "Weaving",
+        "One Thought at a Time"
+      ],
+      "objective": "Intensify actions by adding the suffix -isisa to verb roots: fundisisa (study thoroughly)",
+      "key_vocabulary": [
+        { "word": "-isisa", "meaning": "intensive/thorough verbal extension" },
+        { "word": "fundisisa", "meaning": "to study thoroughly" },
+        { "word": "Ndiza kufundisisa", "meaning": "I will study thoroughly" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Purpose)", "teacher_dialogue": "To show intensity or thoroughness, isiXhosa adds -isisa to a verb.", "justification": "Gives a single, reusable extension." },
+        { "turn_number": 2, "section": "Form", "teacher_dialogue": "-funda → -fundisisa ('study thoroughly').", "justification": "One clear example to anchor the pattern." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndiyafundisisa." },
+        { "turn_number": 4, "section": "Future weave", "teacher_dialogue": "'Ndiza kufundisisa' (I will study thoroughly).", "justification": "Weaves known future marker for range." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiza kufundisisa." },
+        { "turn_number": 6, "section": "Another verb", "teacher_dialogue": "-coca → -cocisisa ('clean thoroughly'). Say it in present.", "justification": "Generalizes to another common verb.", "student_dialogue": "Ndiyacocisisa." },
+        { "turn_number": 7, "section": "Combine with object", "teacher_dialogue": "'Cocisisa indlu' (Clean the house thoroughly).", "justification": "Adds object for real usage." },
+        { "turn_number": 8, "section": "Student", "student_dialogue": "Cocisisa indlu." },
+        { "turn_number": 9, "section": "Combine with manner", "teacher_dialogue": "Use L42: 'Bafundisisa ngamandla' (They study thoroughly with strength).", "justification": "Weaves manner adverbs for fluency." },
+        { "turn_number": 10, "section": "Student", "student_dialogue": "Bafundisisa ngamandla." },
+        { "turn_number": 11, "section": "Imperative", "teacher_dialogue": "'Fundisisa!' (Study thoroughly!).", "justification": "Practical command form." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Add -isisa for intensity across verbs you know: fundisisa, cocisisa, bhala → bhalisisa.", "justification": "Summarizes the productive extension." }
+      ]
+    },
+    {
+      "lesson_title": "**Lesson 45: Instrumental/Comitative — na- ('with/and' for nouns)**",
+      "thinking_method_focus": [
+        "Reframing",
+        "Weaving"
+      ],
+      "objective": "Join nouns or express 'with' using na- that merges with following vowels: no-/na-/ne-.",
+      "key_vocabulary": [
+        { "word": "na-", "meaning": "with; and (joining nouns)" },
+        { "word": "indoda nenja", "meaning": "the man and the dog" },
+        { "word": "ndi ne nja (≈ 'Ndi nenja')", "meaning": "I am with the dog" }
+      ],
+      "turns": [
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "To join nouns or say 'with', isiXhosa uses na-. It merges: no-/na-/ne- depending on the vowel.", "justification": "Frames a small alternation set instead of many rules." },
+        { "turn_number": 2, "section": "i- nouns → ne-", "teacher_dialogue": "inja → nenja. 'indoda nenja' = the man and the dog.", "justification": "Shows the most frequent vowel merge." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "indoda nenja." },
+        { "turn_number": 4, "section": "o- nouns → no-", "teacher_dialogue": "umatshini → nomatshini (with the machine).", "justification": "Covers another vowel case succinctly." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "nomatshini." },
+        { "turn_number": 6, "section": "a- nouns → na-", "teacher_dialogue": "amandla → namandla (with power).", "justification": "Completes the alternation trio." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "namandla." },
+        { "turn_number": 8, "section": "Express 'with' (comitative)", "teacher_dialogue": "'Ndi ne nja' (≈ 'Ndi nenja') = 'I am with the dog'.", "justification": "Gives a simple comitative statement for daily life." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Ndi ne nja." },
+        { "turn_number": 10, "section": "Join phrases", "teacher_dialogue": "'indoda nendoda' (man with man), 'umntwana nentombazana' (child and girl).", "justification": "Shows productive compounding for lists." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "umntwana nentombazana." },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Use no-/na-/ne- to join nouns or say 'with': nenja, nomatshini, namandla — combine freely with clauses from L43.", "justification": "Encourages integration with previous connectors." }
+      ]
+    }
+  ]
+}
