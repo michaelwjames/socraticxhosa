@@ -6,6 +6,7 @@ import CoursePage from './pages/CoursePage';
 import LessonPage from './pages/LessonPage';
 import TextsPage from './pages/TextsPage';
 import LessonPracticePage from './pages/LessonPracticePage';
+import PasswordModal from './components/PasswordModal';
 
 function App() {
   // Dark mode state
@@ -14,6 +15,12 @@ function App() {
     const saved = localStorage.getItem('darkMode');
     return saved === 'true' ? true : false;
   });
+
+  // First-load password gate
+  const [isUnlocked, setIsUnlocked] = useState<boolean>(() => {
+    return localStorage.getItem('sx_unlocked') === 'true';
+  });
+  const [authError, setAuthError] = useState<string | null>(null);
 
   // Toggle dark mode
   const toggleDarkMode = () => {
@@ -30,6 +37,26 @@ function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDarkMode]);
+
+  const handlePasswordSubmit = (password: string) => {
+    const expected = import.meta.env.VITE_APP_PASSWORD || 'socratic';
+    if (password === expected) {
+      localStorage.setItem('sx_unlocked', 'true');
+      setIsUnlocked(true);
+      setAuthError(null);
+    } else {
+      setAuthError('Incorrect password');
+    }
+  };
+
+  // Show password modal until unlocked
+  if (!isUnlocked) {
+    return (
+      <div className={`min-h-screen w-full flex items-center justify-center ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'} transition-colors duration-200`}>
+        <PasswordModal isOpen={true} onSubmit={handlePasswordSubmit} error={authError} />
+      </div>
+    );
+  }
 
   return (
     <Router>
