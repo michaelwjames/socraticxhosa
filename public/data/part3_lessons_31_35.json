@@ -18,22 +18,18 @@
         { "word": "-bona → -bonana / -bonwa", "meaning": "see → see each other / be seen" }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "We can change verb meanings by adding pieces at the end. Today: -ana for 'each other', -wa for 'be -ed'.", "justification": "Frames new pieces as part of the familiar 'end-slot' system from Lesson 30." },
-        { "turn_number": 2, "section": "Introduce -ana", "teacher_dialogue": "Take -bona (see). If two people see each other, we add -ana: -bonana.", "justification": "Simple root-to-extension mapping to keep load low." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "-bona → -bonana (see each other)." },
-        { "turn_number": 4, "section": "Sentence build", "teacher_dialogue": "Say: 'We see each other' → 'Siyabonana'.",
-          "justification": "Uses present with -ya- to keep continuity with earlier patterns." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "Siyabonana." },
-        { "turn_number": 6, "section": "Introduce -wa (passive)", "teacher_dialogue": "Now the passive: -wa. -bona → -bonwa (be seen).",
-          "justification": "Pairs extensions in contrast for clarity." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "-bonwa = be seen." },
-        { "turn_number": 8, "section": "Context", "teacher_dialogue": "Say: 'The person is seen' → 'Umntu uyabonwa'.",
-          "justification": "Weaves Class 1 subject concord with passive meaning." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Umntu uyabonwa." },
-        { "turn_number": 10, "section": "Negative check", "teacher_dialogue": "Say: 'The people are not seen' → use abantu and negative: 'Abantu abazubonwa'.",
-          "justification": "Integrates negative morphology with passive to strengthen system view." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Abantu abazubonwa." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "-ana joins participants (bonana), -wa focuses on the patient (bonwa). Same verb slots; new meanings.", "justification": "Summarizes role of extensions within the existing 'verb machine'." }
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "Our verb machine can wear little end-pieces to shift meaning. Today we add `-ana` for 'each other' and `-wa` for 'be -ed'. What do you think that sounds like with a verb you know?", "justification": "Reframes extensions as friendly end-slot add-ons; invites prediction before giving forms." },
+        { "turn_number": 2, "section": "Prompt (reciprocal)", "teacher_dialogue": "Take the root `-bona` ('see'). If two people see each other, add `-ana`. What does the root become?", "justification": "Guides construction without providing the answer first." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "-bonana?" },
+        { "turn_number": 4, "section": "Build (present)", "teacher_dialogue": "Perfect! Using WHO `si-` + `-ya-` + ROOT, how would you say '**We see each other**'?", "justification": "Keeps to the known slots and elicits production." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Siyabonana?" },
+        { "turn_number": 6, "section": "Introduce passive -wa", "teacher_dialogue": "Exactly. Now flip the focus to the one seen. With `-wa`, what does `-bona` become when it means '**be seen**'?", "justification": "Contrasts reciprocal with passive to solidify meanings." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "-bonwa?" },
+        { "turn_number": 8, "section": "Context (Class 1)", "teacher_dialogue": "Great. With **umntu** (Class 1) and present `-ya-`, build '**The person is seen**'.", "justification": "Weaves class agreement with passive meaning." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Umntu uyabonwa?" },
+        { "turn_number": 10, "section": "Negative check (plural)", "teacher_dialogue": "Nice. Make it negative for the plural: with **abantu**, say '**The people are not seen**'.", "justification": "Encourages retrieval of negative present with a passive form without front-loading rules." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Abantu ababonwa?" },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "To summarise, **-ana** joins participants (**Siyabonana**), and **-wa** focuses on the one affected (**Umntu uyabonwa**). Same slots, new endings. Quick exit build: how would you say '**We will see each other**' using `-za-`?", "justification": "Concise recap with praise woven in and a final productive prompt." }
       ]
     },
     {
@@ -51,23 +47,18 @@
         { "word": "incwadi → incwadana", "meaning": "book → booklet / little book" }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "We can also make nouns 'smaller' or affectionate by adding -ana.", "justification": "Connects to prior idea that Xhosa builds meaning by adding pieces." },
-        { "turn_number": 2, "section": "Pattern", "teacher_dialogue": "intaka → intakana. Try 'incwadi' → ...?",
-          "justification": "Demonstrates transparent suffixing with familiar nouns." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "incwadi → incwadana." },
-        { "turn_number": 4, "section": "Usage in phrase", "teacher_dialogue": "Say: 'I see the little bird' → 'Ndiyibona intakana'.",
-          "justification": "Weaves object concord 'yi' with a diminutive noun for productive use." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiyibona intakana." },
-        { "turn_number": 6, "section": "Another example", "teacher_dialogue": "Inja (dog). A small/little dog is often 'injana'.",
-          "justification": "Adds common vocabulary to broaden pattern recognition." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "injana." },
-        { "turn_number": 8, "section": "Context sentence", "teacher_dialogue": "Say: 'There is a little dog in the house' → 'Kukho injana endlwini'.",
-          "justification": "Weaves existential 'kukho' and locative from Lesson 28." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Kukho injana endlwini." },
-        { "turn_number": 10, "section": "Contrast", "teacher_dialogue": "Form a diminutive for 'umthi' (tree) in a phrase: 'I like the little tree' → 'Ndiyathanda umthana omncinci'.",
-          "justification": "Encourages flexible application; combines adjective agreement with diminutive." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Ndiyathanda umthana omncinci." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "-ana makes nouns 'little' or affectionate; use it to adjust tone and precision in your sentences.", "justification": "Summarizes semantic effect and invites productive experimentation." }
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "IsiXhosa can make nouns feel smaller or affectionate by adding a tiny tail `-ana`. Like a small badge you attach. What do you think happens to a noun you know?", "justification": "Analogy keeps metalanguage light while inviting prediction." },
+        { "turn_number": 2, "section": "Pattern", "teacher_dialogue": "Try with **incwadi** ('book'). Add `-ana`. What do you get?", "justification": "Elicits the diminutive without providing the answer first." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Incwadana?" },
+        { "turn_number": 4, "section": "Phrase build", "teacher_dialogue": "Exactly! Now say '**I see the little bird**' using **intaka → intakana** and the object piece before the verb.", "justification": "Weaves OC usage with a diminutive noun in a natural sentence." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiyibona intakana?" },
+        { "turn_number": 6, "section": "Another example", "teacher_dialogue": "Great. With **inja** ('dog'), the diminutive is often **injana**. Can you produce it?", "justification": "Adds a high-frequency example while keeping the student in the driver’s seat." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Injana?" },
+        { "turn_number": 8, "section": "Context sentence", "teacher_dialogue": "Perfect! Build: '**There is a little dog in the house**' using **kukho** and the locative.", "justification": "Weaves existential and locative patterns from earlier lessons." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Kukho injana endlwini?" },
+        { "turn_number": 10, "section": "Like/dislike", "teacher_dialogue": "Nice. Use the diminutive in '**I like the little book**'.", "justification": "Encourages re-use with a common verb to build confidence." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Ndiyathanda incwadana?" },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "To summarise, add `-ana` to shape tone and size: **intakana**, **injana**, **incwadana**. Don’t memorise lists—spot the pattern. Final check: how would you say '**The little bird is outside**'?", "justification": "Concise recap with a final productive prompt." }
       ]
     },
     {
@@ -85,20 +76,18 @@
         { "word": "indodakazi", "meaning": "daughter (lexicalized form)" }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "Just as -ana can make things small, isiXhosa often uses -kazi to make nouns augmented or to mark a related feminine form. Some results are lexicalized.", "justification": "Sets expectations that some forms are predictable while others are fixed vocabulary." },
-        { "turn_number": 2, "section": "Pattern demo", "teacher_dialogue": "Inja (dog) → injakazi. In use, this may refer to a big/augmented dog or a female dog, depending on context.", "justification": "Balances pattern and real-world variation to avoid overgeneralization." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "injakazi." },
-        { "turn_number": 4, "section": "Lexicalized example", "teacher_dialogue": "Indoda (man). Note: indodakazi is 'daughter' (a lexicalized meaning).",
-          "justification": "Raises language consciousness about lexicalized outputs that learners memorize as vocabulary." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "indodakazi = daughter." },
-        { "turn_number": 6, "section": "Context sentence", "teacher_dialogue": "Say: 'There is a big dog outside' → 'Kukho injakazi phandle'.",
-          "justification": "Weaves 'kukho' and an adverbial location for natural use." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "Kukho injakazi phandle." },
-        { "turn_number": 8, "section": "Another noun", "teacher_dialogue": "Umama (mother) and utata (father) have their own forms; not every noun uses -kazi productively. Use -kazi with caution and learn common cases.", "justification": "Avoids overextending the rule; anchors learning in high-frequency items." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Noted: some forms are fixed vocabulary." },
-        { "turn_number": 10, "section": "Combine with adjective", "teacher_dialogue": "Say: 'The big woman is outside' using 'inkosikazi' (lady/wife) and adjective agreement.", "justification": "Practices agreement while acknowledging established vocabulary built with -kazi." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Inkosikazi inkulu/phandle." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "-kazi can signal augmentative or feminine; some outputs are lexical items (like 'indodakazi'). Learn the productive cases and the common words.", "justification": "Concludes with a realistic usage note to guide future acquisition." }
+        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "Like `-ana` for smallness, isiXhosa often uses `-kazi` to form an augmentative or a related feminine form. Some results become fixed vocabulary. Ready to build one?", "justification": "Sets a friendly expectation and invites participation before giving forms." },
+        { "turn_number": 2, "section": "Pattern demo", "teacher_dialogue": "From **inja** ('dog'), add `-kazi`. What do you hear?", "justification": "Elicits the augmented form without pre-answering." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Injakazi?" },
+        { "turn_number": 4, "section": "Context (locative)", "teacher_dialogue": "Exactly. Use it in '**There is a big dog outside**'.", "justification": "Weaves known existential + location with the new noun form." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Kukho injakazi phandle?" },
+        { "turn_number": 6, "section": "Lexicalized example", "teacher_dialogue": "Great. From **indoda** ('man'), the form **indodakazi** means 'daughter'—this one is lexicalised. What is that word?", "justification": "Raises language consciousness about lexicalised outcomes without heavy terminology." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Indodakazi?" },
+        { "turn_number": 8, "section": "Another noun in context", "teacher_dialogue": "Use **inkosikazi** ('lady/wife') in '**There is a lady in the house**'.", "justification": "Practises a common established noun in a simple sentence." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Kukho inkosikazi endlwini?" },
+        { "turn_number": 10, "section": "Object concord weave", "teacher_dialogue": "Nice. With the object piece for Class 1 (`-m-`), say '**I see the lady**'.", "justification": "Weaves OC with a known Class 1 noun for integrated practice." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Ndiyambona inkosikazi?" },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "To summarise, `-kazi` can build bigger or feminine-related forms, and some outputs are fixed words: **injakazi**, **indodakazi**, **inkosikazi**. No need to memorise long lists—notice the pattern and common items. Final check: can you say '**There is a daughter outside**'?", "justification": "Summary plus a final productive prompt, keeping tone encouraging." }
       ]
     },
     {
@@ -115,20 +104,18 @@
         { "word": "Ndiyazibona", "meaning": "I see myself" }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Weaving)", "teacher_dialogue": "Recall the verb machine: subject concord + (TAM) + object/reflexive slot + root + (extensions). Reflexive is -zi- in the OC slot.", "justification": "Places -zi- in a known schema to reduce load." },
-        { "turn_number": 2, "section": "Form", "teacher_dialogue": "uku- + -zi- + -bona → ukuzibona (to see oneself).",
-          "justification": "Builds infinitive transparently with -zi-." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "ukuzibona." },
-        { "turn_number": 4, "section": "Present sentence", "teacher_dialogue": "Say: 'I see myself' → 'Ndiyazibona'.",
-          "justification": "Uses -ya- for flow; anchors meaning." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiyazibona." },
-        { "turn_number": 6, "section": "Another verb", "teacher_dialogue": "-hlamba (wash). 'He washes himself' → 'Uyazihlamba'.", "justification": "Weaves another high-frequency root with reflexive for productive use." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "Uyazihlamba." },
-        { "turn_number": 8, "section": "Negative form", "teacher_dialogue": "Say: 'He does not wash himself' → 'Akazihlambi'.", "justification": "Contrasts the affirmative and negative to deepen control of the pattern." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Akazihlambi." },
-        { "turn_number": 10, "section": "Future with reflexive", "teacher_dialogue": "Say: 'They will see themselves' → 'Baza kuzibona'.", "justification": "Weaves future -za- with the reflexive -zi- in the OC slot." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Baza kuzibona." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Reflexive -zi- occupies the object-concord slot: ndizibona, uyazihlamba, baza kuzibona. Same slots; new self-directed meaning.", "justification": "Summarizes slot placement and shows productive variation." }
+        { "turn_number": 1, "section": "Opening (Weaving)", "teacher_dialogue": "Recall the verb machine: WHO + (time) + OBJECT/REFLEXIVE + ROOT + (ending). The reflexive is `-zi-` in that object slot. Ready to build one?", "justification": "Places `-zi-` in a familiar slot model and invites a build." },
+        { "turn_number": 2, "section": "Form (infinitive)", "teacher_dialogue": "Use `uku- + -zi- + -bona`. What is '**to see oneself**'?", "justification": "Elicits the infinitive transparently without pre-answering." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Ukuzibona?" },
+        { "turn_number": 4, "section": "Present sentence", "teacher_dialogue": "Exactly. Now say '**I see myself**' with `-ya-` for flow.", "justification": "Moves from infinitive to present in one thought." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndiyazibona?" },
+        { "turn_number": 6, "section": "Another verb", "teacher_dialogue": "Great. With `-hlamba` ('wash'): build '**He washes himself**'.", "justification": "Adds a high-frequency verb to reinforce placement of `-zi-`." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Uyazihlamba?" },
+        { "turn_number": 8, "section": "Negative form", "teacher_dialogue": "Perfect. Now negate it: '**He does not wash himself**'.", "justification": "Contrasts affirmative and negative to deepen control of the pattern." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Akazihlambi?" },
+        { "turn_number": 10, "section": "Future with reflexive", "teacher_dialogue": "Nice. With the future piece `-za-`, say '**They will see themselves**'.", "justification": "Weaves future with reflexive in the OC slot." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Baza kuzibona?" },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "To summarise, reflexive **-zi-** sits in the object slot: **Ukuzibona**, **Ndiyazibona**, **Uyazihlamba**. Same slots; a self-directed meaning. Final check: how would you say '**The people wash themselves**' with **abantu**?", "justification": "Recap plus a final productive prompt; keeps the teacher’s encouraging tone." }
       ]
     },
     {
@@ -146,23 +133,18 @@
         { "word": "-bona → -boneka", "meaning": "see → be visible" }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "English adds '-able' to show potential/state: 'readable'. IsiXhosa uses -eka: -funda → -fundeka.", "justification": "Imports a clear analogy to reduce foreignness." },
-        { "turn_number": 2, "section": "Build 1", "teacher_dialogue": "Say: 'It is readable' about a book → 'Iyafundeka'.",
-          "justification": "Applies directly to a known root for immediate utility." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "Iyafundeka." },
-        { "turn_number": 4, "section": "Build 2", "teacher_dialogue": "-bona → -boneka (be visible). Say: 'It is visible' → 'Iyaboneka'.",
-          "justification": "Second example to cement the pattern." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "Iyaboneka." },
-        { "turn_number": 6, "section": "Context sentence", "teacher_dialogue": "Say: 'The writing is readable' → 'Umbhalo uyafundeka'.",
-          "justification": "Weaves noun class agreement with the stative form." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "Umbhalo uyafundeka." },
-        { "turn_number": 8, "section": "Contrast negative", "teacher_dialogue": "Say: 'It is not readable' → 'Akunafundeka' or in context 'Ayifundeki' (commonly used for specific subjects).",
-          "justification": "Shows practical negative options learners will encounter." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Ayifundeki." },
-        { "turn_number": 10, "section": "Another root", "teacher_dialogue": "-vula (open) → -vuleka (be openable/open). 'The door can open' → 'Umnyango uyavuleka'.",
-          "justification": "Extends pattern to a common everyday verb." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Umnyango uyavuleka." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "-eka builds '-able' meanings: -fundeka, -boneka, -vuleka. Same verb slots; a new state meaning.", "justification": "Consolidates the analogy and invites exploration with more roots." }
+        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "English uses '-able' for potential/state: 'readable'. IsiXhosa adds `-eka`: `-funda → -fundeka`. Shall we try one?", "justification": "Imports a simple analogy and invites a build before giving answers." },
+        { "turn_number": 2, "section": "Build 1", "teacher_dialogue": "About a book, say '**It is readable**'. Use **-fundeka**.", "justification": "Prompts production with a clear root while withholding the final form." },
+        { "turn_number": 3, "section": "Student", "student_dialogue": "Iyafundeka?" },
+        { "turn_number": 4, "section": "Build 2", "teacher_dialogue": "Exactly. From `-bona` → `-boneka` ('be visible'). Say '**It is visible**'.", "justification": "Second example to cement the pattern." },
+        { "turn_number": 5, "section": "Student", "student_dialogue": "Iyaboneka?" },
+        { "turn_number": 6, "section": "Context sentence", "teacher_dialogue": "Great. '**The writing is readable**' with **umbhalo** (Class 3).", "justification": "Weaves class agreement with the stative form." },
+        { "turn_number": 7, "section": "Student", "student_dialogue": "Umbhalo uyafundeka?" },
+        { "turn_number": 8, "section": "Contrast (negative)", "teacher_dialogue": "Nice. Make a negative: '**It is not readable**'.", "justification": "Contrasts positive vs negative in a high-frequency statement." },
+        { "turn_number": 9, "section": "Student", "student_dialogue": "Ayifundeki?" },
+        { "turn_number": 10, "section": "Another root", "teacher_dialogue": "With `-vula` ('open') → `-vuleka` ('be openable/open'). Build '**The door can open**'.", "justification": "Applies the same pattern to a common verb for transfer." },
+        { "turn_number": 11, "section": "Student", "student_dialogue": "Umnyango uyavuleka?" },
+        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "To summarise, `-eka` builds '-able' states: **-fundeka**, **-boneka**, **-vuleka**. Same slots, new state. Final check: how would you say '**It is visible**' about the moon (**inyanga**)?", "justification": "Concise recap plus a final productive prompt." }
       ]
     }
   ]

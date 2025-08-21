@@ -414,11 +414,11 @@
           "meaning": "future marker"
         },
         {
-          "word": "uku-",
+          "word": "-(u)ku-",
           "meaning": "infinitive prefix / linker before verb root"
         },
         {
-          "word": "Ndiza-ukusebenza",
+          "word": "Ndiza kusebenza",
           "meaning": "I will work"
         }
       ],
@@ -426,18 +426,18 @@
         {
           "turn_number": 1,
           "section": "Explain",
-          "teacher_dialogue": "Replace `-ya-` with `-za-`. With connected infinitives we add `uku-`: **Ndi-za-ukusebenza**.",
+          "teacher_dialogue": "Replace `-ya-` with `-za-`. With connected infinitives we add `ku-`: **Ndi-za kusebenza**.",
           "justification": "Aligns with existing slot model; small substitution reduces complexity."
         },
         {
           "turn_number": 2,
           "section": "Prompt",
-          "teacher_dialogue": "Follow the slots: WHO + `-za-` + `uku-` + ROOT. Replace `-ya-` with `-za-`. How do you say '**You will work**'?"
+          "teacher_dialogue": "Follow the slots: WHO + `-za-` + `ku-` + ROOT. Replace `-ya-` with `-za-`. How do you say '**You will work**'?"
         },
         {
           "turn_number": 3,
           "section": "Student",
-          "student_dialogue": "Uza-ukusebenza?"
+          "student_dialogue": "Uza kusebenza?"
         },
         {
           "turn_number": 4,
@@ -448,7 +448,7 @@
         {
           "turn_number": 5,
           "section": "Student",
-          "student_dialogue": "Abantu baza-ukusebenza?"
+          "student_dialogue": "Abantu baza kusebenza?"
         },
         {
           "turn_number": 6,
@@ -459,42 +459,42 @@
         {
           "turn_number": 7,
           "section": "Student",
-          "student_dialogue": "Ndiza-ukufunda?"
+          "student_dialogue": "Ndiza kufunda?"
         },
         {
           "turn_number": 8,
           "section": "Build",
-          "teacher_dialogue": "Chain two verbs: WHO + `-za-` + `uku-` + `-funa` + `uku-` + `-sebenza`. Build '**You will want to work**'.",
+          "teacher_dialogue": "Chain two verbs: WHO + `-za-` + `ku-` + `-funa` + `uku-` + `-sebenza`. Build '**You will want to work**'.",
           "justification": "Connects two verbs via the infinitive to consolidate the uku- linker in future forms."
         },
         {
           "turn_number": 9,
           "section": "Student",
-          "student_dialogue": "Uza-ukufuna ukusebenza?"
+          "student_dialogue": "Uza kufuna ukusebenza?"
         },
         {
           "turn_number": 10,
           "section": "Closing",
-          "teacher_dialogue": "Future swaps `-ya-` for `-za-`, often with the linker: WHO + `-za-` + `uku-` + ROOT → **Ndiza-ukusebenza**; **Abantu baza-ukufuna ukusebenza**. Same slots, new piece.",
+          "teacher_dialogue": "Future swaps `-ya-` for `-za-`, often with the linker: WHO + `-za-` + `ku-` + ROOT → **Ndiza kusebenza**; **Abantu baza kufuna ukusebenza**. Same slots, new piece.",
           "justification": "Summarises slot substitution to manage load and promote transfer."
         }
       ],
       "practice": [
         {
           "prompt": "How would you say 'You will work' in isiXhosa?",
-          "answer": "Uza-ukusebenza."
+          "answer": "Uza kusebenza."
         },
         {
           "prompt": "How would you say 'The people will work' in isiXhosa?",
-          "answer": "Abantu baza-ukusebenza."
+          "answer": "Abantu baza kusebenza."
         },
         {
           "prompt": "How would you say 'I will study' in isiXhosa?",
-          "answer": "Ndiza-ukufunda."
+          "answer": "Ndiza kufunda."
         },
         {
           "prompt": "How would you say 'You will want to work' in isiXhosa?",
-          "answer": "Uza-ukufuna ukusebenza."
+          "answer": "Uza kufuna ukusebenza."
         }
       ]
     },
@@ -609,7 +609,7 @@
           "meaning": "tree (Class 3)"
         },
         {
-          "word": "uza-ukusebenza",
+          "word": "uza kusebenza",
           "meaning": "will work (future)"
         },
         {
@@ -627,7 +627,7 @@
         {
           "turn_number": 2,
           "section": "Student",
-          "student_dialogue": "Umthi uza-ukusebenza?"
+          "student_dialogue": "Umthi uza kusebenza?"
         },
         {
           "turn_number": 3,
@@ -683,7 +683,7 @@
       "practice": [
         {
           "prompt": "How would you say 'The tree will work' in isiXhosa?",
-          "answer": "Umthi uza-ukusebenza."
+          "answer": "Umthi uza kusebenza."
         },
         {
           "prompt": "How would you say 'The chairs have wanted tea' in isiXhosa?",
@@ -878,7 +878,7 @@
         {
           "turn_number": 10,
           "section": "Closing",
-          "teacher_dialogue": "Infinitives with `uku-` act like verbs and like nouns: **ukusebenza**, **ukufunda**. After verbs like **Ndifuna** and in future chains (e.g., **Ndiza-ukufunda**), they slot in naturally.",
+          "teacher_dialogue": "Infinitives with `uku-` act like verbs and like nouns: **ukusebenza**, **ukufunda**. After verbs like **Ndifuna** and in future chains (e.g., **Ndiza kufunda**), they slot in naturally.",
           "justification": "Summarises the dual role and reinforces transfer to common frames."
         }
       ],
@@ -907,7 +907,7 @@
           "meaning": "to work"
         },
         {
-          "word": "Ndiza-ukufuna",
+          "word": "Ndiza kufuna",
           "meaning": "I will want"
         }
       ],
@@ -921,7 +921,7 @@
         {
           "turn_number": 2,
           "section": "Student",
-          "student_dialogue": "Ndifuna ukusebenza? Ndiza-ukufuna ukusebenza?"
+          "student_dialogue": "Ndifuna ukusebenza? Ndiza kufuna ukusebenza?"
         },
         {
           "turn_number": 3,
@@ -943,7 +943,7 @@
         {
           "turn_number": 6,
           "section": "Student",
-          "student_dialogue": "Abantu baza-ukufuna ukusebenza?"
+          "student_dialogue": "Abantu baza kufuna ukusebenza?"
         },
         {
           "turn_number": 7,
@@ -965,7 +965,7 @@
         {
           "turn_number": 10,
           "section": "Student",
-          "student_dialogue": "Uza-ukufuna ukutya isonka?"
+          "student_dialogue": "Uza kufuna ukutya isonka?"
         }
       ],
       "practice": [
@@ -975,7 +975,7 @@
         },
         {
           "prompt": "How would you say 'I will want to work' in isiXhosa?",
-          "answer": "Ndiza-ukufuna ukusebenza."
+          "answer": "Ndiza kufuna ukusebenza."
         },
         {
           "prompt": "How would you say 'You want to study' in isiXhosa?",
@@ -983,7 +983,7 @@
         },
         {
           "prompt": "How would you say 'The people will want to work' in isiXhosa?",
-          "answer": "Abantu baza-ukufuna ukusebenza."
+          "answer": "Abantu baza kufuna ukusebenza."
         },
         {
           "prompt": "How would you say 'I want it (the chair)' in isiXhosa?",
@@ -991,7 +991,7 @@
         },
         {
           "prompt": "How would you say 'You will want to eat bread' in isiXhosa?",
-          "answer": "Uza-ukufuna ukutya isonka."
+          "answer": "Uza kufuna ukutya isonka."
         }
       ]
     },
@@ -1140,7 +1140,7 @@
         {
           "turn_number": 8,
           "section": "Transform",
-          "teacher_dialogue": "Turn **Ndiza-ukufunda** into its negative—what changes in the future chain?",
+          "teacher_dialogue": "Turn **Ndiza kufunda** into its negative—what changes in the future chain?",
           "justification": "Encourages pattern transfer to another root in the same tense."
         },
         {
@@ -1206,7 +1206,7 @@
         {
           "turn_number": 7,
           "section": "Student",
-          "student_dialogue": "Ndiza-ukuzibona (izinja)?"
+          "student_dialogue": "Ndiza kuzibona (izinja)?"
         }
       ],
       "practice": [
@@ -1224,7 +1224,7 @@
         },
         {
           "prompt": "How would you say 'I will see them (the dogs)' in isiXhosa?",
-          "answer": "Ndiza-ukuzibona (izinja)."
+          "answer": "Ndiza kuzibona (izinja)."
         }
       ]
     },
@@ -1369,7 +1369,7 @@
         {
           "turn_number": 8,
           "section": "Student",
-          "student_dialogue": "Isihlalo siza kusebenza kwaye ndiza-ukusibona?"
+          "student_dialogue": "Isihlalo siza kusebenza kwaye ndiza kusibona?"
         },
         {
           "turn_number": 9,
@@ -1393,7 +1393,7 @@
         },
         {
           "prompt": "How would you say 'The chair will work and I will see it' in isiXhosa?",
-          "answer": "Isihlalo siza kusebenza kwaye ndiza-ukusibona."
+          "answer": "Isihlalo siza kusebenza kwaye ndiza kusibona."
         }
       ]
     }

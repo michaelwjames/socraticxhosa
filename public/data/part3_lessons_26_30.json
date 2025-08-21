@@ -13,27 +13,96 @@
       ],
       "objective": "Use the subjunctive mood (final -e) to express suggestions, requests, and dependent clauses, especially after 'ukuba' (that/if).",
       "key_vocabulary": [
-        { "word": "ukuba", "meaning": "that / if (conjunction)" },
-        { "word": "-sebenza → -sebenze", "meaning": "work → work (subjunctive)" },
-        { "word": "-funda → -funde", "meaning": "study/read → study (subjunctive)" },
-        { "word": "Kubalulekile", "meaning": "it is important" }
+        {
+          "word": "ukuba",
+          "meaning": "that / if (conjunction)"
+        },
+        {
+          "word": "-sebenza → -sebenze",
+          "meaning": "work → work (subjunctive)"
+        },
+        {
+          "word": "-funda → -funde",
+          "meaning": "study/read → study (subjunctive)"
+        },
+        {
+          "word": "Kubalulekile",
+          "meaning": "it is important"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "In English, we sometimes say 'I suggest that he be on time' (not 'is on time'). IsiXhosa has this mood too. We'll build it simply.", "justification": "Imports the concept from English to reduce foreignness and set a familiar mental model." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "So we change the verb slightly, like English 'be'?" },
-        { "turn_number": 3, "section": "Introduce Rule", "teacher_dialogue": "To form the subjunctive, change the verb's final -a to -e: -sebenza → -sebenze; -funda → -funde.", "justification": "One-thought-at-a-time rule: only the final vowel changes." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "-sebenza → -sebenze; -funda → -funde." },
-        { "turn_number": 5, "section": "Build with ukuba", "teacher_dialogue": "We often use it after 'ukuba' (that/if). Build: 'I want that you work' → 'Ndifuna ukuba usebenze'.",
-          "justification": "Connects new mood to a high-frequency conjunction the learner already uses (Ndifuna ...)." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Ndifuna ukuba usebenze." },
-        { "turn_number": 7, "section": "Practice", "teacher_dialogue": "Say: 'It is important that the people study' → 'Kubalulekile ukuba abantu bafunde'.",
-          "justification": "Weaves noun class agreement (abantu → ba-) into the new mood for masked repetition." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Kubalulekile ukuba abantu bafunde." },
-        { "turn_number": 9, "section": "Weave another verb", "teacher_dialogue": "Say: 'I ask that the student study' using 'Ndicela ukuba ...' and the subjunctive of -funda.", "justification": "Extends the same structure with a new lead-in (Ndicela) to generalize the pattern." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Ndicela ukuba umfundi afunde." },
-        { "turn_number": 11, "section": "Apply to Class 4", "teacher_dialogue": "Say: 'I want the trees to grow' (use imithi and -khula → -khule).",
-          "justification": "Maps the rule onto a new root and a non-human class to show system-wide applicability." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Ndifuna ukuba imithi ikhule." }
+        {
+          "turn_number": 1,
+          "section": "Opening (Importing Knowledge)",
+          "teacher_dialogue": "In English, we sometimes say 'I suggest that he be on time' (not 'is on time'). IsiXhosa has this mood too. We'll build it simply.",
+          "justification": "Imports the concept from English to reduce foreignness and set a familiar mental model."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student",
+          "student_dialogue": "So we change the verb slightly, like English 'be'?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introduce Rule",
+          "teacher_dialogue": "Exactly. We often flip the final sound to `-e`. Try it with `-sebenza` and `-funda`—what do they become?",
+          "justification": "One-thought-at-a-time rule: only the final vowel changes."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student",
+          "student_dialogue": "-sebenza → -sebenze; -funda → -funde?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Build with ukuba",
+          "teacher_dialogue": "Nice. We often use it after **ukuba** ('that/if'). Build: 'I want that you work' — start with **Ndifuna ukuba ...** and try the ending yourself.",
+          "justification": "Connects new mood to a high-frequency conjunction the learner already uses (Ndifuna ...)."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student",
+          "student_dialogue": "Ndifuna ukuba usebenze?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Practice",
+          "teacher_dialogue": "Great. How would you say: 'It is important that the people study'?",
+          "justification": "Weaves noun class agreement (abantu → ba-) into the new mood for masked repetition."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student",
+          "student_dialogue": "Kubalulekile ukuba abantu bafunde?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Weave another verb",
+          "teacher_dialogue": "Exactly. Use **Ndicela ukuba ...**. How would you say: 'I ask that the student study'?",
+          "justification": "Extends the same structure with a new lead-in (Ndicela) to generalize the pattern."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student",
+          "student_dialogue": "Ndicela ukuba umfundi afunde?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Apply to Class 4",
+          "teacher_dialogue": "Good. What about 'I want the trees to grow' (use **imithi** and `-khula`)?",
+          "justification": "Maps the rule onto a new root and a non-human class to show system-wide applicability."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student",
+          "student_dialogue": "Ndifuna ukuba imithi ikhule?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Exit check",
+          "teacher_dialogue": "Nice. Summary: flip final `-a` → `-e` and often use **ukuba**. Quick build: how would you say '**They ask that we study**'?",
+          "justification": "Ends with a productive prompt and a concise rule recap; invites hypothesis without over-explaining."
+        }
       ]
     },
     {
@@ -45,28 +114,87 @@
       ],
       "objective": "Form relative clauses by combining the relative concord with the verb plus -yo (e.g., umntu osebenzayo, abantu abasebenzayo, isihlalo esisebenzayo).",
       "key_vocabulary": [
-        { "word": "umntu osebenzayo", "meaning": "the person who is working" },
-        { "word": "abantu abasebenzayo", "meaning": "the people who are working" },
-        { "word": "isihlalo esisebenzayo", "meaning": "the chair that is working/functional" }
+        {
+          "word": "umntu osebenzayo",
+          "meaning": "the person who is working"
+        },
+        {
+          "word": "abantu abasebenzayo",
+          "meaning": "the people who are working"
+        },
+        {
+          "word": "isihlalo esisebenzayo",
+          "meaning": "the chair that is working/functional"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "In English we add 'who' to describe: 'the person who is working'. In isiXhosa, we build a 'describing verb' directly.", "justification": "Frames relative clause as a descriptive extension of the verb, not a separate word to memorize." },
-        { "turn_number": 2, "section": "Introduce with Class 1", "teacher_dialogue": "Take umntu (u-). Relative uses an o- sound: u- → o-. Add -yo to the verb: osebenzayo. 'umntu osebenzayo'.",
-          "justification": "Stepwise mapping from known SC (u-) to relative form (o-) and -yo suffix." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "umntu osebenzayo." },
-        { "turn_number": 4, "section": "Class 2 practice", "teacher_dialogue": "With abantu (ba-), relative is aba- + -sebenza + -yo → 'abantu abasebenzayo'.",
-          "justification": "Weave plural class to show systematic concord changes." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "abantu abasebenzayo." },
-        { "turn_number": 6, "section": "Class 7 practice", "teacher_dialogue": "With isihlalo (si-), relative is esi- + -sebenza + -yo → 'isihlalo esisebenzayo'.",
-          "justification": "Extends the pattern to Class 7 as per plan, reinforcing concord logic." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "isihlalo esisebenzayo." },
-        { "turn_number": 8, "section": "Swap verb", "teacher_dialogue": "Change the verb to -funda: 'the people who are studying' → 'abantu abafundayo'.",
-          "justification": "Masked repetition with a new verb to highlight the stable -yo mechanism." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "abantu abafundayo." },
-        { "turn_number": 10, "section": "Context build", "teacher_dialogue": "Make a full NP: 'I see the person who is working' → 'Ndiyambona umntu osebenzayo'.",
-          "justification": "Weaves object concord usage (-m-) into a natural sentence with a relative clause." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Ndiyambona umntu osebenzayo." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Relative clauses are built by adjusting the concord (u-→o-, ba-→aba-, si-→esi-) and adding -yo to the verb. Same slots; a new describing power.", "justification": "Summarizes the slot logic across classes to solidify the mental template." }
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing)",
+          "teacher_dialogue": "In English we add 'who' to describe: 'the person who is working'. In isiXhosa, we build a describing verb directly.",
+          "justification": "Frames relative clause as a descriptive extension of the verb, not a separate word to memorize."
+        },
+        {
+          "turn_number": 2,
+          "section": "Introduce with Class 1",
+          "teacher_dialogue": "Take **umntu** (Class 1). The describing piece uses **o-** and ends with `-yo`. What do you think '**the person who is working**' sounds like?",
+          "justification": "Stepwise mapping from known SC (u-) to relative form (o-) and -yo suffix."
+        },
+        {
+          "turn_number": 3,
+          "section": "Student",
+          "student_dialogue": "umntu osebenzayo?"
+        },
+        {
+          "turn_number": 4,
+          "section": "Class 2 practice",
+          "teacher_dialogue": "Perfect. With **abantu** (plural), try '**the people who are working**'.",
+          "justification": "Weave plural class to show systematic concord changes."
+        },
+        {
+          "turn_number": 5,
+          "section": "Student",
+          "student_dialogue": "abantu abasebenzayo?"
+        },
+        {
+          "turn_number": 6,
+          "section": "Class 7 practice",
+          "teacher_dialogue": "Nice. With **isihlalo** (Class 7), try '**the chair that is working/functional**'.",
+          "justification": "Extends the pattern to Class 7 as per plan, reinforcing concord logic."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student",
+          "student_dialogue": "isihlalo esisebenzayo?"
+        },
+        {
+          "turn_number": 8,
+          "section": "Swap verb",
+          "teacher_dialogue": "Great. Swap the verb to `-funda`. Try '**the people who are studying**'.",
+          "justification": "Masked repetition with a new verb to highlight the stable -yo mechanism."
+        },
+        {
+          "turn_number": 9,
+          "section": "Student",
+          "student_dialogue": "abantu abafundayo?"
+        },
+        {
+          "turn_number": 10,
+          "section": "Context build",
+          "teacher_dialogue": "Exactly. Make a full NP. Try: 'I see the person who is working'.",
+          "justification": "Weaves object concord usage (-m-) into a natural sentence with a relative clause."
+        },
+        {
+          "turn_number": 11,
+          "section": "Student",
+          "student_dialogue": "Ndiyambona umntu osebenzayo?"
+        },
+        {
+          "turn_number": 12,
+          "section": "Closing",
+          "teacher_dialogue": "Summary: adjust the describing piece (u-→o-, ba-→aba-, si-→esi-) and add `-yo`. Exit check: build '**the tree that is growing**' with **umthi** and `-khula`.",
+          "justification": "Summarizes the slot logic and ends with a productive prompt to infer and produce."
+        }
       ]
     },
     {
@@ -78,27 +206,91 @@
       ],
       "objective": "Express location by transforming the noun with locative e- ... -ini (e.g., indlu → endlwini, imoto → emotweni) and use it naturally with verbs.",
       "key_vocabulary": [
-        { "word": "e- ... -ini", "meaning": "locative prefix and suffix" },
-        { "word": "indlu → endlwini", "meaning": "house → in/at/from the house" },
-        { "word": "imoto → emotweni", "meaning": "car → in/at/from the car" },
-        { "word": "-phuma", "meaning": "to exit/come out" }
+        {
+          "word": "e- ... -ini",
+          "meaning": "locative prefix and suffix"
+        },
+        {
+          "word": "indlu → endlwini",
+          "meaning": "house → in/at/from the house"
+        },
+        {
+          "word": "imoto → emotweni",
+          "meaning": "car → in/at/from the car"
+        },
+        {
+          "word": "-phuma",
+          "meaning": "to exit/come out"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "English adds small words (in/at/from). IsiXhosa transforms the noun itself to carry location.", "justification": "Reframes away from memorizing prepositions to a powerful noun transformation rule." },
-        { "turn_number": 2, "section": "Rule (Step 1)", "teacher_dialogue": "Add e- to the front and -ini to the end. The first vowel of the noun drops. indlu → e- + ndlu + -ini → endlwini.", "justification": "One-thought-at-a-time steps with explicit vowel behavior prevents confusion." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "indlu → endlwini." },
-        { "turn_number": 4, "section": "Rule (Step 2)", "teacher_dialogue": "Try imoto: e- + moto + -ini. This becomes 'emotweni'.",
-          "justification": "Immediate application to a second noun for masked repetition." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "imoto → emotweni." },
-        { "turn_number": 6, "section": "Sentence build", "teacher_dialogue": "Say: 'I am working in the house' → 'Ndiyasebenza endlwini'.",
-          "justification": "Weave the locative into a known present construction to make it useful quickly." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "Ndiyasebenza endlwini." },
-        { "turn_number": 8, "section": "Verb determines sense", "teacher_dialogue": "With -phuma (exit), the locative reads 'from': 'Ndiphuma endlwini' = I am coming from the house.", "justification": "Highlights that the verb disambiguates 'in/at/from' for practical comprehension." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Ndiphuma endlwini." },
-        { "turn_number": 10, "section": "Another context", "teacher_dialogue": "Say: 'We are sitting in the car' → 'Sihleli emotweni'.",
-          "justification": "Adds another high-frequency verb with the same locative to reinforce the transformation." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Sihleli emotweni." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "You can now transform nouns with e- ... -ini and let the verb tell whether it's in/at/from. Same slots; a new noun shape.", "justification": "Consolidates the transformation logic and its interaction with verb semantics." }
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing)",
+          "teacher_dialogue": "English adds small words (in/at/from). IsiXhosa transforms the noun itself to carry location.",
+          "justification": "Reframes away from memorizing prepositions to a powerful noun transformation rule."
+        },
+        {
+          "turn_number": 2,
+          "section": "Rule (Step 1)",
+          "teacher_dialogue": "There is a locative form that wraps the noun. Try it with **indlu**—what do you get?",
+          "justification": "One-thought-at-a-time steps with explicit vowel behavior prevents confusion."
+        },
+        {
+          "turn_number": 3,
+          "section": "Student",
+          "student_dialogue": "indlu → endlwini?"
+        },
+        {
+          "turn_number": 4,
+          "section": "Rule (Step 2)",
+          "teacher_dialogue": "Perfect. Try **imoto**.",
+          "justification": "Immediate application to a second noun for masked repetition."
+        },
+        {
+          "turn_number": 5,
+          "section": "Student",
+          "student_dialogue": "imoto → emotweni?"
+        },
+        {
+          "turn_number": 6,
+          "section": "Sentence build",
+          "teacher_dialogue": "Great. Say: 'I am working in the house'.",
+          "justification": "Weave the locative into a known present construction to make it useful quickly."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student",
+          "student_dialogue": "Ndiyasebenza endlwini?"
+        },
+        {
+          "turn_number": 8,
+          "section": "Verb determines sense",
+          "teacher_dialogue": "Nice. With `-phuma` (exit), it often reads 'from'. Try: 'I am coming from the house'.",
+          "justification": "Highlights that the verb disambiguates 'in/at/from' for practical comprehension."
+        },
+        {
+          "turn_number": 9,
+          "section": "Student",
+          "student_dialogue": "Ndiphuma endlwini?"
+        },
+        {
+          "turn_number": 10,
+          "section": "Another context",
+          "teacher_dialogue": "Exactly. Say: 'We are sitting in the car'.",
+          "justification": "Adds another high-frequency verb with the same locative to reinforce the transformation."
+        },
+        {
+          "turn_number": 11,
+          "section": "Student",
+          "student_dialogue": "Sihleli emotweni?"
+        },
+        {
+          "turn_number": 12,
+          "section": "Closing",
+          "teacher_dialogue": "Summary: transform nouns with **e- ... -ini** and let the verb tell 'in/at/from'. Exit check: build '**I am coming from the car**'.",
+          "justification": "Consolidates the transformation logic and ends with a productive prompt."
+        }
       ]
     },
     {
@@ -110,28 +302,86 @@
       ],
       "objective": "Identify nouns with the copulative ngu- (e.g., Ngumntu) and express existence with kukho/akukho, optionally combining with locatives.",
       "key_vocabulary": [
-        { "word": "ngu-", "meaning": "copulative 'is (a)'" },
-        { "word": "kukho", "meaning": "there is / there are" },
-        { "word": "akukho", "meaning": "there is not / there are not" }
+        {
+          "word": "ngu-",
+          "meaning": "copulative 'is (a)'"
+        },
+        {
+          "word": "kukho",
+          "meaning": "there is / there are"
+        },
+        {
+          "word": "akukho",
+          "meaning": "there is not / there are not"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Bridge from adjectives", "teacher_dialogue": "We said 'Umntu mkhulu' (The person is big). To say 'It is a person', we use ngu-: 'Ngumntu'.",
-          "justification": "Reframes 'being' as a copulative piece that attaches to nouns, not an English-style separate verb." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Ngumntu." },
-        { "turn_number": 3, "section": "More IDs", "teacher_dialogue": "Say: 'It is a student' → 'Ngumfundi'.",
-          "justification": "Masked repetition with another Class 1 noun." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Ngumfundi." },
-        { "turn_number": 5, "section": "Introduce existence", "teacher_dialogue": "To say 'there is/are', use 'kukho'. 'There is a person' → 'Kukho umntu'.",
-          "justification": "Adds the existential construction as a new 'being' pattern." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Kukho umntu." },
-        { "turn_number": 7, "section": "With locative", "teacher_dialogue": "Combine with Lesson 28: 'There is a person in the house' → 'Kukho umntu endlwini'.",
-          "justification": "Weaves locatives to show compositionality across lessons." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Kukho umntu endlwini." },
-        { "turn_number": 9, "section": "Negative existence", "teacher_dialogue": "Say: 'There is no chair in the car' → 'Akukho sihlalo emotweni'.",
-          "justification": "Introduces the negative existential with the same locative pattern." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Akukho sihlalo emotweni." },
-        { "turn_number": 11, "section": "Closing weave", "teacher_dialogue": "You can now identify ('ngu-') and assert existence ('kukho/akukho'), and even place things using locatives. Same slots; new meanings.", "justification": "Consolidates the copulative and existential as part of the same 'being' toolkit." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Kukho abantu endlwini. Ngumntu lo." }
+        {
+          "turn_number": 1,
+          "section": "Bridge from adjectives",
+          "teacher_dialogue": "We said **Umntu mkhulu** ('The person is big'). To say 'It is a person', isiXhosa uses a copulative piece attached to the noun. Try it.",
+          "justification": "Reframes 'being' as a copulative piece that attaches to nouns, not an English-style separate verb."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student",
+          "student_dialogue": "Ngumntu?"
+        },
+        {
+          "turn_number": 3,
+          "section": "More IDs",
+          "teacher_dialogue": "Great. Try: 'It is a student'.",
+          "justification": "Masked repetition with another Class 1 noun."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student",
+          "student_dialogue": "Ngumfundi?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Introduce existence",
+          "teacher_dialogue": "Exactly. To say 'there is/are', isiXhosa uses an existence piece. Try: 'There is a person'.",
+          "justification": "Adds the existential construction as a new 'being' pattern."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student",
+          "student_dialogue": "Kukho umntu?"
+        },
+        {
+          "turn_number": 7,
+          "section": "With locative",
+          "teacher_dialogue": "Good. Combine with the locative: try 'There is a person in the house'.",
+          "justification": "Weaves locatives to show compositionality across lessons."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student",
+          "student_dialogue": "Kukho umntu endlwini?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Negative existence",
+          "teacher_dialogue": "Nice. Try: 'There is no chair in the car'.",
+          "justification": "Introduces the negative existential with the same locative pattern."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student",
+          "student_dialogue": "Akukho sihlalo emotweni?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Closing weave",
+          "teacher_dialogue": "Summary: identify with **ngu-** and assert existence with **kukho/akukho**, and place things with locatives. Exit check: how would you say '**There is a teacher in the house**'?",
+          "justification": "Consolidates the toolkit and ends with a productive prompt."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student",
+          "student_dialogue": "Kukho utitshala endlwini?"
+        }
       ]
     },
     {
@@ -143,29 +393,87 @@
       ],
       "objective": "Modify verb meanings by adding suffixes: -isa (causative → cause to do/use) and -ela (applicative → do for someone). Apply them in simple sentences.",
       "key_vocabulary": [
-        { "word": "-sebenzisa", "meaning": "to use (from -sebenza: work)" },
-        { "word": "-fundela", "meaning": "to read/study for (from -funda)" },
-        { "word": "-bhala → -bhalela", "meaning": "to write → to write for" }
+        {
+          "word": "-sebenzisa",
+          "meaning": "to use (from -sebenza: work)"
+        },
+        {
+          "word": "-fundela",
+          "meaning": "to read/study for (from -funda)"
+        },
+        {
+          "word": "-bhala → -bhalela",
+          "meaning": "to write → to write for"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "We can add pieces to the end of a verb to change meaning. -isa makes it 'cause to do'; -ela makes it 'do for (someone)'.",
-          "justification": "Frames extensions as predictable end-slot pieces, matching the learner's verb machine model." },
-        { "turn_number": 2, "section": "Causative from -sebenza", "teacher_dialogue": "-sebenza (work) → -sebenzisa (cause to work → use). Say: 'I am using the chair' → 'Ndiyasebenzisa isihlalo'.",
-          "justification": "Concrete causative example with a familiar noun to anchor the new meaning." },
-        { "turn_number": 3, "section": "Student", "student_dialogue": "Ndiyasebenzisa isihlalo." },
-        { "turn_number": 4, "section": "Applicative from -funda", "teacher_dialogue": "-funda (read/study) → -fundela (read/study for). Say: 'I read for the child' → 'Ndifundela umntwana'.",
-          "justification": "Introduces the 'for someone' meaning in a practical, everyday action." },
-        { "turn_number": 5, "section": "Student", "student_dialogue": "Ndifundela umntwana." },
-        { "turn_number": 6, "section": "OC with applicative", "teacher_dialogue": "Say: 'He will read for me' (future + OC -ndi-): 'Uza kundifundela'.",
-          "justification": "Weaves future -za- and object concord placement into the new extension." },
-        { "turn_number": 7, "section": "Student", "student_dialogue": "Uza kundifundela." },
-        { "turn_number": 8, "section": "Another applicative", "teacher_dialogue": "-bhala → -bhalela. Say: 'We write for the teacher' → 'Sibhalele utitshala'.",
-          "justification": "Adds a second applicative root to strengthen the pattern." },
-        { "turn_number": 9, "section": "Student", "student_dialogue": "Sibhalele utitshala." },
-        { "turn_number": 10, "section": "Causative with OC", "teacher_dialogue": "Say: 'They are using them (the chairs)' with -zi- before -sebenzisa: 'Bayazisebenzisa (izihlalo)'.",
-          "justification": "Weaves object concords into causative usage for integrated practice." },
-        { "turn_number": 11, "section": "Student", "student_dialogue": "Bayazisebenzisa izihlalo." },
-        { "turn_number": 12, "section": "Closing", "teacher_dialogue": "Causative -isa and applicative -ela are end-slot tools. Attach them to known roots to expand meaning: use, read-for, write-for.", "justification": "Summarizes the extension logic and encourages productive experimentation with roots." }
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing)",
+          "teacher_dialogue": "We can add pieces to the end of a verb to change meaning. `-isa` makes it 'cause to do'; `-ela` makes it 'do for (someone)'.",
+          "justification": "Frames extensions as predictable end-slot pieces, matching the learner's verb machine model."
+        },
+        {
+          "turn_number": 2,
+          "section": "Causative from -sebenza",
+          "teacher_dialogue": "From `-sebenza` (work), we can make 'use'. Try: 'I am using the chair'.",
+          "justification": "Concrete causative example with a familiar noun to anchor the new meaning."
+        },
+        {
+          "turn_number": 3,
+          "section": "Student",
+          "student_dialogue": "Ndiyasebenzisa isihlalo?"
+        },
+        {
+          "turn_number": 4,
+          "section": "Applicative from -funda",
+          "teacher_dialogue": "From `-funda` (read/study), try: 'I read for the child'.",
+          "justification": "Introduces the 'for someone' meaning in a practical, everyday action."
+        },
+        {
+          "turn_number": 5,
+          "section": "Student",
+          "student_dialogue": "Ndifundela umntwana?"
+        },
+        {
+          "turn_number": 6,
+          "section": "OC with applicative",
+          "teacher_dialogue": "Good. Future with OC `-ndi-`. Try: 'He will read for me'.",
+          "justification": "Weaves future -za- and object concord placement into the new extension."
+        },
+        {
+          "turn_number": 7,
+          "section": "Student",
+          "student_dialogue": "Uza kundifundela?"
+        },
+        {
+          "turn_number": 8,
+          "section": "Another applicative",
+          "teacher_dialogue": "From `-bhala`, try: 'We write for the teacher'.",
+          "justification": "Adds a second applicative root to strengthen the pattern."
+        },
+        {
+          "turn_number": 9,
+          "section": "Student",
+          "student_dialogue": "Sibhalele utitshala?"
+        },
+        {
+          "turn_number": 10,
+          "section": "Causative with OC",
+          "teacher_dialogue": "Try: 'They are using them (the chairs)' with `-zi-` before the verb.",
+          "justification": "Weaves object concords into causative usage for integrated practice."
+        },
+        {
+          "turn_number": 11,
+          "section": "Student",
+          "student_dialogue": "Bayazisebenzisa izihlalo?"
+        },
+        {
+          "turn_number": 12,
+          "section": "Closing",
+          "teacher_dialogue": "Summary: causative `-isa` and applicative `-ela` are end-slot tools. Attach them to known roots: **-sebenzisa**, **-fundela**, **-bhalela**. Exit check: build '**She will write for me**'.",
+          "justification": "Summarizes the extension logic and ends with a productive prompt to produce a sentence."
+        }
       ]
     }
   ]
