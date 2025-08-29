@@ -1,0 +1,692 @@
+{
+    "course_name": "isiXhosa with Socrates",
+    "part_name": "Part 5: Fluency, Nuance, and Culture",
+    "lessons_covered": "51-60",
+    "lessons": [
+      {
+        "lesson_title": " **Lesson 51: Ideophones - Painting with Sound** ",
+        "thinking_method_focus": [ "Increasing Language Consciousness", "Reframing" ],
+        "objective": "To introduce ideophones as a tool for creating vivid sensory descriptions .",
+        "key_vocabulary": [
+          { "word": "gqi", "meaning": "to appear suddenly (ideophone)" },
+          { "word": "cithi", "meaning": "to scatter (ideophone)" },
+          { "word": "bha", "meaning": "to be wide open (ideophone)" },
+          { "word": "dada", "meaning": "to spread out (ideophone)" },
+          { "word": "-thi", "meaning": "to say / to do (auxiliary verb with ideophones)" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Reframing)",
+            "teacher_dialogue": "So far, our sentences have been very descriptive, but literal. IsiXhosa has a beautiful feature that lets you 'paint a picture' with sound. These aren't exactly verbs or nouns; they are 'sound ideas' or ideophones. Think of them not as words you define, but as sounds you feel. We use them with the verb '-thi', which acts here like a way to present the sound. For example, 'gqi' is the sound of appearing suddenly. To say 'He appeared suddenly', we can say 'Uthe gqi'.",
+            "justification": "This reframes ideophones from a strange word category into an artistic tool ('painting with sound'), making them exciting rather than confusing. It cues the learner to focus on the feeling, not a rigid definition. It also introduces the auxiliary verb '-thi' in this specific context, explaining its function with ideophones."
+          },
+          {
+            "turn_number": 2,
+            "section": "Introducing 'cithi' with a known noun",
+            "teacher_dialogue": "Do you remember 'amatye' (stones) from Lesson 9? 'cithi' is the sound of things scattering. How would you say 'The stones scattered'?",
+            "justification": "This turn checks for recall of 'amatye' (more than 3 lessons prior) and then prompts the student to construct a sentence using the new ideophone 'cithi' and the auxiliary verb '-thi', following the pattern demonstrated in the opening."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Amatye athe cithi?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Introducing 'bha' with a known noun",
+            "teacher_dialogue": "Perfect! 'Amatye athe cithi'. Now, 'bha' is the idea of being wide open. Do you recall 'incwadi' (book) from Lesson 32? How would you say 'The book is wide open'?",
+            "justification": "Reinforces an older vocabulary item ('incwadi') and introduces 'bha', guiding the student to apply the ideophone structure to another familiar noun."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Incwadi ithe bha?"
+          },
+          {
+            "turn_number": 6,
+            "section": "Introducing 'dada' with a known noun",
+            "teacher_dialogue": "Exactly right. 'Incwadi ithe bha'. Now, 'dada' is the sound of spreading out. Do you remember 'isonka' (bread) from Lesson 4? How would you say 'The bread spread out'?",
+            "justification": "Checks for recall of 'isonka' (more than 3 lessons prior) and introduces 'dada', applying the ideophone structure with a different type of noun."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Isonka sithe dada?"
+          },
+          {
+            "turn_number": 8,
+            "section": "Practice and Context",
+            "teacher_dialogue": "Excellent, 'Isonka sithe dada'. You can now add a layer of poetry to your descriptions by using these 'sound ideas'. Let's try to combine two. How would you say 'The stones appeared suddenly and then scattered'?",
+            "justification": "Encourages the learner to combine two ideophones in a sequence, drawing on the narrative 'and then' idea from Lesson 39, to build a more complex description."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Amatye athe gqi, athe cithi?"
+          },
+          {
+            "turn_number": 10,
+            "section": "Closing",
+            "teacher_dialogue": "You've got it! 'Amatye athe gqi, athe cithi'. You've mastered painting with sound! These ideophones enrich your isiXhosa by providing vivid sensory details, and you'll find them very common in natural speech.",
+            "justification": "Summarizes the key learning points and reinforces the value of ideophones in natural language, linking it to the goal of achieving fluency."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 52: Conditional Sentences - 'If... then...'** ",
+        "thinking_method_focus": [ "Importing Knowledge", "Weaving" ],
+        "objective": "To form conditional sentences for present/future possibilities and past/hypothetical situations.",
+        "key_vocabulary": [
+          { "word": "imali", "meaning": "money" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Importing Knowledge)",
+            "teacher_dialogue": "We use 'if... then...' sentences all the time in English to talk about possibilities. The logic is the same in isiXhosa. Do you remember 'ukuba' from Lesson 26 [8, 10]? It means 'that' or 'if'. Here, it signals a condition.",
+            "justification": "This imports the core concept of conditionality from English, making the structure's purpose immediately clear. It also checks for recall of 'ukuba' (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 2,
+            "section": "Present/Future Conditionals",
+            "teacher_dialogue": "For a real possibility, the 'if' part of the sentence uses the participial mood we saw in Lesson 47, which means we drop the '-ya-'. Do you remember '-sebenza' (to work) from Lesson 11? How would you start: 'If I work...'?",
+            "justification": "This weaves together previously learned concepts (participial mood, verb '-sebenza') to introduce the first part of the conditional structure. It prompts the learner to actively apply these existing tools."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Ukuba ndisebenza?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Completing the Present/Future Conditional",
+            "teacher_dialogue": "Exactly, 'Ukuba ndisebenza'. Now for the 'then' part. Do you recall the future tense with '-za-' from Lesson 15? Let's use our new word 'imali' (money) and '-fumana' (to get/obtain) from Lesson 12. How would you say the whole sentence: 'If I work, I will get money'?",
+            "justification": "Checks for recall of 'imali' and '-fumana' (more than 3 lessons prior) and guides the student to combine the participial 'if' clause with the future tense, building a complete conditional sentence using known structures."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Ukuba ndisebenza, ndiza kufumana imali?"
+          },
+          {
+            "turn_number": 6,
+            "section": "Past/Hypothetical Conditionals (Part 1)",
+            "teacher_dialogue": "Excellent! 'Ukuba ndisebenza, ndiza kufumana imali'. Now, what if you want to say 'If I *had* worked...'? This is a hypothetical past. Do you remember the recent past continuous with 'bendi-' from Lesson 41? How would you start the 'if' part: 'If I had worked...'?",
+            "justification": "This introduces a more complex idea by carefully weaving in the 'bendi-' structure from Lesson 41. By posing it as a 'hypothetical past' and guiding the first part, it manages cognitive load."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Ukuba bendisebenza?"
+          },
+          {
+            "turn_number": 8,
+            "section": "Completing the Past/Hypothetical Conditional",
+            "teacher_dialogue": "Perfect, 'Ukuba bendisebenza'. Now, the 'then' part: '...I *would have* gotten money'. This is built with the past continuous of the future! Think 'bendi-' plus '-za-' plus the infinitive 'ukufumana'. How would you put that together?",
+            "justification": "This challenges the learner to construct a complex hypothetical 'then' clause by combining multiple known elements: past continuous, future marker, and infinitive. The phrasing 'past continuous of the future' encourages a logical, analytical approach."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Bendiza kufumana imali?"
+          },
+          {
+            "turn_number": 10,
+            "section": "Full Past/Hypothetical Sentence",
+            "teacher_dialogue": "You've got the pieces! So, the full sentence: 'If I had worked, I would have gotten money'.",
+            "justification": "Confirms the correct construction and allows the learner to hear the full sentence, solidifying the complex pattern."
+          },
+          {
+            "turn_number": 11,
+            "student_dialogue": "Ukuba bendisebenza, bendiza kufumana imali."
+          },
+          {
+            "turn_number": 12,
+            "section": "Closing",
+            "teacher_dialogue": "Excellent work! You've learned to build nuanced conditional sentences, combining elements you already know in logical ways. This demonstrates the power of isiXhosa's systematic structure, allowing you to express complex ideas by weaving together familiar building blocks.",
+            "justification": "Summarizes the achievement, reinforces the 'weaving' principle, and praises the learner's ability to handle complex structures."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 53: Abstract Noun Classes** ",
+        "thinking_method_focus": [ "Reframing", "Vocabulary Panorama" ],
+        "objective": "To understand and use Class 14 (ubu-) for abstract concepts and Class 15 (uku-) for verbal nouns.",
+        "key_vocabulary": [
+          { "word": "ubu-", "meaning": "Class 14 prefix for abstract concepts" },
+          { "word": "ubuntu", "meaning": "humanity / kindness" },
+          { "word": "ubudala", "meaning": "age / state of being old" },
+          { "word": "uku-", "meaning": "Class 15 prefix for verbal nouns (actions)" },
+          { "word": "-sela", "meaning": "to drink" },
+          { "word": "ukusela", "meaning": "the act of drinking / a drink" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Reframing)",
+            "teacher_dialogue": "We've learned noun classes for people, trees, and objects. Now we'll learn classes for *ideas*. These classes allow you to take a word you know and turn it into an abstract concept or an action used as a noun.",
+            "justification": "This reframes these classes not as more categories to memorize, but as a powerful tool for creating new vocabulary from existing knowledge, managing cognitive load."
+          },
+          {
+            "turn_number": 2,
+            "section": "Class 14 (ubu-): The '-ness' or '-hood' Class",
+            "teacher_dialogue": "Class 14, with its prefix 'ubu-', often expresses a quality or state. Do you remember 'umntu' (person) from Lesson 3? If 'umntu' is a person, what do you think 'ubuntu' means, representing the quality of being a person?",
+            "justification": "By deriving the abstract noun from a familiar word ('umntu'), the meaning becomes transparent. It also checks for recall of 'umntu' (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Humanity? Or kindness?"
+          },
+          {
+            "turn_number": 4,
+            "section": "More Class 14 practice",
+            "teacher_dialogue": "Exactly, 'humanity' or 'kindness'. Now, do you remember '-dala' (old) from Lesson 36? What would 'ubudala' mean, the state of being old?",
+            "justification": "Reinforces the pattern of forming abstract nouns from adjectives, connecting to an earlier lesson ('-dala') and prompting for the meaning of 'ubudala'."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Age."
+          },
+          {
+            "turn_number": 6,
+            "section": "Class 15 (uku-): The Action Class",
+            "teacher_dialogue": "Spot on, 'ubudala' means 'age'. We've actually been using Class 15 all along! Do you recall 'uku-' as the prefix for verb infinitives like 'ukutya' (to eat) from Lesson 4 and Lesson 19? But because it's a noun class, 'ukutya' also means 'the act of eating', or simply 'food'.",
+            "justification": "This connects back to a very early lesson, creating a satisfying 'aha!' moment. The learner realizes they've known about this abstract noun class all along, which builds confidence. It checks for recall of 'ukutya' (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 7,
+            "section": "Practice with Class 15",
+            "teacher_dialogue": "Now, let's learn a new verb root: '-sela', meaning 'to drink'. Given what you know about 'uku-' as a verbal noun, what would 'ukusela' mean?",
+            "justification": "Introduces new key vocabulary ('-sela') and immediately applies the Class 15 noun formation rule, prompting the student to infer its meaning."
+          },
+          {
+            "turn_number": 8,
+            "student_dialogue": "To drink, or a drink?"
+          },
+          {
+            "turn_number": 9,
+            "section": "Further Class 15 practice",
+            "teacher_dialogue": "Exactly! 'To drink' or 'a drink'. Do you remember '-funda' (to study) from Lesson 11? What would 'ukufunda' mean as a verbal noun?",
+            "justification": "Checks for recall of '-funda' (more than 3 lessons prior) and reinforces the Class 15 concept with another familiar verb."
+          },
+          {
+            "turn_number": 10,
+            "student_dialogue": "To study, or studying / education?"
+          },
+          {
+            "turn_number": 11,
+            "section": "Closing",
+            "teacher_dialogue": "Perfect! 'Ukufunda' can indeed mean 'to study', 'studying', or 'education'. You've now unlocked two powerful ways to create abstract concepts and verbal nouns from words you already know, deepening your understanding of isiXhosa's efficient morphological system.",
+            "justification": "Summarizes the key learning, reinforces the 'reframing' principle, and praises the learner's ability to apply the system."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 54: Deficient Verbs - Modifying Meaning** ",
+        "thinking_method_focus": [ "Weaving", "Increasing Language Consciousness" ],
+        "objective": "To introduce verbs that modify other verbs, adding nuance.",
+        "key_vocabulary": [
+          { "word": "-thi", "meaning": "deficient verb, can mean 'do for a moment'" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Weaving)",
+            "teacher_dialogue": "In isiXhosa, some verbs are 'deficient'—they can't always be used alone. Instead, they act like helpers to add a specific 'flavour' to another verb. We already saw '-thi' in Lesson 51 as a way to present ideophones. Here, it can mean 'to do something for a moment'.",
+            "justification": "Connects to a recent lesson where '-thi' was used, easing into its new function. Reframes 'deficient verbs' as 'helpers' to manage cognitive load."
+          },
+          {
+            "turn_number": 2,
+            "section": "Introducing the structure",
+            "teacher_dialogue": "So, to say 'I worked for a bit', we use the past form of 'thi' which is '-the', followed by the subject concord of the main verb and the main verb itself. Do you remember '-sebenza' (to work) from Lesson 11? How would you say 'I worked for a bit'?",
+            "justification": "Checks for recall of '-sebenza' (more than 3 lessons prior) and guides the student to construct the deficient verb phrase step-by-step, focusing on the combination of elements."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Ndithe ndasebenza?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Practice with another verb",
+            "teacher_dialogue": "That's exactly right, 'Ndithe ndasebenza'. You've linked the past of '-thi' with the consecutive 'nda-' for the action. Do you recall '-funda' (to study) from Lesson 11? How would you say 'I studied for a bit'?",
+            "justification": "Reinforces the pattern with another familiar verb, promoting masked repetition and ensuring the structural understanding is transferable."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Ndithe ndafunda?"
+          },
+          {
+            "turn_number": 6,
+            "section": "Third person practice",
+            "teacher_dialogue": "Perfect! 'Ndithe ndafunda'. Now, let's try it with 'you'. Do you remember 'u-' (you) from Lesson 2? How would you say 'You talked for a bit'?",
+            "justification": "Checks for recall of 'u-' (more than 3 lessons prior) and introduces a new verb '-thetha' (to speak), while applying the deficient verb structure with a different subject concord."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Uthe wathetha?"
+          },
+          {
+            "turn_number": 8,
+            "section": "More practice, with new verb",
+            "teacher_dialogue": "Excellent, 'Uthe wathetha'. You used the past 'wa-' for 'you'. Let's try 'They slept for a bit'. Do you remember '-lala' (to sleep) from Lesson 10? How would that be?",
+            "justification": "Checks for recall of '-lala' (more than 3 lessons prior) and reinforces the pattern with a different subject and verb, continuing the masked repetition."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Bathe balala?"
+          },
+          {
+            "turn_number": 10,
+            "section": "Closing",
+            "teacher_dialogue": "That's it, 'Bathe balala'. You've successfully used a deficient verb to add nuance to actions. This shows how isiXhosa allows verbs to 'help' each other to refine meaning, increasing your language consciousness about its flexible structure.",
+            "justification": "Summarizes the learning, emphasizes the concept of nuance, and praises the learner's understanding of the flexible verb structure."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 55: Reported Speech - 'He said that...'** ",
+        "thinking_method_focus": [ "Importing Knowledge", "Weaving" ],
+        "objective": "To learn the structures for reporting what someone else has said, often using the subjunctive mood.",
+        "key_vocabulary": [
+          { "word": "ukuthi", "meaning": "to say (infinitive)" },
+          { "word": "mandi-", "meaning": "special subject concord for 'that I' in reported commands/suggestions" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Importing Knowledge)",
+            "teacher_dialogue": "In English, we say 'He said that he would work'. IsiXhosa has clear structures for 'reported speech'. We often use the infinitive 'ukuthi' (to say) from our key vocabulary, and then the subjunctive mood. Do you remember the subjunctive ending '-e' from Lesson 26?",
+            "justification": "Bridges to the English concept, introduces new key vocabulary 'ukuthi', and reminds the learner about the subjunctive mood from Lesson 26 (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 2,
+            "section": "Introducing the Reported Command/Suggestion",
+            "teacher_dialogue": "Now, for reported commands or suggestions like 'He said that I must work', isiXhosa uses a special subject concord. For 'that I', it's 'mandi-'. Do you remember '-sebenza' (to work) from Lesson 11? How would you combine 'u-the' (he said, past of '-thi') with 'mandi-' and the subjunctive form of '-sebenza'?",
+            "justification": "Introduces the new key structure 'mandi-' and guides the learner to combine it with a known verb in the subjunctive mood, applying a multi-part construction. Checks for recall of '-sebenza' (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Uthe mandisebenze?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Practice with another subject",
+            "teacher_dialogue": "That's perfect! 'Uthe mandisebenze'. How would you say 'He said that you must study'? Do you remember 'u-' (you) from Lesson 2 and '-funda' (to study) from Lesson 11? The special reported subjunctive concord for 'that you' is 'u-nge-' for negative or 'u-' for positive.",
+            "justification": "Checks for recall of 'u-' and '-funda' (more than 3 lessons prior). Prompts the student to adapt the reported speech structure for a different subject, implicitly reminding them of the normal subject concord in the subjunctive context."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Uthe ufunde?"
+          },
+          {
+            "turn_number": 6,
+            "section": "Reported Negative Command",
+            "teacher_dialogue": "Exactly right! 'Uthe ufunde'. Now, what if it's a negative command? 'He said that you must *not* work'. Do you remember the negative subjunctive with '-nga-' from Lesson 44a? How would that sound after 'u-the'?",
+            "justification": "Weaves in the negative subjunctive (Lesson 44a) to expand the reported speech capabilities. Prompts the student to apply this previously learned negation within the new reporting structure."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Uthe ungasebenze?"
+          },
+          {
+            "turn_number": 8,
+            "section": "Practice with another plural subject",
+            "teacher_dialogue": "Brilliant! 'Uthe ungasebenze'. How would you say 'They said that we must help them'? Do you remember 'Masibanceda' (Let's help them) from Lesson 40 [8, 21]? For 'that we', the special concord is 'si-'.",
+            "justification": "Checks for recall of 'Masibanceda' (more than 3 lessons prior). Guides the student to construct a reported command for a plural subject ('we'), linking it to the hortative mood's 'si-' concord and object concord from Lesson 40."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Bathe sincede bona?"
+          },
+          {
+            "turn_number": 10,
+            "section": "Refining the sentence",
+            "teacher_dialogue": "Close! It's 'Bathe sibancede' - using the object concord directly . Remember, the infinitive 'ukuthi' itself means 'to say'. How would you say 'I want to say that I am working'?",
+            "justification": "Corrects and refines the previous answer, then prompts a sentence using the infinitive 'ukuthi' in a more direct context, combining it with the present continuous."
+          },
+          {
+            "turn_number": 11,
+            "student_dialogue": "Ndifuna ukuthi ndiyasebenza?"
+          },
+          {
+            "turn_number": 12,
+            "section": "Closing",
+            "teacher_dialogue": "Perfect! 'Ndifuna ukuthi ndiyasebenza'. You've started to master reporting speech, a crucial step for real-world conversations. You're now able to convey what others have said and even reported commands, using these new structures.",
+            "justification": "Summarizes the lesson's achievements and emphasizes the practical application of reported speech, linking it to conversational fluency."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 56: Cultural Context - Ukuhlonipha (Respect)** ",
+        "thinking_method_focus": [ "Increasing Language Consciousness", "Reframing" ],
+        "objective": "To understand how the deep cultural value of respect shapes the language.",
+        "key_vocabulary": [
+          { "word": "ukuhlonipha", "meaning": "deep, active respect (cultural concept)" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Reframing)",
+            "teacher_dialogue": "To truly speak isiXhosa, we need to understand 'ukuhlonipha', a deep, active respect. This is more than just being polite. It's a foundational cultural value that can even shape the words people use.",
+            "justification": "Introduces the new key vocabulary 'ukuhlonipha' and reframes the concept of respect as a profound cultural principle rather than a mere social etiquette."
+          },
+          {
+            "turn_number": 2,
+            "section": "Connecting to Noun Classes (Recap)",
+            "teacher_dialogue": "Do you remember Class 15 abstract nouns from Lesson 53, where 'uku-' turns a verb into an action-as-noun? 'Ukuhlonipha' is formed similarly from the verb '-hlonipha' (to respect). What does this tell you about the importance of respect in the culture?",
+            "justification": "Connects the new vocabulary to the recently learned concept of abstract noun classes (Lesson 53), deepening language consciousness about word formation and cultural significance. It also implicitly checks for recall of Lesson 53."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "That it's an action, a doing, not just a feeling?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Example of Linguistic Impact",
+            "teacher_dialogue": "Precisely. It’s an active practice. One fascinating example of 'ukuhlonipha' is 'ukuhlonipha amakhosikazi' (respect for older women or wives) or 'ukuhlonipha umlamzo' (respect for a husband's clan names). Do you remember 'inkosikazi' (woman/wife/madam) from Lesson 33 [22, 23]?",
+            "justification": "Introduces specific cultural applications of 'ukuhlonipha' and checks for recall of 'inkosikazi' (more than 3 lessons prior), weaving cultural context with existing vocabulary."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Yes, I remember 'inkosikazi'."
+          },
+          {
+            "turn_number": 6,
+            "section": "Further Linguistic Impact",
+            "teacher_dialogue": "Good. In traditional isiXhosa society, a woman might avoid using words that sound like her father-in-law's name, creating a whole different vocabulary set out of respect. We won't learn this specific vocabulary now, but understanding this concept is key to truly understanding the culture. How might this impact learning the language as a beginner?",
+            "justification": "Explains a profound linguistic consequence of 'ukuhlonipha', emphasizing cultural awareness as integral to language learning, rather than focusing on specific vocabulary. Prompts for learner reflection."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "It could make it confusing, as words could change. It shows how deeply culture is in the language."
+          },
+          {
+            "turn_number": 8,
+            "section": "The Importance of 'Ukuhlonipha'",
+            "teacher_dialogue": "Exactly. This demonstrates isiXhosa's deep connection between language and social structure. Even if you don't master all the nuances immediately, being aware of 'ukuhlonipha' will guide your interactions and show genuine effort to connect with speakers. How would you greet an elder you deeply respect, using a form you know?",
+            "justification": "Reinforces the importance of 'ukuhlonipha' and prompts the learner to consider how existing language knowledge can be applied respectfully, connecting it back to practical communication."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Perhaps 'Molo, umhlekazi' (Hello, sir)?",
+            "justification": "'umhlekazi' (sir, formal)."
+          },
+          {
+            "turn_number": 10,
+            "section": "Closing",
+            "teacher_dialogue": "That's an excellent start. 'Molo, umhlekazi' shows significant respect. By understanding 'ukuhlonipha', you begin to appreciate the rich tapestry of isiXhosa culture woven into its very fabric. This awareness will make your communication not just grammatically correct, but also culturally appropriate and genuinely meaningful.",
+            "justification": "Praises the learner's application and reiterates the overall goal of culturally aware fluency, tying back to the course's comprehensive approach."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 57: Proverbs and Idioms** ",
+        "thinking_method_focus": [ "Increasing Language Consciousness", "Reframing" ],
+        "objective": "To learn common sayings that reveal cultural values.",
+        "key_vocabulary": [
+          { "word": "isiqhelo", "meaning": "habit" },
+          { "word": "-oyisa", "meaning": "to conquer / overcome" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Reframing)",
+            "teacher_dialogue": "Just like in English, isiXhosa uses proverbs and idioms to convey wisdom and cultural values concisely. Learning these makes your isiXhosa sound much more natural and insightful. They're like shortcuts to a deeper understanding.",
+            "justification": "Reframes proverbs as 'shortcuts to insight' and highlights their importance for natural speech."
+          },
+          {
+            "turn_number": 2,
+            "section": "Introducing a Proverb",
+            "teacher_dialogue": "Let's learn a famous isiXhosa proverb: 'Isiqhelo siyayoyisa ingqondo'. We have two new vocabulary items here: 'isiqhelo' (habit) and '-oyisa' (to conquer/overcome). Do you remember 'ingqondo' (mind/intelligence) from the Xhosa Vocabulary in source?",
+            "justification": "Introduces the proverb, defines new key vocabulary, and checks for recall of 'ingqondo' (more than 3 lessons prior), preparing the student to break down the proverb's meaning."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Yes, 'ingqondo' is mind or intelligence."
+          },
+          {
+            "turn_number": 4,
+            "section": "Literal Translation",
+            "teacher_dialogue": "Excellent! So, literally, 'Isiqhelo siyayoyisa ingqondo' means 'Habit conquers the mind'. Can you tell me what you think this proverb means in a broader sense, similar to an English idiom?",
+            "justification": "Provides the literal translation and prompts the learner to infer the deeper, idiomatic meaning, encouraging critical thinking and cultural connection."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Old habits die hard? Or, what you're used to doing is stronger than your will?"
+          },
+          {
+            "turn_number": 6,
+            "section": "Confirming Meaning and Usage",
+            "teacher_dialogue": "Spot on! It means exactly that: 'Old habits die hard'. This is a powerful phrase you can use to comment on routines or difficulties in changing behaviour. Let's try to use it in a sentence. Do you remember 'ukuba' (if) from Lesson 26 [8, 10] and '-nzima' (difficult) from source?",
+            "justification": "Confirms the idiom's meaning, introduces its practical usage, and checks for recall of 'ukuba' and '-nzima' (more than 3 lessons prior) before prompting sentence creation."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Ukuba kunzima ukutshintsha, isiqhelo siyayoyisa ingqondo?"
+          },
+          {
+            "turn_number": 8,
+            "section": "Feedback and Further Practice",
+            "teacher_dialogue": "That's a very good attempt! 'Ukuba kunzima ukutshintsha, isiqhelo siyayoyisa ingqondo' (If it's difficult to change, habit conquers the mind). 'Uku-tshintsha' means 'to change'. How would you say 'I will study thoroughly because habit conquers the mind'?",
+            "justification": "Provides positive feedback, implicitly introduces 'ukutshintsha', and prompts a new sentence that combines the proverb with previously learned grammar (intensive verbal extension from L44 and conjunction 'kuba' from L43) [8, 17, 26]."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Ndiza kufundisisa kuba isiqhelo siyayoyisa ingqondo?"
+          },
+          {
+            "turn_number": 10,
+            "section": "Closing",
+            "teacher_dialogue": "Excellent! 'Ndiza kufundisisa kuba isiqhelo siyayoyisa ingqondo'. You've not only learned a new proverb but also integrated it into complex sentences. These sayings offer a window into isiXhosa thought and will significantly enhance the naturalness of your communication.",
+            "justification": "Summarizes the learning, emphasizes the cultural and linguistic benefits of learning proverbs, and praises the learner's ability to integrate new knowledge."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 58: Advanced Conversational Practice (Dialogue)** ",
+        "thinking_method_focus": [ "Weaving", "Masking Repetition" ],
+        "objective": "To integrate all learned structures in a guided conversation.",
+        "key_vocabulary": [
+          { "word": "-hamba", "meaning": "to go / walk" },
+          { "word": "umama", "meaning": "mother" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Weaving)",
+            "teacher_dialogue": "Today, we're putting everything you've learned into practice with a guided conversation. We'll simulate a dialogue about making plans, weaving together many structures. Let's start with an offer. Do you remember 'ukhululekile' (free/relaxed) from source? And 'ngomso' (tomorrow) from Lesson 38 [8, 22]?",
+            "justification": "Sets the stage for a practical application of cumulative learning. Checks for recall of 'ukhululekile' and 'ngomso' (more than 3 lessons prior) and prepares for a multi-clause sentence."
+          },
+          {
+            "turn_number": 2,
+            "section": "Learner's Turn (Making an Offer)",
+            "teacher_dialogue": "Using the contingent mood (Lesson 49), how would you say: 'If you are free tomorrow, let's go to the market'?",
+            "justification": "Prompts a complex sentence integrating the contingent mood and hortative mood (Lesson 40), requiring the learner to combine multiple structures. 'Imarket' (market) is commonly used and can be inferred in context."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Ukuba ukhululekile ngomso, masihambe emarket?"
+          },
+          {
+            "turn_number": 4,
+            "section": "Teacher's Turn (Accepting with a Condition)",
+            "teacher_dialogue": "That's a fantastic start! 'Ukuba ukhululekile ngomso, masihambe emarket'. Now, I will respond: 'Ndingahamba, kodwa kufuneka ndibone umama wam'. What did I just say? Break it down.",
+            "justification": "Models the response, incorporating new key vocabulary '-hamba' and 'umama', alongside the potential mood (Lesson 38) and the 'must' construction ('kufuneka')."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "'Ndingahamba' is 'I can go' (potential from Lesson 38). 'Kodwa' is 'but' (Lesson 43). 'Kufuneka' is 'I must'. 'Ndibone umama wam' is 'I see my mother' ('umama' is new vocabulary, but 'ndi-bona' is known, 'wam' is possessive from L7/L18) [6, 8, 15, 22, 24, 29, 30]. So, 'I can go, but I must see my mother'."
+          },
+          {
+            "turn_number": 6,
+            "section": "Learner's Turn (Proposing an Alternative)",
+            "teacher_dialogue": "Excellent breakdown! Now, what if you say: 'Okay, then let's study thoroughly at your place tomorrow'?",
+            "justification": "Prompts the student to propose an alternative using the hortative mood, intensive extension (Lesson 44), and possessives of place (Lesson 48) [11, 21, 26]."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Kulungile, masifundisise kwakho ngomso?"
+          },
+          {
+            "turn_number": 8,
+            "section": "Teacher's Turn (Agreeing Enthusiastically)",
+            "teacher_dialogue": "Perfect! 'Kulungile, masifundisise kwakho ngomso'. I reply: 'Intle loo nto!' (That's lovely!). Do you remember that phrase?",
+            "justification": "Confirms the correct sentence and checks for recall of 'Intle loo nto' (more than 3 lessons prior), reinforcing expressive vocabulary."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Yes, 'that's lovely'."
+          },
+          {
+            "turn_number": 10,
+            "section": "Learner's Turn (Confirming and Expressing Thanks)",
+            "teacher_dialogue": "Exactly. Now, confirm the plan and say 'Thank you'. Do you remember '-bulela' (to thank)?",
+            "justification": "Prompts the student to confirm the plan using learned structures and to express thanks with a vocabulary item (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 11,
+            "student_dialogue": "Ewe, enkosi!"
+          },
+          {
+            "turn_number": 12,
+            "section": "Closing",
+            "teacher_dialogue": "Wonderful! 'Ewe, enkosi!' This short dialogue demonstrated your ability to seamlessly combine tenses, moods, possessives, and conjunctions in a real conversational flow. You're building fluency by linking these mental building blocks together, creating meaningful exchanges.",
+            "justification": "Summarizes the success of the lesson in integrating various grammatical components and reinforces the idea of building fluency through 'weaving' previously learned concepts."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 59: Advanced Conversational Practice (Freeform)** ",
+        "thinking_method_focus": [ "Weaving", "Increasing Language Consciousness" ],
+        "objective": "To practice spontaneous sentence construction and narrative.",
+        "key_vocabulary": [],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Weaving)",
+            "teacher_dialogue": "Today, we're taking off the training wheels. I'll pose open-ended questions, and you'll construct spontaneous answers, drawing on everything you've learned. This is where your 'verb machine' and 'noun class system' become truly intuitive tools. Do you remember 'wena' (you, emphatic) from Lesson 24?",
+            "justification": "Sets the stage for free-form practice, emphasizing the shift to intuitive language use. Checks for recall of 'wena' (more than 3 lessons prior)."
+          },
+          {
+            "turn_number": 2,
+            "section": "Freeform Prompt 1 (Past Experience)",
+            "teacher_dialogue": "Excellent. First question: 'Wena, tell me about a place you have visited.' Use past tenses (Lessons 14, 46) and locatives (Lesson 28).",
+            "justification": "Prompts a narrative response, explicitly cueing the use of multiple past tenses and locatives, allowing for a range of grammatical application."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "Ndafika eKapa kudala. Ndasebenza apho. Kwakumnandi."
+          },
+          {
+            "turn_number": 4,
+            "section": "Feedback and Follow-up",
+            "teacher_dialogue": "That's a great start! 'Ndafika eKapa kudala. Ndasebenza apho. Kwakumnandi.' ('I arrived in Cape Town long ago. I worked there. It was nice.') You used remote past ('Ndafika', 'Ndasebenza') and 'kudala'. Now, tell me, 'Ukuba ubunexesha elininzi apho, ubungathini?' (If you had a lot of time there, what would you have done?)",
+            "justification": "Provides positive feedback and a follow-up question that incorporates a hypothetical conditional structure, prompting the student to think creatively and apply more complex grammar (Lesson 52) [9, 17]. 'ixesha' (time)."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "Ukuba bendinexesha elinizi, bendizakufundisisa isiXhosa."
+          },
+          {
+            "turn_number": 6,
+            "section": "Feedback and Freeform Prompt 2 (Hypothetical Future)",
+            "teacher_dialogue": "Fantastic! 'Ukuba bendinexesha elinizi, bendizakufundisisa isiXhosa.' ('If I had a lot of time, I would study isiXhosa thoroughly.') You used the hypothetical conditional and the intensive extension (Lesson 44) beautifully [9, 26]. Second question: 'What would you do if you had a lot of money?' Use your new vocabulary 'imali' (money) from Lesson 52.",
+            "justification": "Praises the complex sentence construction and introduces a new hypothetical scenario, explicitly referencing new vocabulary and encouraging the use of relevant grammatical structures."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "Ukuba bendimali eninzi, bendizakubona abantu abaninzi kwatitshala."
+          },
+          {
+            "turn_number": 8,
+            "section": "Feedback and Clarification",
+            "teacher_dialogue": "Very interesting! 'Ukuba bendimali eninzi, bendizakubona abantu abaninzi kwatitshala' ('If I had a lot of money, I would see many people at the teacher's place.'). Just a small note: if 'imali' is the subject of 'having', it would be 'Ukuba bendine mali eninzi'. But your idea is clear. Now, can you connect this thought with a conjunction (Lesson 43)? Say: 'If I had a lot of money, I would travel because I want to see the world.'",
+            "justification": "Provides gentle correction while affirming the overall idea. Prompts the student to build a more complex sentence by integrating conjunctions and potentially new vocabulary to express a fuller thought, pushing for advanced sentence construction."
+          },
+          {
+            "turn_number": 9,
+            "student_dialogue": "Ukuba bendine mali eninzi, bendizakuhamba kuba ndifuna ukubona ihlabathi."
+          },
+          {
+            "turn_number": 10,
+            "section": "Teacher's Dialogue",
+            "teacher_dialogue": "That’s ambitious! 'Ukuba bendine mali eninzi, bendizakuhamba kuba ndifuna ukubona ihlabathi.' ('If I had a lot of money, I would travel because I want to see the world.') You used '-hamba' (to go/travel) from Lesson 58 [Key Vocab for L58]. 'Ihlabathi' (the world) is a good new word to learn for this context.",
+            "justification": "Acknowledges the student's initiative and implicitly introduces 'ihlabathi' to enrich the vocabulary. It highlights the successful weaving of complex structures."
+          },
+          {
+            "turn_number": 11,
+            "section": "Closing",
+            "teacher_dialogue": "Excellent free-form practice! This is where your mental framework truly shines. You're combining ideas, tenses, and moods spontaneously. This ability to generate novel sentences is the hallmark of true fluency. Keep practicing, and you'll find your isiXhosa flowing more and more naturally.",
+            "justification": "Summarizes the success of the free-form session, reinforces the core principles of The Thinking Method, and offers encouragement for continued learning, aligning with the course's overall goals."
+          }
+        ]
+      },
+      {
+        "lesson_title": " **Lesson 60: Course Review and Lifelong Learning** ",
+        "thinking_method_focus": [ "Consolidating the mental framework", "Increasing Language Consciousness" ],
+        "objective": "To consolidate the core logic of the language and empower the learner to continue their journey.",
+        "key_vocabulary": [
+          { "word": "Hamba kakuhle", "meaning": "Go well! (farewell)" }
+        ],
+        "turns": [
+          {
+            "turn_number": 1,
+            "section": "Opening (Consolidation)",
+            "teacher_dialogue": "Congratulations! We've reached the final lesson of 'isiXhosa with Socrates'. Our goal was not to memorize phrases, but to build a mental machine, a systematic framework for isiXhosa. Let's review its main parts.",
+            "justification": "Congratulates the learner and immediately reframes the course's purpose, setting a reflective and summative tone. Reinforces the 'mental machine' analogy."
+          },
+          {
+            "turn_number": 2,
+            "section": "Review: The Noun Class System",
+            "teacher_dialogue": "What was the first, most crucial part of this machine? The 'brain' that controls everything else in isiXhosa?",
+            "justification": "Prompts the learner to recall the fundamental concept of noun classes, emphasizing its central role in the language system."
+          },
+          {
+            "turn_number": 3,
+            "student_dialogue": "The Noun Class System! It has the labels that tell other words what to do."
+          },
+          {
+            "turn_number": 4,
+            "section": "Review: The Verb Machine",
+            "teacher_dialogue": "Exactly! The Noun Class System, with its prefixes and concords, controls everything. What was the 'engine' of the sentence, with its slots for different ideas?",
+            "justification": "Reinforces the noun class concept and then prompts for the next major component, the verb, using the 'engine' analogy."
+          },
+          {
+            "turn_number": 5,
+            "student_dialogue": "The Verb! With slots for WHO, WHEN, OBJECT, and WHAT (the root)."
+          },
+          {
+            "turn_number": 6,
+            "section": "Review: Suffixes and Extensions",
+            "teacher_dialogue": "Spot on! The Verb, with its ordered slots for WHO, WHEN, OBJECT, and WHAT. And what about the 'little end-pieces' we added to change a verb's meaning, like making it thorough or reciprocal?",
+            "justification": "Reinforces the verb structure and then prompts for the concept of verbal extensions and suffixes, using familiar analogies."
+          },
+          {
+            "turn_number": 7,
+            "student_dialogue": "The suffixes and verbal extensions! Like '-isisa' for thoroughly, or '-ana' for doing to each other."
+          },
+          {
+            "turn_number": 8,
+            "section": "Lifelong Learning: Application",
+            "teacher_dialogue": "Perfect! Those suffixes and extensions changed meanings. If you understand this core logic—the noun class system, the verb slots, and the suffixes—you can figure out almost any sentence you hear. When you listen to isiXhosa music or news, listen for these pieces. Listen for the '-yo' of a relative (Lesson 27), the '-nga-' of the potential (Lesson 38), or the locative 'e-...-ini' (Lesson 28). This is how you will continue to learn forever.",
+            "justification": "Emphasizes the power of the learned framework for independent learning. Connects the abstract concepts back to practical listening strategies and provides specific examples with lesson references."
+          },
+          {
+            "turn_number": 9,
+            "section": "Lifelong Learning: Motivation",
+            "teacher_dialogue": "Remember, the journey of language learning is continuous. You now have the foundational tools and a deep understanding of *how* isiXhosa works. You can confidently approach new vocabulary and complex sentences by breaking them down into these familiar components.",
+            "justification": "Motivates the learner for continued self-study, reinforcing their acquired skills and the effectiveness of The Thinking Method in building analytical language learners."
+          },
+          {
+            "turn_number": 10,
+            "section": "Closing Farewell",
+            "teacher_dialogue": "It has been a privilege guiding you through this course. As we say in isiXhosa, 'Hamba kakuhle!' (Go well!) Do you remember '-hamba' (to go/walk) from Lesson 58 [Key Vocab for L58] and 'kakuhle' (well/nicely)?",
+            "justification": "Introduces a traditional farewell, checking for recall of new and older vocabulary (more than 3 lessons prior) and ending the course on an encouraging and culturally relevant note."
+          },
+          {
+            "turn_number": 11,
+            "student_dialogue": "Yes! Hamba kakuhle! Thank you!"
+          },
+          {
+            "turn_number": 12,
+            "section": "Final Teacher Encouragement",
+            "teacher_dialogue": "Enkosi nawe! (Thank you too!) May your isiXhosa journey be rich and rewarding.",
+            "justification": "Offers a final, personal word of thanks and encouragement, solidifying the positive learning experience."
+          }
+        ]
+      }
+    ]
+  }
