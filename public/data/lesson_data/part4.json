@@ -1,10 +1,10 @@
 {
   "course_name": "isiXhosa with Socrates",
-  "part_name": "Part 4",
-  "lessons_covered": "31-40",
+  "part_name": "Part 4: Advanced Concords, Moods, and Tenses",
+  "lessons_covered": "34-44",
   "lessons": [
     {
-      "lesson_title": "**Lesson 31: Verbal Extensions (Reciprocal -ana & Passive -wa)**",
+      "lesson_title": " **Lesson 34: Verbal Extensions (Reciprocal -ana & Passive -wa)** ",
       "thinking_method_focus": [
         "Weaving",
         "Reframing",
@@ -22,82 +22,138 @@
           "meaning": "be -ed / undergo the action"
         },
         {
-          "word": "-bona → -bonana / -bonwa",
-          "meaning": "see → see each other / be seen"
+          "word": "-bona",
+          "meaning": "to see"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
-          "section": "Opening (Reframing)",
-          "teacher_dialogue": "Our verb machine can wear little end-pieces to shift meaning. Today we add `-ana` for 'each other' and `-wa` for 'be -ed'. What do you think that sounds like with a verb you know?",
-          "justification": "Reframes extensions as friendly end-slot add-ons; invites prediction before giving forms."
+          "section": "Opening (Reframing & Weaving)",
+          "teacher_dialogue": "In Lesson 33, we started adding 'end-pieces' or suffixes to our verb roots to subtly shift their meaning, like '-isa' for 'to use' and '-ela' for 'to do for someone'. These extensions let us pack more information into our verb machine. Today, we're adding two more powerful suffixes. First, one to express a mutual action, like 'each other'. The suffix is '-ana'. Do you remember the verb root meaning 'to see' from Lesson 13?",
+          "justification": "This turn explicitly references previous lessons (L11 for verb machine, L33 for extensions, L13 for -bona) and frames the new suffixes as logical additions. It includes a vocabulary recall check for '-bona' from Lesson 13, which is more than 3 lessons prior (L34 - L13 = 21 lessons), adhering to the instruction."
         },
         {
           "turn_number": 2,
-          "section": "Prompt (reciprocal)",
-          "teacher_dialogue": "Take the root `-bona` ('see'). If two people see each other, add `-ana`. What does the root become?",
-          "justification": "Guides construction without providing the answer first."
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-bona'?"
         },
         {
           "turn_number": 3,
-          "section": "Student",
-          "student_dialogue": "-bonana?"
+          "section": "Introducing the Reciprocal (-ana)",
+          "teacher_dialogue": "That's it, '-bona'. So, if '-bona' means 'to see', and we want to express 'to see each other', how would you attach our new '-ana' end-piece to the root '-bona'?",
+          "justification": "Affirms the recalled vocabulary and invites the student to infer the new reciprocal form, adhering to the 'one thought at a time' principle and the instruction to not give the answer first."
         },
         {
           "turn_number": 4,
-          "section": "Build (present)",
-          "teacher_dialogue": "Perfect! Using WHO `si-` + `-ya-` + ROOT, how would you say '**We see each other**'?",
-          "justification": "Keeps to the known slots and elicits production."
+          "section": "Student Dialogue",
+          "student_dialogue": "-bonana?"
         },
         {
           "turn_number": 5,
-          "section": "Student",
-          "student_dialogue": "Siyabonana?"
+          "section": "Building a Complete Sentence with -ana",
+          "teacher_dialogue": "Precisely, '-bonana'. Now, if we want to say 'We see each other', thinking about the 'we' subject concord ('si-') that we've used in earlier lessons (e.g., Lesson 12 for noun class agreement, or Lesson 26 and 30 in dialogue), how would you construct that full present tense sentence, including our '-ya-' for flow (Lesson 8 and 11)?",
+          "justification": "Affirms the new form and prompts for a full sentence, weaving in previously learned concepts like the 'si-' subject concord (L12 for formal introduction, used extensively since) and the '-ya-' present tense marker (L8, L11). This serves as masked repetition and contextual application."
         },
         {
           "turn_number": 6,
-          "section": "Introduce passive -wa",
-          "teacher_dialogue": "Exactly. Now flip the focus to the one seen. With `-wa`, what does `-bona` become when it means '**be seen**'?",
-          "justification": "Contrasts reciprocal with passive to solidify meanings."
+          "section": "Student Dialogue",
+          "student_dialogue": "Siyabonana?"
         },
         {
           "turn_number": 7,
-          "section": "Student",
-          "student_dialogue": "-bonwa?"
+          "section": "Introducing the Passive (-wa)",
+          "teacher_dialogue": "Excellent, 'Siyabonana'. Now, let's learn our second new suffix for today. This one shifts the focus to the receiver of the action, like saying 'to be seen' or 'to be eaten'. This is called the 'passive' voice, and the suffix is '-wa'. So, if '-bona' means 'to see', how would you attach '-wa' to make it mean 'to be seen'?",
+          "justification": "Introduces the passive suffix '-wa' as a distinct concept, contrasting its function with the reciprocal. It invites the student to apply the new suffix to a familiar verb root, following the inference instruction."
         },
         {
           "turn_number": 8,
-          "section": "Context (Class 1)",
-          "teacher_dialogue": "Great. With **umntu** (Class 1) and present `-ya-`, build '**The person is seen**'.",
-          "justification": "Weaves class agreement with passive meaning."
+          "section": "Student Dialogue",
+          "student_dialogue": "-bonwa?"
         },
         {
           "turn_number": 9,
-          "section": "Student",
-          "student_dialogue": "Umntu uyabonwa?"
+          "section": "Vocabulary Recall (umntu)",
+          "teacher_dialogue": "Exactly, '-bonwa'. Now, let's use this in a sentence. Do you remember the word for 'person' from Lesson 3?",
+          "justification": "Prompts for vocabulary recall of 'umntu' from Lesson 3 (L34 - L3 = 31 lessons), adhering to the instruction for words introduced more than 3 lessons prior."
         },
         {
           "turn_number": 10,
-          "section": "Negative check (plural)",
-          "teacher_dialogue": "Nice. Make it negative for the plural: with **abantu**, say '**The people are not seen**'.",
-          "justification": "Encourages retrieval of negative present with a passive form without front-loading rules."
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu?"
         },
         {
           "turn_number": 11,
-          "section": "Student",
-          "student_dialogue": "Abantu ababonwa?"
+          "section": "Building a Complete Sentence with -wa",
+          "teacher_dialogue": "Perfect. So, if we want to say 'The person is seen', using the subject concord for 'umntu' (which is 'u-', as in Lesson 12), and our usual present tense marker '-ya-' (Lesson 11), how would you build that sentence?",
+          "justification": "Affirms the recalled noun and guides the student to construct a sentence combining the passive form with known subject concord (L12) and tense marker (L11), promoting integrated application."
         },
         {
           "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu uyabonwa?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Vocabulary Recall (Negative Present Tense)",
+          "teacher_dialogue": "Brilliant, 'Umntu uyabonwa'. You're clearly mastering how these suffixes shift meaning. Let's try to make that sentence negative. Do you recall how we make present tense verbs negative (the 'a-...-i' pattern from Lesson 5)?",
+          "justification": "Prompts for recall of the negative present tense pattern from Lesson 5 (L34 - L5 = 29 lessons), preparing the student to apply it to the new passive form."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'a-' at the start and '-i' at the end."
+        },
+        {
+          "turn_number": 15,
+          "section": "Applying Negative to Passive",
+          "teacher_dialogue": "Exactly. So if 'Umntu uyabonwa' means 'The person is seen', how would you say 'The person is not seen'?",
+          "justification": "Invites the student to infer the negative passive form, combining previously learned rules with the new suffix."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu akabonwa?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Weaving with Future Tense",
+          "teacher_dialogue": "Spot on, 'Umntu akabonwa'. One final challenge to consolidate these new tools. Thinking back to the future tense with '-za-' (Lesson 15) and our infinitive linker 'ku-' (Lesson 19), how would you say 'We will see each other'?",
+          "justification": "Prompts a complex sentence integrating the future tense (L15, L19) with the reciprocal form, requiring the student to apply multiple learned concepts. It uses 'we' (si-) which has been present in various lessons, and includes references to L15 and L19 (L34 - L15 = 19 lessons; L34 - L19 = 15 lessons)."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Siza kubonana?"
+        },
+        {
+          "turn_number": 19,
           "section": "Closing",
-          "teacher_dialogue": "To summarise, **-ana** joins participants (**Siyabonana**), and **-wa** focuses on the one affected (**Umntu uyabonwa**). Same slots, new endings. Quick exit build: how would you say '**We will see each other**' using `-za-`?",
-          "justification": "Concise recap with praise woven in and a final productive prompt."
+          "teacher_dialogue": "Perfect, 'Siza kubonana'! To summarise, you've learned that '-ana' adds the meaning of 'each other', creating forms like 'Siyabonana' (We see each other). And '-wa' creates the passive voice, like 'Umntu uyabonwa' (The person is seen). These are powerful end-pieces for your verb machine, letting you express more nuanced actions and relationships. Keep noticing how these small pieces add big meaning!",
+          "justification": "Summarises the key learning points, reinforces the 'verb machine' analogy, and provides encouragement, aligning with the tone of a curriculum developer."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'We see each other' in isiXhosa?",
+          "answer": "Siyabonana."
+        },
+        {
+          "prompt": "How would you say 'The person is seen' in isiXhosa?",
+          "answer": "Umntu uyabonwa."
+        },
+        {
+          "prompt": "How would you say 'The person is not seen' in isiXhosa?",
+          "answer": "Umntu akabonwa."
+        },
+        {
+          "prompt": "How would you say 'We will see each other' in isiXhosa?",
+          "answer": "Siza kubonana."
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 32: The Diminutive (-ana)**",
+      "lesson_title": " **Lesson 35: The Diminutive (-ana)** ",
       "thinking_method_focus": [
         "Reframing",
         "One Thought at a Time",
@@ -111,86 +167,176 @@
           "meaning": "suffix indicating smallness/affection"
         },
         {
-          "word": "intaka → intakana",
-          "meaning": "bird → little bird"
+          "word": "intaka",
+          "meaning": "bird"
         },
         {
-          "word": "incwadi → incwadana",
-          "meaning": "book → booklet / little book"
+          "word": "incwadi",
+          "meaning": "book"
+        },
+        {
+          "word": "inja",
+          "meaning": "dog"
+        },
+        {
+          "word": "-thanda",
+          "meaning": "to like/love"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
           "section": "Opening (Reframing)",
-          "teacher_dialogue": "IsiXhosa can make nouns feel smaller or affectionate by adding a tiny tail `-ana`. Like a small badge you attach. What do you think happens to a noun you know?",
-          "justification": "Analogy keeps metalanguage light while inviting prediction."
+          "teacher_dialogue": "In isiXhosa, we can add a small 'tail' to a noun to show that it's little or to express affection, almost like putting a 'miniature' badge on it. This suffix is '-ana'. Let's take the word 'incwadi'. Do you remember what 'incwadi' means from Lesson 32?",
+          "justification": "This turn introduces the diminutive concept with an analogy and checks for recall of 'incwadi' from Lesson 32 (L35 - L32 = 3 lessons), which is less than 3 lessons, but a reminder is still helpful for context setting and adheres to the guidelines."
         },
         {
           "turn_number": 2,
-          "section": "Pattern",
-          "teacher_dialogue": "Try with **incwadi** ('book'). Add `-ana`. What do you get?",
-          "justification": "Elicits the diminutive without providing the answer first."
+          "section": "Student Dialogue",
+          "student_dialogue": "Book?"
         },
         {
           "turn_number": 3,
-          "section": "Student",
-          "student_dialogue": "Incwadana?"
+          "section": "Introducing the Diminutive (-ana)",
+          "teacher_dialogue": "That's right, 'book'. So if 'incwadi' is 'book', and we add our '-ana' tail to make it 'little book' or 'booklet', what do you think it would sound like?",
+          "justification": "Affirms the recalled vocabulary and invites the student to infer the new diminutive form, following the 'one thought at a time' principle."
         },
         {
           "turn_number": 4,
-          "section": "Phrase build",
-          "teacher_dialogue": "Exactly! Now say '**I see the little bird**' using **intaka → intakana** and the object piece before the verb.",
-          "justification": "Weaves OC usage with a diminutive noun in a natural sentence."
+          "section": "Student Dialogue",
+          "student_dialogue": "Incwadana?"
         },
         {
           "turn_number": 5,
-          "section": "Student",
-          "student_dialogue": "Ndiyibona intakana?"
+          "section": "Vocabulary Recall (inja)",
+          "teacher_dialogue": "Perfect! 'Incwadana'. Now, let's try another. Do you remember the word for 'dog' from Lesson 21?",
+          "justification": "Prompts for vocabulary recall of 'inja' from Lesson 21 (L35 - L21 = 14 lessons), adhering to the instruction for words introduced more than 3 lessons prior."
         },
         {
           "turn_number": 6,
-          "section": "Another example",
-          "teacher_dialogue": "Great. With **inja** ('dog'), the diminutive is often **injana**. Can you produce it?",
-          "justification": "Adds a high-frequency example while keeping the student in the driver’s seat."
+          "section": "Student Dialogue",
+          "student_dialogue": "Inja?"
         },
         {
           "turn_number": 7,
-          "section": "Student",
-          "student_dialogue": "Injana?"
+          "section": "Applying Diminutive to Another Noun",
+          "teacher_dialogue": "Exactly. So, if 'inja' means 'dog', how would you form 'injana' to mean 'little dog'?",
+          "justification": "Affirms the recalled noun and invites inference for the diminutive form, ensuring active construction."
         },
         {
           "turn_number": 8,
-          "section": "Context sentence",
-          "teacher_dialogue": "Perfect! Build: '**There is a little dog in the house**' using **kukho** and the locative.",
-          "justification": "Weaves existential and locative patterns from earlier lessons."
+          "section": "Student Dialogue",
+          "student_dialogue": "Injana?"
         },
         {
           "turn_number": 9,
-          "section": "Student",
-          "student_dialogue": "Kukho injana endlwini?"
+          "section": "Vocabulary Recall (kukho)",
+          "teacher_dialogue": "Excellent! 'Injana'. Now, let's weave this into a sentence. Do you recall how to say 'There is/are' from Lesson 29?",
+          "justification": "Prompts for vocabulary recall of 'kukho' from Lesson 29 (L35 - L29 = 6 lessons), adhering to the instruction."
         },
         {
           "turn_number": 10,
-          "section": "Like/dislike",
-          "teacher_dialogue": "Nice. Use the diminutive in '**I like the little book**'.",
-          "justification": "Encourages re-use with a common verb to build confidence."
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho?"
         },
         {
           "turn_number": 11,
-          "section": "Student",
-          "student_dialogue": "Ndiyathanda incwadana?"
+          "section": "Vocabulary Recall (endlwini)",
+          "teacher_dialogue": "Yes. And do you remember 'in the house' from Lesson 28?",
+          "justification": "Prompts for vocabulary recall of 'endlwini' from Lesson 28 (L35 - L28 = 7 lessons), adhering to the instruction."
         },
         {
           "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Endlwini?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Building a Sentence with Diminutive and Locative",
+          "teacher_dialogue": "Great. So, using 'kukho', our 'injana', and 'endlwini', how would you say 'There is a little dog in the house'?",
+          "justification": "Guides the student to construct a complex sentence, combining the new diminutive with previously learned existential (L29) and locative (L28) structures."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho injana endlwini?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (to like/love)",
+          "teacher_dialogue": "Spot on! 'Kukho injana endlwini'. You're clearly seeing how these pieces combine. Now, let's use the diminutive with a verb. Do you remember the verb root meaning 'to like' or 'to love' from Lesson 32?",
+          "justification": "Prompts for vocabulary recall of '-thanda' from Lesson 32 (L35 - L32 = 3 lessons). While not strictly 'more than 3', it's beneficial to confirm understanding for high-frequency verbs."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-thanda'?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Building a Sentence with Diminutive and Verb",
+          "teacher_dialogue": "Yes, that's the one. How would you say 'I like the little book'?",
+          "justification": "Invites inference, combining the 'I' subject concord and '-thanda' with the diminutive noun."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndiyathanda incwadana?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Vocabulary Recall (outside)",
+          "teacher_dialogue": "Perfect! 'Ndiyathanda incwadana'. To summarise, you've learned that adding the suffix '-ana' is a neat trick to make nouns sound smaller or more endearing, like 'incwadana' (booklet) and 'injana' (little dog). This is a consistent pattern in isiXhosa. For a final check, do you remember the word for 'outside' from Lesson 31?",
+          "justification": "Summarises the key learning and prompts for vocabulary recall of 'ngaphandle' from Lesson 31 (L35 - L31 = 4 lessons), which aligns with the 'more than 3 lessons prior' rule."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it 'ngaphandle'?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Final Sentence Construction with Diminutive",
+          "teacher_dialogue": "Exactly. So, how would you say 'The little bird is outside' (using 'intakana' for 'little bird' from this lesson's key vocabulary, and remembering Class 9 subject concord 'i-' from Lesson 21)?",
+          "justification": "Affirms the recalled vocabulary and guides the student to construct a sentence using the new diminutive noun 'intakana' and the subject concord for Class 9 (L21)."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Intakana ingaphandle?"
+        },
+        {
+          "turn_number": 23,
           "section": "Closing",
-          "teacher_dialogue": "To summarise, add `-ana` to shape tone and size: **intakana**, **injana**, **incwadana**. Don’t memorise lists—spot the pattern. Final check: how would you say '**The little bird is outside**'?",
-          "justification": "Concise recap with a final productive prompt."
+          "teacher_dialogue": "Spot on! 'Intakana ingaphandle'. You've skillfully used the diminutive suffix, adding a lovely nuance to your isiXhosa.",
+          "justification": "Praises the student's achievement and provides positive reinforcement for the overall learning process."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'booklet' in isiXhosa?",
+          "answer": "Incwadana."
+        },
+        {
+          "prompt": "How would you say 'little dog' in isiXhosa?",
+          "answer": "Injana."
+        },
+        {
+          "prompt": "How would you say 'There is a little dog in the house' in isiXhosa?",
+          "answer": "Kukho injana endlwini."
+        },
+        {
+          "prompt": "How would you say 'I like the little book' in isiXhosa?",
+          "answer": "Ndiyathanda incwadana."
+        },
+        {
+          "prompt": "How would you say 'The little bird is outside' in isiXhosa?",
+          "answer": "Intakana ingaphandle."
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 33: The Augmentative (-kazi)**",
+      "lesson_title": " **Lesson 36: The Augmentative (-kazi)** ",
       "thinking_method_focus": [
         "Weaving",
         "Reframing",
@@ -203,8 +349,12 @@
           "meaning": "forms larger/augmented or feminine-related nouns in many cases"
         },
         {
-          "word": "inja → injakazi",
-          "meaning": "dog → big/augmented or female dog (context-dependent)"
+          "word": "inja",
+          "meaning": "dog"
+        },
+        {
+          "word": "injakazi",
+          "meaning": "big/augmented or female dog (context-dependent)"
         },
         {
           "word": "indoda",
@@ -213,80 +363,181 @@
         {
           "word": "indodakazi",
           "meaning": "daughter (lexicalized form)"
+        },
+        {
+          "word": "inkosikazi",
+          "meaning": "woman/wife/madam (Class 9 noun)"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
-          "section": "Opening (Reframing)",
-          "teacher_dialogue": "Like `-ana` for smallness, isiXhosa often uses `-kazi` to form an augmentative or a related feminine form. Some results become fixed vocabulary. Ready to build one?",
-          "justification": "Sets a friendly expectation and invites participation before giving forms."
+          "section": "Opening (Reframing & Weaving)",
+          "teacher_dialogue": "Just as '-ana' gave us a way to express smallness or affection (Lesson 35), isiXhosa has another suffix, '-kazi', that often gives a sense of bigness, or in some cases, creates a feminine-related form. These are like adding a 'magnifying' badge or a 'feminine' label to a noun. Let's try it with a word you know. Do you remember the word for 'dog' from Lesson 21?",
+          "justification": "This turn explicitly references the previous lesson (L35) and frames the new suffix with analogies, linking new learning to existing mental models. It prompts for vocabulary recall of 'inja' from Lesson 21 (L36 - L21 = 15 lessons), adhering to the instruction."
         },
         {
           "turn_number": 2,
-          "section": "Pattern demo",
-          "teacher_dialogue": "From **inja** ('dog'), add `-kazi`. What do you hear?",
-          "justification": "Elicits the augmented form without pre-answering."
+          "section": "Student Dialogue",
+          "student_dialogue": "Inja?"
         },
         {
           "turn_number": 3,
-          "section": "Student",
-          "student_dialogue": "Injakazi?"
+          "section": "Introducing the Augmentative (-kazi)",
+          "teacher_dialogue": "That's it, 'inja'. So if we add '-kazi' to 'inja' to make 'big dog' or 'female dog' (the context clarifies), what would it sound like?",
+          "justification": "Affirms the recalled noun and invites the student to infer the new augmentative form, adhering to the 'one thought at a time' principle."
         },
         {
           "turn_number": 4,
-          "section": "Context (locative)",
-          "teacher_dialogue": "Exactly. Use it in '**There is a big dog outside**'.",
-          "justification": "Weaves known existential + location with the new noun form."
+          "section": "Student Dialogue",
+          "student_dialogue": "Injakazi?"
         },
         {
           "turn_number": 5,
-          "section": "Student",
-          "student_dialogue": "Kukho injakazi phandle?"
+          "section": "Vocabulary Recall (kukho)",
+          "teacher_dialogue": "Precisely, 'Injakazi'. Now, let's put this into a sentence. Do you remember how to say 'There is/are' from Lesson 29?",
+          "justification": "Prompts for vocabulary recall of 'kukho' from Lesson 29 (L36 - L29 = 7 lessons), adhering to the instruction."
         },
         {
           "turn_number": 6,
-          "section": "Lexicalized example",
-          "teacher_dialogue": "Great. From **indoda** ('man'), the form **indodakazi** means 'daughter'—this one is lexicalised. What is that word?",
-          "justification": "Raises language consciousness about lexicalised outcomes without heavy terminology."
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho?"
         },
         {
           "turn_number": 7,
-          "section": "Student",
-          "student_dialogue": "Indodakazi?"
+          "section": "Vocabulary Recall (outside)",
+          "teacher_dialogue": "Yes. And do you recall how to say 'outside' from Lesson 31?",
+          "justification": "Prompts for vocabulary recall of 'ngaphandle' from Lesson 31 (L36 - L31 = 5 lessons), adhering to the instruction."
         },
         {
           "turn_number": 8,
-          "section": "Another noun in context",
-          "teacher_dialogue": "Use **inkosikazi** ('lady/wife') in '**There is a lady in the house**'.",
-          "justification": "Practises a common established noun in a simple sentence."
+          "section": "Student Dialogue",
+          "student_dialogue": "Ngaphandle?"
         },
         {
           "turn_number": 9,
-          "section": "Student",
-          "student_dialogue": "Kukho inkosikazi endlwini?"
+          "section": "Building a Sentence with Augmentative and Locative",
+          "teacher_dialogue": "Excellent. So, using 'kukho', our new 'injakazi', and 'ngaphandle', how would you say 'There is a big dog outside'?",
+          "justification": "Guides the student to construct a complex sentence, combining the new augmentative with previously learned existential (L29) and directional (L31) structures."
         },
         {
           "turn_number": 10,
-          "section": "Object concord weave",
-          "teacher_dialogue": "Nice. With the object piece for Class 1 (`-m-`), say '**I see the lady**'.",
-          "justification": "Weaves OC with a known Class 1 noun for integrated practice."
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho injakazi ngaphandle?"
         },
         {
           "turn_number": 11,
-          "section": "Student",
-          "student_dialogue": "Ndiyambona inkosikazi?"
+          "section": "Introducing Lexicalised Forms",
+          "teacher_dialogue": "Spot on, 'Kukho injakazi ngaphandle'. Now, sometimes the '-kazi' suffix creates a completely new, fixed word, a process we call lexicalisation. For example, 'indoda' means 'man'. If you add '-kazi' to 'indoda', it forms 'indodakazi', which means 'daughter'. What is the word for 'daughter'?",
+          "justification": "Introduces new key vocabulary 'indoda' and 'indodakazi' and explains the concept of lexicalisation, increasing language consciousness."
         },
         {
           "turn_number": 12,
-          "section": "Closing",
-          "teacher_dialogue": "To summarise, `-kazi` can build bigger or feminine-related forms, and some outputs are fixed words: **injakazi**, **indodakazi**, **inkosikazi**. No need to memorise long lists—notice the pattern and common items. Final check: can you say '**There is a daughter outside**'?",
-          "justification": "Summary plus a final productive prompt, keeping tone encouraging."
+          "section": "Student Dialogue",
+          "student_dialogue": "Indodakazi?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Vocabulary Recall (inkosikazi)",
+          "teacher_dialogue": "Exactly. You're noticing how isiXhosa builds vocabulary. Let's practice with another related word. Do you remember the word 'inkosikazi' (woman/wife/madam) from Lesson 33?",
+          "justification": "Prompts for vocabulary recall of 'inkosikazi' from Lesson 33 (L36 - L33 = 3 lessons). While not strictly 'more than 3', it's beneficial to confirm understanding for high-frequency nouns."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'inkosikazi'."
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (endlwini)",
+          "teacher_dialogue": "Great. And do you remember 'in the house' from Lesson 28?",
+          "justification": "Prompts for vocabulary recall of 'endlwini' from Lesson 28 (L36 - L28 = 8 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Endlwini?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Building a Sentence with Lexicalised Noun and Locative",
+          "teacher_dialogue": "So how would you say 'There is a lady in the house'?",
+          "justification": "Invites inference, combining 'kukho' with 'inkosikazi' and 'endlwini'."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho inkosikazi endlwini?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Vocabulary Recall (Class 1 object concord)",
+          "teacher_dialogue": "Perfect! 'Kukho inkosikazi endlwini'. Now, let's weave in object concords. Do you recall the object concord for 'him/her' (Class 1) that we put before the verb, like in 'Ndiyambona' from Lesson 27?",
+          "justification": "Prompts for recall of the '-m-' object concord (and the example 'Ndiyambona') from Lesson 27 (L36 - L27 = 9 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-m-'?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Building a Sentence with Object Concord",
+          "teacher_dialogue": "Precisely. So how would you say 'I see the lady'?",
+          "justification": "Invites inference, combining 'Ndiyambona' with 'inkosikazi'."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndiyambona inkosikazi?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Closing (Summary and Final Prompt)",
+          "teacher_dialogue": "Excellent, 'Ndiyambona inkosikazi'. To summarise, you've learned that '-kazi' can build bigger or feminine-related forms, and some outputs are fixed words like 'injakazi' (big/female dog), 'indodakazi' (daughter), and 'inkosikazi' (lady). For a final check, how would you say 'There is a daughter outside'?",
+          "justification": "Summarises the key learning, reinforces the concepts, and provides a final productive prompt for the student to integrate multiple learned elements."
+        },
+        {
+          "turn_number": 24,
+          "section": "Student Dialogue",
+          "student_dialogue": "Kukho indodakazi ngaphandle?"
+        },
+        {
+          "turn_number": 25,
+          "section": "Final Teacher Encouragement",
+          "teacher_dialogue": "Absolutely perfect! 'Kukho indodakazi ngaphandle'. You're distinguishing these subtle but important elements with confidence. Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'big dog' or 'female dog' in isiXhosa?",
+          "answer": "Injakazi."
+        },
+        {
+          "prompt": "How would you say 'There is a big dog outside' in isiXhosa?",
+          "answer": "Kukho injakazi ngaphandle."
+        },
+        {
+          "prompt": "How would you say 'daughter' in isiXhosa?",
+          "answer": "Indodakazi."
+        },
+        {
+          "prompt": "How would you say 'There is a lady in the house' in isiXhosa?",
+          "answer": "Kukho inkosikazi endlwini."
+        },
+        {
+          "prompt": "How would you say 'I see the lady' in isiXhosa?",
+          "answer": "Ndiyambona inkosikazi."
+        },
+        {
+          "prompt": "How would you say 'There is a daughter outside' in isiXhosa?",
+          "answer": "Kukho indodakazi ngaphandle."
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 34: The Reflexive (-zi-)**",
+      "lesson_title": " **Lesson 37: The Reflexive (-zi-)** ",
       "thinking_method_focus": [
         "Weaving",
         "One Thought at a Time",
@@ -300,85 +551,149 @@
         },
         {
           "word": "ukuzibona",
-          "meaning": "to see oneself"
+          "meaning": "to see oneself (infinitive)"
         },
         {
           "word": "Ndiyazibona",
           "meaning": "I see myself"
+        },
+        {
+          "word": "-funda",
+          "meaning": "to study/read"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
-          "section": "Opening (Weaving)",
-          "teacher_dialogue": "Recall the verb machine: WHO + (time) + OBJECT/REFLEXIVE + ROOT + (ending). The reflexive is `-zi-` in that object slot. Ready to build one?",
-          "justification": "Places `-zi-` in a familiar slot model and invites a build."
+          "section": "Opening (Weaving & Reframing)",
+          "teacher_dialogue": "Our isiXhosa verb machine (Lesson 11) has different slots for 'who', 'when', and 'what'. We also have a special 'object slot' where we can put an object concord like '-ku-' for 'you' or '-ndi-' for 'me' (Lesson 13). Today, we're going to put something else in that 'object slot' to express an action done *to oneself*. This is called the 'reflexive', and the piece for it is '-zi-'. Do you remember the verb root meaning 'to see' from Lesson 13?",
+          "justification": "This turn references previous lessons (L11 for verb machine, L13 for object concords) and frames the new reflexive infix as a logical addition to the existing model. It prompts for vocabulary recall of '-bona' from Lesson 13 (L37 - L13 = 24 lessons), adhering to the instruction."
         },
         {
           "turn_number": 2,
-          "section": "Form (infinitive)",
-          "teacher_dialogue": "Use `uku- + -zi- + -bona`. What is '**to see oneself**'?",
-          "justification": "Elicits the infinitive transparently without pre-answering."
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-bona'?"
         },
         {
           "turn_number": 3,
-          "section": "Student",
-          "student_dialogue": "Ukuzibona?"
+          "section": "Introducing the Reflexive (-zi-) in the Infinitive",
+          "teacher_dialogue": "That's it, '-bona'. Now, to say 'to see oneself' (the infinitive form), we take our infinitive prefix 'uku-' (Lesson 19), place our reflexive '-zi-' in the object slot, and then our root '-bona'. What do you think 'to see oneself' sounds like?",
+          "justification": "Affirms the recalled verb and guides the student to construct the infinitive with the new reflexive infix, weaving in knowledge of the infinitive prefix (L19). This follows the 'one thought at a time' principle."
         },
         {
           "turn_number": 4,
-          "section": "Present sentence",
-          "teacher_dialogue": "Exactly. Now say '**I see myself**' with `-ya-` for flow.",
-          "justification": "Moves from infinitive to present in one thought."
+          "section": "Student Dialogue",
+          "student_dialogue": "Ukuzibona?"
         },
         {
           "turn_number": 5,
-          "section": "Student",
-          "student_dialogue": "Ndiyazibona?"
+          "section": "Building a Present Tense Reflexive Sentence",
+          "teacher_dialogue": "Perfect! 'Ukuzibona'. Now, how would you say 'I see myself', using our present tense structure (Lesson 11) with the '-ya-' for flow (Lesson 8)?",
+          "justification": "Invites inference, combining the 'I' subject concord (L2) and present tense marker (L8, L11) with the new reflexive form. This provides immediate, masked repetition of the new concept."
         },
         {
           "turn_number": 6,
-          "section": "Another verb",
-          "teacher_dialogue": "Great. With `-hlamba` ('wash'): build '**He washes himself**'.",
-          "justification": "Adds a high-frequency verb to reinforce placement of `-zi-`."
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndiyazibona?"
         },
         {
           "turn_number": 7,
-          "section": "Student",
-          "student_dialogue": "Uyazihlamba?"
+          "section": "Vocabulary Recall (to study/read)",
+          "teacher_dialogue": "Exactly, 'Ndiyazibona'. You're placing that '-zi-' in the object slot perfectly. Let's try another. Do you remember the verb root for 'to study' or 'to read' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-funda' from Lesson 11 (L37 - L11 = 26 lessons), adhering to the instruction."
         },
         {
           "turn_number": 8,
-          "section": "Negative form",
-          "teacher_dialogue": "Perfect. Now negate it: '**He does not wash himself**'.",
-          "justification": "Contrasts affirmative and negative to deepen control of the pattern."
+          "section": "Student Dialogue",
+          "student_dialogue": "-Funda?"
         },
         {
           "turn_number": 9,
-          "section": "Student",
-          "student_dialogue": "Akazihlambi?"
+          "section": "Building a Third Person Reflexive Sentence",
+          "teacher_dialogue": "Good. Now, imagine someone is studying for themselves, perhaps reviewing. How would you say 'He studies for himself' or 'He reads for himself'? Remember the 'he/she' subject concord 'u-' (Lesson 12) and our usual present tense marker '-ya-' (Lesson 11).",
+          "justification": "Guides the student to construct a sentence with a different subject (L12) and the new reflexive, promoting transfer of learning. It explicitly states the need for '-ya-'."
         },
         {
           "turn_number": 10,
-          "section": "Future with reflexive",
-          "teacher_dialogue": "Nice. With the future piece `-za-`, say '**They will see themselves**'.",
-          "justification": "Weaves future with reflexive in the OC slot."
+          "section": "Student Dialogue",
+          "student_dialogue": "Uyazifunda?"
         },
         {
           "turn_number": 11,
-          "section": "Student",
-          "student_dialogue": "Baza kuzibona?"
+          "section": "Vocabulary Recall (Negative Present Tense)",
+          "teacher_dialogue": "Precisely, 'Uyazifunda'. Now, let's try making that negative. Do you remember the general pattern for making present tense verbs negative (Lesson 5)?",
+          "justification": "Prompts for recall of the negative present tense pattern from Lesson 5 (L37 - L5 = 32 lessons), preparing the student to apply it to the reflexive form."
         },
         {
           "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'a-' at the start and '-i' at the end."
+        },
+        {
+          "turn_number": 13,
+          "section": "Applying Negative to Reflexive",
+          "teacher_dialogue": "That's right. So if 'Uyazifunda' means 'He studies for himself', how would you say 'He does not study for himself'?",
+          "justification": "Invites the student to infer the negative reflexive form, combining previously learned rules with the new infix."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Akazifundi?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (Future Tense)",
+          "teacher_dialogue": "Excellent, 'Akazifundi'. One final challenge. Do you remember the future tense marker '-za-' (Lesson 15) and our infinitive linker 'ku-' (Lesson 19)?",
+          "justification": "Prompts for vocabulary recall of the future tense elements from Lesson 15 (L37 - L15 = 22 lessons) and Lesson 19 (L37 - L19 = 18 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, '-za-' and 'ku-'."
+        },
+        {
+          "turn_number": 17,
+          "section": "Building a Future Tense Reflexive Sentence",
+          "teacher_dialogue": "Great. How would you say 'They will see themselves'? Remember the subject concord for 'they' ('ba-', Lesson 12) and the verb root for 'to see' ('-bona', Lesson 13).",
+          "justification": "Guides the student to construct a complex sentence integrating the future tense, reflexive infix, and plural subject concord (L12, L13), promoting higher-level weaving."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Baza kuzibona?"
+        },
+        {
+          "turn_number": 19,
           "section": "Closing",
-          "teacher_dialogue": "To summarise, reflexive **-zi-** sits in the object slot: **Ukuzibona**, **Ndiyazibona**, **Uyazihlamba**. Same slots; a self-directed meaning. Final check: how would you say '**The people wash themselves**' with **abantu**?",
-          "justification": "Recap plus a final productive prompt; keeps the teacher’s encouraging tone."
+          "teacher_dialogue": "Absolutely perfect! 'Baza kuzibona'. To summarise, the reflexive '-zi-' fits neatly into the object slot of your verb machine, allowing you to express actions directed back at the subject, like 'Ukuzibona' (to see oneself) or 'Ndiyazibona' (I see myself). You're adding even more nuance to your isiXhosa verbs!",
+          "justification": "Summarises the key learning, reinforces the 'verb machine' analogy, and provides encouragement, aligning with the tone of a curriculum developer."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'to see oneself' in isiXhosa?",
+          "answer": "Ukuzibona."
+        },
+        {
+          "prompt": "How would you say 'I see myself' in isiXhosa?",
+          "answer": "Ndiyazibona."
+        },
+        {
+          "prompt": "How would you say 'He studies for himself' in isiXhosa?",
+          "answer": "Uyazifunda."
+        },
+        {
+          "prompt": "How would you say 'He does not study for himself' in isiXhosa?",
+          "answer": "Akazifundi."
+        },
+        {
+          "prompt": "How would you say 'They will see themselves' in isiXhosa?",
+          "answer": "Baza kuzibona."
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 35: The Stative (-eka)**",
+      "lesson_title": " **Lesson 38: The Stative (-eka)** ",
       "thinking_method_focus": [
         "Importing Knowledge",
         "Weaving",
@@ -392,336 +707,1428 @@
           "meaning": "be -able / be in a state"
         },
         {
-          "word": "-funda → -fundeka",
-          "meaning": "read → be readable/legible"
+          "word": "-funda",
+          "meaning": "to read/study"
         },
         {
-          "word": "-bona → -boneka",
-          "meaning": "see → be visible"
+          "word": "-fundeka",
+          "meaning": "be readable/legible"
+        },
+        {
+          "word": "-bona",
+          "meaning": "to see"
+        },
+        {
+          "word": "-boneka",
+          "meaning": "be visible"
+        },
+        {
+          "word": "incwadi",
+          "meaning": "book"
+        },
+        {
+          "word": "isihlalo",
+          "meaning": "chair"
+        },
+        {
+          "word": "-sebenza",
+          "meaning": "to work"
+        },
+        {
+          "word": "-sebenzeka",
+          "meaning": "to be workable/functional"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
-          "section": "Opening (Importing Knowledge)",
-          "teacher_dialogue": "English uses '-able' for potential/state: 'readable'. IsiXhosa adds `-eka`: `-funda → -fundeka`. Shall we try one?",
-          "justification": "Imports a simple analogy and invites a build before giving answers."
+          "section": "Opening (Importing Knowledge & Reframing)",
+          "teacher_dialogue": "English has a neat way to say something is 'able' to be done or is in a certain state, like 'readable' or 'visible'. IsiXhosa achieves this by adding a special suffix to the end of a verb root, typically '-eka'. This transforms the verb to describe a state or potential. Do you remember the verb root for 'to study' or 'to read' from Lesson 11?",
+          "justification": "This turn introduces the stative concept using an English analogy and frames the suffix as a tool for expressing state or potential. It prompts for vocabulary recall of '-funda' from Lesson 11 (L38 - L11 = 27 lessons), adhering to the instruction."
         },
         {
           "turn_number": 2,
-          "section": "Build 1",
-          "teacher_dialogue": "About a book, say '**It is readable**'. Use **-fundeka**.",
-          "justification": "Prompts production with a clear root while withholding the final form."
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-funda'?"
         },
         {
           "turn_number": 3,
-          "section": "Student",
-          "student_dialogue": "Iyafundeka?"
+          "section": "Introducing the Stative (-eka)",
+          "teacher_dialogue": "That's it, '-funda'. So, if '-funda' means 'to read', how would you attach '-eka' to make it mean 'to be readable' or 'legible'?",
+          "justification": "Affirms the recalled verb and invites the student to infer the new stative form, following the 'one thought at a time' principle."
         },
         {
           "turn_number": 4,
-          "section": "Build 2",
-          "teacher_dialogue": "Exactly. From `-bona` → `-boneka` ('be visible'). Say '**It is visible**'.",
-          "justification": "Second example to cement the pattern."
+          "section": "Student Dialogue",
+          "student_dialogue": "-fundeka?"
         },
         {
           "turn_number": 5,
-          "section": "Student",
-          "student_dialogue": "Iyaboneka?"
+          "section": "Vocabulary Recall (incwadi)",
+          "teacher_dialogue": "Precisely, '-fundeka'. Now, let's use this to describe a noun. Do you remember the word for 'book' from Lesson 32?",
+          "justification": "Prompts for vocabulary recall of 'incwadi' from Lesson 32 (L38 - L32 = 6 lessons), adhering to the instruction."
         },
         {
           "turn_number": 6,
-          "section": "Context sentence",
-          "teacher_dialogue": "Great. '**The writing is readable**' with **umbhalo** (Class 3).",
-          "justification": "Weaves class agreement with the stative form."
+          "section": "Student Dialogue",
+          "student_dialogue": "Incwadi?"
         },
         {
           "turn_number": 7,
-          "section": "Student",
-          "student_dialogue": "Umbhalo uyafundeka?"
+          "section": "Building a Sentence with Stative",
+          "teacher_dialogue": "Excellent. If 'incwadi' is Class 9, and its subject concord is 'i-' (Lesson 21), how would you say 'The book is readable'?",
+          "justification": "Guides the student to construct a sentence combining the new stative form with previously learned noun class agreement (L21), promoting integrated application."
         },
         {
           "turn_number": 8,
-          "section": "Contrast (negative)",
-          "teacher_dialogue": "Nice. Make a negative: '**It is not readable**'.",
-          "justification": "Contrasts positive vs negative in a high-frequency statement."
+          "section": "Student Dialogue",
+          "student_dialogue": "Incwadi iyafundeka?"
         },
         {
           "turn_number": 9,
-          "section": "Student",
-          "student_dialogue": "Ayifundeki?"
+          "section": "Vocabulary Recall (to see)",
+          "teacher_dialogue": "Perfect! 'Incwadi iyafundeka'. Let's try another. Do you remember the verb root for 'to see' from Lesson 13?",
+          "justification": "Prompts for vocabulary recall of '-bona' from Lesson 13 (L38 - L13 = 25 lessons), adhering to the instruction."
         },
         {
           "turn_number": 10,
-          "section": "Another root",
-          "teacher_dialogue": "With `-vula` ('open') → `-vuleka` ('be openable/open'). Build '**The door can open**'.",
-          "justification": "Applies the same pattern to a common verb for transfer."
+          "section": "Student Dialogue",
+          "student_dialogue": "'-bona'?"
         },
         {
           "turn_number": 11,
-          "section": "Student",
-          "student_dialogue": "Umnyango uyavuleka?"
+          "section": "Applying Stative to Another Verb",
+          "teacher_dialogue": "That's right. So, if '-bona' means 'to see', how would you make it mean 'to be visible'?",
+          "justification": "Invites inference for the stative form, ensuring active construction and masked repetition."
         },
         {
           "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "-boneka?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Vocabulary Recall (Negative Present Tense)",
+          "teacher_dialogue": "Exactly, '-boneka'. Let's try making 'The book is not readable'. Do you recall the pattern for making present tense verbs negative (the 'a-...-i' pattern from Lesson 5)?",
+          "justification": "Prompts for recall of the negative present tense pattern from Lesson 5 (L38 - L5 = 33 lessons), preparing the student to apply it to the stative form."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'a-' at the start and '-i' at the end."
+        },
+        {
+          "turn_number": 15,
+          "section": "Applying Negative to Stative",
+          "teacher_dialogue": "Correct. So, how would you say 'The book is not readable'?",
+          "justification": "Invites the student to infer the negative stative form, combining previously learned rules with the new suffix."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Incwadi ayifundeki?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Vocabulary Recall (to work)",
+          "teacher_dialogue": "Brilliant, 'Incwadi ayifundeki'. One last challenge. Do you remember the verb root 'to work' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-sebenza' from Lesson 11 (L38 - L11 = 27 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Sebenza?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Applying Stative to Another Verb (and noun)",
+          "teacher_dialogue": "Good. So if '-sebenza' means 'to work', how would you say 'to be workable' or 'functional'?",
+          "justification": "Invites inference for the stative form. Then immediately moves to sentence construction."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "-sebenzeka?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Vocabulary Recall (chair)",
+          "teacher_dialogue": "Precisely! '-sebenzeka'. Do you remember the word for 'chair' from Lesson 16?",
+          "justification": "Prompts for vocabulary recall of 'isihlalo' from Lesson 16 (L38 - L16 = 22 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Isihlalo?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Building a Sentence with Stative and Noun Class",
+          "teacher_dialogue": "Excellent. So how would you say 'The chair is workable/functional' (remembering Class 7 subject concord 'si-' from Lesson 16)?",
+          "justification": "Guides the student to construct a sentence combining the stative form with the appropriate noun and subject concord (L16)."
+        },
+        {
+          "turn_number": 24,
+          "section": "Student Dialogue",
+          "student_dialogue": "Isihlalo siyasebenzeka?"
+        },
+        {
+          "turn_number": 25,
           "section": "Closing",
-          "teacher_dialogue": "To summarise, `-eka` builds '-able' states: **-fundeka**, **-boneka**, **-vuleka**. Same slots, new state. Final check: how would you say '**It is visible**' about the moon (**inyanga**)?",
-          "justification": "Concise recap plus a final productive prompt."
+          "teacher_dialogue": "Excellent! 'Isihlalo siyasebenzeka'. To summarise, you've learned that adding the suffix '-eka' is a powerful way to express states or potential, turning verbs into descriptions like 'readable' ('-fundeka') or 'visible' ('-boneka'). This gives your isiXhosa descriptions a neat, compact elegance.",
+          "justification": "Summarises the key learning, reinforces the 'reframing' principle, and provides encouragement, aligning with the tone of a curriculum developer."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'to be readable' in isiXhosa?",
+          "answer": "-fundeka."
+        },
+        {
+          "prompt": "How would you say 'The book is readable' in isiXhosa?",
+          "answer": "Incwadi iyafundeka."
+        },
+        {
+          "prompt": "How would you say 'to be visible' in isiXhosa?",
+          "answer": "-boneka."
+        },
+        {
+          "prompt": "How would you say 'The book is not readable' in isiXhosa?",
+          "answer": "Incwadi ayifundeki."
+        },
+        {
+          "prompt": "How would you say 'The chair is workable/functional' in isiXhosa?",
+          "answer": "Isihlalo siyasebenzeka."
         }
       ]
     },
     {
-      "lesson_title": "**Lesson 36: True Adjectives vs. Relatives**",
+      "lesson_title": " **Lesson 39: True Adjectives vs. Relatives** ",
       "thinking_method_focus": [
         "One Thought at a Time",
-        "Weaving"
+        "Weaving",
+        "Reframing",
+        "Increasing Language Consciousness"
       ],
       "objective": "Differentiate the small set of true adjectival stems (-hle, -dala, -tsha) from the more common relative construction (e.g., umntu omuhle vs. umntu osebenzayo).",
       "key_vocabulary": [
-        { "word": "-hle", "meaning": "beautiful/good" },
-        { "word": "-dala", "meaning": "old" },
-        { "word": "-tsha", "meaning": "new" },
-        { "word": "umntu omuhle", "meaning": "a beautiful person" },
-        { "word": "abantu abadala", "meaning": "old people" },
-        { "word": "umntu osebenzayo", "meaning": "a person who is working (relative)" }
+        {
+          "word": "-hle",
+          "meaning": "beautiful/good (adjective stem)"
+        },
+        {
+          "word": "-dala",
+          "meaning": "old (adjective stem)"
+        },
+        {
+          "word": "-tsha",
+          "meaning": "new (adjective stem)"
+        },
+        {
+          "word": "umntu omuhle",
+          "meaning": "a beautiful person"
+        },
+        {
+          "word": "abantu abadala",
+          "meaning": "old people"
+        },
+        {
+          "word": "isihlalo esitsha",
+          "meaning": "a new chair"
+        },
+        {
+          "word": "umntu osebenzayo",
+          "meaning": "a person who is working (relative clause)"
+        }
       ],
       "turns": [
-        { "turn_number": 1, "section": "Opening (Weaving & Reframing)", "teacher_dialogue": "Previously we used relatives like **umntu osebenzayo**. isiXhosa also has a tiny set of true adjectives: `-hle` ('beautiful/good'), `-dala` ('old'), `-tsha` ('new'). With a small matching piece before the stem, we describe nouns simply. With **umntu**, how would you say '**a beautiful person**'?", "justification": "Connects to relatives and invites prediction; keeps terminology light (stem/piece)." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Umntu omuhle?" },
-        { "turn_number": 3, "section": "Feedback + Prompt (plural)", "teacher_dialogue": "Exactly—clean and natural: **umntu omuhle**. Now plural with **abantu**: say '**old people**'.", "justification": "Immediate praise, then extend to plural agreement without heavy metalanguage." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Abantu abadala?" },
-        { "turn_number": 5, "section": "Feedback + Prompt (Class 7)", "teacher_dialogue": "Perfect. Try Class 7 **isihlalo**: build '**a new chair**'.", "justification": "Generalises across classes by reuse of the same idea." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Isihlalo esitsha?" },
-        { "turn_number": 7, "section": "Feedback + Prompt (sentence)", "teacher_dialogue": "Lovely. Put it in a sentence: '**I like the beautiful chair**'.", "justification": "Moves from noun phrase to sentence for fluency." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Ndiyathanda isihlalo esihle?" },
-        { "turn_number": 9, "section": "Feedback + Contrast (relative)", "teacher_dialogue": "Spot on. Now switch tools: describe an action with a relative. Build '**the person who is working**' with **umntu**.", "justification": "Contrasts adjectives vs relatives without listing rules; reinforces choosing the right tool." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Umntu osebenzayo?" },
-        { "turn_number": 11, "section": "Feedback + Prompt (object + relative)", "teacher_dialogue": "Excellent. Use it in a sentence with the object piece before the verb: '**I see the person who is working**'.", "justification": "Weaves object placement with a relative clause for integrated production." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Ndiyambona umntu osebenzayo?" },
-        { "turn_number": 13, "section": "Feedback + Closing prompt", "teacher_dialogue": "Great control. To summarise, use true adjectives for core qualities (**omuhle, omdala, omtsha**) and relatives for actions (**osebenzayo**). Final check: say '**The chairs are new**' with **izihlalo**.", "justification": "Concise recap plus a productive prompt that reuses the small adjective set." },
-        { "turn_number": 14, "section": "Student", "student_dialogue": "Izihlalo zintsha?" },
-        { "turn_number": 15, "section": "Closing (Praise)", "teacher_dialogue": "Exactly. Beautiful work—you're choosing between adjectives and relatives with confidence.", "justification": "Ends with encouragement after the student's final attempt." }
+        {
+          "turn_number": 1,
+          "section": "Opening (Weaving & Reframing)",
+          "teacher_dialogue": "In Lesson 27, we learned how isiXhosa describes a noun by describing an *action* it's doing, using what we called a 'describing verb', like 'the person *who is working*'. Do you remember how to say 'the person who is working' from Lesson 27?",
+          "justification": "This turn explicitly references Lesson 27 and uses its analogy to set the context. It prompts for vocabulary recall of 'umntu osebenzayo' from Lesson 27 (L39 - L27 = 12 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu osebenzayo?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing True Adjectives",
+          "teacher_dialogue": "Exactly. Now, isiXhosa also has a small, special group of 'true' adjectives that describe inherent qualities, like 'beautiful', 'old', or 'new'. These work a bit differently from those 'describing verbs'. We use a simple 'matching piece' right before the adjective stem. Let's start with '-hle', meaning 'beautiful' or 'good'. Do you remember the word for 'person' from Lesson 3?",
+          "justification": "Affirms the recalled phrase and introduces the concept of 'true adjectives' as distinct from relative clauses. It prompts for vocabulary recall of 'umntu' from Lesson 3 (L39 - L3 = 36 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Building with -hle (Class 1)",
+          "teacher_dialogue": "Perfect. So, for 'umntu', the matching piece for '-hle' to say 'a beautiful person' is 'omu-'. What do you think 'a beautiful person' would sound like?",
+          "justification": "Guides the student to construct the adjective phrase using the new stem and the specific matching prefix for Class 1 nouns."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu omuhle?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Vocabulary Recall (abantu)",
+          "teacher_dialogue": "Precisely, 'umntu omuhle'. That's a true adjective! Now let's try another. The stem for 'old' is '-dala'. Do you remember the word for 'people' from Lesson 3?",
+          "justification": "Prompts for vocabulary recall of 'abantu' from Lesson 3 (L39 - L3 = 36 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Building with -dala (Class 2)",
+          "teacher_dialogue": "Right. For 'abantu' (Class 2), the matching piece for '-dala' is 'aba-'. How would you say 'old people'?",
+          "justification": "Guides the student to apply the true adjective pattern to a plural noun class, showing consistency in the system."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu abadala?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Vocabulary Recall (isihlalo)",
+          "teacher_dialogue": "Excellent! 'Abantu abadala'. You're seeing how these specific matching pieces work. Let's try 'new'. The stem for 'new' is '-tsha'. Do you remember 'chair' from Lesson 16?",
+          "justification": "Prompts for vocabulary recall of 'isihlalo' from Lesson 16 (L39 - L16 = 23 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Isihlalo?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Building with -tsha (Class 7)",
+          "teacher_dialogue": "Good. For 'isihlalo' (Class 7), the matching piece for '-tsha' is 'esi-'. So, how would you say 'a new chair'?",
+          "justification": "Guides the student to apply the true adjective pattern to another noun class (L16), reinforcing the systematic nature of agreement."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Isihlalo esitsha?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (to like/love)",
+          "teacher_dialogue": "Perfect! 'Isihlalo esitsha'. Now, let's put this into a sentence. Do you remember the verb meaning 'to like' or 'to love' from Lesson 32?",
+          "justification": "Prompts for vocabulary recall of '-thanda' (implicitly 'Ndiyathanda') from Lesson 32 (L39 - L32 = 7 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-thanda'?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Building a Sentence with True Adjective",
+          "teacher_dialogue": "Yes. How would you say 'I like the beautiful chair'?",
+          "justification": "Invites inference, combining the 'I' subject concord and '-thanda' with the adjective phrase 'isihlalo esihle' (using '-hle' with Class 7)."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndiyathanda isihlalo esihle?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Closing (Summary and Final Attributive Prompt)",
+          "teacher_dialogue": "Spot on! 'Ndiyathanda isihlalo esihle'. To summarise, you've learned that isiXhosa has a small group of 'true' adjectives like '-hle', '-dala', and '-tsha' that use specific prefixes (like 'omu-', 'aba-', 'esi-') to describe inherent qualities. These are different from the 'describing verbs' with '-yo' you learned in Lesson 27. Both are tools for description, but used in different ways. For a final check, how would you say 'the new chairs', using 'izihlalo' (chairs, Class 8 from Lesson 16) and remembering its matching piece for adjectives?",
+          "justification": "Summarises the key learning, reinforcing the distinction between true adjectives and relative clauses. It prompts for vocabulary recall of 'izihlalo' from Lesson 16 (L39 - L16 = 23 lessons), adhering to the instruction, and then asks for a final attributive adjective construction."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Izihlalo ezintsha?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Final Teacher Encouragement",
+          "teacher_dialogue": "Absolutely perfect! 'Izihlalo ezintsha'. You're clearly distinguishing between these descriptive tools, choosing the right form to match the meaning. Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'a beautiful person' in isiXhosa?",
+          "answer": "Umntu omuhle."
+        },
+        {
+          "prompt": "How would you say 'old people' in isiXhosa?",
+          "answer": "Abantu abadala."
+        },
+        {
+          "prompt": "How would you say 'a new chair' in isiXhosa?",
+          "answer": "Isihlalo esitsha."
+        },
+        {
+          "prompt": "How would you say 'I like the beautiful chair' in isiXhosa?",
+          "answer": "Ndiyathanda isihlalo esihle."
+        },
+        {
+          "prompt": "How would you say 'the new chairs' in isiXhosa?",
+          "answer": "Izihlalo ezintsha."
+        }
       ]
     },
     {
-      "lesson_title": "**Lesson 37: Demonstratives — This, That, and That Yonder**",
+      "lesson_title": " **Lesson 40: Demonstratives — This, That, and That Yonder** ",
       "thinking_method_focus": [
         "Reframing",
-        "Managing Cognitive Load"
+        "Managing Cognitive Load",
+        "Weaving"
       ],
       "objective": "Construct the three positional demonstratives using Position 1 (la- + SC), Position 2 (+-o), and Position 3 (+-ya), e.g., le ndlu, leyo ndlu, leya ndlu.",
       "key_vocabulary": [
-        { "word": "le ndlu", "meaning": "this house (Position 1)" },
-        { "word": "leyo ndlu", "meaning": "that house (nearby, Position 2)" },
-        { "word": "leya ndlu", "meaning": "that house yonder (Position 3)" },
-        { "word": "lo mntu", "meaning": "this person (Position 1)" },
-        { "word": "lowo mntu", "meaning": "that person (Position 2)" }
-      ],
-      "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "English has 'this/that'. isiXhosa gives three precise positions: right here, nearby, and far away. Build '**this house**'.", "justification": "Frames the three-way system as precision; invites production immediately." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Le ndlu?" },
-        { "turn_number": 3, "section": "Feedback + Prompt (P1)", "teacher_dialogue": "Exactly: **le ndlu**. Now with **umntu** build '**this person**'.", "justification": "Praise and reuse with a new class to strengthen mapping." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Lo mntu?" },
-        { "turn_number": 5, "section": "Feedback + Prompt (P2)", "teacher_dialogue": "Perfect. Shift it slightly away (nearby): build '**that house (nearby)**'.", "justification": "Explains meaning rather than rules; keeps metalanguage minimal." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Leyo ndlu?" },
-        { "turn_number": 7, "section": "Feedback + Prompt (P2, person)", "teacher_dialogue": "Yes. Do the same with the person: '**that person (nearby)**'.", "justification": "Encourages pattern spotting across nouns." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Lowo mntu?" },
-        { "turn_number": 9, "section": "Feedback + Prompt (P3)", "teacher_dialogue": "Great. Now far yonder: build '**that house (yonder)**'.", "justification": "Adds the third distance in the same rhythm." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Leya ndlu?" },
-        { "turn_number": 11, "section": "Feedback + Sentence use", "teacher_dialogue": "Nice. Make two sentences: '**This house is new**' and '**That house (nearby) is old**'.", "justification": "Weaves adjectives from Lesson 36 for real sentences." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Le ndlu intsha? Leyo ndlu indala?" },
-        { "turn_number": 13, "section": "Feedback + Closing prompt", "teacher_dialogue": "Exactly. Final check: build '**These chairs are new**' (plural).", "justification": "Tests plural forms in a productive way without listing forms." },
-        { "turn_number": 14, "section": "Student", "student_dialogue": "Ezi zihlalo zintsha?" },
-        { "turn_number": 15, "section": "Closing (Praise)", "teacher_dialogue": "Perfect—your demonstratives are clear across positions and number.", "justification": "Ends with encouragement after the last student attempt." }
-      ]
-    },
-    {
-      "lesson_title": "**Lesson 38: The Potential Mood — 'Can/May' (-nga-)**",
-      "thinking_method_focus": [
-        "Importing Knowledge",
-        "Weaving"
-      ],
-      "objective": "Express ability/permission using the infix -nga- after the subject piece: SC + -nga- + ROOT (e.g., Ndingasebenza, Abantu bangafunda).",
-      "key_vocabulary": [
-        { "word": "-nga- (potential)", "meaning": "ability/permission marker in the TAM slot" },
-        { "word": "Ndingasebenza", "meaning": "I can/may work" },
-        { "word": "Abantu bangafunda", "meaning": "People can/may study" }
-      ],
-      "turns": [
-        { "turn_number": 1, "section": "Opening (Importing Knowledge)", "teacher_dialogue": "English uses a separate word 'can'. isiXhosa builds ability into the verb with `-nga-`. Build '**I can work**'.", "justification": "Bridges from English and elicits production immediately." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Ndingasebenza?" },
-        { "turn_number": 3, "section": "Feedback + Prompt (plural)", "teacher_dialogue": "Exactly: **Ndingasebenza**. Now make '**The people may study**'.", "justification": "Praise and shift to a plural subject to generalise." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Abantu bangafunda?" },
-        { "turn_number": 5, "section": "Feedback + Prompt (negative)", "teacher_dialogue": "Perfect. Make the negative: '**I cannot work**'.", "justification": "Contrasts affirmative and negative to consolidate control." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Andingasebenzi?" },
-        { "turn_number": 7, "section": "Feedback + Prompt (object)", "teacher_dialogue": "Nice. With the object piece for 'me' before the root, build '**She can see me**'.", "justification": "Weaves the object with the potential mood for practical use." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Ungandibona?" },
-        { "turn_number": 9, "section": "Feedback + Prompt (conjunction)", "teacher_dialogue": "Great. Join ideas: '**I can work, but you are studying**'.", "justification": "Encourages natural multi-clause speech without extra forms." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Ndingasebenza, kodwa uyafunda?" },
-        { "turn_number": 11, "section": "Feedback + Closing prompt", "teacher_dialogue": "Exactly. Final check: say '**They can study tomorrow**' (use 'ngomso').", "justification": "Adds a common time adverb to extend usefulness." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Bangafunda ngomso?" },
-        { "turn_number": 13, "section": "Closing (Praise)", "teacher_dialogue": "Spot on—your `-nga-` forms are clear in positive, negative, and with objects.", "justification": "Ends with encouragement after the last attempt." }
-      ]
-    },
-    {
-      "lesson_title": "**Lesson 39: The Consecutive Mood — 'And then...'**",
-      "thinking_method_focus": [
-        "Weaving",
-        "One Thought at a Time"
-      ],
-      "objective": "Narrate sequences using the consecutive marker -a- merging with the subject after a completed action: Ndifikile, ndasebenza.",
-      "key_vocabulary": [
-        { "word": "-a- (consecutive)", "meaning": "'and then' marker merging with SC" },
-        { "word": "Ndifikile, ndasebenza", "meaning": "I arrived, and then I worked" }
-      ],
-      "turns": [
-        { "turn_number": 1, "section": "Opening (Narrative logic)", "teacher_dialogue": "To tell a story: first a completed action, then the 'and then' step. Build '**I arrived, then I worked**'.", "justification": "Gives the discourse purpose and elicits a core example." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Ndifikile, ndasebenza?" },
-        { "turn_number": 3, "section": "Feedback + Prompt (3sg)", "teacher_dialogue": "Exactly. Now '**He arrived and then studied**'.", "justification": "Extends to 3rd person without listing forms." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Ufikile, wafunda?" },
-        { "turn_number": 5, "section": "Feedback + Prompt (chain)", "teacher_dialogue": "Great. Chain three events: '**We arrived, then we sat, then we worked**'.", "justification": "Encourages fluid sequencing with multiple consecutives." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Sifikile, sahlala, sasebenza?" },
-        { "turn_number": 7, "section": "Feedback + Prompt (locative)", "teacher_dialogue": "Nice. Use a locative: '**They came out of the house, then they ate**'.", "justification": "Weaves locatives from earlier lessons into narrative." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Baphuma endlwini, badla?" },
-        { "turn_number": 9, "section": "Feedback + Prompt (simple negative)", "teacher_dialogue": "Good. Keep the next clause simple negative: '**I arrived, and then I did not work**'.", "justification": "Keeps negative manageable without extra morphology." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Ndifikile, andisebenzi?" },
-        { "turn_number": 11, "section": "Feedback + Closing prompt", "teacher_dialogue": "Well done. Final check: '**She arrived, then she saw me**' (object before the root).", "justification": "Adds an object for integrated practice." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Ufikile, wandibona?" },
-        { "turn_number": 13, "section": "Closing (Praise)", "teacher_dialogue": "Exactly—that's smooth, natural sequencing with the consecutive.", "justification": "Ends with encouragement after the student's final attempt." }
-      ]
-    },
-    {
-      "lesson_title": "**Lesson 40: The Hortative Mood — 'Let's...' (Ma- + Subjunctive)**",
-      "thinking_method_focus": [
-        "Weaving",
-        "Reframing"
-      ],
-      "objective": "Make group suggestions with Ma- + SC and the subjunctive ending -e (e.g., Masisebenze, Masifunde).",
-      "key_vocabulary": [
-        { "word": "Ma- (hortative)", "meaning": "'let's' prefix combining with SC" },
-        { "word": "Masisebenze", "meaning": "Let's work" },
-        { "word": "Masifunde", "meaning": "Let's study" }
-      ],
-      "turns": [
-        { "turn_number": 1, "section": "Opening (Reframing)", "teacher_dialogue": "To suggest an action for a group, isiXhosa uses **Ma-** with the subject piece and the subjunctive ending `-e`. Build '**Let's work**'.", "justification": "Frames hortative and elicits production immediately." },
-        { "turn_number": 2, "section": "Student", "student_dialogue": "Masisebenze?" },
-        { "turn_number": 3, "section": "Feedback + Prompt (another verb)", "teacher_dialogue": "Exactly: **Masisebenze**. Now build '**Let's study**'.", "justification": "Reinforces the -e ending with another root." },
-        { "turn_number": 4, "section": "Student", "student_dialogue": "Masifunde?" },
-        { "turn_number": 5, "section": "Feedback + Prompt (location)", "teacher_dialogue": "Perfect. Add a place: '**Let's work in the house**'.", "justification": "Weaves locatives into hortative forms." },
-        { "turn_number": 6, "section": "Student", "student_dialogue": "Masisebenze endlwini?" },
-        { "turn_number": 7, "section": "Feedback + Prompt (object)", "teacher_dialogue": "Nice. With the object piece for 'them', build '**Let's help them**'.", "justification": "Keeps it practical without extra morphology." },
-        { "turn_number": 8, "section": "Student", "student_dialogue": "Masibanceda?" },
-        { "turn_number": 9, "section": "Feedback + Prompt (softener)", "teacher_dialogue": "Great. Use the polite softener '**Makhe**': build '**Let's sit (for a bit)**'.", "justification": "Adds a common real-world variant with gentle guidance." },
-        { "turn_number": 10, "section": "Student", "student_dialogue": "Makhe sihlale?" },
-        { "turn_number": 11, "section": "Feedback + Closing prompt", "teacher_dialogue": "Excellent. Final check: say '**Let's read the book outside**' (use '**incwadi**' and '**phandle**').", "justification": "Combines object and place with the hortative in a useful sentence." },
-        { "turn_number": 12, "section": "Student", "student_dialogue": "Masifunde incwadi phandle?" },
-        { "turn_number": 13, "section": "Closing (Praise)", "teacher_dialogue": "Exactly—your hortative forms are confident and flexible.", "justification": "Ends with encouragement after the final attempt." }
-      ]
-    },
-    {
-      "lesson_title": "Lesson 40a: The Situational Aspect (-sa-) - 'Still' / 'Yet'",
-      "thinking_method_focus": [
-        "Reframing",
-        "Weaving"
-      ],
-      "objective": "To learn how to express that an action is still ongoing or has not yet happened.",
-      "key_vocabulary": [
         {
-          "word": "-sa-",
-          "meaning": "situational infix ('still' / 'yet')"
+          "word": "le ndlu",
+          "meaning": "this house (Position 1)"
+        },
+        {
+          "word": "leyo ndlu",
+          "meaning": "that house (nearby, Position 2)"
+        },
+        {
+          "word": "leya ndlu",
+          "meaning": "that house yonder (Position 3)"
+        },
+        {
+          "word": "lo mntu",
+          "meaning": "this person (Position 1)"
+        },
+        {
+          "word": "lowo mntu",
+          "meaning": "that person (Position 2)"
         }
       ],
       "turns": [
         {
           "turn_number": 1,
           "section": "Opening (Reframing)",
-          "teacher_dialogue": "In English, to give a status update on an action, we use a separate word, like saying 'I am *still* working' or 'I am not *yet* working'. IsiXhosa, in its efficient way, builds this 'status update' directly into the verb. It's another slot in our verb machine.",
-          "justification": "This opening reframes the concept of 'still' or 'yet' from a new vocabulary word into a predictable feature of the verb system, leveraging the learner's existing 'verb machine' mental model. The 'status update' analogy is intuitive and helps manage cognitive load by connecting new information to a familiar purpose."
+          "teacher_dialogue": "In English, we usually just say 'this' or 'that' to point to things. IsiXhosa gives us more precision, allowing us to specify three different positions: 'this one right here', 'that one nearby', and 'that one far yonder'. These are called 'demonstratives'. Let's start with 'this one right here'. Do you remember the word for 'house' from Lesson 28?",
+          "justification": "This turn introduces the concept of demonstratives by contrasting with English and highlighting isiXhosa's precision. It prompts for vocabulary recall of 'indlu' from Lesson 28 (L40 - L28 = 12 lessons), adhering to the instruction."
         },
         {
           "turn_number": 2,
-          "section": "Introducing the -sa- Infix (Positive)",
-          "teacher_dialogue": "The piece for 'still' or 'yet' is '-sa-'. It goes in the same 'tense' slot as '-ya-' (from Lesson 8 and 11) or '-za-' (from Lesson 15), right after the subject concord. So, to say 'I am still working', we build: WHO ('ndi-') + STILL ('-sa-') + WHAT ('-sebenza' from Lesson 11). How would you put that together?",
-          "justification": "This explicitly places the new '-sa-' infix into the established 'verb machine' model, making its position logical and predictable. It references previous lessons where other infixes were taught, reinforcing the systematic nature of verb construction. The prompt encourages active construction."
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it 'indlu'?"
         },
         {
           "turn_number": 3,
-          "section": "Student Dialogue",
-          "student_dialogue": "Ndisasebenza?"
+          "section": "Introducing Position 1 Demonstrative",
+          "teacher_dialogue": "That's it, 'indlu'. Now, for 'indlu', the demonstrative for 'this one right here' is 'le'. How would you say 'this house'?",
+          "justification": "Affirms the recalled noun and guides the student to infer the Position 1 demonstrative for Class 9, following the 'one thought at a time' principle."
         },
         {
           "turn_number": 4,
-          "section": "Introducing the Negative Form ('Not Yet')",
-          "teacher_dialogue": "Precisely, 'Ndisasebenza'. Now, here’s where isiXhosa gets very clever. To say 'I am not *yet* working', you use the same '-sa-' infix but combine it with the standard negative construction (the 'a-...-i' pattern we learned in Lesson 5). When 'ndi-' and '-sa-' meet in a negative context, they often combine to become 'ndika-'. So, 'I am not yet working' is 'Andikasebenzi'. Now, can you infer how 'You are not yet working' would sound?",
-          "justification": "This introduces the negative form as a logical extension of existing rules (negative pattern L5). It explicitly states the phonetic change ('ndi-' + '-sa-' > 'ndika-') in context. By asking the learner to infer the second person form, it promotes active learning and application of the new rule with a known subject concord, providing masked repetition."
+          "section": "Student Dialogue",
+          "student_dialogue": "Le ndlu?"
         },
         {
           "turn_number": 5,
-          "section": "Student Dialogue",
-          "student_dialogue": "Akukasebenzi?"
+          "section": "Vocabulary Recall (umntu)",
+          "teacher_dialogue": "Precisely, 'Le ndlu'. You've got the first position. Now, let's try another noun. Do you remember the word for 'person' from Lesson 3?",
+          "justification": "Prompts for vocabulary recall of 'umntu' from Lesson 3 (L40 - L3 = 37 lessons), adhering to the instruction."
         },
         {
           "turn_number": 6,
-          "section": "Clarifying the Negative Form",
-          "teacher_dialogue": "Close! Remember that for 'you' in the negative, the 'a-' prefix merges with 'u-' to form 'aku-', as we saw in Lesson 5 with 'Akufuni'. So, if 'u-' + '-sa-' were to combine in the negative, it becomes 'uka-'. Thus, 'You are not yet working' is 'Akukasebenzi'. Now, let's try 'I am not yet studying'. Do you recall the verb 'to study' from Lesson 11?",
-          "justification": "This provides a gentle correction by reminding the learner of the vowel coalescence rule from Lesson 5. It then asks for a known verb ('-funda' from L11, >3 lessons prior), integrating a recall check before the next construction."
+          "section": "Student Dialogue",
+          "student_dialogue": "Umntu?"
         },
         {
           "turn_number": 7,
+          "section": "Applying Position 1 to another Noun Class",
+          "teacher_dialogue": "Excellent. For 'umntu', the demonstrative for 'this person' is 'lo'. How would you say 'this person'?",
+          "justification": "Guides the student to apply the Position 1 demonstrative to a different noun class (Class 1), showing systematic application."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Lo mntu?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Introducing Position 2 Demonstrative",
+          "teacher_dialogue": "Perfect! 'Lo mntu'. Now, let's move to the second position: 'that one nearby'. For 'indlu', this becomes 'leyo'. How would you say 'that house (nearby)'?",
+          "justification": "Introduces the Position 2 demonstrative and invites inference, maintaining the 'one thought at a time' approach."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Leyo ndlu?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Applying Position 2 to another Noun Class",
+          "teacher_dialogue": "Exactly. And for 'umntu', it's 'lowo'. So, how would you say 'that person (nearby)'?",
+          "justification": "Guides the student to apply the Position 2 demonstrative to another noun class, reinforcing the pattern."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Lowo mntu?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Introducing Position 3 Demonstrative",
+          "teacher_dialogue": "Great! 'Lowo mntu'. Finally, for the third position: 'that one far yonder'. For 'indlu', this is 'leya'. How would you say 'that house yonder'?",
+          "justification": "Introduces the Position 3 demonstrative and invites inference, completing the three-way distinction."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Leya ndlu?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Weaving with Adjectives",
+          "teacher_dialogue": "Precisely. Now let's weave in some adjectives from Lesson 39. Do you remember how to say 'new' and 'old' from Lesson 39?",
+          "justification": "References Lesson 39 (L40 - L39 = 1 lesson), which is within the 3-lesson window, so no explicit recall check is needed, but the reminder is useful."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, '-tsha' and '-dala'."
+        },
+        {
+          "turn_number": 17,
+          "section": "Building Sentences with Demonstratives and Adjectives",
+          "teacher_dialogue": "Right. How would you say 'This house is new' and 'That house (nearby) is old'?",
+          "justification": "Invites inference for constructing sentences that combine demonstratives with predicative adjectives, promoting integrated language use."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Le ndlu intsha? Leyo ndlu indala?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Vocabulary Recall (izihlalo)",
+          "teacher_dialogue": "Excellent! 'Le ndlu intsha? Leyo ndlu indala?' You've matched the demonstratives with adjectives. To summarise, you've learned to point with precision using 'le/lo' for 'this here', 'leyo/lowo' for 'that nearby', and 'leya' for 'that yonder'. Each noun class has its specific set of demonstratives, but the pattern of three positions is consistent. For a final check, do you remember the word for 'chairs' from Lesson 16?",
+          "justification": "Summarises the key learning and prompts for vocabulary recall of 'izihlalo' from Lesson 16 (L40 - L16 = 24 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Izihlalo?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Final Sentence Construction with Plural Demonstrative",
+          "teacher_dialogue": "Good. For 'izihlalo' (Class 8), the demonstrative for 'these' is 'ezi'. How would you say 'These chairs are new'?",
+          "justification": "Guides the student to construct a sentence using a plural demonstrative (Class 8) and a predicative adjective, ensuring comprehensive application."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ezi zihlalo zintsha?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Closing",
+          "teacher_dialogue": "Absolutely perfect! 'Ezi zihlalo zintsha'. You're using demonstratives with confidence across different classes and positions. Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'this house' in isiXhosa?",
+          "answer": "Le ndlu."
+        },
+        {
+          "prompt": "How would you say 'this person' in isiXhosa?",
+          "answer": "Lo mntu."
+        },
+        {
+          "prompt": "How would you say 'that house (nearby)' in isiXhosa?",
+          "answer": "Leyo ndlu."
+        },
+        {
+          "prompt": "How would you say 'that person (nearby)' in isiXhosa?",
+          "answer": "Lowo mntu."
+        },
+        {
+          "prompt": "How would you say 'that house yonder' in isiXhosa?",
+          "answer": "Leya ndlu."
+        },
+        {
+          "prompt": "How would you say 'This house is new' in isiXhosa?",
+          "answer": "Le ndlu intsha."
+        },
+        {
+          "prompt": "How would you say 'That house (nearby) is old' in isiXhosa?",
+          "answer": "Leyo ndlu indala."
+        },
+        {
+          "prompt": "How would you say 'These chairs are new' in isiXhosa?",
+          "answer": "Ezi zihlalo zintsha."
+        }
+      ]
+    },
+    {
+      "lesson_title": " **Lesson 41: The Potential Mood — 'Can/May' (-nga-)** ",
+      "thinking_method_focus": [
+        "Importing Knowledge",
+        "Weaving",
+        "Reframing",
+        "Increasing Language Consciousness"
+      ],
+      "objective": "Express ability/permission using the infix -nga- after the subject piece: SC + -nga- + ROOT (e.g., Ndingasebenza, Abantu bangafunda).",
+      "key_vocabulary": [
+        {
+          "word": "-nga- (potential)",
+          "meaning": "ability/permission marker in the TAM slot"
+        },
+        {
+          "word": "Ndingasebenza",
+          "meaning": "I can/may work"
+        },
+        {
+          "word": "Abantu bangafunda",
+          "meaning": "People can/may study"
+        },
+        {
+          "word": "-sebenza",
+          "meaning": "to work"
+        },
+        {
+          "word": "-funda",
+          "meaning": "to read/study"
+        },
+        {
+          "word": "-bona",
+          "meaning": "to see"
+        },
+        {
+          "word": "ngomso",
+          "meaning": "tomorrow"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Importing Knowledge & Reframing)",
+          "teacher_dialogue": "In English, we use a separate word like 'can' or 'may' to express ability or permission. IsiXhosa, in its efficient way, builds this idea directly into the verb by adding a special infix. This infix is '-nga-'. It fits into the 'tense slot' of our verb machine (Lesson 11), right after the subject concord. Do you remember the verb root for 'to work' from Lesson 11?",
+          "justification": "This turn introduces the potential mood using an English analogy and frames the infix as a logical addition to the verb machine model. It prompts for vocabulary recall of '-sebenza' from Lesson 11 (L41 - L11 = 30 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-sebenza'?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing the Potential (-nga-)",
+          "teacher_dialogue": "That's right, '-sebenza'. So, to say 'I can work' or 'I may work', you take your 'I' subject concord ('ndi-', Lesson 2), add our new '-nga-' infix, and then the root '-sebenza'. How would you put that together?",
+          "justification": "Affirms the recalled verb and guides the student to infer the new potential form, weaving in knowledge of the 'ndi-' subject concord (L2). This follows the 'one thought at a time' principle."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndingasebenza?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Vocabulary Recall (abantu)",
+          "teacher_dialogue": "Precisely, 'Ndingasebenza'. You've mastered that new infix! Now, let's try with a plural subject. Do you remember the word for 'people' from Lesson 3?",
+          "justification": "Prompts for vocabulary recall of 'abantu' from Lesson 3 (L41 - L3 = 38 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Vocabulary Recall (to study/read)",
+          "teacher_dialogue": "Excellent. And do you remember the verb root for 'to study' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-funda' from Lesson 11 (L41 - L11 = 30 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 8,
           "section": "Student Dialogue",
           "student_dialogue": "-Funda?"
         },
         {
+          "turn_number": 9,
+          "section": "Applying Potential to a Plural Subject",
+          "teacher_dialogue": "Good. So how would you say 'The people may study' or 'The people can study' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
+          "justification": "Guides the student to construct a sentence with a plural subject (L12) and the new potential infix, promoting transfer of learning."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu bangafunda?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Vocabulary Recall (Negative Present Tense)",
+          "teacher_dialogue": "Perfect! 'Abantu bangafunda'. Now let's try to make that negative. Do you remember the basic negative pattern for verbs (Lesson 5), where the final '-a' changes to '-i' and we add 'a-' at the beginning?",
+          "justification": "Prompts for recall of the negative present tense pattern from Lesson 5 (L41 - L5 = 36 lessons), preparing the student to apply it to the potential form."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'a-...-i'."
+        },
+        {
+          "turn_number": 13,
+          "section": "Applying Negative to Potential",
+          "teacher_dialogue": "Right. So, if 'Ndingasebenza' means 'I can work', how would you say 'I cannot work'?",
+          "justification": "Invites the student to infer the negative potential form, combining previously learned rules with the new infix."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Andingasebenzi?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (object concord for 'me')",
+          "teacher_dialogue": "Brilliant, 'Andingasebenzi'. You're consistently applying those rules. Let's weave in object concords. Do you remember the object concord for 'me' ('-ndi-') that goes in the verb's object slot (Lesson 13)?",
+          "justification": "Prompts for vocabulary recall of '-ndi-' from Lesson 13 (L41 - L13 = 28 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, '-ndi-'."
+        },
+        {
+          "turn_number": 17,
+          "section": "Vocabulary Recall (to see)",
+          "teacher_dialogue": "Good. And do you remember the verb root for 'to see' from Lesson 13?",
+          "justification": "Prompts for vocabulary recall of '-bona' from Lesson 13 (L41 - L13 = 28 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Bona?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Building a Sentence with Potential and Object Concord",
+          "teacher_dialogue": "Right. And 'she' as a subject concord is 'u-' (Lesson 12). How would you say 'She can see me'?",
+          "justification": "Guides the student to construct a sentence integrating the potential mood, object concord, and subject concord, promoting higher-level weaving."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ungandibona?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Vocabulary Recall (tomorrow)",
+          "teacher_dialogue": "Exactly! 'Ungandibona'. One final challenge. Do you remember the word for 'tomorrow' from Lesson 38?",
+          "justification": "Prompts for vocabulary recall of 'ngomso' from Lesson 38 (L41 - L38 = 3 lessons). While not strictly 'more than 3', it's a new 'ex nihilo' word from L38, and a check is beneficial."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ngomso?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Final Sentence Construction with Potential and Time Adverb",
+          "teacher_dialogue": "Perfect. So, how would you say 'They can study tomorrow' (remembering 'they' subject concord 'ba-' from Lesson 12)?",
+          "justification": "Guides the student to construct a sentence combining the potential mood with a plural subject and a time adverb."
+        },
+        {
+          "turn_number": 24,
+          "section": "Student Dialogue",
+          "student_dialogue": "Bangafunda ngomso?"
+        },
+        {
+          "turn_number": 25,
+          "section": "Closing",
+          "teacher_dialogue": "Absolutely perfect! 'Bangafunda ngomso'. To summarise, you've learned that the '-nga-' infix is your tool to express 'can' or 'may', fitting neatly into your verb machine, and adapting for negatives. You're building powerful and flexible isiXhosa sentences now!",
+          "justification": "Summarises the key learning, reinforces the 'verb machine' analogy, and provides encouragement, aligning with the tone of a curriculum developer."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'I can work' in isiXhosa?",
+          "answer": "Ndingasebenza."
+        },
+        {
+          "prompt": "How would you say 'The people may study' in isiXhosa?",
+          "answer": "Abantu bangafunda."
+        },
+        {
+          "prompt": "How would you say 'I cannot work' in isiXhosa?",
+          "answer": "Andingasebenzi."
+        },
+        {
+          "prompt": "How would you say 'She can see me' in isiXhosa?",
+          "answer": "Ungandibona."
+        },
+        {
+          "prompt": "How would you say 'They can study tomorrow' in isiXhosa?",
+          "answer": "Bangafunda ngomso."
+        }
+      ]
+    },
+    {
+      "lesson_title": " **Lesson 42: The Consecutive Mood — 'And then...'** ",
+      "thinking_method_focus": [
+        "Weaving",
+        "One Thought at a Time",
+        "Reframing",
+        "Increasing Language Consciousness"
+      ],
+      "objective": "Narrate sequences using the consecutive marker -a- merging with the subject after a completed action: Ndifikile, ndasebenza.",
+      "key_vocabulary": [
+        {
+          "word": "-a- (consecutive)",
+          "meaning": "'and then' marker merging with SC"
+        },
+        {
+          "word": "Ndifikile, ndasebenza",
+          "meaning": "I arrived, and then I worked"
+        },
+        {
+          "word": "-fika",
+          "meaning": "to arrive"
+        },
+        {
+          "word": "-sebenza",
+          "meaning": "to work"
+        },
+        {
+          "word": "-funda",
+          "meaning": "to read/study"
+        },
+        {
+          "word": "-hlala",
+          "meaning": "to sit/stay"
+        },
+        {
+          "word": "-phuma",
+          "meaning": "to exit/come out"
+        },
+        {
+          "word": "endlwini",
+          "meaning": "in the house"
+        },
+        {
+          "word": "-dla",
+          "meaning": "to eat"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing & Weaving)",
+          "teacher_dialogue": "When we tell a story in isiXhosa, especially a sequence of actions, we often use a special way to connect sentences that means 'and then...' or 'subsequently...'. This is called the 'consecutive mood'. It uses an '-a-' piece that merges with the subject concord. Let's try. Do you remember the verb root for 'to arrive' from Lesson 39?",
+          "justification": "This turn introduces the consecutive mood with a narrative function and frames the '-a-' piece as a merger with the subject concord. It prompts for vocabulary recall of '-fika' from Lesson 39 (L42 - L39 = 3 lessons), which is a key verb for this lesson, setting the stage."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-fika'?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Building the First Action (Past Tense)",
+          "teacher_dialogue": "That's it, '-fika'. How would you say 'I arrived' (in the perfect past tense, as we learned in Lesson 14)?",
+          "justification": "Affirms the recalled verb and prompts the student to construct the perfect past tense, leveraging knowledge from Lesson 14 (L42 - L14 = 28 lessons)."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifikile?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Vocabulary Recall (to work)",
+          "teacher_dialogue": "Perfect, 'Ndifikile'. Now, do you remember the verb root for 'to work' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-sebenza' from Lesson 11 (L42 - L11 = 31 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-sebenza'?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Introducing the Consecutive Merger",
+          "teacher_dialogue": "Exactly. Now, to say 'and then I worked' (in the consecutive mood), we take our 'I' subject concord ('ndi-', Lesson 2), and it merges with the consecutive '-a-' to become 'nda-'. Then we add the verb root. So, how would you combine 'Ndifikile' and 'nda-sebenza' to say 'I arrived, and then I worked'?",
+          "justification": "Introduces the consecutive merger with a clear explanation and guides the student to construct the combined sentence, adhering to 'one thought at a time'."
+        },
+        {
           "turn_number": 8,
-          "section": "Practice and Weaving",
-          "teacher_dialogue": "Excellent. Now, how would you say 'I am not yet studying'?",
-          "justification": "This prompts the learner to apply the negative situational aspect with the recalled verb, providing targeted practice."
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifikile, ndasebenza?"
         },
         {
           "turn_number": 9,
+          "section": "Vocabulary Recall (to study/read)",
+          "teacher_dialogue": "Perfect! 'Ndifikile, ndasebenza'. You've got the flow of the consecutive. Now, do you remember the verb root for 'to study' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-funda' from Lesson 11 (L42 - L11 = 31 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Funda?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Applying Consecutive to Third Person",
+          "teacher_dialogue": "Excellent. And for 'he/she', the subject concord is 'u-' (Lesson 12). How about 'He arrived, and then he studied'?",
+          "justification": "Guides the student to apply the consecutive mood to a third-person singular subject, showing the 'u-' + '-a-' -> 'wa-' merger."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ufikile, wafunda?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Vocabulary Recall (to sit/stay)",
+          "teacher_dialogue": "Excellent! 'Ufikile, wafunda'. You see how 'u-' and '-a-' merge to 'wa-'. Let's try chaining three actions. Do you remember the verb root for 'to sit' or 'to stay' from Lesson 39?",
+          "justification": "Prompts for vocabulary recall of '-hlala' from Lesson 39 (L42 - L39 = 3 lessons). While not strictly 'more than 3', it's a new 'ex nihilo' word from L39, and a check is beneficial."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-hlala'?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Chaining Multiple Consecutive Actions",
+          "teacher_dialogue": "Yes. And for 'we', the subject concord is 'si-' (Lesson 12). How would you say 'We arrived, and then we sat, and then we worked'?",
+          "justification": "Guides the student to construct a sentence with multiple consecutive clauses, challenging them to integrate several learned elements."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Sifikile, sahlala, sasebenza?"
+        },
+        {
+          "turn_number": 17,
+          "section": "Vocabulary Recall (to exit, in the house)",
+          "teacher_dialogue": "Brilliant! 'Sifikile, sahlala, sasebenza'. You're telling a story! Let's weave in a locative from Lesson 28. Do you remember 'to exit' from Lesson 28, and 'in the house' also from Lesson 28?",
+          "justification": "Prompts for vocabulary recall of '-phuma' and 'endlwini' from Lesson 28 (L42 - L28 = 14 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "'-phuma' and 'endlwini'?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Vocabulary Recall (to eat)",
+          "teacher_dialogue": "Right. And do you remember the verb root 'to eat' from Lesson 39?",
+          "justification": "Prompts for vocabulary recall of '-dla' from Lesson 39 (L42 - L39 = 3 lessons). While not strictly 'more than 3', it's a new 'ex nihilo' word from L39, and a check is beneficial."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, '-dla'."
+        },
+        {
+          "turn_number": 21,
+          "section": "Building with Consecutive and Locative",
+          "teacher_dialogue": "Good. So how would you say 'They exited from the house, and then they ate'? Remember 'they' subject concord 'ba-' (Lesson 12).",
+          "justification": "Guides the student to construct a sentence integrating consecutive mood, locative, and plural subject concord (L12)."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Baphuma endlwini, badla?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Vocabulary Recall (Negative Present Tense)",
+          "teacher_dialogue": "Perfect! 'Baphuma endlwini, badla'. Now, for a twist, let's make the 'and then' part negative. Do you remember the present tense negative pattern (Lesson 5)?",
+          "justification": "Prompts for vocabulary recall of the negative present tense pattern from Lesson 5 (L42 - L5 = 37 lessons), preparing the student to apply it to the consecutive structure."
+        },
+        {
+          "turn_number": 24,
+          "section": "Student Dialogue",
+          "student_dialogue": "Yes, 'a-...-i'."
+        },
+        {
+          "turn_number": 25,
+          "section": "Applying Negative to Consecutive",
+          "teacher_dialogue": "Exactly. So how would you say 'I arrived, and then I did not work'?",
+          "justification": "Invites the student to infer the negative consecutive form, combining previously learned rules with the new mood."
+        },
+        {
+          "turn_number": 26,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndifikile, andisebenzi?"
+        },
+        {
+          "turn_number": 27,
+          "section": "Vocabulary Recall (object concord for 'me')",
+          "teacher_dialogue": "Excellent! 'Ndifikile, andisebenzi'. To summarise, the consecutive mood uses an '-a-' that merges with the subject concord (like 'nda-' or 'wa-') to link a sequence of completed actions. This is your tool for storytelling! For a final check, how would you say 'She arrived, and then she saw me'? Remember the object concord for 'me' ('-ndi-', Lesson 13) and 'to see' ('-bona', Lesson 13)?",
+          "justification": "Summarises the key learning and prompts for vocabulary recall of '-ndi-' and '-bona' from Lesson 13 (L42 - L13 = 29 lessons), adhering to the instruction. It then asks for a complex sentence."
+        },
+        {
+          "turn_number": 28,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ufikile, wandibona?"
+        },
+        {
+          "turn_number": 29,
+          "section": "Closing",
+          "teacher_dialogue": "Absolutely perfect! 'Ufikile, wandibona'. You're clearly mastering the art of narrative sequencing in isiXhosa. Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'I arrived, and then I worked' in isiXhosa?",
+          "answer": "Ndifikile, ndasebenza."
+        },
+        {
+          "prompt": "How would you say 'He arrived, and then he studied' in isiXhosa?",
+          "answer": "Ufikile, wafunda."
+        },
+        {
+          "prompt": "How would you say 'We arrived, and then we sat, and then we worked' in isiXhosa?",
+          "answer": "Sifikile, sahlala, sasebenza."
+        },
+        {
+          "prompt": "How would you say 'They exited from the house, and then they ate' in isiXhosa?",
+          "answer": "Baphuma endlwini, badla."
+        },
+        {
+          "prompt": "How would you say 'I arrived, and then I did not work' in isiXhosa?",
+          "answer": "Ndifikile, andisebenzi."
+        },
+        {
+          "prompt": "How would you say 'She arrived, and then she saw me' in isiXhosa?",
+          "answer": "Ufikile, wandibona."
+        }
+      ]
+    },
+    {
+      "lesson_title": " **Lesson 43: The Hortative Mood — 'Let's...' (Ma- + Subjunctive)** ",
+      "thinking_method_focus": [
+        "Weaving",
+        "Reframing",
+        "Increasing Language Consciousness",
+        "One Thought at a Time"
+      ],
+      "objective": "Make group suggestions with Ma- + SC and the subjunctive ending -e (e.g., Masisebenze, Masifunde).",
+      "key_vocabulary": [
+        {
+          "word": "Ma- (hortative)",
+          "meaning": "'let's' prefix combining with SC"
+        },
+        {
+          "word": "Masisebenze",
+          "meaning": "Let's work"
+        },
+        {
+          "word": "Masifunde",
+          "meaning": "Let's study"
+        },
+        {
+          "word": "-sebenza",
+          "meaning": "to work"
+        },
+        {
+          "word": "-funda",
+          "meaning": "to read/study"
+        },
+        {
+          "word": "endlwini",
+          "meaning": "in the house"
+        },
+        {
+          "word": "-nceda",
+          "meaning": "to help"
+        },
+        {
+          "word": "-hlala",
+          "meaning": "to sit/stay"
+        },
+        {
+          "word": "Makhe",
+          "meaning": "a hortative softener meaning 'let's just...'"
+        },
+        {
+          "word": "incwadi",
+          "meaning": "book"
+        },
+        {
+          "word": "phandle",
+          "meaning": "outside"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing & Weaving)",
+          "teacher_dialogue": "In Lesson 26, we learned the subjunctive mood, which uses an '-e' ending to express suggestions or requests. Today, we're going to learn a very common way to make a suggestion or a call to action for a group, like saying 'Let's go' or 'Let's work'. This uses a special prefix 'Ma-' combined with the subject concord and the subjunctive ending. Do you remember the verb root for 'to work' from Lesson 11?",
+          "justification": "This turn introduces the hortative mood, linking it to the subjunctive (L26) and frames the 'Ma-' prefix. It prompts for vocabulary recall of '-sebenza' from Lesson 11 (L43 - L11 = 32 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-sebenza'?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing the Hortative (Ma-)",
+          "teacher_dialogue": "That's it, '-sebenza'. Now, to say 'Let's work', we use 'Ma-' (our new suggestion prefix), our 'we' subject concord ('si-', Lesson 12), and the subjunctive form of '-sebenza'. How would that sound?",
+          "justification": "Affirms the recalled verb and guides the student to infer the new hortative form, weaving in knowledge of the 'si-' subject concord (L12). This follows the 'one thought at a time' principle."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Masisebenze?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Vocabulary Recall (to study/read)",
+          "teacher_dialogue": "Perfect! 'Masisebenze'. You've got the pattern. Now, do you remember the verb root for 'to study' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-funda' from Lesson 11 (L43 - L11 = 32 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Funda?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Applying Hortative to Another Verb",
+          "teacher_dialogue": "Good. So, how would you say 'Let's study'?",
+          "justification": "Invites inference for the hortative form, ensuring active construction and masked repetition."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "Masifunde?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Vocabulary Recall (in the house)",
+          "teacher_dialogue": "Excellent! 'Masifunde'. Let's weave in a locative. Do you remember 'in the house' from Lesson 28?",
+          "justification": "Prompts for vocabulary recall of 'endlwini' from Lesson 28 (L43 - L28 = 15 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 10,
+          "section": "Student Dialogue",
+          "student_dialogue": "Endlwini?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Building with Hortative and Locative",
+          "teacher_dialogue": "Right. So, how would you say 'Let's work in the house'?",
+          "justification": "Guides the student to construct a sentence combining the hortative mood with a previously learned locative (L28)."
+        },
+        {
+          "turn_number": 12,
+          "section": "Student Dialogue",
+          "student_dialogue": "Masisebenze endlwini?"
+        },
+        {
+          "turn_number": 13,
+          "section": "Vocabulary Recall (to help)",
+          "teacher_dialogue": "Brilliant! 'Masisebenze endlwini'. Now, let's include an object. Do you remember the verb root for 'to help' from Lesson 20?",
+          "justification": "Prompts for vocabulary recall of '-nceda' from Lesson 20 (L43 - L20 = 23 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 14,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Nceda?"
+        },
+        {
+          "turn_number": 15,
+          "section": "Vocabulary Recall (object concord for 'them')",
+          "teacher_dialogue": "Yes. And the object concord for 'them' ('-ba-') from Lesson 23?",
+          "justification": "Prompts for vocabulary recall of '-ba-' from Lesson 23 (L43 - L23 = 20 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "'-ba-'."
+        },
+        {
+          "turn_number": 17,
+          "section": "Building with Hortative and Object Concord",
+          "teacher_dialogue": "Good. So how would you say 'Let's help them'?",
+          "justification": "Invites inference, combining the hortative with an object concord, ensuring active construction."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Masibancede?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Vocabulary Recall (to sit/stay)",
+          "teacher_dialogue": "Perfect! 'Masibancede'. Now for a slightly softer suggestion, isiXhosa sometimes uses 'Makhe' before the suggestion. Do you remember the verb root for 'to sit' or 'to stay' from Lesson 39?",
+          "justification": "Prompts for vocabulary recall of '-hlala' from Lesson 39 (L43 - L39 = 4 lessons). While not strictly 'more than 3', it's a new 'ex nihilo' word from L39, and a check is beneficial."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-hlala'?"
+        },
+        {
+          "turn_number": 21,
+          "section": "Building with Hortative Softener",
+          "teacher_dialogue": "Exactly. So how would you say 'Let's just sit (for a bit)'?",
+          "justification": "Invites inference for the hortative with the softener 'Makhe'."
+        },
+        {
+          "turn_number": 22,
+          "section": "Student Dialogue",
+          "student_dialogue": "Makhe sihlale?"
+        },
+        {
+          "turn_number": 23,
+          "section": "Vocabulary Recall (book)",
+          "teacher_dialogue": "Excellent! 'Makhe sihlale'. To summarise, the hortative mood uses 'Ma-' (or 'Makhe' for a softer touch) plus the subject concord and a subjunctive '-e' ending to make suggestions for a group, like 'Masisebenze' (Let's work). It's a great tool for inviting others to action. For a final check, do you remember the word for 'book' from Lesson 32?",
+          "justification": "Summarises the key learning and prompts for vocabulary recall of 'incwadi' from Lesson 32 (L43 - L32 = 11 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 24,
+          "section": "Student Dialogue",
+          "student_dialogue": "Incwadi?"
+        },
+        {
+          "turn_number": 25,
+          "section": "Vocabulary Recall (outside)",
+          "teacher_dialogue": "Good. And 'outside' from Lesson 31?",
+          "justification": "Prompts for vocabulary recall of 'ngaphandle' from Lesson 31 (L43 - L31 = 12 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 26,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ngaphandle?"
+        },
+        {
+          "turn_number": 27,
+          "section": "Final Sentence Construction with Hortative and Locative",
+          "teacher_dialogue": "Perfect. So, how would you say 'Let's read the book outside'?",
+          "justification": "Guides the student to construct a complex sentence integrating the hortative, an object noun, and a locative."
+        },
+        {
+          "turn_number": 28,
+          "section": "Student Dialogue",
+          "student_dialogue": "Masifunde incwadi ngaphandle?"
+        },
+        {
+          "turn_number": 29,
+          "section": "Closing",
+          "teacher_dialogue": "Absolutely perfect! 'Masifunde incwadi ngaphandle'. You're confidently using the hortative mood to propose actions with others! Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'Let's work' in isiXhosa?",
+          "answer": "Masisebenze."
+        },
+        {
+          "prompt": "How would you say 'Let's study' in isiXhosa?",
+          "answer": "Masifunde."
+        },
+        {
+          "prompt": "How would you say 'Let's work in the house' in isiXhosa?",
+          "answer": "Masisebenze endlwini."
+        },
+        {
+          "prompt": "How would you say 'Let's help them' in isiXhosa?",
+          "answer": "Masibancede."
+        },
+        {
+          "prompt": "How would you say 'Let's just sit (for a bit)' in isiXhosa?",
+          "answer": "Makhe sihlale."
+        },
+        {
+          "prompt": "How would you say 'Let's read the book outside' in isiXhosa?",
+          "answer": "Masifunde incwadi ngaphandle."
+        }
+      ]
+    },
+    {
+      "lesson_title": "Lesson 44: The Situational Aspect (-sa-) - 'Still' / 'Yet'",
+      "thinking_method_focus": [
+        "Reframing",
+        "Weaving",
+        "Increasing Language Consciousness",
+        "One Thought at a Time"
+      ],
+      "objective": "To learn how to express that an action is still ongoing or has not yet happened.",
+      "key_vocabulary": [
+        {
+          "word": "-sa-",
+          "meaning": "situational infix ('still' / 'yet')"
+        },
+        {
+          "word": "-sebenza",
+          "meaning": "to work"
+        },
+        {
+          "word": "-funda",
+          "meaning": "to read/study"
+        },
+        {
+          "word": "Namhlanje",
+          "meaning": "today"
+        }
+      ],
+      "turns": [
+        {
+          "turn_number": 1,
+          "section": "Opening (Reframing & Weaving)",
+          "teacher_dialogue": "In English, we add words like 'still' or 'yet' to tell us if an action is ongoing or hasn't happened. IsiXhosa, true to its nature, builds this 'status update' directly into the verb itself, using a special infix. This infix is '-sa-'. It fits into the 'tense slot' of our verb machine (Lesson 11), right after the subject concord. Do you remember the verb root for 'to work' from Lesson 11?",
+          "justification": "This turn introduces the situational aspect using an English analogy and frames the infix as a logical addition to the verb machine model. It prompts for vocabulary recall of '-sebenza' from Lesson 11 (L44 - L11 = 33 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 2,
+          "section": "Student Dialogue",
+          "student_dialogue": "Is it '-sebenza'?"
+        },
+        {
+          "turn_number": 3,
+          "section": "Introducing the -sa- Infix (Positive)",
+          "teacher_dialogue": "That's it, '-sebenza'. So, to say 'I am still working', you take your 'I' subject concord ('ndi-', Lesson 2), add our new '-sa-' infix, and then the root '-sebenza'. How would you put that together?",
+          "justification": "Affirms the recalled verb and guides the student to infer the new positive situational form, weaving in knowledge of the 'ndi-' subject concord (L2). This follows the 'one thought at a time' principle."
+        },
+        {
+          "turn_number": 4,
+          "section": "Student Dialogue",
+          "student_dialogue": "Ndisasebenza?"
+        },
+        {
+          "turn_number": 5,
+          "section": "Introducing the Negative Form ('Not Yet')",
+          "teacher_dialogue": "Precisely, 'Ndisasebenza'. Now, for the negative: 'not yet'. This uses the same '-sa-' infix, but with our negative pattern. For 'you are not yet working', 'u-' and '-sa-' in the negative often become 'uka-'. What do you think 'You are not yet working' would sound like, remembering the 'a-' prefix and '-i' ending for negatives (Lesson 5)?",
+          "justification": "Introduces the negative situational aspect, explaining the phonetic change ('u-' + '-sa-' -> 'uka-'). It prompts for the negative form, weaving in knowledge of the negative pattern (L5, L44 - L5 = 39 lessons) and inviting inference."
+        },
+        {
+          "turn_number": 6,
+          "section": "Student Dialogue",
+          "student_dialogue": "Akukasebenzi?"
+        },
+        {
+          "turn_number": 7,
+          "section": "Vocabulary Recall (to study/read)",
+          "teacher_dialogue": "Excellent! 'Akukasebenzi'. That 'aku-' from 'a-' + 'u-' (Lesson 5) combining with '-sa-' to 'uka-' is a great observation. Let's try 'I am not yet studying'. Do you remember the verb root for 'to study' from Lesson 11?",
+          "justification": "Prompts for vocabulary recall of '-funda' from Lesson 11 (L44 - L11 = 33 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 8,
+          "section": "Student Dialogue",
+          "student_dialogue": "-Funda?"
+        },
+        {
+          "turn_number": 9,
+          "section": "Applying Negative Situational to 'I'",
+          "teacher_dialogue": "Good. Now, how would you say 'I am not yet studying'?",
+          "justification": "Invites inference for the negative situational aspect with the 'I' subject concord ('ndi-') and the recalled verb, providing masked repetition."
+        },
+        {
+          "turn_number": 10,
           "section": "Student Dialogue",
           "student_dialogue": "Andikafundi?"
         },
         {
-          "turn_number": 10,
-          "section": "Practice with Noun Class (Positive)",
-          "teacher_dialogue": "Perfect! 'Andikafundi'. Let's weave in noun classes. Do you remember 'the people' from Lesson 3, and its subject concord?",
-          "justification": "This introduces a noun class example, requiring a recall check for 'abantu' (L3, >3 lessons prior) and its concord, demonstrating the systematic application of '-sa-' across different subjects."
-        },
-        {
           "turn_number": 11,
-          "section": "Student Dialogue",
-          "student_dialogue": "Abantu, ba-."
+          "section": "Vocabulary Recall (abantu)",
+          "teacher_dialogue": "Perfect! 'Andikafundi'. You're clearly seeing those systematic changes. Let's weave in noun classes. Do you remember the word for 'people' from Lesson 3?",
+          "justification": "Prompts for vocabulary recall of 'abantu' from Lesson 3 (L44 - L3 = 41 lessons), adhering to the instruction."
         },
         {
           "turn_number": 12,
-          "section": "Practice with Noun Class (Positive - Continued)",
-          "teacher_dialogue": "Right. And for 'to study' we use '-funda'. How would you say 'The people are still studying'?",
-          "justification": "This prompts the learner to combine the recalled noun class and verb with the positive '-sa-' infix."
+          "section": "Student Dialogue",
+          "student_dialogue": "Abantu?"
         },
         {
           "turn_number": 13,
+          "section": "Applying Positive Situational to Plural Subject",
+          "teacher_dialogue": "Right. And for 'to study' we use '-funda'. How would you say 'The people are still studying' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
+          "justification": "Guides the student to construct a sentence combining the positive '-sa-' infix with a plural subject (L12) and the recalled verb."
+        },
+        {
+          "turn_number": 14,
           "section": "Student Dialogue",
           "student_dialogue": "Abantu basafunda?"
         },
         {
-          "turn_number": 14,
-          "section": "Practice with Noun Class (Negative)",
+          "turn_number": 15,
+          "section": "Applying Negative Situational to Plural Subject",
           "teacher_dialogue": "Spot on, 'Abantu basafunda'. Now, for the negative: how would you say 'The people have not yet studied'?",
-          "justification": "This prompts the learner to apply the negative situational aspect to a plural noun class, further solidifying the rule and providing more masked repetition."
+          "justification": "Invites inference for the negative situational aspect with a plural subject, ensuring comprehensive application."
         },
         {
-          "turn_number": 15,
+          "turn_number": 16,
           "section": "Student Dialogue",
           "student_dialogue": "Abantu abakafundi?"
         },
         {
-          "turn_number": 16,
+          "turn_number": 17,
+          "section": "Vocabulary Recall (today)",
+          "teacher_dialogue": "Excellent! 'Abantu abakafundi'. To summarise, the '-sa-' infix is your tool for expressing 'still' in positive sentences and 'not yet' in negative ones, like 'Ndisasebenza' (I am still working) and 'Andikafundi' (I am not yet studying). This infix provides a subtle but important 'status update' within your isiXhosa verbs! One last check: do you remember the word 'today' from Lesson 32?",
+          "justification": "Summarises the key learning, reinforces the concepts, and prompts for vocabulary recall of 'Namhlanje' from Lesson 32 (L44 - L32 = 12 lessons), adhering to the instruction."
+        },
+        {
+          "turn_number": 18,
+          "section": "Student Dialogue",
+          "student_dialogue": "Namhlanje?"
+        },
+        {
+          "turn_number": 19,
+          "section": "Final Sentence Construction with Time Adverb",
+          "teacher_dialogue": "Exactly. So how would you say 'Today, I am still working'?",
+          "justification": "Guides the student to construct a sentence combining the situational aspect with a time adverb, promoting practical application."
+        },
+        {
+          "turn_number": 20,
+          "section": "Student Dialogue",
+          "student_dialogue": "Namhlanje ndisasebenza?"
+        },
+        {
+          "turn_number": 21,
           "section": "Closing",
-          "teacher_dialogue": "Excellent! 'Abantu abakafundi'. You've successfully navigated the '-sa-' infix in both positive ('still') and negative ('not yet') contexts, even with a sound change. This demonstrates how isiXhosa systematically encodes status updates directly into its verbs, deepening your understanding of its efficiency.",
-          "justification": "The closing summarises the key learning, praises the learner's ability to handle complex phonetic changes, and reinforces the concept of isiXhosa's systematic nature, aligning with the Thinking Method's goals."
+          "teacher_dialogue": "Perfect! 'Namhlanje ndisasebenza'. You've skillfully woven the situational aspect with time adverbs, demonstrating a nuanced understanding of isiXhosa's verb system. Well done!",
+          "justification": "Praises the student's achievement and provides positive reinforcement for integrated learning."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "How would you say 'I am still working' in isiXhosa?",
+          "answer": "Ndisasebenza."
+        },
+        {
+          "prompt": "How would you say 'You are not yet working' in isiXhosa?",
+          "answer": "Akukasebenzi."
+        },
+        {
+          "prompt": "How would you say 'I am not yet studying' in isiXhosa?",
+          "answer": "Andikafundi."
+        },
+        {
+          "prompt": "How would you say 'The people are still studying' in isiXhosa?",
+          "answer": "Abantu basafunda."
+        },
+        {
+          "prompt": "How would you say 'The people have not yet studied' in isiXhosa?",
+          "answer": "Abantu abakafundi."
+        },
+        {
+          "prompt": "How would you say 'Today, I am still working' in isiXhosa?",
+          "answer": "Namhlanje ndisasebenza."
         }
       ]
     }
   ]
-} 
+}
