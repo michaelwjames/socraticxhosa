@@ -32,6 +32,12 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
                   Dictionary
                 </Link>
                 <Link
+                  to="/vocab"
+                  className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                >
+                  Vocab
+                </Link>
+                <Link
                   to="/texts"
                   className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                 >
@@ -96,6 +102,13 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
             onClick={() => setIsMenuOpen(false)}
           >
             Dictionary
+          </Link>
+          <Link
+            to="/vocab"
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Vocab
           </Link>
           <Link
             to="/texts"

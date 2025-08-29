@@ -39,54 +39,28 @@ const CoursePage: React.FC<CoursePageProps> = () => {
   useEffect(() => {
     const loadLessons = async () => {
       try {
-        // Load Foundations (1–10), Part 2 (11–25), Part 3 (26–30), Part 3 (31–35), Part 4 (36–40), Part 4 (41–45), and Part 4 (46–50), then combine
-        const [foundRes, part2Res, part3Res, part3bRes, part4Res, part4bRes, part4cRes] = await Promise.all([
-          fetch('/data/foundation_lessons.json'),
-          fetch('/data/part2_lessons_11_25.json'),
-          fetch('/data/part3_lessons_26_30.json'),
-          fetch('/data/part3_lessons_31_35.json'),
-          fetch('/data/part4_lessons_36_40.json'),
-          fetch('/data/part4_lessons_41_45.json'),
-          fetch('/data/part4_lessons_46_50.json')
-        ]);
-        if (!foundRes.ok) {
-          throw new Error('Failed to load Foundations');
-        }
-        if (!part2Res.ok) {
-          throw new Error('Failed to load Part 2');
-        }
-        if (!part3Res.ok) {
-          throw new Error('Failed to load Part 3');
-        }
-        if (!part3bRes.ok) {
-          throw new Error('Failed to load Part 3 (31–35)');
-        }
-        if (!part4Res.ok) {
-          throw new Error('Failed to load Part 4 (36–40)');
-        }
-        if (!part4bRes.ok) {
-          throw new Error('Failed to load Part 4 (41–45)');
-        }
-        if (!part4cRes.ok) {
-          throw new Error('Failed to load Part 4 (46–50)');
-        }
-        const foundations: CourseData = await foundRes.json();
-        const part2: CourseData = await part2Res.json();
-        const part3: CourseData = await part3Res.json();
-        const part3b: CourseData = await part3bRes.json();
-        const part4: CourseData = await part4Res.json();
-        const part4b: CourseData = await part4bRes.json();
-        const part4c: CourseData = await part4cRes.json();
+        // Load new consolidated lesson parts (Part 1–6) and compute sections dynamically
+        const partFiles = ['part1', 'part2', 'part3', 'part4', 'part5', 'part6'];
+        const responses = await Promise.all(
+          partFiles.map((f) => fetch(`/data/lesson_data/${f}.json`))
+        );
+        responses.forEach((res, i) => {
+          if (!res.ok) {
+            throw new Error(`Failed to load ${partFiles[i]}`);
+          }
+        });
+        const parts: CourseData[] = await Promise.all(responses.map((r) => r.json()));
 
-        const sectionsComputed: Section[] = [
-          { part_name: foundations.part_name, lessons: foundations.lessons, startIndex: 0 },
-          { part_name: part2.part_name, lessons: part2.lessons, startIndex: foundations.lessons.length },
-          { part_name: part3.part_name, lessons: part3.lessons, startIndex: foundations.lessons.length + part2.lessons.length },
-          { part_name: part3b.part_name, lessons: part3b.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length },
-          { part_name: part4.part_name, lessons: part4.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length },
-          { part_name: part4b.part_name, lessons: part4b.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length + part4.lessons.length },
-          { part_name: part4c.part_name, lessons: part4c.lessons, startIndex: foundations.lessons.length + part2.lessons.length + part3.lessons.length + part3b.lessons.length + part4.lessons.length + part4b.lessons.length },
-        ];
+        let runningIndex = 0;
+        const sectionsComputed: Section[] = parts.map((p) => {
+          const section: Section = {
+            part_name: p.part_name,
+            lessons: p.lessons,
+            startIndex: runningIndex,
+          };
+          runningIndex += p.lessons.length;
+          return section;
+        });
 
         setSections(sectionsComputed);
       } catch (error) {

@@ -52,44 +52,22 @@ const LessonPracticePage: React.FC<LessonPageProps> = () => {
     const loadLesson = async () => {
       try {
         setLoading(true);
-        const [foundRes, part2Res, part3Res, part3bRes, part4Res, part4bRes, part4cRes] = await Promise.all([
-          fetch('/data/foundation_lessons.json'),
-          fetch('/data/part2_lessons_11_25.json'),
-          fetch('/data/part3_lessons_26_30.json'),
-          fetch('/data/part3_lessons_31_35.json'),
-          fetch('/data/part4_lessons_36_40.json'),
-          fetch('/data/part4_lessons_41_45.json'),
-          fetch('/data/part4_lessons_46_50.json')
-        ]);
-        if (!foundRes.ok) throw new Error('Failed to load Foundations');
-        if (!part2Res.ok) throw new Error('Failed to load Part 2');
-        if (!part3Res.ok) throw new Error('Failed to load Part 3');
-        if (!part3bRes.ok) throw new Error('Failed to load Part 3 (31–35)');
-        if (!part4Res.ok) throw new Error('Failed to load Part 4 (36–40)');
-        if (!part4bRes.ok) throw new Error('Failed to load Part 4 (41–45)');
-        if (!part4cRes.ok) throw new Error('Failed to load Part 4 (46–50)');
+        // Load consolidated lesson parts (Part 1–6)
+        const partFiles = ['part1', 'part2', 'part3', 'part4', 'part5', 'part6'];
+        const responses = await Promise.all(
+          partFiles.map((f) => fetch(`/data/lesson_data/${f}.json`))
+        );
+        responses.forEach((res, i) => {
+          if (!res.ok) throw new Error(`Failed to load ${partFiles[i]}`);
+        });
+        const parts: CourseData[] = await Promise.all(responses.map((r) => r.json()));
 
-        const foundations: CourseData = await foundRes.json();
-        const part2: CourseData = await part2Res.json();
-        const part3: CourseData = await part3Res.json();
-        const part3b: CourseData = await part3bRes.json();
-        const part4: CourseData = await part4Res.json();
-        const part4b: CourseData = await part4bRes.json();
-        const part4c: CourseData = await part4cRes.json();
-
+        const total = parts.reduce((acc, p) => acc + p.lessons.length, 0);
         const combined: CourseData = {
-          course_name: foundations.course_name,
-          part_name: `${foundations.part_name} & ${part2.part_name} & ${part3.part_name} & ${part3b.part_name} & ${part4.part_name} & ${part4b.part_name} & ${part4c.part_name}`,
-          lessons_covered: '1-50',
-          lessons: [
-            ...foundations.lessons,
-            ...part2.lessons,
-            ...part3.lessons,
-            ...part3b.lessons,
-            ...part4.lessons,
-            ...part4b.lessons,
-            ...part4c.lessons,
-          ],
+          course_name: parts[0]?.course_name ?? 'Course',
+          part_name: parts.map((p) => p.part_name).join(' & '),
+          lessons_covered: `1-${total}`,
+          lessons: parts.flatMap((p) => p.lessons),
         };
         setCourseData(combined);
 
@@ -210,7 +188,7 @@ const LessonPracticePage: React.FC<LessonPageProps> = () => {
                 className={`px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center ${isFirst ? 'opacity-50 cursor-not-allowed' : ''}`}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7m-7 7h18" />
                 </svg>
                 Previous
               </button>

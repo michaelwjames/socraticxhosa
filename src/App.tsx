@@ -6,6 +6,7 @@ import CoursePage from './pages/CoursePage';
 import LessonPage from './pages/LessonPage';
 import TextsPage from './pages/TextsPage';
 import LessonPracticePage from './pages/LessonPracticePage';
+import CourseVocabPage from './pages/CourseVocabPage';
 import PasswordModal from './components/PasswordModal';
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
               <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="/lesson/:lessonNumber/practice" element={<LessonPracticePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="/vocab" element={<CourseVocabPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           </div>
