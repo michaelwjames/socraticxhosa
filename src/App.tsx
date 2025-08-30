@@ -19,6 +19,9 @@ function App() {
     return true;
   });
 
+  // Password protection toggle
+  const [enablePasswordProtection] = useState(false);
+
   // First-load password gate
   const [isUnlocked, setIsUnlocked] = useState<boolean>(() => {
     return localStorage.getItem('sx_unlocked') === 'true';
@@ -53,7 +56,7 @@ function App() {
   };
 
   // Show password modal until unlocked
-  if (!isUnlocked) {
+  if (enablePasswordProtection && !isUnlocked) {
     return (
       <div className={`min-h-screen w-full flex items-center justify-center ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'} transition-colors duration-200`}>
         <PasswordModal isOpen={true} onSubmit={handlePasswordSubmit} error={authError} />

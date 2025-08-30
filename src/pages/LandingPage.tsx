@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { ReactNode } from 'react';
+import { GraduationCap, Search, ListChecks, BookOpen } from 'lucide-react';
 
 function Card({ title, description, to, icon }: { title: string; description: string; to: string; icon: ReactNode }) {
   return (
@@ -40,49 +41,25 @@ export default function LandingPage() {
             title="Course"
             description="Build your base of linguistic capital step by step: dialogues as the factory floor, grammar as the machinery, and practice as your daily labor that produces real skill."
             to="/course"
-            icon={
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-12 h-12">
-                <path d="M4 19.5V6.5a2 2 0 0 1 1.2-1.84l6-2.5a2 2 0 0 1 1.6 0l6 2.5A2 2 0 0 1 20 6.5v13"/>
-                <path d="M4 6.5L12 10l8-3.5"/>
-                <path d="M12 22V10"/>
-              </svg>
-            }
+            icon={<GraduationCap className="w-12 h-12" />}
           />
           <Card
             title="Dictionary"
             description="Seize the means of meaning-making. Quickly locate words, examples, and forms so you can command vocabulary like a well-organized collective."
             to="/dictionary"
-            icon={
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-12 h-12">
-                <circle cx="11" cy="11" r="7"/>
-                <path d="M21 21l-4.3-4.3"/>
-              </svg>
-            }
+            icon={<Search className="w-12 h-12" />}
           />
           <Card
             title="Vocab Practice"
             description="Transform passive knowledge into productive power. Drills convert time and effort into durable vocabulary—your linguistic surplus value."
             to="/vocab"
-            icon={
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-12 h-12">
-                <path d="M12 20V10"/>
-                <path d="M18 20V4"/>
-                <path d="M6 20v-6"/>
-              </svg>
-            }
+            icon={<ListChecks className="w-12 h-12" />}
           />
           <Card
             title="Texts"
             description="Read authentic texts—the real marketplace where language circulates. See how structures work in the wild and bring them back into your own production."
             to="/texts"
-            icon={
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-12 h-12">
-                <path d="M4 19a2 2 0 0 1 2-2h13"/>
-                <path d="M4 5h13a2 2 0 0 1 2 2v12"/>
-                <path d="M8 8h8"/>
-                <path d="M8 12h6"/>
-              </svg>
-            }
+            icon={<BookOpen className="w-12 h-12" />}
           />
         </div>
       </section>
