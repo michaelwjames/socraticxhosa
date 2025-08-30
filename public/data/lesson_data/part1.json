@@ -386,7 +386,7 @@
         {
           "turn_number": 3,
           "section": "Building the Verb",
-          "teacher_dialogue": "Exactly! And we can build on these roots. For example, to say 'I want', we take our 'I' piece,  **ndi-**  (from Lesson 2), and attach it to the root  **-funa** . What do you think that would sound like?",
+          "teacher_dialogue": "Exactly! And we can build on these roots. For example, to say 'I want', what do you think that would sound like?",
           "justification": "This follows the established pattern of having the learner construct the word themselves. It's a simple combination of a known piece (ndi-) and a new piece (-funa), keeping the cognitive load low [2]."
         },
         {
@@ -408,18 +408,18 @@
         {
           "turn_number": 7,
           "section": "Practice and Weaving",
-          "teacher_dialogue": "Exactly right!  **Ndifuna iti**  means 'I want tea'. Now, how would you say 'You want tea'? Remember 'you' is  **u-**  (from Lesson 2) in isiXhosa.",
+          "teacher_dialogue": "Exactly right!  **Ndifuna iti**  means 'I want tea'. Now, how would you say 'You want tea'? (If you can remember the prefix for 'you' from Lesson 2).",
           "justification": "This uses masked repetition by having the learner practice the same structure with a different subject [11]."
         },
         {
           "turn_number": 8,
           "section": "Student Dialogue",
-          "student_dialogue": "Ufuna iti?"
+          "student_dialogue": "Ufuna iti."
         },
         {
           "turn_number": 9,
           "section": "Practice with new vocabulary",
-          "teacher_dialogue": "Perfect! Now let's learn another useful verb:  **-tya** , which means 'to eat'. The word for bread is  **isonka** . We'll learn how to combine actions later. For now, using **-funa** and **isonka**, how would you say 'I want bread'?",
+          "teacher_dialogue": "Nice one. The word for bread is  **isonka** . Using **isonka**, how would you say 'I want bread'?",
           "justification": "This introduces a new verb and object while maintaining a simple sentence structure, providing variation while reinforcing the pattern. It removes the premature introduction of '-ya-' and 'ukutya' [4, 19, 20]."
         },
         {
@@ -430,7 +430,7 @@
         {
           "turn_number": 11,
           "section": "Closing",
-          "teacher_dialogue": "Excellent!  **Ndifuna isonka**. You've learned something amazing - you can now form action sentences! You can take a subject piece like  **ndi-**  and a verb root like  **-funa**  or  **-tya**  and combine them to say what you want or what you're doing.",
+          "teacher_dialogue": "Easy. **Ndifuna isonka**. You've learned something amazing - you can now form action sentences! You can take a subject piece like  **ndi-**  and a verb root like  **-funa** and combine them to say what you want or what you're doing.",
           "justification": "The closing celebrates the learner's progress. It reinforces the modular system of building sentences without introducing unlearned grammar [10, 18]."
         }
       ],
@@ -485,7 +485,7 @@
         {
           "turn_number": 2,
           "section": "Student Dialogue",
-          "student_dialogue": "Yes!"
+          "student_dialogue": "Sure, let's go."
         },
         {
           "turn_number": 3,
@@ -501,7 +501,7 @@
         {
           "turn_number": 5,
           "section": "Practice and Phonetic Merging",
-          "teacher_dialogue": "Exactly.  **Andifuni** . Now, let's try it with 'you'. The pieces are  **a-**  +  **u-**  (from Lesson 2) +  **-fun-**  (from Lesson 4) +  **-i** . In isiXhosa, when 'a' and 'u' meet, they merge to become  **aku-** . So, how do you say 'You don't want'?",
+          "teacher_dialogue": "Exactly.  **Andifuni** . Now, let's try it with 'you'. In isiXhosa, when 'a' and 'u' meet, they merge to become  **aku-** . So, how do you say 'You don't want'?",
           "justification": "This turn introduces a key phonetic rule (vowel coalescence) in a practical context. It's presented as a natural sound merger ('they merge') rather than an arbitrary rule, making it easier to remember [7]. The teacher prompts the student to infer the answer [16]."
         },
         {
@@ -776,7 +776,7 @@
         {
           "turn_number": 9,
           "section": "Extending to another Noun Class",
-          "teacher_dialogue": "Exactly,  **umntu**. Now, thinking about  **umntu**  (Class 1, from Lesson 3), its possessive agreement piece is  **w-** . So, how would you say 'my person'?",
+          "teacher_dialogue": "Exactly,  **umntu**. Now, thinking about  **umntu**, its possessive agreement piece is  **w-** . So, how would you say 'my person'?",
           "justification": "This step weaves the new possessive concept with a previously learned noun class (umntu from Lesson 3) [3]. It shows that the possessive concept is systematic across noun classes, managing cognitive load by connecting new information to established patterns [2, 7]. The teacher prompts for inference [16]."
         },
         {
@@ -787,7 +787,7 @@
         {
           "turn_number": 11,
           "section": "Bonus Practice",
-          "teacher_dialogue": "Perfect!  **umntu wam** . Before we move on, let's try 'my trees'. Do you remember  **imithi**  (trees, from Lesson 6)? For  **imithi** , the possessive agreement piece is  **y-** . So, how would you say 'my trees'?",
+          "teacher_dialogue": "Perfect!  **umntu wam** . Before we move on, let's try 'my trees'. Do you remember  **imithi**  (trees)? For  **imithi** , the possessive agreement piece is  **y-** . So, how would you say 'my trees'?",
           "justification": "This adds one more application across number, reinforcing that possessives take their agreement from the noun class. This is masked repetition with a small twist to increase generalisation [11]. The teacher provides the possessive agreement piece (y-) which is key for this class [24]."
         },
         {
@@ -798,7 +798,7 @@
         {
           "turn_number": 13,
           "section": "Closing & Reinforcement",
-          "teacher_dialogue": "Excellent!  **imithi yam** . You've now seen how 'my' and 'your' adapt their forms based on the noun they describe. This idea of the noun 'telling' other words what to do is the core of isiXhosa's systematic agreement system, and you're mastering how it works! We'll continue to see this predictable pattern as we encounter more noun classes.",
+          "teacher_dialogue": "Excellent! **imithi yam** . You've now seen how 'my' and 'your' adapt their forms based on the noun they describe. This idea of the noun 'telling' other words what to do is the core of isiXhosa's systematic agreement system, and you're mastering how it works! We'll continue to see this predictable pattern as we encounter more noun classes.",
           "justification": "The closing statement reinforces the central principle of grammatical agreement and highlights its systematic nature, thereby increasing language consciousness [22]. It cues the learner that this foundational understanding will continue to be built upon [3]."
         }
       ],
@@ -843,73 +843,67 @@
         {
           "turn_number": 1,
           "section": "Opening & Reframing",
-          "teacher_dialogue": "Sometimes when you listen to isiXhosa, you might hear an extra sound inside the verb. For example, instead of just  **Ndifuna**  (from Lesson 4), you might hear  **Ndiyafuna** . This extra  **-ya-**  doesn't change the meaning much. Think of it as a way to add emphasis, like saying 'I  *do*  want!', or as a placeholder when the verb is the last word in the sentence. So, using 'I' (**ndi-** from Lesson 2), this new **-ya-** piece, and '-funa' (from Lesson 4), how would you say 'I am wanting' (emphatic)?",
+          "teacher_dialogue": "Sometimes when you listen to isiXhosa, you might hear an extra sound inside the verb. For example, instead of just  **Ndifuna**  (from Lesson 4), you might hear  **Ndiyafuna** . This extra  **-ya-**  doesn't change the meaning much. Think of it as a way to add emphasis, like saying 'I  *do*  want!', or as a placeholder when the verb is *the last word in the sentence*. If another word follows and the verb doesn't need emphasising, the **-ya-** usually disappears. ",
           "justification": "This reframes the long present not as a new tense but as a simple tool for emphasis or sentence flow, which manages cognitive load [2, 7]. It directly prompts the student to build the sentence, rather than providing the full example first [10]."
         },
         {
           "turn_number": 2,
-          "section": "Student Dialogue",
-          "student_dialogue": "Ndiyafuna?"
-        },
-        {
-          "turn_number": 3,
           "section": "Practice (2nd person)",
-          "teacher_dialogue": "Exactly:  **Ndiyafuna** . Now, knowing how to place this  **-ya-**  infix, how would you say 'You are wanting' (emphatic)?",
+          "teacher_dialogue": "Now, knowing how to place this  **-ya-**  infix, how would you say 'You are wanting?' or 'You want?' (emphatic)?",
           "justification": "Praise and prompt for application with a different subject, reinforcing the pattern through masked repetition [11]."
         },
         {
-          "turn_number": 4,
+          "turn_number": 3,
           "section": "Student Dialogue",
           "student_dialogue": "Uyafuna?"
         },
         {
-          "turn_number": 5,
-          "section": "Vocabulary Recall ('I')",
-          "teacher_dialogue": "Great. Now let's learn a new verb that sounds similar. But first, do you remember the piece for 'I' at the beginning of verbs, from Lesson 2?",
-          "justification": "This turn initiates a vocabulary recall for 'ndi-', which was introduced 6 lessons prior (L2) [18]. This ensures prior knowledge is active before building on it for a new, potentially confusing, verb."
-        },
-        {
-          "turn_number": 6,
-          "section": "Student Dialogue",
-          "student_dialogue": "Ndi-?"
-        },
-        {
-          "turn_number": 7,
+          "turn_number": 4,
           "section": "Weaving with a New Verb",
-          "teacher_dialogue": "Perfect,  **ndi-** . Now let's learn a new verb that sounds similar: the root for 'to go' is also  **-ya** . How would you say 'I am going', using our 'I' piece and the  **-ya-**  for emphasis or flow, followed by the verb root  **-ya** ?",
+          "teacher_dialogue": "That's right, **Uyafuna**. To make it sound more authentic as a question, you can add a **na** at the end. So, **Uyafuna na?** - *Do* you want (it)? Okay, now let's learn a new verb that sounds similar: the root for 'to go' is also  **-ya**. The word for Cape Town is eKapa. How would you say 'I am going to Cape Town'?",
           "justification": "This addresses the potential confusion between the infix and the root by prompting the learner to build the sentence 'Ndiyaya' [16]. This memorable construction increases language consciousness about isiXhosa's systematic morphology [22]."
         },
         {
-          "turn_number": 8,
+          "turn_number": 5,
           "section": "Student Dialogue",
-          "student_dialogue": "Ndiyaya?"
+          "student_dialogue": "Ndiya eKapa?"
         },
         {
-          "turn_number": 9,
+          "turn_number": 6,
           "section": "Practice",
-          "teacher_dialogue": "Exactly. How would you say 'You are going'?",
+          "teacher_dialogue": "Exactly. How would you say 'You are going to Cape Town'?",
           "justification": "Short masked repetition with the same pattern to strengthen recall [11]."
         },
         {
-          "turn_number": 10,
+          "turn_number": 7,
           "section": "Student Dialogue",
-          "student_dialogue": "Uyaya?"
+          "student_dialogue": "Uya eKapa?"
         },
         {
-          "turn_number": 11,
+          "turn_number": 8,
           "section": "Weaving Back to a Known Verb",
-          "teacher_dialogue": "Use  **-ya-**  with a verb you know:  **-tya**  ('to eat', from Lesson 4). How do you say 'I am eating bread'? The word for bread is  **isonka**  (from Lesson 4).",
+          "teacher_dialogue": "Returning to the emphatic, placeholder **-ya-** infix. Try use  **-ya-**  with a new verb:  **-tya**, which means 'to eat'. How would you say 'I *am* eating bread'?",
           "justification": "Weaves back to earlier vocabulary and shows  **-ya-**  with another verb, consolidating placement with a useful sentence [3]."
         },
         {
-          "turn_number": 12,
+          "turn_number": 9,
           "section": "Student Dialogue",
           "student_dialogue": "Ndiyatya isonka?"
         },
         {
-          "turn_number": 13,
+          "turn_number": 10,
+          "section": "Weaving Back to a Known Pattern",
+          "teacher_dialogue": "That's it. Now, how would you say the same thing without emphasising the act of eating?"
+        },
+        {
+          "turn_number": 11,
+          "section": "Student Dialogue",
+          "student_dialogue": "Nditya isonka?"
+        },
+        {
+          "turn_number": 12,
           "section": "Closing",
-          "teacher_dialogue": "Well done. You've seen  **-ya-**  used for emphasis and when a verb ends a sentence. You can now say  **Ndiyafuna** ,  **Uyafuna** ,  **Ndiyaya** ,  **Uyaya** , and  **Ndiyatya isonka** . The key is its position right after the subject piece.",
+          "teacher_dialogue": "Well done. You've seen  **-ya-**  used for emphasis and when a verb ends a sentence. You can now say  **Ndiyafuna** ,  **Uyafuna** ,  **Ndiya eKapa** ,  **Uya eKapa** , and  **Ndi(ya)tya isonka** . The key is its position right after the subject piece.",
           "justification": "Summarises placement and contrasts uses of  **-ya-**  (infix) with  **-ya**  (root), reinforcing position-based meaning [22]."
         }
       ],
@@ -963,7 +957,7 @@
         {
           "turn_number": 2,
           "section": "Student Dialogue",
-          "student_dialogue": "Okay."
+          "student_dialogue": "Okay, got it."
         },
         {
           "turn_number": 3,
@@ -1001,7 +995,7 @@
         {
           "turn_number": 9,
           "section": "Weaving with Negation and Possessives",
-          "teacher_dialogue": "Excellent. Now, how would you say 'The stones do not want my tea'? Let's build it piece by piece. First, how would you say 'The stones do not want'? Remember the negative pattern ( **a-...-i**  from Lesson 5)? When the negative prefix  **a-**  meets the Class 6 subject concord  **a-** , they often merge to form  **awa-** . So, 'they do not want' will start with  **awa-**  and end with  **-i** . How would you say 'The stones do not want'?",
+          "teacher_dialogue": "Excellent. Now, how would you say 'The stones do not want my tea'? Let's build it piece by piece. First, how would you say 'The stones do not want'? Remember the negative pattern ( **a-...-i**  from Lesson 5)? When the negative prefix  **a-**  meets the Class 6 subject concord  **a-** , they often merge to form  **awa-** . How would you say 'The stones do not want'?",
           "justification": "This guided construction weaves the new class with earlier negation and possessives [3]. It explicitly explains the formation of the 'awa-' concord, addressing the 'unexplained form' issue noted in source [4], and guides the student to infer the answer [16]."
         },
         {
@@ -1023,16 +1017,27 @@
         {
           "turn_number": 13,
           "section": "Expanding Vocabulary",
-          "teacher_dialogue": "Another useful word in this class is  **izulu** , which can mean 'sky', 'heaven', or 'weather'. Do you remember 'I know' from Lesson 5? How would you say 'I know the weather'?",
+          "teacher_dialogue": "Almost. When an object follows a negation, it loses its first vowel. So it would become 'Amatye awafuni **ti** yam'. But close enough, right? Another useful word in this class is  **izulu** , which can mean 'sky', 'heaven', or 'weather'. Do you remember 'I know' from Lesson 5? How would you say 'I know the weather'?",
           "justification": "Adds a high-frequency noun and reuses 'Ndiyazi' to reinforce earlier learning through masked repetition [11]. The teacher prompts for inference [16]."
         },
         {
           "turn_number": 14,
           "section": "Student Dialogue",
-          "student_dialogue": "Ndiyazi izulu?"
+          "student_dialogue": "Ndazi izulu?"
         },
         {
           "turn_number": 15,
+          "section": "Expanding Vocabulary",
+          "teacher_dialogue": "Well done. And 'I don't know the heavens'?",
+          "justification": "Adds a high-frequency noun and reuses 'Ndiyazi' to reinforce earlier learning through masked repetition [11]. The teacher prompts for inference [16]."
+        },
+        {
+          "turn_number": 16,
+          "section": "Student Dialogue",
+          "student_dialogue": "Andazi amazulu?"
+        },
+        {
+          "turn_number": 17,
           "section": "Closing",
           "teacher_dialogue": "Great work. You've matched  **ili-**  with  **li-**  and  **ama-**  with  **a-**  in verbs and even in the negative. The same logic will keep working as we meet more nouns, and you're building a strong foundation!",
           "justification": "Summarises the agreement mapping and highlights the predictable, system-wide logic to increase language consciousness [22]."
@@ -1049,11 +1054,15 @@
         },
         {
           "prompt": "How would you say 'The stones do not want my tea' in isiXhosa?",
-          "answer": "Amatye awafuni iti yam."
+          "answer": "Amatye awafuni ti yam."
         },
         {
           "prompt": "How would you say 'I know the weather' in isiXhosa?",
-          "answer": "Ndiyazi izulu."
+          "answer": "Ndazi izulu."
+        },
+        {
+          "prompt": "How would you say 'I don't know the heavens' in isiXhosa?",
+          "answer": "Andazi amazulu."
         }
       ]
     },
@@ -1091,7 +1100,7 @@
         {
           "turn_number": 4,
           "section": "Sentence Building 1 (Noun Classes & Verbs)",
-          "teacher_dialogue": "Excellent! Now, how would you say: 'The student wants the trees'? (Remember  **-funa**  from Lesson 4, and  **imithi**  from Lesson 6).",
+          "teacher_dialogue": "Excellent! Now, how would you say: 'The student wants the trees'?",
           "justification": "Requires weaving Class 1 and Class 4 with a simple verb, testing core agreement [3]. The teacher provides necessary vocabulary context [10]."
         },
         {
@@ -1102,7 +1111,7 @@
         {
           "turn_number": 6,
           "section": "Vocabulary Recall ('people')",
-          "teacher_dialogue": "Good. Now for our next sentence. Do you remember the word for 'people' from Lesson 3?",
+          "teacher_dialogue": "Good. Now for our next sentence. Do you remember the word for 'people'?",
           "justification": "This turn initiates a vocabulary recall for 'abantu', which was introduced 7 lessons prior (L3) [18]."
         },
         {
@@ -1113,7 +1122,7 @@
         {
           "turn_number": 8,
           "section": "Sentence Building 2 (Possessives)",
-          "teacher_dialogue": "Perfect! Now: 'My people want your work'. (Remember  **-funa**  from Lesson 4, and  **umsebenzi**  from Lesson 6). Think about the possessives  **bam**  (for 'my people') and  **wakho**  (for 'your work') from Lesson 7. How would you construct that sentence?",
+          "teacher_dialogue": "Perfect! Now: 'My people want your work'. Think about the possessive particles  **-am**  (for 'my') and  **-akho**  (for 'your') from Lesson 7, which need the right prefixes for their nouns. How would you construct that sentence?",
           "justification": "This sentence avoids the problematic 'abawazi' [4, 5]. It combines possessives across two classes and the basic verb form, encouraging deliberate construction [3, 16]. The teacher provides vocabulary context for derivation [10]."
         },
         {
@@ -1146,7 +1155,7 @@
         {
           "turn_number": 14,
           "section": "Review Challenge (Class 5 Negative)",
-          "teacher_dialogue": "Well done. For a bonus challenge: say 'The stone does not want my tea'. Remember  **ilitye**  (stone, Class 5 from Lesson 9) and 'my tea' (from Lesson 7). For 'does not want' with Class 5, the negative prefix  **a-**  (from Lesson 5) combines with the subject concord  **li-**  (from Lesson 9) to form  **ali-** . So how would you say 'The stone does not want'?",
+          "teacher_dialogue": "Well done. For a bonus challenge: how would you say 'The stone does not want'?",
           "justification": "Integrates Class 5 with the negative pattern for a final system-wide check (agreement + negation + object) [3]. The teacher explicitly explains the 'ali-' formation, addressing the 'unexplained form' issue [4, 17], and prompts for inference [16]."
         },
         {
@@ -1163,7 +1172,7 @@
         {
           "turn_number": 17,
           "section": "Student Dialogue",
-          "student_dialogue": "Ilitye alifuni iti yam?"
+          "student_dialogue": "Ilitye alifuni ti yam?"
         },
         {
           "turn_number": 18,
@@ -1187,7 +1196,7 @@
         },
         {
           "prompt": "How would you say 'The stone does not want my tea' in isiXhosa?",
-          "answer": "Ilitye alifuni iti yam."
+          "answer": "Ilitye alifuni ti yam."
         }
       ]
     }

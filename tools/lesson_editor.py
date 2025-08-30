@@ -8,13 +8,12 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 
 DATA_FILES_ORDER = [
-    'foundation_lessons.json',          # 1–10
-    'part2_lessons_11_25.json',         # 11–25
-    'part3_lessons_26_30.json',         # 26–30
-    'part3_lessons_31_35.json',         # 31–35
-    'part4_lessons_36_40.json',         # 36–40
-    'part4_lessons_41_45.json',         # 41–45
-    'part4_lessons_46_50.json',         # 46–50
+    'part1.json',          # 1–10
+    'part2.json',         # 11–25
+    'part3.json',         # 26–30
+    'part4.json',         # 31–35
+    'part5.json',         # 36–40
+    'part6.json',         # 41–45
 ]
 
 class LessonEditorApp(tk.Tk):
@@ -26,7 +25,7 @@ class LessonEditorApp(tk.Tk):
         # Paths
         self.root_dir: Path = Path(__file__).resolve().parent
         # Now that the script lives in tools/, JSON lives one level up in public/data
-        self.data_dir: Path = self.root_dir.parent / 'public' / 'data'
+        self.data_dir: Path = self.root_dir.parent / 'public' / 'data' / 'lesson_data'
         self.backup_dir: Path = self.data_dir / 'backups'
         self.backup_dir.mkdir(parents=True, exist_ok=True)
 

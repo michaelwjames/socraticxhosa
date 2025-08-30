@@ -12,7 +12,7 @@ export default defineConfig({
       includeAssets: ['marx-logo.png'],
       manifest: {
         name: 'Xhosa Kapital',
-        short_name: 'Xhosa\u00ADKapital',
+        short_name: 'Xhosa Kapital',
         start_url: '/',
         scope: '/',
         display: 'standalone',
