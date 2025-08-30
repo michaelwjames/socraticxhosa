@@ -1,5 +1,5 @@
 {
-  "name": "deepxhosa",
+  "name": "xhosa_kapital",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "deploy": "wrangler pages deploy dist"
   },
   "dependencies": {
+    "lucide-react": "^0.542.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",

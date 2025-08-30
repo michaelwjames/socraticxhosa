@@ -8,13 +8,15 @@ import TextsPage from './pages/TextsPage';
 import LessonPracticePage from './pages/LessonPracticePage';
 import CourseVocabPage from './pages/CourseVocabPage';
 import PasswordModal from './components/PasswordModal';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   // Dark mode state
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Initialize from localStorage if available
+    // Initialize from localStorage if available; default to dark on first load
     const saved = localStorage.getItem('darkMode');
-    return saved === 'true' ? true : false;
+    if (saved !== null) return saved === 'true';
+    return true;
   });
 
   // First-load password gate
@@ -66,7 +68,8 @@ function App() {
         <main className="flex-1 w-full">
           <div className="w-full">
             <Routes>
-              <Route path="/" element={<DictionaryPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/dictionary" element={<DictionaryPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="/texts" element={<TextsPage />} />
               <Route path="/course" element={<CoursePage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />
               <Route path="/lesson/:lessonNumber" element={<LessonPage isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />} />

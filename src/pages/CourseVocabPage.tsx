@@ -76,7 +76,7 @@ const CourseVocabPage: React.FC<LessonPageProps> = () => {
       kv
         .filter((k) => k.word && k.meaning)
         .map((k) => ({
-          prompt: `How would you say “${k.meaning}” in isiXhosa?` + (fromLabel ? '' : ''),
+          prompt: `“${k.meaning}”` + (fromLabel ? '' : ''),
           answer: k.word.trim(),
         }));
 

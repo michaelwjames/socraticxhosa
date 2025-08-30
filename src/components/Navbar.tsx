@@ -14,8 +14,9 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-              Socratic Xhosa
+            <Link to="/" className="flex items-center text-2xl font-bold text-indigo-600 dark:text-indigo-400">
+              <img src="/marx-logo.png" alt="Xhosa Kapital logo" className="h-12 w-12 mr-3 rounded-full object-cover ring-2 ring-gray-300 dark:ring-gray-600" />
+              Xhosa Kapital
             </Link>
             <div className="hidden md:block ml-10">
               <div className="flex space-x-4">
@@ -26,7 +27,7 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
                   Course
                 </Link>
                 <Link
-                  to="/"
+                  to="/dictionary"
                   className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                 >
                   Dictionary
@@ -97,7 +98,7 @@ const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
             Course
           </Link>
           <Link
-            to="/"
+            to="/dictionary"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-100 dark:hover:bg-gray-700"
             onClick={() => setIsMenuOpen(false)}
           >
