@@ -9,6 +9,7 @@ import LessonPracticePage from './pages/LessonPracticePage';
 import CourseVocabPage from './pages/CourseVocabPage';
 import PasswordModal from './components/PasswordModal';
 import LandingPage from './pages/LandingPage';
+import InstallBanner from './components/InstallBanner';
 
 function App() {
   // Dark mode state
@@ -68,6 +69,7 @@ function App() {
     <Router>
       <div className={`min-h-screen w-full flex flex-col ${isDarkMode ? 'dark bg-gray-900' : 'bg-white'} transition-colors duration-200 overflow-x-hidden`}>
         <Navbar isDarkMode={isDarkMode} onToggleDarkMode={toggleDarkMode} />
+        <InstallBanner />
         <main className="flex-1 w-full">
           <div className="w-full">
             <Routes>
