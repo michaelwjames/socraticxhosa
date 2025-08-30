@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import type { NavbarProps } from '../types';
+import type { NavbarProps } from '../types/index';
 
 const Navbar = ({ isDarkMode, onToggleDarkMode }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

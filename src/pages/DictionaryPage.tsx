@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import DictionaryFilters from '../components/DictionaryFilters';
 import TextFilters from '../components/TextFilters';
 import useSanitizeText from '../hooks/useSanitizeText';
-import type { DictionaryEntry, TextEntry, DictionaryPageProps } from '../types';
+import type { DictionaryEntry, TextEntry, DictionaryPageProps } from '../types/index';
 
 const DictionaryPage: React.FC<DictionaryPageProps> = ({ isDarkMode }) => {
   const sanitizeText = useSanitizeText();

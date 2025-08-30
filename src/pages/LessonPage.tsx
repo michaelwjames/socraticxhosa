@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import type { LessonPageProps } from '../types';
+import type { LessonPageProps } from '../types/index';
 
 interface Turn {
   turn_number: number;

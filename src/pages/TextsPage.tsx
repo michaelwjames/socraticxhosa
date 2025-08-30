@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import type { TextEntry } from '../types';
+import type { TextEntry } from '../types/index';
 import useSanitizeText from '../hooks/useSanitizeText';
 
 const TextsPage: React.FC = () => {

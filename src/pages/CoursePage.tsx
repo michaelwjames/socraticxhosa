@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import type { CoursePageProps } from '../types';
+import type { CoursePageProps } from '../types/index';
 
 interface Lesson {
   lesson_title: string;
