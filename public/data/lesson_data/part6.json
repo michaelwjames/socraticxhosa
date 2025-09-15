@@ -70,7 +70,7 @@
         {
           "turn_number": 5,
           "section": "Introducing 'cithi' with a known noun",
-          "teacher_dialogue": "Perfect, 'amatye'. Now, 'cithi' is the sound of things scattering. Given that, and our way of using '-thi', how would you say 'The stones scattered'?",
+          "teacher_dialogue": "Perfect, 'amatye'. Now, 'cithi' is the sound of things scattering. Given that, and our way of using '-thi', What is 'The stones scattered'?",
           "justification": "Checks for recall of 'amatye' [1] and then prompts the student to construct a sentence using the new ideophone 'cithi' and the auxiliary verb '-thi', following the pattern demonstrated in the opening [1]."
         },
         {
@@ -92,7 +92,7 @@
         {
           "turn_number": 9,
           "section": "Introducing 'bha' with a known noun",
-          "teacher_dialogue": "Exactly right, 'incwadi'. Now, 'bha' is the idea of being wide open. How would you say 'The book is wide open'?",
+          "teacher_dialogue": "Exactly right, 'incwadi'. Now, 'bha' is the idea of being wide open. What is 'The book is wide open'?",
           "justification": "Reinforces an older vocabulary item ('incwadi') and introduces 'bha', guiding the student to apply the ideophone structure to another familiar noun [1]."
         },
         {
@@ -114,7 +114,7 @@
         {
           "turn_number": 13,
           "section": "Introducing 'dada' with a known noun",
-          "teacher_dialogue": "Excellent, 'isonka'. Now, 'dada' is the sound of spreading out. How would you say 'The bread spread out'?",
+          "teacher_dialogue": "Excellent, 'isonka'. Now, 'dada' is the sound of spreading out. What is 'The bread spread out'?",
           "justification": "Checks for recall of 'isonka' [1] and introduces 'dada', applying the ideophone structure with a different type of noun [1]."
         },
         {
@@ -125,7 +125,7 @@
         {
           "turn_number": 15,
           "section": "Practice and Context",
-          "teacher_dialogue": "Excellent, 'Isonka sithe dada'. You can now add a layer of poetry to your descriptions by using these 'sound ideas'. Let's try to combine two. Thinking about how we chain narratives (like the Consecutive Mood we touched on in Lesson 42), how would you say 'The stones appeared suddenly and then scattered'?",
+          "teacher_dialogue": "Excellent, 'Isonka sithe dada'. You can now add a layer of poetry to your descriptions by using these 'sound ideas'. Let's try to combine two. Thinking about how we chain narratives (like the Consecutive Mood we touched on in Lesson 42), What is 'The stones appeared suddenly and then scattered'?",
           "justification": "Encourages the learner to combine two ideophones in a sequence, drawing on the narrative 'and then' idea from Lesson 42 (corrected from L39 in source) [1]. This builds a more complex description."
         },
         {
@@ -142,23 +142,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'He appeared suddenly' in isiXhosa?",
+          "prompt": "What is 'He appeared suddenly' in isiXhosa?",
           "answer": "Uthe gqi."
         },
         {
-          "prompt": "How would you say 'The stones scattered' in isiXhosa?",
+          "prompt": "What is 'The stones scattered' in isiXhosa?",
           "answer": "Amatye athe cithi."
         },
         {
-          "prompt": "How would you say 'The book is wide open' in isiXhosa?",
+          "prompt": "What is 'The book is wide open' in isiXhosa?",
           "answer": "Incwadi ithe bha."
         },
         {
-          "prompt": "How would you say 'The bread spread out' in isiXhosa?",
+          "prompt": "What is 'The bread spread out' in isiXhosa?",
           "answer": "Isonka sithe dada."
         },
         {
-          "prompt": "How would you say 'The stones appeared suddenly and then scattered' in isiXhosa?",
+          "prompt": "What is 'The stones appeared suddenly and then scattered' in isiXhosa?",
           "answer": "Amatye athe gqi, athe cithi."
         }
       ]
@@ -319,11 +319,11 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'If I work, I will get money' in isiXhosa?",
+          "prompt": "What is 'If I work, I will get money' in isiXhosa?",
           "answer": "Ukuba ndisebenza, ndiza kufumana imali."
         },
         {
-          "prompt": "How would you say 'If I had worked, I would have gotten money' in isiXhosa?",
+          "prompt": "What is 'If I had worked, I would have gotten money' in isiXhosa?",
           "answer": "Ukuba bendisebenza, bendiza kufumana imali."
         }
       ]
@@ -481,11 +481,11 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'humanity' or 'kindness' in isiXhosa?",
+          "prompt": "What is 'humanity' or 'kindness' in isiXhosa?",
           "answer": "Ubuntu."
         },
         {
-          "prompt": "How would you say 'age' (state of being old) in isiXhosa?",
+          "prompt": "What is 'age' (state of being old) in isiXhosa?",
           "answer": "Ubudala."
         },
         {
@@ -574,7 +574,7 @@
         {
           "turn_number": 8,
           "section": "Practice with another verb",
-          "teacher_dialogue": "That's exactly right, 'Ndithe ndasebenza'. You've linked the past of '-thi' with the consecutive 'nda-' for the action. Now, how would you say 'I studied for a bit'?",
+          "teacher_dialogue": "That's exactly right, 'Ndithe ndasebenza'. You've linked the past of '-thi' with the consecutive 'nda-' for the action. Now, What is 'I studied for a bit'?",
           "justification": "Reinforces the pattern with another familiar verb, promoting masked repetition and ensuring the structural understanding is transferable [4]."
         },
         {
@@ -596,7 +596,7 @@
         {
           "turn_number": 12,
           "section": "Third person practice (introducing -thetha)",
-          "teacher_dialogue": "Excellent, 'u-'. Let's introduce a new verb root here: '-thetha' means 'to speak' or 'to talk'. Now, how would you say 'You talked for a bit'?",
+          "teacher_dialogue": "Excellent, 'u-'. Let's introduce a new verb root here: '-thetha' means 'to speak' or 'to talk'. Now, What is 'You talked for a bit'?",
           "justification": "Introduces a new verb '-thetha' [4], then applies the deficient verb structure with a different subject concord. This adheres to the instruction that all vocabulary used must be introduced [3]."
         },
         {
@@ -618,7 +618,7 @@
         {
           "turn_number": 16,
           "section": "More practice, with new verb",
-          "teacher_dialogue": "Perfect, '-lala'. So how would you say 'They slept for a bit'?",
+          "teacher_dialogue": "Perfect, '-lala'. So What is 'They slept for a bit'?",
           "justification": "Checks for recall of '-lala' [4] and reinforces the pattern with a different subject and verb, continuing the masked repetition [4]."
         },
         {
@@ -635,19 +635,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I worked for a bit' in isiXhosa?",
+          "prompt": "What is 'I worked for a bit' in isiXhosa?",
           "answer": "Ndithe ndasebenza."
         },
         {
-          "prompt": "How would you say 'I studied for a bit' in isiXhosa?",
+          "prompt": "What is 'I studied for a bit' in isiXhosa?",
           "answer": "Ndithe ndafunda."
         },
         {
-          "prompt": "How would you say 'You talked for a bit' in isiXhosa?",
+          "prompt": "What is 'You talked for a bit' in isiXhosa?",
           "answer": "Uthe wathetha."
         },
         {
-          "prompt": "How would you say 'They slept for a bit' in isiXhosa?",
+          "prompt": "What is 'They slept for a bit' in isiXhosa?",
           "answer": "Bathe balala."
         }
       ]
@@ -749,7 +749,7 @@
         {
           "turn_number": 9,
           "section": "Practice with another subject",
-          "teacher_dialogue": "Excellent. And for '-funda', 'to study'. Now, the special reported subjunctive concord for 'that you' is simply 'u-'. So, how would you say 'He said that you must study'?",
+          "teacher_dialogue": "Excellent. And for '-funda', 'to study'. Now, the special reported subjunctive concord for 'that you' is simply 'u-'. So, What is 'He said that you must study'?",
           "justification": "Prompts the student to adapt the reported speech structure for a different subject, implicitly reminding them of the normal subject concord in the subjunctive context [4]."
         },
         {
@@ -793,7 +793,7 @@
         {
           "turn_number": 17,
           "section": "Practice with another plural subject",
-          "teacher_dialogue": "Exactly. Now, for 'that we', the special concord for reported commands is 'si-'. So, combining 'bathe' (they said, for 'abantu') with 'si-' and the subjunctive form of '-nceda' (to help), how would you say 'They said that we must help them'?",
+          "teacher_dialogue": "Exactly. Now, for 'that we', the special concord for reported commands is 'si-'. So, combining 'bathe' (they said, for 'abantu') with 'si-' and the subjunctive form of '-nceda' (to help), What is 'They said that we must help them'?",
           "justification": "Guides the student to construct a reported command for a plural subject ('we'), linking it to the hortative mood's 'si-' concord and object concord from Lesson 40 [4]."
         },
         {
@@ -843,23 +843,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'He said that I must work' in isiXhosa?",
+          "prompt": "What is 'He said that I must work' in isiXhosa?",
           "answer": "Uthe mandisebenze."
         },
         {
-          "prompt": "How would you say 'He said that you must study' in isiXhosa?",
+          "prompt": "What is 'He said that you must study' in isiXhosa?",
           "answer": "Uthe ufunde."
         },
         {
-          "prompt": "How would you say 'He said that you must not work' in isiXhosa?",
+          "prompt": "What is 'He said that you must not work' in isiXhosa?",
           "answer": "Uthe ungasebenze."
         },
         {
-          "prompt": "How would you say 'They said that we must help them' in isiXhosa?",
+          "prompt": "What is 'They said that we must help them' in isiXhosa?",
           "answer": "Bathe sibancede."
         },
         {
-          "prompt": "How would you say 'I want to say that I am working' in isiXhosa?",
+          "prompt": "What is 'I want to say that I am working' in isiXhosa?",
           "answer": "Ndifuna ukuthi ndiyasebenza."
         }
       ]
@@ -943,7 +943,7 @@
         {
           "turn_number": 10,
           "section": "Introducing new vocabulary (umhlekazi)",
-          "teacher_dialogue": "Exactly. This demonstrates isiXhosa's deep connection between language and social structure. Even if you don't master all the nuances immediately, being aware of 'ukuhlonipha' will guide your interactions and show genuine effort to connect with speakers. To help you express respect, let's learn a new word: 'umhlekazi' means 'sir' or a 'respected elder'. It's a Class 1a noun. Now, knowing 'umhlekazi', how would you say 'Hello, respected sir', using a greeting you know?",
+          "teacher_dialogue": "Exactly. This demonstrates isiXhosa's deep connection between language and social structure. Even if you don't master all the nuances immediately, being aware of 'ukuhlonipha' will guide your interactions and show genuine effort to connect with speakers. To help you express respect, let's learn a new word: 'umhlekazi' means 'sir' or a 'respected elder'. It's a Class 1a noun. Now, knowing 'umhlekazi', What is 'Hello, respected sir', using a greeting you know?",
           "justification": "Introduces `umhlekazi` as new key vocabulary [3]. It then prompts the learner to consider how existing language knowledge can be applied respectfully, connecting it back to practical communication [5]."
         },
         {
@@ -1079,7 +1079,7 @@
         {
           "turn_number": 12,
           "section": "Feedback and Further Practice",
-          "teacher_dialogue": "Perfect. Now, how would you say 'I will study thoroughly because habit conquers the mind'?",
+          "teacher_dialogue": "Perfect. Now, What is 'I will study thoroughly because habit conquers the mind'?",
           "justification": "Prompts a new sentence that combines the proverb with previously learned grammar (intensive verbal extension from L49 and conjunction 'kuba' from L48) [6]."
         },
         {
@@ -1100,11 +1100,11 @@
           "answer": "Literally: 'Habit conquers the mind'. English equivalent: 'Old habits die hard'."
         },
         {
-          "prompt": "How would you say 'If it's difficult to change, habit conquers the mind' in isiXhosa?",
+          "prompt": "What is 'If it's difficult to change, habit conquers the mind' in isiXhosa?",
           "answer": "Ukuba kunzima ukutshintsha, isiqhelo siyayoyisa ingqondo."
         },
         {
-          "prompt": "How would you say 'I will study thoroughly because habit conquers the mind' in isiXhosa?",
+          "prompt": "What is 'I will study thoroughly because habit conquers the mind' in isiXhosa?",
           "answer": "Ndiza kufundisisa kuba isiqhelo siyayoyisa ingqondo."
         }
       ]
@@ -1275,7 +1275,7 @@
         {
           "turn_number": 23,
           "section": "Introducing new vocabulary (-bulela)",
-          "teacher_dialogue": "Exactly. It's a lovely, positive response! Now, for our last conversational piece, let's learn a new verb root: '-bulela' means 'to thank'. So, to express thanks, you would say 'Enkosi'. Now, confirming everything, how would you say 'Yes, thank you!'?",
+          "teacher_dialogue": "Exactly. It's a lovely, positive response! Now, for our last conversational piece, let's learn a new verb root: '-bulela' means 'to thank'. So, to express thanks, you would say 'Enkosi'. Now, confirming everything, What is 'Yes, thank you!'?",
           "justification": "Introduces `-bulela` as new key vocabulary [3] and then prompts the student to confirm the plan and express thanks with a simple, practical phrase."
         },
         {
@@ -1292,7 +1292,7 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'If you are free tomorrow, let's go to the market' in isiXhosa?",
+          "prompt": "What is 'If you are free tomorrow, let's go to the market' in isiXhosa?",
           "answer": "Ukuba ukhululekile ngomso, masihambe emarket?"
         },
         {
@@ -1300,7 +1300,7 @@
           "answer": "Kulungile, masifundisise kwakho ngomso?"
         },
         {
-          "prompt": "How would you say 'Yes, thank you!' in isiXhosa?",
+          "prompt": "What is 'Yes, thank you!' in isiXhosa?",
           "answer": "Ewe, enkosi!"
         }
       ]
@@ -1684,7 +1684,7 @@
         {
           "turn_number": 18,
           "section": "Introducing new vocabulary (kakuhle)",
-          "teacher_dialogue": "Exactly. And let's learn this final word: 'kakuhle' means 'well' or 'nicely'. Now, knowing 'Hamba' and 'kakuhle', how would you say 'Go well!' and 'Thank you!' as we conclude our course?",
+          "teacher_dialogue": "Exactly. And let's learn this final word: 'kakuhle' means 'well' or 'nicely'. Now, knowing 'Hamba' and 'kakuhle', What is 'Go well!' and 'Thank you!' as we conclude our course?",
           "justification": "Introduces `kakuhle` as new key vocabulary [3] and then prompts the student to use the farewell phrase, ending the course on an encouraging and culturally relevant note [7]."
         },
         {

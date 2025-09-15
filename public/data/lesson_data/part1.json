@@ -63,7 +63,7 @@
         {
           "turn_number": 7,
           "section": "Introducing the Lateral Click ('x' /ǁ/)",
-          "teacher_dialogue": "Now let's use it. The word to 'criticise' is 'gxeka'. How would you say it, making sure the click is part of the first syllable?",
+          "teacher_dialogue": "Now let's use it. The word to 'criticise' is 'gxeka'. What is it, making sure the click is part of the first syllable?",
           "justification": "The teacher prompts the learner to pronounce 'gxeka', rather than providing it [10]. Integrating the sound into a new word immediately reinforces its practical application and continues the masked repetition strategy [11]."
         },
         {
@@ -97,15 +97,15 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'side' in isiXhosa?",
+          "prompt": "What is 'side' in isiXhosa?",
           "answer": "Cala."
         },
         {
-          "prompt": "How would you say 'criticise' in isiXhosa?",
+          "prompt": "What is 'criticise' in isiXhosa?",
           "answer": "Gxeka."
         },
         {
-          "prompt": "How would you say 'start' in isiXhosa?",
+          "prompt": "What is 'start' in isiXhosa?",
           "answer": "Qala."
         }
       ]
@@ -163,7 +163,7 @@
         {
           "turn_number": 5,
           "section": "Practice and Introduction of 'You'",
-          "teacher_dialogue": "Exactly.  **Ndikhulu** . Now you've said your first sentence. Let's try another. The stem for 'small' is  **-ncinci** . That's our 'c' click from Lesson 1. How would you say 'I am small'?",
+          "teacher_dialogue": "Exactly.  **Ndikhulu** . Now you've said your first sentence. Let's try another. The stem for 'small' is  **-ncinci** . That's our 'c' click from Lesson 1. What is 'I am small'?",
           "justification": "This turn uses masked repetition by immediately applying the new structure to another adjective [11]. It weaves in the click sound from Lesson 1 (-ncinci), reinforcing prior learning without explicit drilling [3, 11]."
         },
         {
@@ -174,7 +174,7 @@
         {
           "turn_number": 7,
           "section": "Practice and Introduction of 'You'",
-          "teacher_dialogue": "Perfect. Now for 'you'. The piece for 'you' is  **u-** . How would you say 'You are big'?",
+          "teacher_dialogue": "Perfect. Now for 'you'. The piece for 'you' is  **u-** . What is 'You are big'?",
           "justification": "This introduces the subject concord for 'you' and prompts for application, allowing the student to build upon the established pattern [16]."
         },
         {
@@ -196,7 +196,7 @@
         {
           "turn_number": 11,
           "section": "Practice and Introduction of 'You'",
-          "teacher_dialogue": "Exactly,  **Umkhulu** . Now, knowing this new 'um-' for 'you', how would you say 'You are small'?",
+          "teacher_dialogue": "Exactly,  **Umkhulu** . Now, knowing this new 'um-' for 'you', What is 'You are small'?",
           "justification": "This turn uses masked repetition by immediately applying the new structure to another adjective, reinforcing prior learning without explicit drilling [11]."
         },
         {
@@ -213,19 +213,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am big' in isiXhosa?",
+          "prompt": "What is 'I am big' in isiXhosa?",
           "answer": "Ndikhulu."
         },
         {
-          "prompt": "How would you say 'I am small' in isiXhosa?",
+          "prompt": "What is 'I am small' in isiXhosa?",
           "answer": "Ndincinci."
         },
         {
-          "prompt": "How would you say 'You are big' in isiXhosa?",
+          "prompt": "What is 'You are big' in isiXhosa?",
           "answer": "Umkhulu."
         },
         {
-          "prompt": "How would you say 'You are small' in isiXhosa?",
+          "prompt": "What is 'You are small' in isiXhosa?",
           "answer": "Umncinci."
         }
       ]
@@ -267,7 +267,7 @@
         {
           "turn_number": 3,
           "section": "Introducing Noun Class 1 ('um-')",
-          "teacher_dialogue": "Exactly. Now that you remember '-khulu'. The word for 'person' is  **umntu** . Notice the  **um-**  at the beginning. This is the label for Class 1, which is mostly for single human beings. To say 'The person is big', we use that same logic: the  **um-**  from  **umntu**  tells the describing word to use  **m-**  before  **-khulu** . How would you say 'The person is big'?",
+          "teacher_dialogue": "Exactly. Now that you remember '-khulu'. The word for 'person' is  **umntu** . Notice the  **um-**  at the beginning. This is the label for Class 1, which is mostly for single human beings. To say 'The person is big', we use that same logic: the  **um-**  from  **umntu**  tells the describing word to use  **m-**  before  **-khulu** . What is 'The person is big'?",
           "justification": "This step reframes 'noun class' from an abstract grammatical term into a simple 'label' [7]. It connects the new noun prefix directly to the adjectival prefix the learner already used, making the concept of agreement intuitive and logical [7]. The teacher prompts the learner to construct the sentence, adhering to 'one thought at a time' [1] and 'never give the student the answer before the student has attempted to answer' [10]."
         },
         {
@@ -278,7 +278,7 @@
         {
           "turn_number": 5,
           "section": "Introducing Noun Class 2 ('aba-')",
-          "teacher_dialogue": "Yes, exactly! Now let's look at the plural. The word for 'people' is  **abantu** . The label for this group is  **aba-** . This label also tells our describing word what to do. The agreement piece for  **aba-**  is  **ba-** . So, how would you say 'The people are big'?",
+          "teacher_dialogue": "Yes, exactly! Now let's look at the plural. The word for 'people' is  **abantu** . The label for this group is  **aba-** . This label also tells our describing word what to do. The agreement piece for  **aba-**  is  **ba-** . So, What is 'The people are big'?",
           "justification": "This introduces the plural class as a direct counterpart to the singular. By explicitly stating the agreement pattern ('aba-' tells the adjective to use 'ba-'), it establishes a clear, predictable rule, reinforcing the idea of a logical system [7]."
         },
         {
@@ -289,7 +289,7 @@
         {
           "turn_number": 7,
           "section": "Practice and Consolidation",
-          "teacher_dialogue": "Perfect!  **Abantu bakhulu**  means 'The people are big'. Let's try with a new word. The word for 'student' is  **umfundi** . How would you say 'The student is big'?",
+          "teacher_dialogue": "Perfect!  **Abantu bakhulu**  means 'The people are big'. Let's try with a new word. The word for 'student' is  **umfundi** . What is 'The student is big'?",
           "justification": "This provides masked repetition by applying the learned agreement pattern to new vocabulary [11]. It continues to rely on student inference [16]."
         },
         {
@@ -311,7 +311,7 @@
         {
           "turn_number": 11,
           "section": "Practice and Consolidation (Plural of 'umfundi' continued)",
-          "teacher_dialogue": "Precisely. So, how would you say 'The students are big'?",
+          "teacher_dialogue": "Precisely. So, What is 'The students are big'?",
           "justification": "The teacher prompts for the full sentence, based on the student's correct inference of the plural noun and its concord [16]."
         },
         {
@@ -328,19 +328,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The person is big' in isiXhosa?",
+          "prompt": "What is 'The person is big' in isiXhosa?",
           "answer": "Umntu mkhulu."
         },
         {
-          "prompt": "How would you say 'The people are big' in isiXhosa?",
+          "prompt": "What is 'The people are big' in isiXhosa?",
           "answer": "Abantu bakhulu."
         },
         {
-          "prompt": "How would you say 'The student is big' in isiXhosa?",
+          "prompt": "What is 'The student is big' in isiXhosa?",
           "answer": "Umfundi mkhulu."
         },
         {
-          "prompt": "How would you say 'The students are big' in isiXhosa?",
+          "prompt": "What is 'The students are big' in isiXhosa?",
           "answer": "Abafundi bakhulu."
         }
       ]
@@ -397,7 +397,7 @@
         {
           "turn_number": 5,
           "section": "Forming a Full Sentence",
-          "teacher_dialogue": "Perfect!  **Ndifuna**  means 'I want'. Now, let's make it more useful by adding an object. The word for 'tea' is  **iti** . How would you say 'I want tea'?",
+          "teacher_dialogue": "Perfect!  **Ndifuna**  means 'I want'. Now, let's make it more useful by adding an object. The word for 'tea' is  **iti** . What is 'I want tea'?",
           "justification": "This immediately makes the new verb useful by forming a complete, practical sentence. It shows that the verb structure is separate from the object, a key structural point in the language."
         },
         {
@@ -408,7 +408,7 @@
         {
           "turn_number": 7,
           "section": "Practice and Weaving",
-          "teacher_dialogue": "Exactly right!  **Ndifuna iti**  means 'I want tea'. Now, how would you say 'You want tea'? (If you can remember the prefix for 'you' from Lesson 2).",
+          "teacher_dialogue": "Exactly right!  **Ndifuna iti**  means 'I want tea'. Now, What is 'You want tea'? (If you can remember the prefix for 'you' from Lesson 2).",
           "justification": "This uses masked repetition by having the learner practice the same structure with a different subject [11]."
         },
         {
@@ -419,7 +419,7 @@
         {
           "turn_number": 9,
           "section": "Practice with new vocabulary",
-          "teacher_dialogue": "Nice one. The word for bread is  **isonka** . Using **isonka**, how would you say 'I want bread'?",
+          "teacher_dialogue": "Nice one. The word for bread is  **isonka** . Using **isonka**, What is 'I want bread'?",
           "justification": "This introduces a new verb and object while maintaining a simple sentence structure, providing variation while reinforcing the pattern. It removes the premature introduction of '-ya-' and 'ukutya' [4, 19, 20]."
         },
         {
@@ -436,19 +436,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I want' in isiXhosa?",
+          "prompt": "What is 'I want' in isiXhosa?",
           "answer": "Ndifuna."
         },
         {
-          "prompt": "How would you say 'I want tea' in isiXhosa?",
+          "prompt": "What is 'I want tea' in isiXhosa?",
           "answer": "Ndifuna iti."
         },
         {
-          "prompt": "How would you say 'You want tea' in isiXhosa?",
+          "prompt": "What is 'You want tea' in isiXhosa?",
           "answer": "Ufuna iti."
         },
         {
-          "prompt": "How would you say 'I want bread' in isiXhosa?",
+          "prompt": "What is 'I want bread' in isiXhosa?",
           "answer": "Ndifuna isonka."
         }
       ]
@@ -512,7 +512,7 @@
         {
           "turn_number": 7,
           "section": "Consolidation with a New Verb",
-          "teacher_dialogue": "Perfect.  **Akufuni** . Now let's use a new verb to practice both the positive and negative. The root for 'to know' is  **-azi** . How would you say 'I know'?",
+          "teacher_dialogue": "Perfect.  **Akufuni** . Now let's use a new verb to practice both the positive and negative. The root for 'to know' is  **-azi** . What is 'I know'?",
           "justification": "Introducing a new, high-frequency verb (-azi) provides a fresh context for masked repetition [11]. The learner has to apply the positive rule they know, reinforcing the system [16]."
         },
         {
@@ -523,7 +523,7 @@
         {
           "turn_number": 9,
           "section": "Practice and Phonetic Merging",
-          "teacher_dialogue": "Good!  **Ndazi**  means 'I know'. Now, how would you say 'I don't know'? Remember the negative pattern we learned:  **a-**  at the start and the final  **-i** .",
+          "teacher_dialogue": "Good!  **Ndazi**  means 'I know'. Now, What is 'I don't know'? Remember the negative pattern we learned:  **a-**  at the start and the final  **-i** .",
           "justification": "This reinforces the negative pattern with a new verb, providing additional practice with the concept [11]."
         },
         {
@@ -534,7 +534,7 @@
         {
           "turn_number": 11,
           "section": "Closing & Bonus Question",
-          "teacher_dialogue": "Well done!  **Andazi**  means 'I don't know'. You now have a rule for making verbs negative: add  **a-**  at the start and change the final vowel to  **-i** . You've seen how to apply it to say  **Andifuni**  (I don't want),  **Akufuni**  (You don't want), and  **Andazi**  (I don't know). OK, for a bonus question, how would you say 'You don't know'?",
+          "teacher_dialogue": "Well done!  **Andazi**  means 'I don't know'. You now have a rule for making verbs negative: add  **a-**  at the start and change the final vowel to  **-i** . You've seen how to apply it to say  **Andifuni**  (I don't want),  **Akufuni**  (You don't want), and  **Andazi**  (I don't know). OK, for a bonus question, What is 'You don't know'?",
           "justification": "The closing summarises the new rule in a simple, memorable way and reinforces the lesson's vocabulary, providing a clear sense of accomplishment. The bonus question invites further application [16]."
         },
         {
@@ -545,7 +545,7 @@
         {
           "turn_number": 13,
           "section": "Bonus - Explaining Sound Change",
-          "teacher_dialogue": "Very close! The rule 'a-' + 'u-' merging into 'aku-' is correct. But with verbs starting with 'a-', like  **-azi** , the 'u' sound sometimes changes to 'w' instead, creating  **Akwazi** . This is another example of how isiXhosa likes to smooth out vowel clashes. So, how would you say 'You don't know' again, keeping this in mind?",
+          "teacher_dialogue": "Very close! The rule 'a-' + 'u-' merging into 'aku-' is correct. But with verbs starting with 'a-', like  **-azi** , the 'u' sound sometimes changes to 'w' instead, creating  **Akwazi** . This is another example of how isiXhosa likes to smooth out vowel clashes. So, What is 'You don't know' again, keeping this in mind?",
           "justification": "This explicitly addresses a common phonetic change (vowel coalescence for 'aku-' + '-azi' becoming 'Akwazi' [19]), presenting it as a predictable rule rather than a random exception [7, 17]. It then prompts for application to reinforce the new pattern [16]."
         },
         {
@@ -562,23 +562,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I don't want' in isiXhosa?",
+          "prompt": "What is 'I don't want' in isiXhosa?",
           "answer": "Andifuni."
         },
         {
-          "prompt": "How would you say 'You don't want' in isiXhosa?",
+          "prompt": "What is 'You don't want' in isiXhosa?",
           "answer": "Akufuni."
         },
         {
-          "prompt": "How would you say 'I know' in isiXhosa?",
+          "prompt": "What is 'I know' in isiXhosa?",
           "answer": "Ndazi."
         },
         {
-          "prompt": "How would you say 'I don't know' in isiXhosa?",
+          "prompt": "What is 'I don't know' in isiXhosa?",
           "answer": "Andazi."
         },
         {
-          "prompt": "How would you say 'You don't know' in isiXhosa?",
+          "prompt": "What is 'You don't know' in isiXhosa?",
           "answer": "Akwazi."
         }
       ]
@@ -633,7 +633,7 @@
         {
           "turn_number": 5,
           "section": "Practicing with Class 3 ('um-')",
-          "teacher_dialogue": "Exactly,  **u-** . Now, let's use our verb,  **-funa**  (to want, from Lesson 4). If a tree 'wants' something, how would you say 'The tree wants'?",
+          "teacher_dialogue": "Exactly,  **u-** . Now, let's use our verb,  **-funa**  (to want, from Lesson 4). If a tree 'wants' something, What is 'The tree wants'?",
           "justification": "This provides immediate practice by combining the new noun class with the previously learned verb -funa, solidifying the agreement pattern through active construction [16]. This also serves as masked repetition of the verb [11]."
         },
         {
@@ -655,7 +655,7 @@
         {
           "turn_number": 9,
           "section": "Practicing with Class 4 ('imi-')",
-          "teacher_dialogue": "Precisely,  **i-** . So, how would you say 'The trees want'?",
+          "teacher_dialogue": "Precisely,  **i-** . So, What is 'The trees want'?",
           "justification": "This provides immediate practice with the new plural form and its corresponding concord, directly applying the established agreement logic [16]."
         },
         {
@@ -666,7 +666,7 @@
         {
           "turn_number": 11,
           "section": "Practice and Consolidation (New Vocabulary)",
-          "teacher_dialogue": "Perfect,  **Imithi ifuna** . You're now applying the agreement rule to a whole new set of objects! A noun we're learning today is 'work' or 'job', which is  **umsebenzi** . How would you say 'The tree wants work'?",
+          "teacher_dialogue": "Perfect,  **Imithi ifuna** . You're now applying the agreement rule to a whole new set of objects! A noun we're learning today is 'work' or 'job', which is  **umsebenzi** . What is 'The tree wants work'?",
           "justification": "This introduces new key vocabulary (umsebenzi) and prompts the student to combine it with a known verb and the new noun class [18]. It avoids problematic examples noted in the source analysis [4, 5]."
         },
         {
@@ -683,15 +683,15 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The tree wants' in isiXhosa?",
+          "prompt": "What is 'The tree wants' in isiXhosa?",
           "answer": "Umthi ufuna."
         },
         {
-          "prompt": "How would you say 'The trees want' in isiXhosa?",
+          "prompt": "What is 'The trees want' in isiXhosa?",
           "answer": "Imithi ifuna."
         },
         {
-          "prompt": "How would you say 'The tree wants work' in isiXhosa?",
+          "prompt": "What is 'The tree wants work' in isiXhosa?",
           "answer": "Umthi ufuna umsebenzi."
         }
       ]
@@ -754,7 +754,7 @@
         {
           "turn_number": 5,
           "section": "Introducing '-akho' (your)",
-          "teacher_dialogue": "Perfect!  **iti yam** . You've just created your first possessive. Now, the stem for 'your' is  **-akho** . How would you say 'your tea'?",
+          "teacher_dialogue": "Perfect!  **iti yam** . You've just created your first possessive. Now, the stem for 'your' is  **-akho** . What is 'your tea'?",
           "justification": "This immediately applies the same new concept to 'your' (-akho), providing masked repetition of the possessive structure and reinforcing the pattern [11]."
         },
         {
@@ -776,7 +776,7 @@
         {
           "turn_number": 9,
           "section": "Extending to another Noun Class",
-          "teacher_dialogue": "Exactly,  **umntu**. Now, thinking about  **umntu**, its possessive agreement piece is  **w-** . So, how would you say 'my person'?",
+          "teacher_dialogue": "Exactly,  **umntu**. Now, thinking about  **umntu**, its possessive agreement piece is  **w-** . So, What is 'my person'?",
           "justification": "This step weaves the new possessive concept with a previously learned noun class (umntu from Lesson 3) [3]. It shows that the possessive concept is systematic across noun classes, managing cognitive load by connecting new information to established patterns [2, 7]. The teacher prompts for inference [16]."
         },
         {
@@ -787,7 +787,7 @@
         {
           "turn_number": 11,
           "section": "Bonus Practice",
-          "teacher_dialogue": "Perfect!  **umntu wam** . Before we move on, let's try 'my trees'. Do you remember  **imithi**  (trees)? For  **imithi** , the possessive agreement piece is  **y-** . So, how would you say 'my trees'?",
+          "teacher_dialogue": "Perfect!  **umntu wam** . Before we move on, let's try 'my trees'. Do you remember  **imithi**  (trees)? For  **imithi** , the possessive agreement piece is  **y-** . So, What is 'my trees'?",
           "justification": "This adds one more application across number, reinforcing that possessives take their agreement from the noun class. This is masked repetition with a small twist to increase generalisation [11]. The teacher provides the possessive agreement piece (y-) which is key for this class [24]."
         },
         {
@@ -804,19 +804,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'my tea' in isiXhosa?",
+          "prompt": "What is 'my tea' in isiXhosa?",
           "answer": "iti yam."
         },
         {
-          "prompt": "How would you say 'your tea' in isiXhosa?",
+          "prompt": "What is 'your tea' in isiXhosa?",
           "answer": "iti yakho."
         },
         {
-          "prompt": "How would you say 'my person' in isiXhosa?",
+          "prompt": "What is 'my person' in isiXhosa?",
           "answer": "umntu wam."
         },
         {
-          "prompt": "How would you say 'my trees' in isiXhosa?",
+          "prompt": "What is 'my trees' in isiXhosa?",
           "answer": "imithi yam."
         }
       ]
@@ -849,7 +849,7 @@
         {
           "turn_number": 2,
           "section": "Practice (2nd person)",
-          "teacher_dialogue": "Now, knowing how to place this  **-ya-**  infix, how would you say 'You are wanting?' or 'You want?' (emphatic)?",
+          "teacher_dialogue": "Now, knowing how to place this  **-ya-**  infix, What is 'You are wanting?' or 'You want?' (emphatic)?",
           "justification": "Praise and prompt for application with a different subject, reinforcing the pattern through masked repetition [11]."
         },
         {
@@ -860,7 +860,7 @@
         {
           "turn_number": 4,
           "section": "Weaving with a New Verb",
-          "teacher_dialogue": "That's right, **Uyafuna**. To make it sound more authentic as a question, you can add a **na** at the end. So, **Uyafuna na?** - *Do* you want (it)? Okay, now let's learn a new verb that sounds similar: the root for 'to go' is also  **-ya**. The word for Cape Town is eKapa. How would you say 'I am going to Cape Town'?",
+          "teacher_dialogue": "That's right, **Uyafuna**. To make it sound more authentic as a question, you can add a **na** at the end. So, **Uyafuna na?** - *Do* you want (it)? Okay, now let's learn a new verb that sounds similar: the root for 'to go' is also  **-ya**. The word for Cape Town is eKapa. What is 'I am going to Cape Town'?",
           "justification": "This addresses the potential confusion between the infix and the root by prompting the learner to build the sentence 'Ndiyaya' [16]. This memorable construction increases language consciousness about isiXhosa's systematic morphology [22]."
         },
         {
@@ -871,7 +871,7 @@
         {
           "turn_number": 6,
           "section": "Practice",
-          "teacher_dialogue": "Exactly. How would you say 'You are going to Cape Town'?",
+          "teacher_dialogue": "Exactly. What is 'You are going to Cape Town'?",
           "justification": "Short masked repetition with the same pattern to strengthen recall [11]."
         },
         {
@@ -882,7 +882,7 @@
         {
           "turn_number": 8,
           "section": "Weaving Back to a Known Verb",
-          "teacher_dialogue": "Returning to the emphatic, placeholder **-ya-** infix. Try use  **-ya-**  with a new verb:  **-tya**, which means 'to eat'. How would you say 'I *am* eating bread'?",
+          "teacher_dialogue": "Returning to the emphatic, placeholder **-ya-** infix. Try use  **-ya-**  with a new verb:  **-tya**, which means 'to eat'. What is 'I *am* eating bread'?",
           "justification": "Weaves back to earlier vocabulary and shows  **-ya-**  with another verb, consolidating placement with a useful sentence [3]."
         },
         {
@@ -893,7 +893,7 @@
         {
           "turn_number": 10,
           "section": "Weaving Back to a Known Pattern",
-          "teacher_dialogue": "That's it. Now, how would you say the same thing without emphasising the act of eating?"
+          "teacher_dialogue": "That's it. Now, What is the same thing without emphasising the act of eating?"
         },
         {
           "turn_number": 11,
@@ -909,19 +909,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'You are wanting' (emphatic) in isiXhosa?",
+          "prompt": "What is 'You are wanting' (emphatic) in isiXhosa?",
           "answer": "Uyafuna."
         },
         {
-          "prompt": "How would you say 'I am going' in isiXhosa?",
+          "prompt": "What is 'I am going' in isiXhosa?",
           "answer": "Ndiyaya."
         },
         {
-          "prompt": "How would you say 'You are going' in isiXhosa?",
+          "prompt": "What is 'You are going' in isiXhosa?",
           "answer": "Uyaya."
         },
         {
-          "prompt": "How would you say 'I am eating bread' in isiXhosa?",
+          "prompt": "What is 'I am eating bread' in isiXhosa?",
           "answer": "Ndiyatya isonka."
         }
       ]
@@ -973,7 +973,7 @@
         {
           "turn_number": 5,
           "section": "Practicing Agreement",
-          "teacher_dialogue": "Exactly. So how would you say 'The stone wants'?",
+          "teacher_dialogue": "Exactly. So What is 'The stone wants'?",
           "justification": "Applies a known verb (-funa) to the new concord, allowing the student to infer the full sentence [16]. This provides masked repetition [11]."
         },
         {
@@ -984,7 +984,7 @@
         {
           "turn_number": 7,
           "section": "Plural Practice",
-          "teacher_dialogue": "Good. Now try the plural. The concord for  **amatye**  is  **a-** . How would you say 'The stones want'?",
+          "teacher_dialogue": "Good. Now try the plural. The concord for  **amatye**  is  **a-** . What is 'The stones want'?",
           "justification": "Moves from singular to plural with the paired concord to weave the system together [3]. The teacher prompts for inference [16]."
         },
         {
@@ -995,7 +995,7 @@
         {
           "turn_number": 9,
           "section": "Weaving with Negation and Possessives",
-          "teacher_dialogue": "Excellent. Now, how would you say 'The stones do not want my tea'? Let's build it piece by piece. First, how would you say 'The stones do not want'? Remember the negative pattern ( **a-...-i**  from Lesson 5)? When the negative prefix  **a-**  meets the Class 6 subject concord  **a-** , they often merge to form  **awa-** . How would you say 'The stones do not want'?",
+          "teacher_dialogue": "Excellent. Now, What is 'The stones do not want my tea'? Let's build it piece by piece. First, What is 'The stones do not want'? Remember the negative pattern ( **a-...-i**  from Lesson 5)? When the negative prefix  **a-**  meets the Class 6 subject concord  **a-** , they often merge to form  **awa-** . What is 'The stones do not want'?",
           "justification": "This guided construction weaves the new class with earlier negation and possessives [3]. It explicitly explains the formation of the 'awa-' concord, addressing the 'unexplained form' issue noted in source [4], and guides the student to infer the answer [16]."
         },
         {
@@ -1017,7 +1017,7 @@
         {
           "turn_number": 13,
           "section": "Expanding Vocabulary",
-          "teacher_dialogue": "Almost. When an object follows a negation, it loses its first vowel. So it would become 'Amatye awafuni **ti** yam'. But close enough, right? Another useful word in this class is  **izulu** , which can mean 'sky', 'heaven', or 'weather'. Do you remember 'I know' from Lesson 5? How would you say 'I know the weather'?",
+          "teacher_dialogue": "Almost. When an object follows a negation, it loses its first vowel. So it would become 'Amatye awafuni **ti** yam'. But close enough, right? Another useful word in this class is  **izulu** , which can mean 'sky', 'heaven', or 'weather'. Do you remember 'I know' from Lesson 5? What is 'I know the weather'?",
           "justification": "Adds a high-frequency noun and reuses 'Ndiyazi' to reinforce earlier learning through masked repetition [11]. The teacher prompts for inference [16]."
         },
         {
@@ -1045,23 +1045,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The stone wants' in isiXhosa?",
+          "prompt": "What is 'The stone wants' in isiXhosa?",
           "answer": "Ilitye lifuna."
         },
         {
-          "prompt": "How would you say 'The stones wants' in isiXhosa?",
+          "prompt": "What is 'The stones wants' in isiXhosa?",
           "answer": "Amatye afuna."
         },
         {
-          "prompt": "How would you say 'The stones do not want my tea' in isiXhosa?",
+          "prompt": "What is 'The stones do not want my tea' in isiXhosa?",
           "answer": "Amatye awafuni ti yam."
         },
         {
-          "prompt": "How would you say 'I know the weather' in isiXhosa?",
+          "prompt": "What is 'I know the weather' in isiXhosa?",
           "answer": "Ndazi izulu."
         },
         {
-          "prompt": "How would you say 'I don't know the heavens' in isiXhosa?",
+          "prompt": "What is 'I don't know the heavens' in isiXhosa?",
           "answer": "Andazi amazulu."
         }
       ]
@@ -1139,7 +1139,7 @@
         {
           "turn_number": 12,
           "section": "Sentence Building 3 (Clicks & Long Present)",
-          "teacher_dialogue": "Precisely! Now, how would you say 'I am starting'? (Remember the emphatic  **-ya-**  from Lesson 8).",
+          "teacher_dialogue": "Precisely! Now, What is 'I am starting'? (Remember the emphatic  **-ya-**  from Lesson 8).",
           "justification": "Weaves back to Lesson 1 and Lesson 8, showing long present placement with a click verb to increase language consciousness [3, 22]. The teacher prompts for inference [16]."
         },
         {
@@ -1150,7 +1150,7 @@
         {
           "turn_number": 14,
           "section": "Review Challenge (Class 5 Negative)",
-          "teacher_dialogue": "Well done. For a bonus challenge: how would you say 'The stone does not want'?",
+          "teacher_dialogue": "Well done. For a bonus challenge: What is 'The stone does not want'?",
           "justification": "Integrates Class 5 with the negative pattern for a final system-wide check (agreement + negation + object) [3]. The teacher explicitly explains the 'ali-' formation, addressing the 'unexplained form' issue [4, 17], and prompts for inference [16]."
         },
         {
@@ -1178,19 +1178,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The student wants the trees' in isiXhosa?",
+          "prompt": "What is 'The student wants the trees' in isiXhosa?",
           "answer": "Umfundi ufuna imithi."
         },
         {
-          "prompt": "How would you say 'My people want your work' in isiXhosa?",
+          "prompt": "What is 'My people want your work' in isiXhosa?",
           "answer": "Abantu bam bafuna umsebenzi wakho."
         },
         {
-          "prompt": "How would you say 'I am starting' in isiXhosa?",
+          "prompt": "What is 'I am starting' in isiXhosa?",
           "answer": "Ndiyaqala."
         },
         {
-          "prompt": "How would you say 'The stone does not want my tea' in isiXhosa?",
+          "prompt": "What is 'The stone does not want my tea' in isiXhosa?",
           "answer": "Ilitye alifuni ti yam."
         }
       ]

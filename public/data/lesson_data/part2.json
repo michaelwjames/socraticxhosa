@@ -40,7 +40,7 @@
         {
           "turn_number": 3,
           "section": "Practice",
-          "teacher_dialogue": "Precisely, 'Ndiyasebenza'! You've successfully built your first full present tense verb. Now, following the same pattern, how would you say 'You are working'? Remember the 'who' piece for 'you' from Lesson 2.",
+          "teacher_dialogue": "Precisely, 'Ndiyasebenza'! You've successfully built your first full present tense verb. Now, following the same pattern, What is 'You are working'? Remember the 'who' piece for 'you' from Lesson 2.",
           "justification": "Affirms the correct answer and immediately prompts for practice with a different subject concord, reinforcing the 'who' slot. It references a previous lesson for the 'who' piece."
         },
         {
@@ -62,7 +62,7 @@
         {
           "turn_number": 7,
           "section": "Practice (Masked Repetition)",
-          "teacher_dialogue": "Spot on. Now, let's do a quick switch, keeping those verb machine slots in mind. How would you say 'I am studying', and then, immediately after, 'You are working'?",
+          "teacher_dialogue": "Spot on. Now, let's do a quick switch, keeping those verb machine slots in mind. What is 'I am studying', and then, immediately after, 'You are working'?",
           "justification": "Affirms the answers. This prompt forces the student to re-engage with the entire construction process for each sentence, rather than simply remembering the last one, reinforcing the 'slot order' concept through masked repetition."
         },
         {
@@ -106,7 +106,7 @@
         {
           "turn_number": 15,
           "section": "Introducing Negative (Weaving)",
-          "teacher_dialogue": "Precisely. So, how would you say 'I am not working'?",
+          "teacher_dialogue": "Precisely. So, What is 'I am not working'?",
           "justification": "Prompts the student to apply the recalled negative pattern to the current verb."
         },
         {
@@ -123,27 +123,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am working' in isiXhosa?",
+          "prompt": "What is 'I am working' in isiXhosa?",
           "answer": "Ndiyasebenza."
         },
         {
-          "prompt": "How would you say 'You are working' in isiXhosa?",
+          "prompt": "What is 'You are working' in isiXhosa?",
           "answer": "Uyasebenza."
         },
         {
-          "prompt": "How would you say 'I am studying' in isiXhosa?",
+          "prompt": "What is 'I am studying' in isiXhosa?",
           "answer": "Ndiyafunda."
         },
         {
-          "prompt": "How would you say 'You are studying' in isiXhosa?",
+          "prompt": "What is 'You are studying' in isiXhosa?",
           "answer": "Uyafunda."
         },
         {
-          "prompt": "How would you say 'I am not working' in isiXhosa?",
+          "prompt": "What is 'I am not working' in isiXhosa?",
           "answer": "Andisebenzi."
         },
         {
-          "prompt": "How would you say 'I want to work' in isiXhosa?",
+          "prompt": "What is 'I want to work' in isiXhosa?",
           "answer": "Ndifuna ukusebenza."
         }
       ]
@@ -206,7 +206,7 @@
         {
           "turn_number": 3,
           "section": "Opening (Weaving)",
-          "teacher_dialogue": "Excellent. So, if 'umntu' (Class 1) is the 'who', and the 'when' is '-ya-' (present tense from Lesson 11), and the 'what' is '-sebenza' (from Lesson 11), how would you say 'The person is working'?",
+          "teacher_dialogue": "Excellent. So, if 'umntu' (Class 1) is the 'who', and the 'when' is '-ya-' (present tense from Lesson 11), and the 'what' is '-sebenza' (from Lesson 11), What is 'The person is working'?",
           "justification": "Builds upon recalled vocabulary and prompts the student to apply the existing 'verb machine' model, managing cognitive load and inviting inference."
         },
         {
@@ -239,7 +239,7 @@
         {
           "turn_number": 9,
           "section": "Plural agreement (continued)",
-          "teacher_dialogue": "Perfect. So, how would you say 'The people are working'?",
+          "teacher_dialogue": "Perfect. So, What is 'The people are working'?",
           "justification": "Affirms the recalled concord and immediately prompts for the full sentence, allowing the student to construct it independently."
         },
         {
@@ -305,7 +305,7 @@
         {
           "turn_number": 21,
           "section": "Introduce Class 5 briefly",
-          "teacher_dialogue": "That's right. Even if it sounds a bit odd to say 'The stone is working', it's a useful pattern for understanding agreement. How would you say that?",
+          "teacher_dialogue": "That's right. Even if it sounds a bit odd to say 'The stone is working', it's a useful pattern for understanding agreement. What is that?",
           "justification": "Explicitly acknowledges the 'odd meaning' to manage cognitive load and keep the focus on the grammatical pattern, not literal translation."
         },
         {
@@ -327,7 +327,7 @@
         {
           "turn_number": 25,
           "section": "Feedback & Prompt (Bonus practice)",
-          "teacher_dialogue": "Precisely! That's excellent diagnostic thinking. You're not just correcting the error, but addressing the underlying mental process. For a bonus, how would you say 'The trees are studying' (using '-funda' from Lesson 11)?",
+          "teacher_dialogue": "Precisely! That's excellent diagnostic thinking. You're not just correcting the error, but addressing the underlying mental process. For a bonus, What is 'The trees are studying' (using '-funda' from Lesson 11)?",
           "justification": "Affirms the student's explanation and provides a bonus practice question, ensuring continued 'masked repetition' and reinforcement without introducing new concepts."
         },
         {
@@ -344,23 +344,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The person is working' in isiXhosa?",
+          "prompt": "What is 'The person is working' in isiXhosa?",
           "answer": "Umntu uyasebenza."
         },
         {
-          "prompt": "How would you say 'The people are working' in isiXhosa?",
+          "prompt": "What is 'The people are working' in isiXhosa?",
           "answer": "Abantu bayasebenza."
         },
         {
-          "prompt": "How would you say 'The trees are working' in isiXhosa?",
+          "prompt": "What is 'The trees are working' in isiXhosa?",
           "answer": "Imithi iyasebenza."
         },
         {
-          "prompt": "How would you say 'The stone is working' in isiXhosa?",
+          "prompt": "What is 'The stone is working' in isiXhosa?",
           "answer": "Ilitye liyasebenza."
         },
         {
-          "prompt": "How would you say 'The trees are studying' in isiXhosa?",
+          "prompt": "What is 'The trees are studying' in isiXhosa?",
           "answer": "Imithi iyafunda."
         }
       ]
@@ -435,7 +435,7 @@
         {
           "turn_number": 9,
           "section": "Practice plural subject",
-          "teacher_dialogue": "Exactly right. So, how would you say 'The people see you'?",
+          "teacher_dialogue": "Exactly right. So, What is 'The people see you'?",
           "justification": "Affirms the recalled concord and immediately prompts for the full sentence, allowing the student to construct it independently."
         },
         {
@@ -457,7 +457,7 @@
         {
           "turn_number": 13,
           "section": "Reverse roles",
-          "teacher_dialogue": "Spot on. How would you say 'You see me'?",
+          "teacher_dialogue": "Spot on. What is 'You see me'?",
           "justification": "Prompts for a sentence with reversed roles to solidify understanding."
         },
         {
@@ -479,7 +479,7 @@
         {
           "turn_number": 17,
           "section": "Practice",
-          "teacher_dialogue": "Excellent. How would you say 'The person sees me'?",
+          "teacher_dialogue": "Excellent. What is 'The person sees me'?",
           "justification": "Prompts for a sentence that combines a known noun class subject with the new object concord ('-ndi-'), further reinforcing the position of the object concord in the verb structure."
         },
         {
@@ -501,7 +501,7 @@
         {
           "turn_number": 21,
           "section": "Negative with object concord (Weaving)",
-          "teacher_dialogue": "Exactly! How would you say 'I do not see you'?",
+          "teacher_dialogue": "Exactly! What is 'I do not see you'?",
           "justification": "Prompts the student to apply the recalled negative pattern while retaining the object concord, increasing the complexity and promoting deeper understanding."
         },
         {
@@ -518,23 +518,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I see you' in isiXhosa?",
+          "prompt": "What is 'I see you' in isiXhosa?",
           "answer": "Ndiyakubona."
         },
         {
-          "prompt": "How would you say 'The people see you' in isiXhosa?",
+          "prompt": "What is 'The people see you' in isiXhosa?",
           "answer": "Abantu bayakubona."
         },
         {
-          "prompt": "How would you say 'You see me' in isiXhosa?",
+          "prompt": "What is 'You see me' in isiXhosa?",
           "answer": "Uyandibona."
         },
         {
-          "prompt": "How would you say 'The person sees me' in isiXhosa?",
+          "prompt": "What is 'The person sees me' in isiXhosa?",
           "answer": "Umntu uyandibona."
         },
         {
-          "prompt": "How would you say 'I do not see you' in isiXhosa?",
+          "prompt": "What is 'I do not see you' in isiXhosa?",
           "answer": "Andikuboni."
         }
       ]
@@ -580,7 +580,7 @@
         {
           "turn_number": 3,
           "section": "Explain",
-          "teacher_dialogue": "Excellent. So, how would you say 'I have worked'?",
+          "teacher_dialogue": "Excellent. So, What is 'I have worked'?",
           "justification": "Builds upon recalled vocabulary and prompts for the full sentence."
         },
         {
@@ -613,7 +613,7 @@
         {
           "turn_number": 9,
           "section": "Prompt (plural)",
-          "teacher_dialogue": "Precisely. With that, how would you say 'The people have worked'?",
+          "teacher_dialogue": "Precisely. With that, What is 'The people have worked'?",
           "justification": "Affirms the recalled concord and immediately prompts for the full sentence."
         },
         {
@@ -624,7 +624,7 @@
         {
           "turn_number": 11,
           "section": "Extend",
-          "teacher_dialogue": "Precisely, 'Abantu basebenzile'. You're showing great command of those noun class agreements. Let's try another verb root we learned in Lesson 11, '-funda' ('to study'). How would you say 'I have studied'?",
+          "teacher_dialogue": "Precisely, 'Abantu basebenzile'. You're showing great command of those noun class agreements. Let's try another verb root we learned in Lesson 11, '-funda' ('to study'). What is 'I have studied'?",
           "justification": "Affirms the previous answer. It prompts the student to apply the -ile rule to a different, but known, verb root from Lesson 11, serving as masked repetition and reinforcing the pattern."
         },
         {
@@ -635,7 +635,7 @@
         {
           "turn_number": 13,
           "section": "Contrast (Negative Past Preview)",
-          "teacher_dialogue": "Perfect! 'Ndifundile'. Now, here's a small twist for future lessons. Just like our present tense has a negative pattern from Lesson 5, the past tense also changes. For the negative past, the verb root's ending becomes '-anga' instead of '-ile'. So, if 'Ndifundile' means 'I have studied', how would you say 'I have not studied'?",
+          "teacher_dialogue": "Perfect! 'Ndifundile'. Now, here's a small twist for future lessons. Just like our present tense has a negative pattern from Lesson 5, the past tense also changes. For the negative past, the verb root's ending becomes '-anga' instead of '-ile'. So, if 'Ndifundile' means 'I have studied', What is 'I have not studied'?",
           "justification": "Affirms the correct answer. It introduces the negative past ending ('-anga') as a 'preview' and directly contrasts it with the positive '-ile' form, guiding the student to infer the negative past. The key vocabulary for this lesson explicitly includes '-anga'."
         },
         {
@@ -668,7 +668,7 @@
         {
           "turn_number": 19,
           "section": "Weaving with object",
-          "teacher_dialogue": "Excellent. How would you say 'I have seen the person'?",
+          "teacher_dialogue": "Excellent. What is 'I have seen the person'?",
           "justification": "Prompts for a complex sentence combining recalled elements with the new past tense."
         },
         {
@@ -679,7 +679,7 @@
         {
           "turn_number": 21,
           "section": "Weaving with object concord",
-          "teacher_dialogue": "Good. You used the full noun. Now, if we wanted to use the object concord for 'you' ('-ku-' from Lesson 13) within that past tense, how would you say 'I have seen you'?",
+          "teacher_dialogue": "Good. You used the full noun. Now, if we wanted to use the object concord for 'you' ('-ku-' from Lesson 13) within that past tense, What is 'I have seen you'?",
           "justification": "Affirms the previous sentence. It specifically prompts for the use of an object concord from Lesson 13, requiring the student to place it correctly within the past tense verb structure."
         },
         {
@@ -696,23 +696,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I have worked' in isiXhosa?",
+          "prompt": "What is 'I have worked' in isiXhosa?",
           "answer": "Ndisebenzile."
         },
         {
-          "prompt": "How would you say 'The people have worked' in isiXhosa?",
+          "prompt": "What is 'The people have worked' in isiXhosa?",
           "answer": "Abantu basebenzile."
         },
         {
-          "prompt": "How would you say 'I have studied' in isiXhosa?",
+          "prompt": "What is 'I have studied' in isiXhosa?",
           "answer": "Ndifundile."
         },
         {
-          "prompt": "How would you say 'I have not studied' in isiXhosa?",
+          "prompt": "What is 'I have not studied' in isiXhosa?",
           "answer": "Andifundanga."
         },
         {
-          "prompt": "How would you say 'I have seen you' in isiXhosa?",
+          "prompt": "What is 'I have seen you' in isiXhosa?",
           "answer": "Ndikubonile."
         }
       ]
@@ -758,7 +758,7 @@
         {
           "turn_number": 3,
           "section": "Explain",
-          "teacher_dialogue": "Excellent. Thinking about 'to work' ('-sebenza' from Lesson 11), how would you say 'I will work'?",
+          "teacher_dialogue": "Excellent. Thinking about 'to work' ('-sebenza' from Lesson 11), What is 'I will work'?",
           "justification": "Builds upon recalled vocabulary and prompts the student to construct the sentence, adhering to the inference instruction."
         },
         {
@@ -769,7 +769,7 @@
         {
           "turn_number": 5,
           "section": "Prompt (2nd person)",
-          "teacher_dialogue": "Excellent, 'Ndiza kusebenza'! You've got the pattern. Now, using the 'who' piece for 'you' ('u-' from Lesson 2), how would you say 'You will work'?",
+          "teacher_dialogue": "Excellent, 'Ndiza kusebenza'! You've got the pattern. Now, using the 'who' piece for 'you' ('u-' from Lesson 2), What is 'You will work'?",
           "justification": "Affirms the correct answer and prompts for practice with a different subject concord, reinforcing the new future tense pattern across subjects."
         },
         {
@@ -802,7 +802,7 @@
         {
           "turn_number": 11,
           "section": "Plural subject (Weaving)",
-          "teacher_dialogue": "Exactly right. How would you say 'The people will work'?",
+          "teacher_dialogue": "Exactly right. What is 'The people will work'?",
           "justification": "Affirms the recalled concord and immediately prompts for the full sentence."
         },
         {
@@ -813,7 +813,7 @@
         {
           "turn_number": 13,
           "section": "New verb root",
-          "teacher_dialogue": "Exactly right! 'Abantu baza kusebenza'. Now, let's switch the verb root. Using '-funda' ('to study' from Lesson 11), how would you say 'I will study'?",
+          "teacher_dialogue": "Exactly right! 'Abantu baza kusebenza'. Now, let's switch the verb root. Using '-funda' ('to study' from Lesson 11), What is 'I will study'?",
           "justification": "Affirms. It prompts the student to apply the future tense rule to a different, but known, verb root from Lesson 11, serving as masked repetition."
         },
         {
@@ -835,7 +835,7 @@
         {
           "turn_number": 17,
           "section": "Build (Chain two verbs - Weaving)",
-          "teacher_dialogue": "Excellent. And 'to work' (ukusebenza) as we've seen in our examples? How would you say 'You will want to work'?",
+          "teacher_dialogue": "Excellent. And 'to work' (ukusebenza) as we've seen in our examples? What is 'You will want to work'?",
           "justification": "Builds upon recalled vocabulary and prompts for a complex sentence combining the future tense with a complex verb phrase, encouraging inference."
         },
         {
@@ -846,7 +846,7 @@
         {
           "turn_number": 19,
           "section": "Negative Future (Introducing)",
-          "teacher_dialogue": "Perfect! Now, let's make that future tense negative. The negative future structure is 'Andizu-' + 'ku-' + ROOT. How would you say 'I will not work'?",
+          "teacher_dialogue": "Perfect! Now, let's make that future tense negative. The negative future structure is 'Andizu-' + 'ku-' + ROOT. What is 'I will not work'?",
           "justification": "Affirms the correct sentence. It introduces the negative future pattern, asking the student to apply it, thereby reinforcing the new knowledge. The key vocabulary for this lesson explicitly includes 'Andizu-kusebenza'."
         },
         {
@@ -863,27 +863,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I will work' in isiXhosa?",
+          "prompt": "What is 'I will work' in isiXhosa?",
           "answer": "Ndiza kusebenza."
         },
         {
-          "prompt": "How would you say 'You will work' in isiXhosa?",
+          "prompt": "What is 'You will work' in isiXhosa?",
           "answer": "Uza kusebenza."
         },
         {
-          "prompt": "How would you say 'The people will work' in isiXhosa?",
+          "prompt": "What is 'The people will work' in isiXhosa?",
           "answer": "Abantu baza kusebenza."
         },
         {
-          "prompt": "How would you say 'I will study' in isiXhosa?",
+          "prompt": "What is 'I will study' in isiXhosa?",
           "answer": "Ndiza kufunda."
         },
         {
-          "prompt": "How would you say 'You will want to work' in isiXhosa?",
+          "prompt": "What is 'You will want to work' in isiXhosa?",
           "answer": "Uza kufuna ukusebenza."
         },
         {
-          "prompt": "How would you say 'I will not work' in isiXhosa?",
+          "prompt": "What is 'I will not work' in isiXhosa?",
           "answer": "Andizu-kusebenza."
         }
       ]
@@ -923,7 +923,7 @@
         {
           "turn_number": 1,
           "section": "Explain",
-          "teacher_dialogue": "We've met several noun classes as 'labels' for different categories of nouns. Today, let's introduce another very useful pair. Class 7 nouns often start with 'isi-', like 'isihlalo' ('chair'). Its plural, Class 8, starts with 'izi-', so 'izihlalo' ('chairs'). Just like with other classes, these noun labels tell our verb machine (from Lesson 11) which 'who' piece to use. For 'isihlalo', the verb starts with 'si-', and for 'izihlalo', it starts with 'zi-'. Thinking about our present tense verb structure (WHO + '-ya-' + ROOT from Lesson 11), how would you say 'The chair is working' and then 'The chairs are working'?",
+          "teacher_dialogue": "We've met several noun classes as 'labels' for different categories of nouns. Today, let's introduce another very useful pair. Class 7 nouns often start with 'isi-', like 'isihlalo' ('chair'). Its plural, Class 8, starts with 'izi-', so 'izihlalo' ('chairs'). Just like with other classes, these noun labels tell our verb machine (from Lesson 11) which 'who' piece to use. For 'isihlalo', the verb starts with 'si-', and for 'izihlalo', it starts with 'zi-'. Thinking about our present tense verb structure (WHO + '-ya-' + ROOT from Lesson 11), What is 'The chair is working' and then 'The chairs are working'?",
           "justification": "This opening references previous noun class lessons and the verb machine analogy. It presents the new class pair (isi-/izi-) and their corresponding subject concords (si-/zi-) together, immediately linking them to verb agreement, which manages cognitive load. It prompts for two sentences to practice both singular and plural."
         },
         {
@@ -934,7 +934,7 @@
         {
           "turn_number": 3,
           "section": "Practice (past tense - Weaving)",
-          "teacher_dialogue": "Excellent! You've got those concords working. Now, let's weave in the past tense we learned in Lesson 14, where the verb's final '-a' became '-ile'. How would you say 'The chairs have worked' (meaning they have been used)?",
+          "teacher_dialogue": "Excellent! You've got those concords working. Now, let's weave in the past tense we learned in Lesson 14, where the verb's final '-a' became '-ile'. What is 'The chairs have worked' (meaning they have been used)?",
           "justification": "Affirms the correct answer. It explicitly references Lesson 14 to weave in the past tense, challenging the student to apply it with the new plural noun class."
         },
         {
@@ -1000,7 +1000,7 @@
         {
           "turn_number": 15,
           "section": "Negative with new class (Weaving)",
-          "teacher_dialogue": "Precisely. How would you say 'The chair is not working'?",
+          "teacher_dialogue": "Precisely. What is 'The chair is not working'?",
           "justification": "Prompts the student to apply the recalled negative pattern to a Class 7 noun."
         },
         {
@@ -1011,7 +1011,7 @@
         {
         "turn_number": 17,
           "section": "Future with new class (Weaving)",
-          "teacher_dialogue": "Perfect! 'Isihlalo asisebenzi'. And for the future? Remembering the future tense structure from Lesson 15 ('-za-' + 'ku-' + ROOT), how would you say 'The chairs will work'?",
+          "teacher_dialogue": "Perfect! 'Isihlalo asisebenzi'. And for the future? Remembering the future tense structure from Lesson 15 ('-za-' + 'ku-' + ROOT), What is 'The chairs will work'?",
           "justification": "Affirms. It explicitly references Lesson 15 to weave in the future tense, challenging the student to apply it to the Class 8 plural noun."
         },
         {
@@ -1028,27 +1028,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The chair is working' in isiXhosa?",
+          "prompt": "What is 'The chair is working' in isiXhosa?",
           "answer": "Isihlalo siyasebenza."
         },
         {
-          "prompt": "How would you say 'The chairs are working' in isiXhosa?",
+          "prompt": "What is 'The chairs are working' in isiXhosa?",
           "answer": "Izihlalo ziyasebenza."
         },
         {
-          "prompt": "How would you say 'The chairs have worked (been used)' in isiXhosa?",
+          "prompt": "What is 'The chairs have worked (been used)' in isiXhosa?",
           "answer": "Izihlalo zisebenzile."
         },
         {
-          "prompt": "How would you say 'I want it (the chair)' in isiXhosa?",
+          "prompt": "What is 'I want it (the chair)' in isiXhosa?",
           "answer": "Ndiyasifuna (isihlalo)."
         },
         {
-          "prompt": "How would you say 'isiXhosa is working' in isiXhosa?",
+          "prompt": "What is 'isiXhosa is working' in isiXhosa?",
           "answer": "isiXhosa siyasebenza."
         },
         {
-          "prompt": "How would you say 'The chair is not working' in isiXhosa?",
+          "prompt": "What is 'The chair is not working' in isiXhosa?",
           "answer": "Isihlalo asisebenzi."
         }
       ]
@@ -1116,7 +1116,7 @@
         {
           "turn_number": 4,
           "section": "Prompt (future with Class 3)",
-          "teacher_dialogue": "Excellent. And our future tense marker ('-za-' with 'ku-') from Lesson 15. How would you say 'The tree will work' (meaning it will grow or function)?",
+          "teacher_dialogue": "Excellent. And our future tense marker ('-za-' with 'ku-') from Lesson 15. What is 'The tree will work' (meaning it will grow or function)?",
           "justification": "Builds upon recalled vocabulary and prompts application of a specific noun class (Class 3) with a specific tense (future), integrating knowledge from Lessons 6 and 15. The 'odd meaning, useful pattern' reminder helps manage cognitive load."
         },
         {
@@ -1149,7 +1149,7 @@
         {
           "turn_number": 10,
           "section": "Prompt (past with Class 8 and object)",
-          "teacher_dialogue": "Excellent. Thinking about the past tense ending ('-ile' from Lesson 14), how would you say 'The chairs have wanted tea' (using '-funa' from Lesson 4)? Remember, for past tense, we generally drop '-ya-'.",
+          "teacher_dialogue": "Excellent. Thinking about the past tense ending ('-ile' from Lesson 14), What is 'The chairs have wanted tea' (using '-funa' from Lesson 4)? Remember, for past tense, we generally drop '-ya-'.",
           "justification": "This prompt requires weaving together Class 8 noun agreement (Lesson 16), past tense formation (Lesson 14), and a direct object (Lesson 4). It explicitly reminds about dropping -ya- for the past tense, providing necessary cues."
         },
         {
@@ -1182,7 +1182,7 @@
         {
           "turn_number": 16,
           "section": "Prompt (present with Class 2)",
-          "teacher_dialogue": "Perfect. How would you say 'The people are studying'?",
+          "teacher_dialogue": "Perfect. What is 'The people are studying'?",
           "justification": "This returns to a simpler present tense, reinforcing the -ya- marker (Lesson 11) and Class 2 agreement (Lessons 3 and 12), ensuring 'masked repetition' of foundational structures."
         },
         {
@@ -1204,7 +1204,7 @@
         {
           "turn_number": 20,
           "section": "Feedback & Prompt (Bonus practice)",
-          "teacher_dialogue": "Precisely! That's excellent diagnostic thinking. You're not just correcting the error, but addressing the underlying mental process. For a bonus, using 'isihlalo' ('chair' from Lesson 16) with its subject concord ('si-'), how would you say 'The chair is studying'?",
+          "teacher_dialogue": "Precisely! That's excellent diagnostic thinking. You're not just correcting the error, but addressing the underlying mental process. For a bonus, using 'isihlalo' ('chair' from Lesson 16) with its subject concord ('si-'), What is 'The chair is studying'?",
           "justification": "Affirms the student's explanation and provides a bonus practice question, utilizing another known class (Class 7) and verb, ensuring continued 'masked repetition' and reinforcement without introducing new concepts."
         },
         {
@@ -1221,23 +1221,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'The tree will work' in isiXhosa?",
+          "prompt": "What is 'The tree will work' in isiXhosa?",
           "answer": "Umthi uza kusebenza."
         },
         {
-          "prompt": "How would you say 'The chairs have wanted tea' in isiXhosa?",
+          "prompt": "What is 'The chairs have wanted tea' in isiXhosa?",
           "answer": "Izihlalo zifunile iti."
         },
         {
-          "prompt": "How would you say 'The people are studying' in isiXhosa?",
+          "prompt": "What is 'The people are studying' in isiXhosa?",
           "answer": "Abantu bayafunda."
         },
         {
-          "prompt": "How would you say 'The trees are studying' in isiXhosa?",
+          "prompt": "What is 'The trees are studying' in isiXhosa?",
           "answer": "Imithi iyafunda."
         },
         {
-          "prompt": "How would you say 'The chair is studying' in isiXhosa?",
+          "prompt": "What is 'The chair is studying' in isiXhosa?",
           "answer": "Isihlalo siyafunda."
         }
       ]
@@ -1314,7 +1314,7 @@
         {
           "turn_number": 7,
           "section": "Explain",
-          "teacher_dialogue": "Excellent. Thinking about 'umntu' (Class 1 from Lesson 3), which possessive agreement piece pairs with these? How would you say 'my person' and 'your person'?",
+          "teacher_dialogue": "Excellent. Thinking about 'umntu' (Class 1 from Lesson 3), which possessive agreement piece pairs with these? What is 'my person' and 'your person'?",
           "justification": "Builds upon recalled vocabulary, encouraging the student to observe the pattern and infer the agreement piece."
         },
         {
@@ -1336,7 +1336,7 @@
         {
           "turn_number": 11,
           "section": "Prompt (Class 7)",
-          "teacher_dialogue": "Excellent. With the possessive agreement piece for Class 7 (as seen in the example 'isihlalo sam'), how would you say 'my chair' and 'your chair'?",
+          "teacher_dialogue": "Excellent. With the possessive agreement piece for Class 7 (as seen in the example 'isihlalo sam'), What is 'my chair' and 'your chair'?",
           "justification": "Builds upon recalled vocabulary and prompts for a new noun class (Class 7) from Lesson 16, asking for both 'my' and 'your' to reinforce the possessive pattern for that class."
         },
         {
@@ -1369,7 +1369,7 @@
         {
           "turn_number": 17,
           "section": "Prompt (Class 4 plural)",
-          "teacher_dialogue": "Exactly right. With that, how would you say 'my trees'?",
+          "teacher_dialogue": "Exactly right. With that, What is 'my trees'?",
           "justification": "Builds upon recalled vocabulary and prompts for the full phrase."
         },
         {
@@ -1391,7 +1391,7 @@
         {
           "turn_number": 21,
           "section": "Weave (sentence with adjective)",
-          "teacher_dialogue": "Excellent. How would you say 'My person is big'?",
+          "teacher_dialogue": "Excellent. What is 'My person is big'?",
           "justification": "Builds upon recalled vocabulary and prompts for a complex sentence combining possessives with a predicate adjective construction."
         },
         {
@@ -1435,7 +1435,7 @@
         {
           "turn_number": 29,
           "section": "Feedback & Prompt (Closing Challenge)",
-          "teacher_dialogue": "Excellent. How would you say 'Your chairs are small'?",
+          "teacher_dialogue": "Excellent. What is 'Your chairs are small'?",
           "justification": "Builds upon recalled vocabulary and provides a final complex sentence, requiring the application of a plural possessive, noun class agreement, and a predicate adjective, ensuring a comprehensive review of learned concepts."
         },
         {
@@ -1452,31 +1452,31 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'my person' in isiXhosa?",
+          "prompt": "What is 'my person' in isiXhosa?",
           "answer": "Umntu wam."
         },
         {
-          "prompt": "How would you say 'your person' in isiXhosa?",
+          "prompt": "What is 'your person' in isiXhosa?",
           "answer": "Umntu wakho."
         },
         {
-          "prompt": "How would you say 'my chair' in isiXhosa?",
+          "prompt": "What is 'my chair' in isiXhosa?",
           "answer": "Isihlalo sam."
         },
         {
-          "prompt": "How would you say 'your chair' in isiXhosa?",
+          "prompt": "What is 'your chair' in isiXhosa?",
           "answer": "Isihlalo sakho."
         },
         {
-          "prompt": "How would you say 'my trees' in isiXhosa?",
+          "prompt": "What is 'my trees' in isiXhosa?",
           "answer": "Imithi yam."
         },
         {
-          "prompt": "How would you say 'My person is big' in isiXhosa?",
+          "prompt": "What is 'My person is big' in isiXhosa?",
           "answer": "Umntu wam mkhulu."
         },
         {
-          "prompt": "How would you say 'Your chairs are small' in isiXhosa?",
+          "prompt": "What is 'Your chairs are small' in isiXhosa?",
           "answer": "Izihlalo zakho zincinci."
         }
       ]
@@ -1600,7 +1600,7 @@
         {
           "turn_number": 17,
           "section": "Weaving with future tense",
-          "teacher_dialogue": "Perfect! 'Ndifuna ukufunda'. Now, let's weave in the future tense from Lesson 15. Remembering that '-za-' (with 'ku-') is our future marker, how would you say 'I will want to study'?",
+          "teacher_dialogue": "Perfect! 'Ndifuna ukufunda'. Now, let's weave in the future tense from Lesson 15. Remembering that '-za-' (with 'ku-') is our future marker, What is 'I will want to study'?",
           "justification": "Affirms the answer. It explicitly references Lesson 15 to weave in the future tense, challenging the student to combine the future construction with the infinitive."
         },
         {
@@ -1617,23 +1617,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'to eat' in isiXhosa?",
+          "prompt": "What is 'to eat' in isiXhosa?",
           "answer": "Ukutya."
         },
         {
-          "prompt": "How would you say 'to study' in isiXhosa?",
+          "prompt": "What is 'to study' in isiXhosa?",
           "answer": "Ukufunda."
         },
         {
-          "prompt": "How would you say 'I want to eat bread' in isiXhosa?",
+          "prompt": "What is 'I want to eat bread' in isiXhosa?",
           "answer": "Ndifuna ukutya isonka."
         },
         {
-          "prompt": "How would you say 'I want to study' in isiXhosa?",
+          "prompt": "What is 'I want to study' in isiXhosa?",
           "answer": "Ndifuna ukufunda."
         },
         {
-          "prompt": "How would you say 'I will want to study' in isiXhosa?",
+          "prompt": "What is 'I will want to study' in isiXhosa?",
           "answer": "Ndiza kufuna ukufunda."
         }
       ]
@@ -1699,7 +1699,7 @@
         {
           "turn_number": 5,
           "section": "Opening (Build & Weave)",
-          "teacher_dialogue": "Perfect. Now, thinking about our future tense marker from Lesson 15, how would you say 'I want to work'? And then, immediately after, how would you transform that into 'I will want to work'?",
+          "teacher_dialogue": "Perfect. Now, thinking about our future tense marker from Lesson 15, What is 'I want to work'? And then, immediately after, how would you transform that into 'I will want to work'?",
           "justification": "Builds upon recalled vocabulary and prompts for two related sentences, encouraging the student to demonstrate chained verb construction and tense application, following the instruction to invite inference."
         },
         {
@@ -1732,7 +1732,7 @@
         {
           "turn_number": 11,
           "section": "Subject change",
-          "teacher_dialogue": "Perfect. How would you say 'You want to study'?",
+          "teacher_dialogue": "Perfect. What is 'You want to study'?",
           "justification": "Builds upon recalled vocabulary and prompts for a subject change, reinforcing the subject concord usage (Lesson 2) while maintaining the infinitive chain, ensuring 'masked repetition'."
         },
         {
@@ -1787,7 +1787,7 @@
         {
           "turn_number": 21,
           "section": "Weave object concord (preview)",
-          "teacher_dialogue": "Good. And its Class 7 object piece '-si-', as we previewed in Lesson 16. How would you say 'I want it (the chair)'?",
+          "teacher_dialogue": "Good. And its Class 7 object piece '-si-', as we previewed in Lesson 16. What is 'I want it (the chair)'?",
           "justification": "Builds upon recalled vocabulary and strategically weaves in a concept (object concords for specific classes) that will be fully introduced in Lesson 23, but was previewed in Lesson 16's plan, serving as reinforcement and preparing the ground."
         },
         {
@@ -1798,7 +1798,7 @@
         {
           "turn_number": 23,
           "section": "Practice (chain two infinitives)",
-          "teacher_dialogue": "Perfect! 'Ndiyasifuna'. Now, let's try a sentence that chains *two* infinitives within a future tense. Using 'you' (from Lesson 2), the future tense (from Lesson 15), 'to want' (from Lesson 4 and 19), 'to eat' (from Lesson 4 and 19), and 'bread' (from Lesson 4), how would you say 'You will want to eat bread'?",
+          "teacher_dialogue": "Perfect! 'Ndiyasifuna'. Now, let's try a sentence that chains *two* infinitives within a future tense. Using 'you' (from Lesson 2), the future tense (from Lesson 15), 'to want' (from Lesson 4 and 19), 'to eat' (from Lesson 4 and 19), and 'bread' (from Lesson 4), What is 'You will want to eat bread'?",
           "justification": "Affirms. This is a complex prompt, requiring two chained infinitives within a future tense structure. It acts as advanced 'masked repetition' for infinitive chaining (Lesson 19) and future tense (Lesson 15), pushing the student to integrate multiple learned elements."
         },
         {
@@ -1837,31 +1837,31 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I want to work' in isiXhosa?",
+          "prompt": "What is 'I want to work' in isiXhosa?",
           "answer": "Ndifuna ukusebenza."
         },
         {
-          "prompt": "How would you say 'I will want to work' in isiXhosa?",
+          "prompt": "What is 'I will want to work' in isiXhosa?",
           "answer": "Ndiza kufuna ukusebenza."
         },
         {
-          "prompt": "How would you say 'You want to study' in isiXhosa?",
+          "prompt": "What is 'You want to study' in isiXhosa?",
           "answer": "Ufuna ukufunda."
         },
         {
-          "prompt": "How would you say 'The people will want to work' in isiXhosa?",
+          "prompt": "What is 'The people will want to work' in isiXhosa?",
           "answer": "Abantu baza kufuna ukusebenza."
         },
         {
-          "prompt": "How would you say 'I want it (the chair)' in isiXhosa?",
+          "prompt": "What is 'I want it (the chair)' in isiXhosa?",
           "answer": "Ndiyasifuna (isihlalo)."
         },
         {
-          "prompt": "How would you say 'You will want to eat bread' in isiXhosa?",
+          "prompt": "What is 'You will want to eat bread' in isiXhosa?",
           "answer": "Uza kufuna ukutya isonka."
         },
         {
-          "prompt": "How would you say 'You do not want to see the person' in isiXhosa?",
+          "prompt": "What is 'You do not want to see the person' in isiXhosa?",
           "answer": "Akufuni ukubona umntu."
         }
       ]

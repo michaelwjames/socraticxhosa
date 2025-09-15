@@ -62,7 +62,7 @@
         {
           "turn_number": 3,
           "section": "Practice (2nd person)",
-          "teacher_dialogue": "Precisely! **Bendisebenza**. Now, let's try 'you'. The 'who-was' piece for 'you' is **ube-**. Do you recall the verb root **-funda** ('to study') from Lesson 11? How would you say 'You were studying'?",
+          "teacher_dialogue": "Precisely! **Bendisebenza**. Now, let's try 'you'. The 'who-was' piece for 'you' is **ube-**. Do you recall the verb root **-funda** ('to study') from Lesson 11? What is 'You were studying'?",
           "justification": "Affirms the correct answer and immediately prompts for practice with a different subject concord, reinforcing the new past continuous pattern across subjects. It references a previous lesson for the verb root [1]."
         },
         {
@@ -95,7 +95,7 @@
         {
           "turn_number": 9,
           "section": "Practice with Time (Weaving)",
-          "teacher_dialogue": "Exactly! Now, using **izolo** and our 'I was working' from earlier, how would you say 'I was working yesterday'?",
+          "teacher_dialogue": "Exactly! Now, using **izolo** and our 'I was working' from earlier, What is 'I was working yesterday'?",
           "justification": "Uses the recalled vocabulary and prompts the student to integrate it into a sentence, demonstrating 'weaving' of time adverbs with the new tense [4]."
         },
         {
@@ -117,7 +117,7 @@
         {
           "turn_number": 13,
           "section": "Practice with Place (Weaving)",
-          "teacher_dialogue": "Perfect! **Endlwini**. Now, how would you say 'I was working in the house'?",
+          "teacher_dialogue": "Perfect! **Endlwini**. Now, What is 'I was working in the house'?",
           "justification": "Uses the recalled vocabulary and prompts the student to integrate it into a sentence, demonstrating 'weaving' of locatives with the new tense [4]."
         },
         {
@@ -150,7 +150,7 @@
         {
           "turn_number": 19,
           "section": "Closing Prompt (Masked Repetition)",
-          "teacher_dialogue": "Exactly! Now, using **ngaphandle**, how would you say 'We were studying outside'?",
+          "teacher_dialogue": "Exactly! Now, using **ngaphandle**, What is 'We were studying outside'?",
           "justification": "Uses recalled vocabulary and prompts for a final sentence, consolidating the lesson's objective with 'masked repetition' [5]."
         },
         {
@@ -167,31 +167,31 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I was working' in isiXhosa?",
+          "prompt": "What is 'I was working' in isiXhosa?",
           "answer": "Bendisebenza."
         },
         {
-          "prompt": "How would you say 'You were studying' in isiXhosa?",
+          "prompt": "What is 'You were studying' in isiXhosa?",
           "answer": "Ubefunda."
         },
         {
-          "prompt": "How would you say 'We were working' in isiXhosa?",
+          "prompt": "What is 'We were working' in isiXhosa?",
           "answer": "Besisebenza."
         },
         {
-          "prompt": "How would you say 'I was working yesterday' in isiXhosa?",
+          "prompt": "What is 'I was working yesterday' in isiXhosa?",
           "answer": "Bendisebenza izolo."
         },
         {
-          "prompt": "How would you say 'I was working in the house' in isiXhosa?",
+          "prompt": "What is 'I was working in the house' in isiXhosa?",
           "answer": "Bendisebenza endlwini."
         },
         {
-          "prompt": "How would you say 'Were you studying yesterday?' in isiXhosa?",
+          "prompt": "What is 'Were you studying yesterday?' in isiXhosa?",
           "answer": "Ubefunda izolo?"
         },
         {
-          "prompt": "How would you say 'We were studying outside' in isiXhosa?",
+          "prompt": "What is 'We were studying outside' in isiXhosa?",
           "answer": "Besifunda ngaphandle."
         }
       ]
@@ -244,7 +244,7 @@
         {
           "turn_number": 4,
           "section": "The Future Progressive (Introducing & Weaving)",
-          "teacher_dialogue": "Exactly! You've grasped that core idea of 'who-was-doing-what'. Now, if **-be-** is our 'time-placer', how would you say 'I will be working'? Think about how we form the future tense for verbs in isiXhosa, which we covered in Lesson 15, and then apply that same 'future' logic to our 'time-placer' **-be-**.",
+          "teacher_dialogue": "Exactly! You've grasped that core idea of 'who-was-doing-what'. Now, if **-be-** is our 'time-placer', What is 'I will be working'? Think about how we form the future tense for verbs in isiXhosa, which we covered in Lesson 15, and then apply that same 'future' logic to our 'time-placer' **-be-**.",
           "justification": "Challenges the learner to extend their knowledge of the future tense (Lesson 15 [10], >3 lessons prior) to the new auxiliary **-be-**, demonstrating the systematic nature of the language. The prompt guides the construction without giving the answer [11]."
         },
         {
@@ -255,7 +255,7 @@
         {
           "turn_number": 6,
           "section": "Refining the Future Progressive",
-          "teacher_dialogue": "You're very close! The future of **-be-** is indeed 'Ndiza kuba'. However, when 'Ndiza kuba' is followed by a participial verb, we often drop the 'u-' from 'kuba', making it 'Ndiza kube'. So, 'I will be working' becomes 'Ndiza kube ndisebenza'. Now, applying this nuance and recalling **-funda** from Lesson 11, how would you say 'You will be studying'?",
+          "teacher_dialogue": "You're very close! The future of **-be-** is indeed 'Ndiza kuba'. However, when 'Ndiza kuba' is followed by a participial verb, we often drop the 'u-' from 'kuba', making it 'Ndiza kube'. So, 'I will be working' becomes 'Ndiza kube ndisebenza'. Now, applying this nuance and recalling **-funda** from Lesson 11, What is 'You will be studying'?",
           "justification": "Provides a gentle refinement of the rule, explaining a common contraction for phonetic flow. It then prompts for application to a different subject and verb (Lesson 11 [7], >3 lessons prior), providing masked repetition [5] and ensuring the learner actively practices the refined form."
         },
         {
@@ -266,7 +266,7 @@
         {
           "turn_number": 8,
           "section": "The Hypothetical Progressive (Introducing & Weaving)",
-          "teacher_dialogue": "Perfect, **Uza kube ufunda**. This demonstrates the power of the system! You can now create a new, complex tense simply by applying a known tense rule to our 'time-placer' word. Now, let’s get even more nuanced. How would you say 'I would be working'? We need to combine the 'who-was' piece from Lesson 45 with the 'potential mood' marker that we learned in Lesson 41. How would you logically combine 'bendi-' with the potential infix and then our verb root **-sebenza**?",
+          "teacher_dialogue": "Perfect, **Uza kube ufunda**. This demonstrates the power of the system! You can now create a new, complex tense simply by applying a known tense rule to our 'time-placer' word. Now, let’s get even more nuanced. What is 'I would be working'? We need to combine the 'who-was' piece from Lesson 45 with the 'potential mood' marker that we learned in Lesson 41. How would you logically combine 'bendi-' with the potential infix and then our verb root **-sebenza**?",
           "justification": "Challenges the learner to combine multiple known elements: the 'who-was' piece (L45 [6]), the potential mood (L41 [12], >3 lessons prior), and the participial. The phrasing encourages a logical, analytical approach to a complex construction, demonstrating the 'weaving' principle [4] and inviting inference [11]."
         },
         {
@@ -289,15 +289,15 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I will be working' in isiXhosa?",
+          "prompt": "What is 'I will be working' in isiXhosa?",
           "answer": "Ndiza kube ndisebenza."
         },
         {
-          "prompt": "How would you say 'You will be studying' in isiXhosa?",
+          "prompt": "What is 'You will be studying' in isiXhosa?",
           "answer": "Uza kube ufunda."
         },
         {
-          "prompt": "How would you say 'I would be working' in isiXhosa?",
+          "prompt": "What is 'I would be working' in isiXhosa?",
           "answer": "Bendingasebenza."
         }
       ]
@@ -374,7 +374,7 @@
         {
           "turn_number": 6,
           "section": "Practice with another adverb and verb",
-          "teacher_dialogue": "That's right! **-fundisa**. How would you say 'He/She teaches with love'?",
+          "teacher_dialogue": "That's right! **-fundisa**. What is 'He/She teaches with love'?",
           "justification": "Uses the recalled vocabulary and prompts the student to construct the sentence, expanding the application of the adverb of manner."
         },
         {
@@ -396,7 +396,7 @@
         {
           "turn_number": 10,
           "section": "Weaving with object and known noun",
-          "teacher_dialogue": "Perfect! Now, how would you say 'I help the child with love'?",
+          "teacher_dialogue": "Perfect! Now, What is 'I help the child with love'?",
           "justification": "Uses the recalled vocabulary and prompts for a complex sentence, reinforcing the integration of adverbs of manner with objects."
         },
         {
@@ -407,7 +407,7 @@
         {
           "turn_number": 12,
           "section": "Introducing a new adverb of manner",
-          "teacher_dialogue": "Nice! **Ndiyanceda umntwana ngothando**. Let's learn one more common adverb of manner: **ngononophelo**, meaning 'carefully'. Do you recall the verb **-funda** ('to study') from Lesson 11? How would you say 'They study carefully'?",
+          "teacher_dialogue": "Nice! **Ndiyanceda umntwana ngothando**. Let's learn one more common adverb of manner: **ngononophelo**, meaning 'carefully'. Do you recall the verb **-funda** ('to study') from Lesson 11? What is 'They study carefully'?",
           "justification": "Introduces new key vocabulary **ngononophelo** and checks for recall of **-funda** (Lesson 11 [1], >3 lessons prior), prompting the student to apply it with a plural subject concord ('ba-')."
         },
         {
@@ -446,23 +446,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am working strongly' in isiXhosa?",
+          "prompt": "What is 'I am working strongly' in isiXhosa?",
           "answer": "Ndiyasebenza ngamandla."
         },
         {
-          "prompt": "How would you say 'He/She teaches with love' in isiXhosa?",
+          "prompt": "What is 'He/She teaches with love' in isiXhosa?",
           "answer": "Ufundisa ngothando."
         },
         {
-          "prompt": "How would you say 'I help the child with love' in isiXhosa?",
+          "prompt": "What is 'I help the child with love' in isiXhosa?",
           "answer": "Ndiyanceda umntwana ngothando."
         },
         {
-          "prompt": "How would you say 'They study carefully' in isiXhosa?",
+          "prompt": "What is 'They study carefully' in isiXhosa?",
           "answer": "Bafunda ngononophelo."
         },
         {
-          "prompt": "How would you say 'Today they study with strength' in isiXhosa?",
+          "prompt": "What is 'Today they study with strength' in isiXhosa?",
           "answer": "Namhlanje bafunda ngamandla."
         }
       ]
@@ -524,7 +524,7 @@
         {
           "turn_number": 4,
           "section": "Introducing 'kodwa' ('but')",
-          "teacher_dialogue": "Exactly! **Ndiyasebenza, kwaye uyafunda**. Now, let's introduce **kodwa**, which means 'but', for a contrasting idea. We need a new verb root here: **-phumla** means 'to rest'. How would you say 'I am working, but you are resting'?",
+          "teacher_dialogue": "Exactly! **Ndiyasebenza, kwaye uyafunda**. Now, let's introduce **kodwa**, which means 'but', for a contrasting idea. We need a new verb root here: **-phumla** means 'to rest'. What is 'I am working, but you are resting'?",
           "justification": "Introduces **kodwa** and new key vocabulary **-phumla**. It prompts the student to construct a sentence with contrast, building on previously learned present tense forms."
         },
         {
@@ -557,7 +557,7 @@
         {
           "turn_number": 10,
           "section": "Weaving with Potential Mood",
-          "teacher_dialogue": "Exactly! Now, how would you say 'I can work, but you are studying'?",
+          "teacher_dialogue": "Exactly! Now, What is 'I can work, but you are studying'?",
           "justification": "Uses the recalled vocabulary and prompts for a sentence combining it with **kodwa** and another present continuous verb, demonstrating complex weaving [4]."
         },
         {
@@ -579,7 +579,7 @@
         {
           "turn_number": 14,
           "section": "Practice with Clause Order",
-          "teacher_dialogue": "Right. How would you say 'You are studying because I am helping'?",
+          "teacher_dialogue": "Right. What is 'You are studying because I am helping'?",
           "justification": "Uses the recalled vocabulary and prompts for a sentence with reversed clause order using **kuba**, showcasing sentence structure flexibility."
         },
         {
@@ -601,7 +601,7 @@
         {
           "turn_number": 18,
           "section": "Final Practice with 'kwaye'",
-          "teacher_dialogue": "Perfect! Now, how would you say 'We are studying, and we are writing'?",
+          "teacher_dialogue": "Perfect! Now, What is 'We are studying, and we are writing'?",
           "justification": "Uses the recalled vocabulary and prompts for a sentence combining two actions with **kwaye**, providing a final integration challenge."
         },
         {
@@ -618,27 +618,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am working, and you are studying' in isiXhosa?",
+          "prompt": "What is 'I am working, and you are studying' in isiXhosa?",
           "answer": "Ndiyasebenza, kwaye uyafunda."
         },
         {
-          "prompt": "How would you say 'I am working, but you are resting' in isiXhosa?",
+          "prompt": "What is 'I am working, but you are resting' in isiXhosa?",
           "answer": "Ndiyasebenza, kodwa uyaphumla."
         },
         {
-          "prompt": "How would you say 'I am studying because I want' in isiXhosa?",
+          "prompt": "What is 'I am studying because I want' in isiXhosa?",
           "answer": "Ndiyafunda kuba ndifuna."
         },
         {
-          "prompt": "How would you say 'I can work, but you are studying' in isiXhosa?",
+          "prompt": "What is 'I can work, but you are studying' in isiXhosa?",
           "answer": "Ndingasebenza, kodwa uyafunda."
         },
         {
-          "prompt": "How would you say 'You are studying because I am helping' in isiXhosa?",
+          "prompt": "What is 'You are studying because I am helping' in isiXhosa?",
           "answer": "Uyafunda kuba ndiyanceda."
         },
         {
-          "prompt": "How would you say 'We are studying, and we are writing' in isiXhosa?",
+          "prompt": "What is 'We are studying, and we are writing' in isiXhosa?",
           "answer": "Siyafunda, kwaye siyabhala."
         }
       ]
@@ -704,7 +704,7 @@
         {
           "turn_number": 4,
           "section": "Building a Present Tense Sentence",
-          "teacher_dialogue": "Exactly! **Fundisisa**. Now, how would you say 'I am studying thoroughly', using the present tense construction we've practiced since Lesson 11?",
+          "teacher_dialogue": "Exactly! **Fundisisa**. Now, What is 'I am studying thoroughly', using the present tense construction we've practiced since Lesson 11?",
           "justification": "Prompts the student to use the newly formed verb in a complete present tense sentence, reinforcing verb construction."
         },
         {
@@ -715,7 +715,7 @@
         {
           "turn_number": 6,
           "section": "Weaving with Future Tense",
-          "teacher_dialogue": "Perfect! **Ndiyafundisisa**. Now, let's weave in the future tense from Lesson 15. How would you say 'I will study thoroughly'?",
+          "teacher_dialogue": "Perfect! **Ndiyafundisisa**. Now, let's weave in the future tense from Lesson 15. What is 'I will study thoroughly'?",
           "justification": "Prompts for a future tense construction with the intensive verb, integrating knowledge from Lesson 15 [1] and providing masked repetition [5]."
         },
         {
@@ -726,7 +726,7 @@
         {
           "turn_number": 8,
           "section": "Introducing a new verb root",
-          "teacher_dialogue": "Good! **Ndiza kufundisisa**. You're applying the pattern consistently. Let's try it with a new verb root: **-coca**, which means 'to clean'. How would you say 'I am cleaning thoroughly'?",
+          "teacher_dialogue": "Good! **Ndiza kufundisisa**. You're applying the pattern consistently. Let's try it with a new verb root: **-coca**, which means 'to clean'. What is 'I am cleaning thoroughly'?",
           "justification": "Introduces new key vocabulary **-coca** and prompts for a present tense sentence with the intensive extension, expanding the application of the rule."
         },
         {
@@ -781,7 +781,7 @@
         {
           "turn_number": 18,
           "section": "Weaving with Hortative Mood",
-          "teacher_dialogue": "Yes, **Ma-**. So, how would you say 'Let's study thoroughly'?",
+          "teacher_dialogue": "Yes, **Ma-**. So, What is 'Let's study thoroughly'?",
           "justification": "Uses the recalled vocabulary and prompts for a hortative sentence with the intensive extension, ensuring active construction."
         },
         {
@@ -798,27 +798,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am studying thoroughly' in isiXhosa?",
+          "prompt": "What is 'I am studying thoroughly' in isiXhosa?",
           "answer": "Ndiyafundisisa."
         },
         {
-          "prompt": "How would you say 'I will study thoroughly' in isiXhosa?",
+          "prompt": "What is 'I will study thoroughly' in isiXhosa?",
           "answer": "Ndiza kufundisisa."
         },
         {
-          "prompt": "How would you say 'I am cleaning thoroughly' in isiXhosa?",
+          "prompt": "What is 'I am cleaning thoroughly' in isiXhosa?",
           "answer": "Ndiyacocisisa."
         },
         {
-          "prompt": "How would you say 'Clean the house thoroughly' in isiXhosa?",
+          "prompt": "What is 'Clean the house thoroughly' in isiXhosa?",
           "answer": "Cocisisa indlu."
         },
         {
-          "prompt": "How would you say 'They study thoroughly with strength' in isiXhosa?",
+          "prompt": "What is 'They study thoroughly with strength' in isiXhosa?",
           "answer": "Bafundisisa ngamandla."
         },
         {
-          "prompt": "How would you say 'Let's study thoroughly' in isiXhosa?",
+          "prompt": "What is 'Let's study thoroughly' in isiXhosa?",
           "answer": "Masifundisisa."
         }
       ]
@@ -872,7 +872,7 @@
         {
           "turn_number": 4,
           "section": "Full Sentence Practice (Negative Subjunctive)",
-          "teacher_dialogue": "Precisely, **ungasebenze**. You've got the new infix in place. So, how would you say the full sentence: 'I want that you not work'?",
+          "teacher_dialogue": "Precisely, **ungasebenze**. You've got the new infix in place. So, What is the full sentence: 'I want that you not work'?",
           "justification": "This prompts for the full sentence, integrating the new negative subjunctive form into the 'Ndifuna ukuba' frame (from Lesson 26 [16]) to provide practical application and masked repetition [5]."
         },
         {
@@ -916,7 +916,7 @@
         {
           "turn_number": 12,
           "section": "Practice with another verb",
-          "teacher_dialogue": "Exactly! Now, how would you say 'Let's not study'?",
+          "teacher_dialogue": "Exactly! Now, What is 'Let's not study'?",
           "justification": "Uses the recalled vocabulary and prompts for another negative hortative sentence, providing masked repetition [5]."
         },
         {
@@ -933,15 +933,15 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I want that you not work' in isiXhosa?",
+          "prompt": "What is 'I want that you not work' in isiXhosa?",
           "answer": "Ndifuna ukuba ungasebenze."
         },
         {
-          "prompt": "How would you say 'Let's not work' in isiXhosa?",
+          "prompt": "What is 'Let's not work' in isiXhosa?",
           "answer": "Masingasebenzi."
         },
         {
-          "prompt": "How would you say 'Let's not study' in isiXhosa?",
+          "prompt": "What is 'Let's not study' in isiXhosa?",
           "answer": "Masingafundi."
         }
       ]
@@ -1007,7 +1007,7 @@
         {
           "turn_number": 4,
           "section": "Introducing 'na-' merging with 'i-'",
-          "teacher_dialogue": "Excellent! Now, how would you say 'the man and the dog'?",
+          "teacher_dialogue": "Excellent! Now, What is 'the man and the dog'?",
           "justification": "Uses the recalled vocabulary and prompts for the combined phrase, adhering to 'one thought at a time' [2]."
         },
         {
@@ -1018,7 +1018,7 @@
         {
           "turn_number": 6,
           "section": "Introducing 'na-' merging with 'u-'",
-          "teacher_dialogue": "Good! **Indoda nenja**. You've got that first merger. Now, when **na-** comes before a noun starting with 'u-', it often merges to **no-**. Let's learn a new word: **umatshini**, which means 'machine'. How would you say 'with the machine'?",
+          "teacher_dialogue": "Good! **Indoda nenja**. You've got that first merger. Now, when **na-** comes before a noun starting with 'u-', it often merges to **no-**. Let's learn a new word: **umatshini**, which means 'machine'. What is 'with the machine'?",
           "justification": "Introduces the **na-** merging rule with 'u-' and new key vocabulary **umatshini**. It prompts the student to apply the new merger in a simple phrase, expanding their understanding of the prefix's versatility."
         },
         {
@@ -1040,7 +1040,7 @@
         {
           "turn_number": 10,
           "section": "Reinforcing 'na-'",
-          "teacher_dialogue": "That's right! Now how would you say 'with strength'?",
+          "teacher_dialogue": "That's right! Now What is 'with strength'?",
           "justification": "Uses the recalled vocabulary and prompts for the phrase, reinforcing the various merging rules."
         },
         {
@@ -1051,7 +1051,7 @@
         {
           "turn_number": 12,
           "section": "Expressing 'I am with…' (Weaving)",
-          "teacher_dialogue": "Nice! **Namandla**. Now, this **na-** can also be used to say 'I am with…' something. So, if you say 'Ndi ne nja', you're literally saying 'I am with dog'. It's a slightly informal but very common way. How would you say 'I am with the dog'?",
+          "teacher_dialogue": "Nice! **Namandla**. Now, this **na-** can also be used to say 'I am with…' something. So, if you say 'Ndi ne nja', you're literally saying 'I am with dog'. It's a slightly informal but very common way. What is 'I am with the dog'?",
           "justification": "Introduces a common informal usage of **na-** to express accompaniment, demonstrating 'weaving' into existing sentence structures [4]. Prompts for a practical sentence."
         },
         {
@@ -1073,7 +1073,7 @@
         {
           "turn_number": 16,
           "section": "Joining Nouns Practice (Weaving)",
-          "teacher_dialogue": "Right. How would you say 'the child and the girl'?",
+          "teacher_dialogue": "Right. What is 'the child and the girl'?",
           "justification": "Uses the recalled vocabulary and prompts for another noun-joining phrase, reinforcing the merger rules and providing masked repetition [5]."
         },
         {
@@ -1084,7 +1084,7 @@
         {
           "turn_number": 18,
           "section": "Final Practice (Closing Prompt)",
-          "teacher_dialogue": "Well done! **Umntwana nentombazana**. You've mastered how **na-** flexibly joins nouns and expresses 'with', transforming to **ne-**, **no-**, or staying **na-** depending on the following vowel. For a final check, recalling **umntwana** from Lesson 33 and **indoda** from Lesson 36, how would you say 'the man and the child'?",
+          "teacher_dialogue": "Well done! **Umntwana nentombazana**. You've mastered how **na-** flexibly joins nouns and expresses 'with', transforming to **ne-**, **no-**, or staying **na-** depending on the following vowel. For a final check, recalling **umntwana** from Lesson 33 and **indoda** from Lesson 36, What is 'the man and the child'?",
           "justification": "Summarizes the key learning, praises the student's mastery of **na-** and its mergers, and prompts for a final phrase, ensuring comprehensive review and retention. Checks for recall of L33 [1] and L36 [1] (>3 lessons prior)."
         },
         {
@@ -1101,27 +1101,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'the man and the dog' in isiXhosa?",
+          "prompt": "What is 'the man and the dog' in isiXhosa?",
           "answer": "Indoda nenja."
         },
         {
-          "prompt": "How would you say 'with the machine' in isiXhosa?",
+          "prompt": "What is 'with the machine' in isiXhosa?",
           "answer": "Nomathini."
         },
         {
-          "prompt": "How would you say 'with strength' in isiXhosa?",
+          "prompt": "What is 'with strength' in isiXhosa?",
           "answer": "Namandla."
         },
         {
-          "prompt": "How would you say 'I am with the dog' in isiXhosa?",
+          "prompt": "What is 'I am with the dog' in isiXhosa?",
           "answer": "Ndi ne nja."
         },
         {
-          "prompt": "How would you say 'the child and the girl' in isiXhosa?",
+          "prompt": "What is 'the child and the girl' in isiXhosa?",
           "answer": "Umntwana nentombazana."
         },
         {
-          "prompt": "How would you say 'the man and the child' in isiXhosa?",
+          "prompt": "What is 'the man and the child' in isiXhosa?",
           "answer": "Indoda nomntwana."
         }
       ]
@@ -1177,7 +1177,7 @@
         {
           "turn_number": 2,
           "section": "Introducing the Remote Past Marker (One Thought at a Time)",
-          "teacher_dialogue": "For this 'remote past' tense, we insert a special marker, **-a-**, right after the subject concord. This **-a-** then merges with the subject concord. For example, 'ndi-' (I from L2) + **-a-** becomes 'nda-'. Do you remember the verb root **-sebenza** ('to work') from Lesson 11? How would you say 'I worked (long ago)'?",
+          "teacher_dialogue": "For this 'remote past' tense, we insert a special marker, **-a-**, right after the subject concord. This **-a-** then merges with the subject concord. For example, 'ndi-' (I from L2) + **-a-** becomes 'nda-'. Do you remember the verb root **-sebenza** ('to work') from Lesson 11? What is 'I worked (long ago)'?",
           "justification": "Introduces the **-a-** marker and its merging rule with 'ndi-', adhering to 'one thought at a time' [2]. Checks for recall of **-sebenza** (Lesson 11 [1], >3 lessons prior) and prompts the student to construct the new remote past verb."
         },
         {
@@ -1210,7 +1210,7 @@
         {
           "turn_number": 8,
           "section": "Introducing a new verb and subject",
-          "teacher_dialogue": "Great! **Wafunda**. Now, how about 'we'? The subject concord for 'we' is 'si-'. When 'si-' + **-a-** combine, they form 'sa-'. Let's use a new verb root: **-coca**, meaning 'to clean' (from Lesson 49). How would you say 'We cleaned (long ago)'?",
+          "teacher_dialogue": "Great! **Wafunda**. Now, how about 'we'? The subject concord for 'we' is 'si-'. When 'si-' + **-a-** combine, they form 'sa-'. Let's use a new verb root: **-coca**, meaning 'to clean' (from Lesson 49). What is 'We cleaned (long ago)'?",
           "justification": "Explains the 'si-' + **-a-** merger to 'sa-' and introduces new key vocabulary **-coca**. Prompts for the remote past verb for 'we', expanding the subject concord application."
         },
         {
@@ -1221,7 +1221,7 @@
         {
           "turn_number": 10,
           "section": "Vocabulary Recall (-fika)",
-          "teacher_dialogue": "Nice! **Sacoca**. You're showing great control. Now, let's weave this into a sequence of actions. We learned **-fika** ('to arrive') in Lesson 42. How would you say 'I arrived, and then I worked (long ago)'?",
+          "teacher_dialogue": "Nice! **Sacoca**. You're showing great control. Now, let's weave this into a sequence of actions. We learned **-fika** ('to arrive') in Lesson 42. What is 'I arrived, and then I worked (long ago)'?",
           "justification": "Prompts for recall of **-fika** (Lesson 42 [1], >3 lessons prior) and then prompts for a two-clause sequence using the remote past, demonstrating natural narrative flow and reinforcing the sense of 'and then' from the consecutive mood (Lesson 42, but here implied with remote past) [4]."
         },
         {
@@ -1232,7 +1232,7 @@
         {
           "turn_number": 12,
           "section": "Weaving with Sequential Actions",
-          "teacher_dialogue": "Right. How would you say 'I arrived, and then I worked (long ago)'?",
+          "teacher_dialogue": "Right. What is 'I arrived, and then I worked (long ago)'?",
           "justification": "Uses the recalled vocabulary and prompts for a two-clause sequence using the remote past, demonstrating natural narrative flow."
         },
         {
@@ -1254,7 +1254,7 @@
         {
           "turn_number": 16,
           "section": "Weaving with Time and Place",
-          "teacher_dialogue": "Exactly! Now how would you say 'Long ago I worked there'?",
+          "teacher_dialogue": "Exactly! Now What is 'Long ago I worked there'?",
           "justification": "Uses the recalled vocabulary and prompts for a sentence integrating these time and place adverbs with the remote past, providing a more complex and practical application."
         },
         {
@@ -1265,7 +1265,7 @@
         {
           "turn_number": 18,
           "section": "Closing (Summary & Final Prompt)",
-          "teacher_dialogue": "Precisely! **Kudala ndasebenza apho**. To summarise, you've learned to use the **-a-** infix, merging with the subject concord (like 'ndi-' → 'nda-', 'u-' → 'wa-', 'si-' → 'sa-') to narrate events that happened a long time ago. This 'remote past' adds crucial precision to your storytelling. For a final check, how would you say 'We worked (long ago)'?",
+          "teacher_dialogue": "Precisely! **Kudala ndasebenza apho**. To summarise, you've learned to use the **-a-** infix, merging with the subject concord (like 'ndi-' → 'nda-', 'u-' → 'wa-', 'si-' → 'sa-') to narrate events that happened a long time ago. This 'remote past' adds crucial precision to your storytelling. For a final check, What is 'We worked (long ago)'?",
           "justification": "Summarizes the key learning, praises the student's mastery, and prompts for a final sentence, ensuring comprehensive review and retention."
         },
         {
@@ -1282,27 +1282,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I worked (long ago)' in isiXhosa?",
+          "prompt": "What is 'I worked (long ago)' in isiXhosa?",
           "answer": "Ndasebenza."
         },
         {
-          "prompt": "How would you say 'You/He/She studied (long ago)' in isiXhosa?",
+          "prompt": "What is 'You/He/She studied (long ago)' in isiXhosa?",
           "answer": "Wafunda."
         },
         {
-          "prompt": "How would you say 'We cleaned (long ago)' in isiXhosa?",
+          "prompt": "What is 'We cleaned (long ago)' in isiXhosa?",
           "answer": "Sacoca."
         },
         {
-          "prompt": "How would you say 'I arrived, and then I worked (long ago)' in isiXhosa?",
+          "prompt": "What is 'I arrived, and then I worked (long ago)' in isiXhosa?",
           "answer": "Ndafika, ndasebenza."
         },
         {
-          "prompt": "How would you say 'Long ago I worked there' in isiXhosa?",
+          "prompt": "What is 'Long ago I worked there' in isiXhosa?",
           "answer": "Kudala ndasebenza apho."
         },
         {
-          "prompt": "How would you say 'We worked (long ago)' in isiXhosa?",
+          "prompt": "What is 'We worked (long ago)' in isiXhosa?",
           "answer": "Sasebenza."
         }
       ]
@@ -1349,7 +1349,7 @@
         {
           "turn_number": 2,
           "section": "Introducing 'ngexa' ('while')",
-          "teacher_dialogue": "Let's start with **ngexa**, which means 'while'. Do you remember the verb root **-sebenza** ('to work') from Lesson 11? How would you say 'while I am working', remembering to drop the **-ya-**?",
+          "teacher_dialogue": "Let's start with **ngexa**, which means 'while'. Do you remember the verb root **-sebenza** ('to work') from Lesson 11? What is 'while I am working', remembering to drop the **-ya-**?",
           "justification": "Introduces **ngexa** and checks for recall of **-sebenza** (Lesson 11 [1], >3 lessons prior). It explicitly reminds the student to drop **-ya-**, guiding them to construct the participial form for 'I'."
         },
         {
@@ -1360,7 +1360,7 @@
         {
           "turn_number": 4,
           "section": "Introducing 'xa' ('when')",
-          "teacher_dialogue": "Very close! It's **ngexa ndisebenza**. You've got the verb form right. Now, let's try **xa**, which means 'when' or 'whenever'. Do you remember the verb root **-funda** ('to study') from Lesson 11? How would you say 'when you study', remembering to drop the **-ya-**?",
+          "teacher_dialogue": "Very close! It's **ngexa ndisebenza**. You've got the verb form right. Now, let's try **xa**, which means 'when' or 'whenever'. Do you remember the verb root **-funda** ('to study') from Lesson 11? What is 'when you study', remembering to drop the **-ya-**?",
           "justification": "Introduces **xa** and checks for recall of **-funda** (Lesson 11 [1], >3 lessons prior), prompting for the participial form for 'you', providing masked repetition [5]."
         },
         {
@@ -1382,7 +1382,7 @@
         {
           "turn_number": 8,
           "section": "Weaving with Main Clause",
-          "teacher_dialogue": "Exactly! Now how would you say 'I rest when I work'?",
+          "teacher_dialogue": "Exactly! Now What is 'I rest when I work'?",
           "justification": "Uses the recalled vocabulary and prompts for a complex sentence combining a main clause with a participial dependent clause, demonstrating logical connection [4]."
         },
         {
@@ -1404,7 +1404,7 @@
         {
           "turn_number": 12,
           "section": "Introducing 'ukuba' ('if')",
-          "teacher_dialogue": "That's right! Now how would you say 'if he studies'?",
+          "teacher_dialogue": "That's right! Now What is 'if he studies'?",
           "justification": "Uses the recalled vocabulary and prompts for the participial form for 'he', demonstrating its versatility."
         },
         {
@@ -1426,7 +1426,7 @@
         {
           "turn_number": 16,
           "section": "Weaving with Adverb of Manner",
-          "teacher_dialogue": "Exactly! Now how would you say 'while they work with strength'?",
+          "teacher_dialogue": "Exactly! Now What is 'while they work with strength'?",
           "justification": "Uses the recalled vocabulary and prompts for a participial clause with an adverb of manner and a plural subject, demonstrating complex weaving [4]."
         },
         {
@@ -1437,7 +1437,7 @@
         {
           "turn_number": 18,
           "section": "Closing (Summary & Final Prompt)",
-          "teacher_dialogue": "Excellent! **Ngeza basebenza ngamandla**. You've now mastered the participial mood, using it after 'ngexa' ('while'), 'xa' ('when/whenever'), and 'ukuba' ('if'), consistently dropping the **-ya-** marker. This 'hinge form' is crucial for building complex, nuanced sentences. For a final check, how would you say 'when we study'?",
+          "teacher_dialogue": "Excellent! **Ngeza basebenza ngamandla**. You've now mastered the participial mood, using it after 'ngexa' ('while'), 'xa' ('when/whenever'), and 'ukuba' ('if'), consistently dropping the **-ya-** marker. This 'hinge form' is crucial for building complex, nuanced sentences. For a final check, What is 'when we study'?",
           "justification": "Summarizes the key learning, praises the student's mastery, and prompts for a final sentence, ensuring comprehensive review and retention."
         },
         {
@@ -1454,27 +1454,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'while I work' in isiXhosa?",
+          "prompt": "What is 'while I work' in isiXhosa?",
           "answer": "Ngeza ndisebenza."
         },
         {
-          "prompt": "How would you say 'when you study' in isiXhosa?",
+          "prompt": "What is 'when you study' in isiXhosa?",
           "answer": "Xa ufunda."
         },
         {
-          "prompt": "How would you say 'I rest when I work' in isiXhosa?",
+          "prompt": "What is 'I rest when I work' in isiXhosa?",
           "answer": "Ndiyaphumla xa ndisebenza."
         },
         {
-          "prompt": "How would you say 'if he studies' in isiXhosa?",
+          "prompt": "What is 'if he studies' in isiXhosa?",
           "answer": "Ukuba ufunda."
         },
         {
-          "prompt": "How would you say 'while they work with strength' in isiXhosa?",
+          "prompt": "What is 'while they work with strength' in isiXhosa?",
           "answer": "Ngeza basebenza ngamandla."
         },
         {
-          "prompt": "How would you say 'when we study' in isiXhosa?",
+          "prompt": "What is 'when we study' in isiXhosa?",
           "answer": "Xa sifunda."
         }
       ]
@@ -1556,7 +1556,7 @@
         {
           "turn_number": 4,
           "section": "Introducing 'kwa-' for place (One Thought at a Time)",
-          "teacher_dialogue": "Exactly! Now how would you say 'at the teacher's place'?",
+          "teacher_dialogue": "Exactly! Now What is 'at the teacher's place'?",
           "justification": "Uses the recalled vocabulary and prompts the student to construct the new possessive phrase, adhering to 'one thought at a time' [2]."
         },
         {
@@ -1578,7 +1578,7 @@
         {
           "turn_number": 8,
           "section": "Introducing 'ka-' for personal possession",
-          "teacher_dialogue": "That's right! How would you say 'the teacher's house'?",
+          "teacher_dialogue": "That's right! What is 'the teacher's house'?",
           "justification": "Uses the recalled vocabulary and prompts for a phrase that expresses personal possession, expanding the range of possessive constructions."
         },
         {
@@ -1600,7 +1600,7 @@
         {
           "turn_number": 12,
           "section": "Weaving with motion verb",
-          "teacher_dialogue": "Exactly! Now how would you say 'We are going to the teacher's place'?",
+          "teacher_dialogue": "Exactly! Now What is 'We are going to the teacher's place'?",
           "justification": "Uses the recalled vocabulary and prompts for a sentence combining a motion verb with the new place possessive, demonstrating practical application."
         },
         {
@@ -1622,7 +1622,7 @@
         {
           "turn_number": 16,
           "section": "Weaving with Adverb of Manner and Personal Possessive",
-          "teacher_dialogue": "Perfect! Now how would you say 'They study at my place with love'?",
+          "teacher_dialogue": "Perfect! Now What is 'They study at my place with love'?",
           "justification": "Uses the recalled vocabulary and prompts for a complex sentence combining a place possessive with a personal pronoun ('my place' is **kwam**) and an adverb of manner, demonstrating high-level weaving [4]."
         },
         {
@@ -1644,7 +1644,7 @@
         {
           "turn_number": 20,
           "section": "Weaving with Plural Possessives (Increasing Language Consciousness)",
-          "teacher_dialogue": "Exactly! Now how would you say 'the children's books'?",
+          "teacher_dialogue": "Exactly! Now What is 'the children's books'?",
           "justification": "Uses the recalled vocabulary and explicitly introduces the plural possessive concord 'za-' as part of the overall system, increasing language consciousness [8] and prompting for its application."
         },
         {
@@ -1655,7 +1655,7 @@
         {
           "turn_number": 22,
           "section": "Closing (Summary & Final Prompt)",
-          "teacher_dialogue": "Precisely! **Iincwadi zabantwana**. To summarise, you've learned to use **kwa-** for 'at someone's place' (like **kwam, kwakho, kwakhe**) and **ka-** for 'of (a person)', demonstrating isiXhosa's precise ways of expressing possession. For a final check, how would you say 'at your (singular) place'?",
+          "teacher_dialogue": "Precisely! **Iincwadi zabantwana**. To summarise, you've learned to use **kwa-** for 'at someone's place' (like **kwam, kwakho, kwakhe**) and **ka-** for 'of (a person)', demonstrating isiXhosa's precise ways of expressing possession. For a final check, What is 'at your (singular) place'?",
           "justification": "Summarizes the key learning, praises the student's mastery of the various possessive forms, and prompts for a final phrase, ensuring comprehensive review and retention."
         },
         {
@@ -1672,27 +1672,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'at the teacher's place' in isiXhosa?",
+          "prompt": "What is 'at the teacher's place' in isiXhosa?",
           "answer": "Kwatitshala."
         },
         {
-          "prompt": "How would you say 'the teacher's house' in isiXhosa?",
+          "prompt": "What is 'the teacher's house' in isiXhosa?",
           "answer": "Indlu katitshala."
         },
         {
-          "prompt": "How would you say 'We are going to the teacher's place' in isiXhosa?",
+          "prompt": "What is 'We are going to the teacher's place' in isiXhosa?",
           "answer": "Siya kwatitshala."
         },
         {
-          "prompt": "How would you say 'They study at my place with love' in isiXhosa?",
+          "prompt": "What is 'They study at my place with love' in isiXhosa?",
           "answer": "Bafunda kwam ngothando."
         },
         {
-          "prompt": "How would you say 'the children's books' in isiXhosa?",
+          "prompt": "What is 'the children's books' in isiXhosa?",
           "answer": "Iincwadi zabantwana."
         },
         {
-          "prompt": "How would you say 'at your (singular) place' in isiXhosa?",
+          "prompt": "What is 'at your (singular) place' in isiXhosa?",
           "answer": "Kwakho."
         }
       ]
@@ -1766,7 +1766,7 @@
         {
           "turn_number": 4,
           "section": "Introducing the Contingent Mood",
-          "teacher_dialogue": "That's right! Now, how would you say 'If I work' using **ukuba** and the contingent mood?",
+          "teacher_dialogue": "That's right! Now, What is 'If I work' using **ukuba** and the contingent mood?",
           "justification": "Uses the recalled vocabulary and prompts for the new construction, adhering to 'one thought at a time' [2]."
         },
         {
@@ -1788,7 +1788,7 @@
         {
           "turn_number": 8,
           "section": "Completing the Conditional Sentence (Weaving)",
-          "teacher_dialogue": "Perfect! Now how would you say 'If I work, I rest'?",
+          "teacher_dialogue": "Perfect! Now What is 'If I work, I rest'?",
           "justification": "Uses the recalled vocabulary and prompts for a full conditional sentence, demonstrating how the contingent clause connects to a main clause [4]."
         },
         {
@@ -1810,7 +1810,7 @@
         {
           "turn_number": 12,
           "section": "Weaving with Place Possessives",
-          "teacher_dialogue": "Excellent! Now how would you say 'If they study at the teacher's place'?",
+          "teacher_dialogue": "Excellent! Now What is 'If they study at the teacher's place'?",
           "justification": "Uses the recalled vocabulary and prompts for a contingent clause with a plural subject and a place possessive, demonstrating multi-concept weaving [4]."
         },
         {
@@ -1821,7 +1821,7 @@
         {
           "turn_number": 14,
           "section": "Contingent Negation (Weaving)",
-          "teacher_dialogue": "Nice! **Ukuba bengafunda kwatitshala**. The 'ba-' (they) merged with the **-nga-** to form 'benga-'. Now, let's make it negative. The negative of the participial is also used here. So 'he is not working' in the participial is 'engasebenzi'. How would you say 'If he does not work'?",
+          "teacher_dialogue": "Nice! **Ukuba bengafunda kwatitshala**. The 'ba-' (they) merged with the **-nga-** to form 'benga-'. Now, let's make it negative. The negative of the participial is also used here. So 'he is not working' in the participial is 'engasebenzi'. What is 'If he does not work'?",
           "justification": "Explains the subject concord merger ('benga-'). Introduces the negative participial form ('engasebenzi') as a model for the negative contingent. It prompts for the negative contingent clause, demonstrating systematic negation."
         },
         {
@@ -1843,7 +1843,7 @@
         {
           "turn_number": 18,
           "section": "Weaving with Intensive Extension and 'xa'",
-          "teacher_dialogue": "Exactly! How would you say 'Whenever we work, we study thoroughly'?",
+          "teacher_dialogue": "Exactly! What is 'Whenever we work, we study thoroughly'?",
           "justification": "Uses the recalled vocabulary and prompts for a complex sentence combining a 'whenever' clause (contingent) with a main clause using an intensive verb, integrating multiple concepts [4]."
         },
         {
@@ -1854,7 +1854,7 @@
         {
           "turn_number": 20,
           "section": "Closing (Summary & Final Prompt)",
-          "teacher_dialogue": "Excellent! **Xa singasebenza, siyafundisisa**. You've truly mastered the contingent mood, using **-nga-** with the participial to express both 'if' and 'whenever' conditions. This adds a powerful layer of hypothetical and habitual expression to your isiXhosa. For a final check, how would you say 'If you (singular) study, you rest'?",
+          "teacher_dialogue": "Excellent! **Xa singasebenza, siyafundisisa**. You've truly mastered the contingent mood, using **-nga-** with the participial to express both 'if' and 'whenever' conditions. This adds a powerful layer of hypothetical and habitual expression to your isiXhosa. For a final check, What is 'If you (singular) study, you rest'?",
           "justification": "Summarizes the key learning, praises the student's mastery, and prompts for a final sentence, ensuring comprehensive review and retention."
         },
         {
@@ -1871,27 +1871,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'If I work' in isiXhosa?",
+          "prompt": "What is 'If I work' in isiXhosa?",
           "answer": "Ukuba ndingasebenza."
         },
         {
-          "prompt": "How would you say 'If I work, I rest' in isiXhosa?",
+          "prompt": "What is 'If I work, I rest' in isiXhosa?",
           "answer": "Ukuba ndingasebenza, ndiyaphumla."
         },
         {
-          "prompt": "How would you say 'If they study at the teacher's place' in isiXhosa?",
+          "prompt": "What is 'If they study at the teacher's place' in isiXhosa?",
           "answer": "Ukuba bengafunda kwatitshala."
         },
         {
-          "prompt": "How would you say 'If he does not work' in isiXhosa?",
+          "prompt": "What is 'If he does not work' in isiXhosa?",
           "answer": "Ukuba engasebenzi."
         },
         {
-          "prompt": "How would you say 'Whenever we work, we study thoroughly' in isiXhosa?",
+          "prompt": "What is 'Whenever we work, we study thoroughly' in isiXhosa?",
           "answer": "Xa singasebenza, siyafundisisa."
         },
         {
-          "prompt": "How would you say 'If you (singular) study, you rest' in isiXhosa?",
+          "prompt": "What is 'If you (singular) study, you rest' in isiXhosa?",
           "answer": "Ukuba ungafunda, uyaphumla."
         }
       ]
@@ -2162,15 +2162,15 @@
       ],
       "practice": [
       {
-      "prompt": "How would you say 'Long ago, they worked at the teacher's place' in isiXhosa?",
+      "prompt": "What is 'Long ago, they worked at the teacher's place' in isiXhosa?",
       "answer": "Kudala basebenza kwatitshala."
       },
       {
-      "prompt": "How would you say 'When we study at my place, we study thoroughly' in isiXhosa?",
+      "prompt": "What is 'When we study at my place, we study thoroughly' in isiXhosa?",
       "answer": "Xa sifunda kwam, siyafundisisa."
       },
       {
-      "prompt": "How would you say 'If you (sg.) study at the teacher's place, you will work thoroughly' in isiXhosa?",
+      "prompt": "What is 'If you (sg.) study at the teacher's place, you will work thoroughly' in isiXhosa?",
       "answer": "Ukuba ungafunda kwatitshala, uza kusebenzisisa."
       }
       ]

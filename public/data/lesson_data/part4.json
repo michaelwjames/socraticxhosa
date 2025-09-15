@@ -107,7 +107,7 @@
         {
           "turn_number": 15,
           "section": "Applying Negative to Passive",
-          "teacher_dialogue": "Exactly. So if 'Umntu uyabonwa' means 'The person is seen', how would you say 'The person is not seen'?",
+          "teacher_dialogue": "Exactly. So if 'Umntu uyabonwa' means 'The person is seen', What is 'The person is not seen'?",
           "justification": "Invites the student to infer the negative passive form, combining previously learned rules with the new suffix."
         },
         {
@@ -118,7 +118,7 @@
         {
           "turn_number": 17,
           "section": "Weaving with Future Tense",
-          "teacher_dialogue": "Spot on, 'Umntu akabonwa'. One final challenge to consolidate these new tools. Thinking back to the future tense with '-za-' (Lesson 15) and our infinitive linker 'ku-' (Lesson 19), how would you say 'We will see each other'?",
+          "teacher_dialogue": "Spot on, 'Umntu akabonwa'. One final challenge to consolidate these new tools. Thinking back to the future tense with '-za-' (Lesson 15) and our infinitive linker 'ku-' (Lesson 19), What is 'We will see each other'?",
           "justification": "Prompts a complex sentence integrating the future tense (L15, L19) with the reciprocal form, requiring the student to apply multiple learned concepts. It uses 'we' (si-) which has been present in various lessons, and includes references to L15 and L19 (L34 - L15 = 19 lessons; L34 - L19 = 15 lessons)."
         },
         {
@@ -135,19 +135,19 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'We see each other' in isiXhosa?",
+          "prompt": "What is 'We see each other' in isiXhosa?",
           "answer": "Siyabonana."
         },
         {
-          "prompt": "How would you say 'The person is seen' in isiXhosa?",
+          "prompt": "What is 'The person is seen' in isiXhosa?",
           "answer": "Umntu uyabonwa."
         },
         {
-          "prompt": "How would you say 'The person is not seen' in isiXhosa?",
+          "prompt": "What is 'The person is not seen' in isiXhosa?",
           "answer": "Umntu akabonwa."
         },
         {
-          "prompt": "How would you say 'We will see each other' in isiXhosa?",
+          "prompt": "What is 'We will see each other' in isiXhosa?",
           "answer": "Siza kubonana."
         }
       ]
@@ -253,7 +253,7 @@
         {
           "turn_number": 13,
           "section": "Building a Sentence with Diminutive and Locative",
-          "teacher_dialogue": "Great. So, using 'kukho', our 'injana', and 'endlwini', how would you say 'There is a little dog in the house'?",
+          "teacher_dialogue": "Great. So, using 'kukho', our 'injana', and 'endlwini', What is 'There is a little dog in the house'?",
           "justification": "Guides the student to construct a complex sentence, combining the new diminutive with previously learned existential (L29) and locative (L28) structures."
         },
         {
@@ -275,7 +275,7 @@
         {
           "turn_number": 17,
           "section": "Building a Sentence with Diminutive and Verb",
-          "teacher_dialogue": "Yes, that's the one. How would you say 'I like the little book'?",
+          "teacher_dialogue": "Yes, that's the one. What is 'I like the little book'?",
           "justification": "Invites inference, combining the 'I' subject concord and '-thanda' with the diminutive noun."
         },
         {
@@ -297,7 +297,7 @@
         {
           "turn_number": 21,
           "section": "Final Sentence Construction with Diminutive",
-          "teacher_dialogue": "Exactly. So, how would you say 'The little bird is outside' (using 'intakana' for 'little bird' from this lesson's key vocabulary, and remembering Class 9 subject concord 'i-' from Lesson 21)?",
+          "teacher_dialogue": "Exactly. So, What is 'The little bird is outside' (using 'intakana' for 'little bird' from this lesson's key vocabulary, and remembering Class 9 subject concord 'i-' from Lesson 21)?",
           "justification": "Affirms the recalled vocabulary and guides the student to construct a sentence using the new diminutive noun 'intakana' and the subject concord for Class 9 (L21)."
         },
         {
@@ -314,23 +314,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'booklet' in isiXhosa?",
+          "prompt": "What is 'booklet' in isiXhosa?",
           "answer": "Incwadana."
         },
         {
-          "prompt": "How would you say 'little dog' in isiXhosa?",
+          "prompt": "What is 'little dog' in isiXhosa?",
           "answer": "Injana."
         },
         {
-          "prompt": "How would you say 'There is a little dog in the house' in isiXhosa?",
+          "prompt": "What is 'There is a little dog in the house' in isiXhosa?",
           "answer": "Kukho injana endlwini."
         },
         {
-          "prompt": "How would you say 'I like the little book' in isiXhosa?",
+          "prompt": "What is 'I like the little book' in isiXhosa?",
           "answer": "Ndiyathanda incwadana."
         },
         {
-          "prompt": "How would you say 'The little bird is outside' in isiXhosa?",
+          "prompt": "What is 'The little bird is outside' in isiXhosa?",
           "answer": "Intakana ingaphandle."
         }
       ]
@@ -417,7 +417,7 @@
         {
           "turn_number": 9,
           "section": "Building a Sentence with Augmentative and Locative",
-          "teacher_dialogue": "Excellent. So, using 'kukho', our new 'injakazi', and 'ngaphandle', how would you say 'There is a big dog outside'?",
+          "teacher_dialogue": "Excellent. So, using 'kukho', our new 'injakazi', and 'ngaphandle', What is 'There is a big dog outside'?",
           "justification": "Guides the student to construct a complex sentence, combining the new augmentative with previously learned existential (L29) and directional (L31) structures."
         },
         {
@@ -461,7 +461,7 @@
         {
           "turn_number": 17,
           "section": "Building a Sentence with Lexicalised Noun and Locative",
-          "teacher_dialogue": "So how would you say 'There is a lady in the house'?",
+          "teacher_dialogue": "So What is 'There is a lady in the house'?",
           "justification": "Invites inference, combining 'kukho' with 'inkosikazi' and 'endlwini'."
         },
         {
@@ -483,7 +483,7 @@
         {
           "turn_number": 21,
           "section": "Building a Sentence with Object Concord",
-          "teacher_dialogue": "Precisely. So how would you say 'I see the lady'?",
+          "teacher_dialogue": "Precisely. So What is 'I see the lady'?",
           "justification": "Invites inference, combining 'Ndiyambona' with 'inkosikazi'."
         },
         {
@@ -494,7 +494,7 @@
         {
           "turn_number": 23,
           "section": "Closing (Summary and Final Prompt)",
-          "teacher_dialogue": "Excellent, 'Ndiyambona inkosikazi'. To summarise, you've learned that '-kazi' can build bigger or feminine-related forms, and some outputs are fixed words like 'injakazi' (big/female dog), 'indodakazi' (daughter), and 'inkosikazi' (lady). For a final check, how would you say 'There is a daughter outside'?",
+          "teacher_dialogue": "Excellent, 'Ndiyambona inkosikazi'. To summarise, you've learned that '-kazi' can build bigger or feminine-related forms, and some outputs are fixed words like 'injakazi' (big/female dog), 'indodakazi' (daughter), and 'inkosikazi' (lady). For a final check, What is 'There is a daughter outside'?",
           "justification": "Summarises the key learning, reinforces the concepts, and provides a final productive prompt for the student to integrate multiple learned elements."
         },
         {
@@ -511,27 +511,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'big dog' or 'female dog' in isiXhosa?",
+          "prompt": "What is 'big dog' or 'female dog' in isiXhosa?",
           "answer": "Injakazi."
         },
         {
-          "prompt": "How would you say 'There is a big dog outside' in isiXhosa?",
+          "prompt": "What is 'There is a big dog outside' in isiXhosa?",
           "answer": "Kukho injakazi ngaphandle."
         },
         {
-          "prompt": "How would you say 'daughter' in isiXhosa?",
+          "prompt": "What is 'daughter' in isiXhosa?",
           "answer": "Indodakazi."
         },
         {
-          "prompt": "How would you say 'There is a lady in the house' in isiXhosa?",
+          "prompt": "What is 'There is a lady in the house' in isiXhosa?",
           "answer": "Kukho inkosikazi endlwini."
         },
         {
-          "prompt": "How would you say 'I see the lady' in isiXhosa?",
+          "prompt": "What is 'I see the lady' in isiXhosa?",
           "answer": "Ndiyambona inkosikazi."
         },
         {
-          "prompt": "How would you say 'There is a daughter outside' in isiXhosa?",
+          "prompt": "What is 'There is a daughter outside' in isiXhosa?",
           "answer": "Kukho indodakazi ngaphandle."
         }
       ]
@@ -588,7 +588,7 @@
         {
           "turn_number": 5,
           "section": "Building a Present Tense Reflexive Sentence",
-          "teacher_dialogue": "Perfect! 'Ukuzibona'. Now, how would you say 'I see myself', using our present tense structure (Lesson 11) with the '-ya-' for flow (Lesson 8)?",
+          "teacher_dialogue": "Perfect! 'Ukuzibona'. Now, What is 'I see myself', using our present tense structure (Lesson 11) with the '-ya-' for flow (Lesson 8)?",
           "justification": "Invites inference, combining the 'I' subject concord (L2) and present tense marker (L8, L11) with the new reflexive form. This provides immediate, masked repetition of the new concept."
         },
         {
@@ -610,7 +610,7 @@
         {
           "turn_number": 9,
           "section": "Building a Third Person Reflexive Sentence",
-          "teacher_dialogue": "Good. Now, imagine someone is studying for themselves, perhaps reviewing. How would you say 'He studies for himself' or 'He reads for himself'? Remember the 'he/she' subject concord 'u-' (Lesson 12) and our usual present tense marker '-ya-' (Lesson 11).",
+          "teacher_dialogue": "Good. Now, imagine someone is studying for themselves, perhaps reviewing. What is 'He studies for himself' or 'He reads for himself'? Remember the 'he/she' subject concord 'u-' (Lesson 12) and our usual present tense marker '-ya-' (Lesson 11).",
           "justification": "Guides the student to construct a sentence with a different subject (L12) and the new reflexive, promoting transfer of learning. It explicitly states the need for '-ya-'."
         },
         {
@@ -632,7 +632,7 @@
         {
           "turn_number": 13,
           "section": "Applying Negative to Reflexive",
-          "teacher_dialogue": "That's right. So if 'Uyazifunda' means 'He studies for himself', how would you say 'He does not study for himself'?",
+          "teacher_dialogue": "That's right. So if 'Uyazifunda' means 'He studies for himself', What is 'He does not study for himself'?",
           "justification": "Invites the student to infer the negative reflexive form, combining previously learned rules with the new infix."
         },
         {
@@ -654,7 +654,7 @@
         {
           "turn_number": 17,
           "section": "Building a Future Tense Reflexive Sentence",
-          "teacher_dialogue": "Great. How would you say 'They will see themselves'? Remember the subject concord for 'they' ('ba-', Lesson 12) and the verb root for 'to see' ('-bona', Lesson 13).",
+          "teacher_dialogue": "Great. What is 'They will see themselves'? Remember the subject concord for 'they' ('ba-', Lesson 12) and the verb root for 'to see' ('-bona', Lesson 13).",
           "justification": "Guides the student to construct a complex sentence integrating the future tense, reflexive infix, and plural subject concord (L12, L13), promoting higher-level weaving."
         },
         {
@@ -671,23 +671,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'to see oneself' in isiXhosa?",
+          "prompt": "What is 'to see oneself' in isiXhosa?",
           "answer": "Ukuzibona."
         },
         {
-          "prompt": "How would you say 'I see myself' in isiXhosa?",
+          "prompt": "What is 'I see myself' in isiXhosa?",
           "answer": "Ndiyazibona."
         },
         {
-          "prompt": "How would you say 'He studies for himself' in isiXhosa?",
+          "prompt": "What is 'He studies for himself' in isiXhosa?",
           "answer": "Uyazifunda."
         },
         {
-          "prompt": "How would you say 'He does not study for himself' in isiXhosa?",
+          "prompt": "What is 'He does not study for himself' in isiXhosa?",
           "answer": "Akazifundi."
         },
         {
-          "prompt": "How would you say 'They will see themselves' in isiXhosa?",
+          "prompt": "What is 'They will see themselves' in isiXhosa?",
           "answer": "Baza kuzibona."
         }
       ]
@@ -776,7 +776,7 @@
         {
           "turn_number": 7,
           "section": "Building a Sentence with Stative",
-          "teacher_dialogue": "Excellent. If 'incwadi' is Class 9, and its subject concord is 'i-' (Lesson 21), how would you say 'The book is readable'?",
+          "teacher_dialogue": "Excellent. If 'incwadi' is Class 9, and its subject concord is 'i-' (Lesson 21), What is 'The book is readable'?",
           "justification": "Guides the student to construct a sentence combining the new stative form with previously learned noun class agreement (L21), promoting integrated application."
         },
         {
@@ -820,7 +820,7 @@
         {
           "turn_number": 15,
           "section": "Applying Negative to Stative",
-          "teacher_dialogue": "Correct. So, how would you say 'The book is not readable'?",
+          "teacher_dialogue": "Correct. So, What is 'The book is not readable'?",
           "justification": "Invites the student to infer the negative stative form, combining previously learned rules with the new suffix."
         },
         {
@@ -842,7 +842,7 @@
         {
           "turn_number": 19,
           "section": "Applying Stative to Another Verb (and noun)",
-          "teacher_dialogue": "Good. So if '-sebenza' means 'to work', how would you say 'to be workable' or 'functional'?",
+          "teacher_dialogue": "Good. So if '-sebenza' means 'to work', What is 'to be workable' or 'functional'?",
           "justification": "Invites inference for the stative form. Then immediately moves to sentence construction."
         },
         {
@@ -864,7 +864,7 @@
         {
           "turn_number": 23,
           "section": "Building a Sentence with Stative and Noun Class",
-          "teacher_dialogue": "Excellent. So how would you say 'The chair is workable/functional' (remembering Class 7 subject concord 'si-' from Lesson 16)?",
+          "teacher_dialogue": "Excellent. So What is 'The chair is workable/functional' (remembering Class 7 subject concord 'si-' from Lesson 16)?",
           "justification": "Guides the student to construct a sentence combining the stative form with the appropriate noun and subject concord (L16)."
         },
         {
@@ -881,23 +881,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'to be readable' in isiXhosa?",
+          "prompt": "What is 'to be readable' in isiXhosa?",
           "answer": "-fundeka."
         },
         {
-          "prompt": "How would you say 'The book is readable' in isiXhosa?",
+          "prompt": "What is 'The book is readable' in isiXhosa?",
           "answer": "Incwadi iyafundeka."
         },
         {
-          "prompt": "How would you say 'to be visible' in isiXhosa?",
+          "prompt": "What is 'to be visible' in isiXhosa?",
           "answer": "-boneka."
         },
         {
-          "prompt": "How would you say 'The book is not readable' in isiXhosa?",
+          "prompt": "What is 'The book is not readable' in isiXhosa?",
           "answer": "Incwadi ayifundeki."
         },
         {
-          "prompt": "How would you say 'The chair is workable/functional' in isiXhosa?",
+          "prompt": "What is 'The chair is workable/functional' in isiXhosa?",
           "answer": "Isihlalo siyasebenzeka."
         }
       ]
@@ -989,7 +989,7 @@
         {
           "turn_number": 9,
           "section": "Building with -dala (Class 2)",
-          "teacher_dialogue": "Right. For 'abantu' (Class 2), the matching piece for '-dala' is 'aba-'. How would you say 'old people'?",
+          "teacher_dialogue": "Right. For 'abantu' (Class 2), the matching piece for '-dala' is 'aba-'. What is 'old people'?",
           "justification": "Guides the student to apply the true adjective pattern to a plural noun class, showing consistency in the system."
         },
         {
@@ -1011,7 +1011,7 @@
         {
           "turn_number": 13,
           "section": "Building with -tsha (Class 7)",
-          "teacher_dialogue": "Good. For 'isihlalo' (Class 7), the matching piece for '-tsha' is 'esi-'. So, how would you say 'a new chair'?",
+          "teacher_dialogue": "Good. For 'isihlalo' (Class 7), the matching piece for '-tsha' is 'esi-'. So, What is 'a new chair'?",
           "justification": "Guides the student to apply the true adjective pattern to another noun class (L16), reinforcing the systematic nature of agreement."
         },
         {
@@ -1033,7 +1033,7 @@
         {
           "turn_number": 17,
           "section": "Building a Sentence with True Adjective",
-          "teacher_dialogue": "Yes. How would you say 'I like the beautiful chair'?",
+          "teacher_dialogue": "Yes. What is 'I like the beautiful chair'?",
           "justification": "Invites inference, combining the 'I' subject concord and '-thanda' with the adjective phrase 'isihlalo esihle' (using '-hle' with Class 7)."
         },
         {
@@ -1044,7 +1044,7 @@
         {
           "turn_number": 19,
           "section": "Closing (Summary and Final Attributive Prompt)",
-          "teacher_dialogue": "Spot on! 'Ndiyathanda isihlalo esihle'. To summarise, you've learned that isiXhosa has a small group of 'true' adjectives like '-hle', '-dala', and '-tsha' that use specific prefixes (like 'omu-', 'aba-', 'esi-') to describe inherent qualities. These are different from the 'describing verbs' with '-yo' you learned in Lesson 27. Both are tools for description, but used in different ways. For a final check, how would you say 'the new chairs', using 'izihlalo' (chairs, Class 8 from Lesson 16) and remembering its matching piece for adjectives?",
+          "teacher_dialogue": "Spot on! 'Ndiyathanda isihlalo esihle'. To summarise, you've learned that isiXhosa has a small group of 'true' adjectives like '-hle', '-dala', and '-tsha' that use specific prefixes (like 'omu-', 'aba-', 'esi-') to describe inherent qualities. These are different from the 'describing verbs' with '-yo' you learned in Lesson 27. Both are tools for description, but used in different ways. For a final check, What is 'the new chairs', using 'izihlalo' (chairs, Class 8 from Lesson 16) and remembering its matching piece for adjectives?",
           "justification": "Summarises the key learning, reinforcing the distinction between true adjectives and relative clauses. It prompts for vocabulary recall of 'izihlalo' from Lesson 16 (L39 - L16 = 23 lessons), adhering to the instruction, and then asks for a final attributive adjective construction."
         },
         {
@@ -1061,23 +1061,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'a beautiful person' in isiXhosa?",
+          "prompt": "What is 'a beautiful person' in isiXhosa?",
           "answer": "Umntu omuhle."
         },
         {
-          "prompt": "How would you say 'old people' in isiXhosa?",
+          "prompt": "What is 'old people' in isiXhosa?",
           "answer": "Abantu abadala."
         },
         {
-          "prompt": "How would you say 'a new chair' in isiXhosa?",
+          "prompt": "What is 'a new chair' in isiXhosa?",
           "answer": "Isihlalo esitsha."
         },
         {
-          "prompt": "How would you say 'I like the beautiful chair' in isiXhosa?",
+          "prompt": "What is 'I like the beautiful chair' in isiXhosa?",
           "answer": "Ndiyathanda isihlalo esihle."
         },
         {
-          "prompt": "How would you say 'the new chairs' in isiXhosa?",
+          "prompt": "What is 'the new chairs' in isiXhosa?",
           "answer": "Izihlalo ezintsha."
         }
       ]
@@ -1127,7 +1127,7 @@
         {
           "turn_number": 3,
           "section": "Introducing Position 1 Demonstrative",
-          "teacher_dialogue": "That's it, 'indlu'. Now, for 'indlu', the demonstrative for 'this one right here' is 'le'. How would you say 'this house'?",
+          "teacher_dialogue": "That's it, 'indlu'. Now, for 'indlu', the demonstrative for 'this one right here' is 'le'. What is 'this house'?",
           "justification": "Affirms the recalled noun and guides the student to infer the Position 1 demonstrative for Class 9, following the 'one thought at a time' principle."
         },
         {
@@ -1149,7 +1149,7 @@
         {
           "turn_number": 7,
           "section": "Applying Position 1 to another Noun Class",
-          "teacher_dialogue": "Excellent. For 'umntu', the demonstrative for 'this person' is 'lo'. How would you say 'this person'?",
+          "teacher_dialogue": "Excellent. For 'umntu', the demonstrative for 'this person' is 'lo'. What is 'this person'?",
           "justification": "Guides the student to apply the Position 1 demonstrative to a different noun class (Class 1), showing systematic application."
         },
         {
@@ -1160,7 +1160,7 @@
         {
           "turn_number": 9,
           "section": "Introducing Position 2 Demonstrative",
-          "teacher_dialogue": "Perfect! 'Lo mntu'. Now, let's move to the second position: 'that one nearby'. For 'indlu', this becomes 'leyo'. How would you say 'that house (nearby)'?",
+          "teacher_dialogue": "Perfect! 'Lo mntu'. Now, let's move to the second position: 'that one nearby'. For 'indlu', this becomes 'leyo'. What is 'that house (nearby)'?",
           "justification": "Introduces the Position 2 demonstrative and invites inference, maintaining the 'one thought at a time' approach."
         },
         {
@@ -1171,7 +1171,7 @@
         {
           "turn_number": 11,
           "section": "Applying Position 2 to another Noun Class",
-          "teacher_dialogue": "Exactly. And for 'umntu', it's 'lowo'. So, how would you say 'that person (nearby)'?",
+          "teacher_dialogue": "Exactly. And for 'umntu', it's 'lowo'. So, What is 'that person (nearby)'?",
           "justification": "Guides the student to apply the Position 2 demonstrative to another noun class, reinforcing the pattern."
         },
         {
@@ -1182,7 +1182,7 @@
         {
           "turn_number": 13,
           "section": "Introducing Position 3 Demonstrative",
-          "teacher_dialogue": "Great! 'Lowo mntu'. Finally, for the third position: 'that one far yonder'. For 'indlu', this is 'leya'. How would you say 'that house yonder'?",
+          "teacher_dialogue": "Great! 'Lowo mntu'. Finally, for the third position: 'that one far yonder'. For 'indlu', this is 'leya'. What is 'that house yonder'?",
           "justification": "Introduces the Position 3 demonstrative and invites inference, completing the three-way distinction."
         },
         {
@@ -1204,7 +1204,7 @@
         {
           "turn_number": 17,
           "section": "Building Sentences with Demonstratives and Adjectives",
-          "teacher_dialogue": "Right. How would you say 'This house is new' and 'That house (nearby) is old'?",
+          "teacher_dialogue": "Right. What is 'This house is new' and 'That house (nearby) is old'?",
           "justification": "Invites inference for constructing sentences that combine demonstratives with predicative adjectives, promoting integrated language use."
         },
         {
@@ -1226,7 +1226,7 @@
         {
           "turn_number": 21,
           "section": "Final Sentence Construction with Plural Demonstrative",
-          "teacher_dialogue": "Good. For 'izihlalo' (Class 8), the demonstrative for 'these' is 'ezi'. How would you say 'These chairs are new'?",
+          "teacher_dialogue": "Good. For 'izihlalo' (Class 8), the demonstrative for 'these' is 'ezi'. What is 'These chairs are new'?",
           "justification": "Guides the student to construct a sentence using a plural demonstrative (Class 8) and a predicative adjective, ensuring comprehensive application."
         },
         {
@@ -1243,35 +1243,35 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'this house' in isiXhosa?",
+          "prompt": "What is 'this house' in isiXhosa?",
           "answer": "Le ndlu."
         },
         {
-          "prompt": "How would you say 'this person' in isiXhosa?",
+          "prompt": "What is 'this person' in isiXhosa?",
           "answer": "Lo mntu."
         },
         {
-          "prompt": "How would you say 'that house (nearby)' in isiXhosa?",
+          "prompt": "What is 'that house (nearby)' in isiXhosa?",
           "answer": "Leyo ndlu."
         },
         {
-          "prompt": "How would you say 'that person (nearby)' in isiXhosa?",
+          "prompt": "What is 'that person (nearby)' in isiXhosa?",
           "answer": "Lowo mntu."
         },
         {
-          "prompt": "How would you say 'that house yonder' in isiXhosa?",
+          "prompt": "What is 'that house yonder' in isiXhosa?",
           "answer": "Leya ndlu."
         },
         {
-          "prompt": "How would you say 'This house is new' in isiXhosa?",
+          "prompt": "What is 'This house is new' in isiXhosa?",
           "answer": "Le ndlu intsha."
         },
         {
-          "prompt": "How would you say 'That house (nearby) is old' in isiXhosa?",
+          "prompt": "What is 'That house (nearby) is old' in isiXhosa?",
           "answer": "Leyo ndlu indala."
         },
         {
-          "prompt": "How would you say 'These chairs are new' in isiXhosa?",
+          "prompt": "What is 'These chairs are new' in isiXhosa?",
           "answer": "Ezi zihlalo zintsha."
         }
       ]
@@ -1363,7 +1363,7 @@
         {
           "turn_number": 9,
           "section": "Applying Potential to a Plural Subject",
-          "teacher_dialogue": "Good. So how would you say 'The people may study' or 'The people can study' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
+          "teacher_dialogue": "Good. So What is 'The people may study' or 'The people can study' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
           "justification": "Guides the student to construct a sentence with a plural subject (L12) and the new potential infix, promoting transfer of learning."
         },
         {
@@ -1385,7 +1385,7 @@
         {
           "turn_number": 13,
           "section": "Applying Negative to Potential",
-          "teacher_dialogue": "Right. So, if 'Ndingasebenza' means 'I can work', how would you say 'I cannot work'?",
+          "teacher_dialogue": "Right. So, if 'Ndingasebenza' means 'I can work', What is 'I cannot work'?",
           "justification": "Invites the student to infer the negative potential form, combining previously learned rules with the new infix."
         },
         {
@@ -1418,7 +1418,7 @@
         {
           "turn_number": 19,
           "section": "Building a Sentence with Potential and Object Concord",
-          "teacher_dialogue": "Right. And 'she' as a subject concord is 'u-' (Lesson 12). How would you say 'She can see me'?",
+          "teacher_dialogue": "Right. And 'she' as a subject concord is 'u-' (Lesson 12). What is 'She can see me'?",
           "justification": "Guides the student to construct a sentence integrating the potential mood, object concord, and subject concord, promoting higher-level weaving."
         },
         {
@@ -1440,7 +1440,7 @@
         {
           "turn_number": 23,
           "section": "Final Sentence Construction with Potential and Time Adverb",
-          "teacher_dialogue": "Perfect. So, how would you say 'They can study tomorrow' (remembering 'they' subject concord 'ba-' from Lesson 12)?",
+          "teacher_dialogue": "Perfect. So, What is 'They can study tomorrow' (remembering 'they' subject concord 'ba-' from Lesson 12)?",
           "justification": "Guides the student to construct a sentence combining the potential mood with a plural subject and a time adverb."
         },
         {
@@ -1457,23 +1457,23 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I can work' in isiXhosa?",
+          "prompt": "What is 'I can work' in isiXhosa?",
           "answer": "Ndingasebenza."
         },
         {
-          "prompt": "How would you say 'The people may study' in isiXhosa?",
+          "prompt": "What is 'The people may study' in isiXhosa?",
           "answer": "Abantu bangafunda."
         },
         {
-          "prompt": "How would you say 'I cannot work' in isiXhosa?",
+          "prompt": "What is 'I cannot work' in isiXhosa?",
           "answer": "Andingasebenzi."
         },
         {
-          "prompt": "How would you say 'She can see me' in isiXhosa?",
+          "prompt": "What is 'She can see me' in isiXhosa?",
           "answer": "Ungandibona."
         },
         {
-          "prompt": "How would you say 'They can study tomorrow' in isiXhosa?",
+          "prompt": "What is 'They can study tomorrow' in isiXhosa?",
           "answer": "Bangafunda ngomso."
         }
       ]
@@ -1540,7 +1540,7 @@
         {
           "turn_number": 3,
           "section": "Building the First Action (Past Tense)",
-          "teacher_dialogue": "That's it, '-fika'. How would you say 'I arrived' (in the perfect past tense, as we learned in Lesson 14)?",
+          "teacher_dialogue": "That's it, '-fika'. What is 'I arrived' (in the perfect past tense, as we learned in Lesson 14)?",
           "justification": "Affirms the recalled verb and prompts the student to construct the perfect past tense, leveraging knowledge from Lesson 14 (L42 - L14 = 28 lessons)."
         },
         {
@@ -1606,7 +1606,7 @@
         {
           "turn_number": 15,
           "section": "Chaining Multiple Consecutive Actions",
-          "teacher_dialogue": "Yes. And for 'we', the subject concord is 'si-' (Lesson 12). How would you say 'We arrived, and then we sat, and then we worked'?",
+          "teacher_dialogue": "Yes. And for 'we', the subject concord is 'si-' (Lesson 12). What is 'We arrived, and then we sat, and then we worked'?",
           "justification": "Guides the student to construct a sentence with multiple consecutive clauses, challenging them to integrate several learned elements."
         },
         {
@@ -1639,7 +1639,7 @@
         {
           "turn_number": 21,
           "section": "Building with Consecutive and Locative",
-          "teacher_dialogue": "Good. So how would you say 'They exited from the house, and then they ate'? Remember 'they' subject concord 'ba-' (Lesson 12).",
+          "teacher_dialogue": "Good. So What is 'They exited from the house, and then they ate'? Remember 'they' subject concord 'ba-' (Lesson 12).",
           "justification": "Guides the student to construct a sentence integrating consecutive mood, locative, and plural subject concord (L12)."
         },
         {
@@ -1661,7 +1661,7 @@
         {
           "turn_number": 25,
           "section": "Applying Negative to Consecutive",
-          "teacher_dialogue": "Exactly. So how would you say 'I arrived, and then I did not work'?",
+          "teacher_dialogue": "Exactly. So What is 'I arrived, and then I did not work'?",
           "justification": "Invites the student to infer the negative consecutive form, combining previously learned rules with the new mood."
         },
         {
@@ -1672,7 +1672,7 @@
         {
           "turn_number": 27,
           "section": "Vocabulary Recall (object concord for 'me')",
-          "teacher_dialogue": "Excellent! 'Ndifikile, andisebenzi'. To summarise, the consecutive mood uses an '-a-' that merges with the subject concord (like 'nda-' or 'wa-') to link a sequence of completed actions. This is your tool for storytelling! For a final check, how would you say 'She arrived, and then she saw me'? Remember the object concord for 'me' ('-ndi-', Lesson 13) and 'to see' ('-bona', Lesson 13)?",
+          "teacher_dialogue": "Excellent! 'Ndifikile, andisebenzi'. To summarise, the consecutive mood uses an '-a-' that merges with the subject concord (like 'nda-' or 'wa-') to link a sequence of completed actions. This is your tool for storytelling! For a final check, What is 'She arrived, and then she saw me'? Remember the object concord for 'me' ('-ndi-', Lesson 13) and 'to see' ('-bona', Lesson 13)?",
           "justification": "Summarises the key learning and prompts for vocabulary recall of '-ndi-' and '-bona' from Lesson 13 (L42 - L13 = 29 lessons), adhering to the instruction. It then asks for a complex sentence."
         },
         {
@@ -1689,27 +1689,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I arrived, and then I worked' in isiXhosa?",
+          "prompt": "What is 'I arrived, and then I worked' in isiXhosa?",
           "answer": "Ndifikile, ndasebenza."
         },
         {
-          "prompt": "How would you say 'He arrived, and then he studied' in isiXhosa?",
+          "prompt": "What is 'He arrived, and then he studied' in isiXhosa?",
           "answer": "Ufikile, wafunda."
         },
         {
-          "prompt": "How would you say 'We arrived, and then we sat, and then we worked' in isiXhosa?",
+          "prompt": "What is 'We arrived, and then we sat, and then we worked' in isiXhosa?",
           "answer": "Sifikile, sahlala, sasebenza."
         },
         {
-          "prompt": "How would you say 'They exited from the house, and then they ate' in isiXhosa?",
+          "prompt": "What is 'They exited from the house, and then they ate' in isiXhosa?",
           "answer": "Baphuma endlwini, badla."
         },
         {
-          "prompt": "How would you say 'I arrived, and then I did not work' in isiXhosa?",
+          "prompt": "What is 'I arrived, and then I did not work' in isiXhosa?",
           "answer": "Ndifikile, andisebenzi."
         },
         {
-          "prompt": "How would you say 'She arrived, and then she saw me' in isiXhosa?",
+          "prompt": "What is 'She arrived, and then she saw me' in isiXhosa?",
           "answer": "Ufikile, wandibona."
         }
       ]
@@ -1806,7 +1806,7 @@
         {
           "turn_number": 7,
           "section": "Applying Hortative to Another Verb",
-          "teacher_dialogue": "Good. So, how would you say 'Let's study'?",
+          "teacher_dialogue": "Good. So, What is 'Let's study'?",
           "justification": "Invites inference for the hortative form, ensuring active construction and masked repetition."
         },
         {
@@ -1828,7 +1828,7 @@
         {
           "turn_number": 11,
           "section": "Building with Hortative and Locative",
-          "teacher_dialogue": "Right. So, how would you say 'Let's work in the house'?",
+          "teacher_dialogue": "Right. So, What is 'Let's work in the house'?",
           "justification": "Guides the student to construct a sentence combining the hortative mood with a previously learned locative (L28)."
         },
         {
@@ -1861,7 +1861,7 @@
         {
           "turn_number": 17,
           "section": "Building with Hortative and Object Concord",
-          "teacher_dialogue": "Good. So how would you say 'Let's help them'?",
+          "teacher_dialogue": "Good. So What is 'Let's help them'?",
           "justification": "Invites inference, combining the hortative with an object concord, ensuring active construction."
         },
         {
@@ -1883,7 +1883,7 @@
         {
           "turn_number": 21,
           "section": "Building with Hortative Softener",
-          "teacher_dialogue": "Exactly. So how would you say 'Let's just sit (for a bit)'?",
+          "teacher_dialogue": "Exactly. So What is 'Let's just sit (for a bit)'?",
           "justification": "Invites inference for the hortative with the softener 'Makhe'."
         },
         {
@@ -1916,7 +1916,7 @@
         {
           "turn_number": 27,
           "section": "Final Sentence Construction with Hortative and Locative",
-          "teacher_dialogue": "Perfect. So, how would you say 'Let's read the book outside'?",
+          "teacher_dialogue": "Perfect. So, What is 'Let's read the book outside'?",
           "justification": "Guides the student to construct a complex sentence integrating the hortative, an object noun, and a locative."
         },
         {
@@ -1933,27 +1933,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'Let's work' in isiXhosa?",
+          "prompt": "What is 'Let's work' in isiXhosa?",
           "answer": "Masisebenze."
         },
         {
-          "prompt": "How would you say 'Let's study' in isiXhosa?",
+          "prompt": "What is 'Let's study' in isiXhosa?",
           "answer": "Masifunde."
         },
         {
-          "prompt": "How would you say 'Let's work in the house' in isiXhosa?",
+          "prompt": "What is 'Let's work in the house' in isiXhosa?",
           "answer": "Masisebenze endlwini."
         },
         {
-          "prompt": "How would you say 'Let's help them' in isiXhosa?",
+          "prompt": "What is 'Let's help them' in isiXhosa?",
           "answer": "Masibancede."
         },
         {
-          "prompt": "How would you say 'Let's just sit (for a bit)' in isiXhosa?",
+          "prompt": "What is 'Let's just sit (for a bit)' in isiXhosa?",
           "answer": "Makhe sihlale."
         },
         {
-          "prompt": "How would you say 'Let's read the book outside' in isiXhosa?",
+          "prompt": "What is 'Let's read the book outside' in isiXhosa?",
           "answer": "Masifunde incwadi ngaphandle."
         }
       ]
@@ -2033,7 +2033,7 @@
         {
           "turn_number": 9,
           "section": "Applying Negative Situational to 'I'",
-          "teacher_dialogue": "Good. Now, how would you say 'I am not yet studying'?",
+          "teacher_dialogue": "Good. Now, What is 'I am not yet studying'?",
           "justification": "Invites inference for the negative situational aspect with the 'I' subject concord ('ndi-') and the recalled verb, providing masked repetition."
         },
         {
@@ -2055,7 +2055,7 @@
         {
           "turn_number": 13,
           "section": "Applying Positive Situational to Plural Subject",
-          "teacher_dialogue": "Right. And for 'to study' we use '-funda'. How would you say 'The people are still studying' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
+          "teacher_dialogue": "Right. And for 'to study' we use '-funda'. What is 'The people are still studying' (remembering Class 2 subject concord 'ba-' from Lesson 12)?",
           "justification": "Guides the student to construct a sentence combining the positive '-sa-' infix with a plural subject (L12) and the recalled verb."
         },
         {
@@ -2066,7 +2066,7 @@
         {
           "turn_number": 15,
           "section": "Applying Negative Situational to Plural Subject",
-          "teacher_dialogue": "Spot on, 'Abantu basafunda'. Now, for the negative: how would you say 'The people have not yet studied'?",
+          "teacher_dialogue": "Spot on, 'Abantu basafunda'. Now, for the negative: What is 'The people have not yet studied'?",
           "justification": "Invites inference for the negative situational aspect with a plural subject, ensuring comprehensive application."
         },
         {
@@ -2088,7 +2088,7 @@
         {
           "turn_number": 19,
           "section": "Final Sentence Construction with Time Adverb",
-          "teacher_dialogue": "Exactly. So how would you say 'Today, I am still working'?",
+          "teacher_dialogue": "Exactly. So What is 'Today, I am still working'?",
           "justification": "Guides the student to construct a sentence combining the situational aspect with a time adverb, promoting practical application."
         },
         {
@@ -2105,27 +2105,27 @@
       ],
       "practice": [
         {
-          "prompt": "How would you say 'I am still working' in isiXhosa?",
+          "prompt": "What is 'I am still working' in isiXhosa?",
           "answer": "Ndisasebenza."
         },
         {
-          "prompt": "How would you say 'You are not yet working' in isiXhosa?",
+          "prompt": "What is 'You are not yet working' in isiXhosa?",
           "answer": "Akukasebenzi."
         },
         {
-          "prompt": "How would you say 'I am not yet studying' in isiXhosa?",
+          "prompt": "What is 'I am not yet studying' in isiXhosa?",
           "answer": "Andikafundi."
         },
         {
-          "prompt": "How would you say 'The people are still studying' in isiXhosa?",
+          "prompt": "What is 'The people are still studying' in isiXhosa?",
           "answer": "Abantu basafunda."
         },
         {
-          "prompt": "How would you say 'The people have not yet studied' in isiXhosa?",
+          "prompt": "What is 'The people have not yet studied' in isiXhosa?",
           "answer": "Abantu abakafundi."
         },
         {
-          "prompt": "How would you say 'Today, I am still working' in isiXhosa?",
+          "prompt": "What is 'Today, I am still working' in isiXhosa?",
           "answer": "Namhlanje ndisasebenza."
         }
       ]

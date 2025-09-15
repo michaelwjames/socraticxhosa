@@ -38,7 +38,6 @@ const LessonPage: React.FC<LessonPageProps> = () => {
   const [started, setStarted] = useState(false);
   const [currentTurn, setCurrentTurn] = useState(0);
   const [fontSize, setFontSize] = useState(16);
-  const [showKebabMenu, setShowKebabMenu] = useState(false);
   const [showSettingsMenu, setShowSettingsMenu] = useState(false);
   
   const lesson = courseData?.lessons[parseInt(lessonNumber, 10) - 1];
